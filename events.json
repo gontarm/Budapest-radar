@@ -1,5 +1,49 @@
 [
   {
+    "id": "liget-oszi-nov8-2026",
+    "title": "Őszi séta a Ligetben – kertek és építészet",
+    "kind": "élmény",
+    "where": "Városliget · Millennium Háza",
+    "date": "2026-11-08",
+    "dateLabel": "2026. november 8. · 10:30",
+    "desc": "90 perces vezetett séta, Rózsakert, Millennium Háza, Magyar Zene Háza és Néprajzi Múzeum. Előzetes online jegy ajánlott.",
+    "url": "https://ligetbudapest.hu/varosligeti-programok/oszi-seta-a-ligetben",
+    "score": 88
+  },
+  {
+    "id": "secret-gardens-budapest",
+    "title": "Titkos kertek és terek – rejtett budapesti udvarok",
+    "kind": "élmény",
+    "where": "Budapest belvárosa · változó helyszínek",
+    "date": "",
+    "dateLabel": "Vezetett városi séta · új időpont figyelendő",
+    "desc": "Belső kertek, udvarok, kapualjak és régi házak felfedezése. A konkrét következő időpont még nincs igazolva.",
+    "url": "https://www.bankcenter.hu/hu/hirek/169/budapesti-varosi-setak",
+    "score": 96
+  },
+  {
+    "id": "first-brewery-tours-2026",
+    "title": "FIRST Craft Beer – főzdetúrák",
+    "kind": "élmény",
+    "where": "FIRST Craft Beer · Budapest",
+    "date": "",
+    "dateLabel": "Csütörtök–szombat, foglalható alkalmak",
+    "desc": "Kb. egyórás főzdelátogatás sörkészítési bemutatóval és kóstolóval. A közzétett tájékoztató szerint kb. 7500 Ft/fő; az aktuális jegyet ellenőrizd.",
+    "url": "https://www.programturizmus.hu/ajanlat-sorfozde-tura-budapest.html",
+    "score": 91
+  },
+  {
+    "id": "dreher-tour-nov2-2026",
+    "title": "Dreher Sörgyár – vezetett sörgyárlátogatás",
+    "kind": "élmény",
+    "where": "Dreher Sörgyárak · Kőbánya",
+    "date": "2026-11-02",
+    "dateLabel": "2026. november 2. · 17:00 (magyar vezetés)",
+    "desc": "Ipari és sörfőzési kulisszák mögötti túra. A helyek, árak és foglalás a szervező regisztrációs oldalán ellenőrizhetők.",
+    "url": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
+    "score": 94
+  },
+  {
     "id": "pincejarat-torley-nov-2026",
     "title": "Törley – vezetett pincerendszer- és múzeumlátogatás",
     "kind": "élmény",
