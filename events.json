@@ -1,5 +1,38 @@
 [
   {
+    "id": "pincejarat-torley-nov-2026",
+    "title": "Törley – vezetett pincerendszer- és múzeumlátogatás",
+    "kind": "élmény",
+    "where": "Törley Látogatóközpont · 1221 Budapest, Anna utca 7.",
+    "date": "2026-11-07",
+    "dateLabel": "2026. november 7., szombat · 15:00",
+    "desc": "90 perces betekintés a Törley pezsgőgyártás történetébe és az érlelőpincékbe, kóstolóval. Jegy 6900 Ft/fő; előzetes regisztráció muzeum@torley.hu.",
+    "url": "https://torleymuzeum.hu/garantalt-latogatas",
+    "score": 94
+  },
+  {
+    "id": "pincejarat-magdd-nov-2026",
+    "title": "Pincejárat a Magdolna Udvarban – helytörténet és séta",
+    "kind": "élmény",
+    "where": "Magdolna Udvar · 1221 Budapest, Kossuth Lajos utca 24.",
+    "date": "2026-11-07",
+    "dateLabel": "2026. november 7. · tárlatvezetések 15:30 és 17:00",
+    "desc": "Budafok várostörténeti tárlatvezetései, valamint 16:00-kor tematikus helytörténeti séta. A séta 3800 Ft, előzetes regisztráció szükséges.",
+    "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
+    "score": 95
+  },
+  {
+    "id": "pincejarat-nov-2026",
+    "title": "Budafoki Pincejárat – novemberi pince- és városfelfedezés",
+    "kind": "élmény",
+    "where": "Budafok-Tétény · több helyszín",
+    "date": "2026-11-07",
+    "dateLabel": "2026. november 7., szombat · 13:00-tól különböző programok",
+    "desc": "Havi első szombati pincejárás: vezetett pezsgő- és pinceséták, helytörténeti kiállítás és óvóhely-bejárás. Egyes programok ingyenesek, mások fizetősek vagy regisztrációhoz kötöttek. Ingyenes transzferbusz a Városház térről.",
+    "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
+    "score": 96
+  },
+  {
     "id": "lightart-ego-2026",
     "title": "Light Art Museum – EGO",
     "kind": "művészet",
