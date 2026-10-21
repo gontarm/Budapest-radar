@@ -20,6 +20,8 @@ QUERIES = [
     ("tudomány", 'Budapest (idegtudomány OR neurobiológia OR csillagászat OR tudományos előadás)'),
     ("design", 'Budapest (design kiállítás OR kortárs múzeum OR fotókiállítás)'),
     ("élmény", '(Budapest OR Gödöllő OR Szentendre) (fénypark OR fényshow OR fényinstalláció OR fénykiállítás OR immerzív kiállítás OR interaktív élmény OR különleges esti séta)'),
+    ("élmény", '(Budapest OR Buda) (titkos kert OR belső udvar OR rejtett kert OR kertbejárás OR nyitott udvar OR palotakert OR városi kert)'),
+    ("élmény", '(Budapest OR Kőbánya) (sörfőzde látogatás OR sörgyár túra OR főzdetúra OR főzdelátogatás OR sörfőző bemutató)'),
     ("élmény", '(Budafok OR Budapest OR környéke) (pincejárat OR pinceséta OR pincebejárás OR helytörténeti séta OR óvóhely látogatás OR tematikus városnézés OR titkos helyek)'),
 ]
 POSITIVE = {
@@ -31,6 +33,8 @@ POSITIVE = {
     "design": 7, "fotó": 4, "geometri": 6, "kutató": 4,
     "fénypark": 12, "fényshow": 12, "fényinstalláció": 12, "fénykiállítás": 12,
     "immerzív": 10, "interaktív": 7, "esti séta": 9, "látvány": 5,
+    "belső udvar": 11, "titkos kert": 12, "rejtett kert": 12, "kertbejár": 11,
+    "sörfőzde": 11, "sörgyár": 9, "főzdetúra": 12, "főzdelátogat": 12,
     "pincejárat": 12, "pinceséta": 12, "pincebejár": 12, "helytörtén": 9,
     "óvóhely": 9, "tematikus város": 9, "titkos hely": 8
 }
@@ -43,7 +47,8 @@ EVENT_TERMS = ("kiállítás", "tárlat", "tárlatvezet", "épületbejár", "vá
                "fesztivál", "koncert", "közönségtalálkozó", "programok",
                "rendezvény", "bemutató", "látogatható", "fénypark", "fényshow",
                "fényinstalláció", "fénykiállítás", "immerzív", "esti séta",
-               "pincejárat", "pinceséta", "pincebejárás", "helytörténeti séta", "óvóhely")
+               "kertbejárás", "nyitott udvar", "főzdetúra", "főzdelátogatás",
+               "sörfőzde látogatás", "sörgyár túra", "pincejárat", "pinceséta", "pincebejárás", "helytörténeti séta", "óvóhely")
 def relevant(title):
     lower = title.casefold()
     if any(x in lower for x in NEGATIVE):
