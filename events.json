@@ -1,5 +1,60 @@
 [
   {
+    "id": "lightart-ego-2026",
+    "title": "Light Art Museum – EGO",
+    "kind": "művészet",
+    "where": "Light Art Museum · V. kerület, Hold utca 13.",
+    "date": "2027-02-28",
+    "dateLabel": "2026. október – 2027. február vége",
+    "desc": "Fény- és médiaművészeti kiállítás az érzékelés, a tudomány és a művészet határán. A pontos jegyár a múzeum oldalán.",
+    "url": "https://lightartmuseum.hu/",
+    "score": 94
+  },
+  {
+    "id": "cinema-mystica-2026",
+    "title": "Cinema Mystica – fény, hang és digitális művészet",
+    "kind": "élmény",
+    "where": "Párisi Udvar · Budapest, belváros",
+    "date": "",
+    "dateLabel": "Folyamatos kiállítás; csütörtöki tárlatvezetések",
+    "desc": "Interaktív és immerzív installációk, vetítések, digitális fény- és hangművészet. A következő vezetés időpontját ellenőrizd.",
+    "url": "https://cinemamystica.net/",
+    "score": 92
+  },
+  {
+    "id": "sisi-lights-2026",
+    "title": "Erzsébet királyné fénykertje – Gödöllő",
+    "kind": "élmény",
+    "where": "Gödöllői Királyi Kastély · Gödöllő",
+    "date": "2027-01-31",
+    "dateLabel": "2026. október 24. – 2027. január 31.",
+    "desc": "Kivilágított kastélykerti séta Sisi és a kastély történetével. Elővételes jegyek kb. 3 100 Ft-tól; időpontokat ellenőrizd.",
+    "url": "https://storyoflights.hu/park/godollo",
+    "score": 93
+  },
+  {
+    "id": "lumina-2026",
+    "title": "Lumina Park – Alíz Csodaországban",
+    "kind": "élmény",
+    "where": "Palatinus Strandfürdő · Margitsziget",
+    "date": "2027-03-07",
+    "dateLabel": "2026. október 20. – 2027. március 7.",
+    "desc": "1,5 km-es esti fényösvény, 200-nál több installáció, hang- és interaktív elemek. Felnőtt jegy 5 000–5 300 Ft.",
+    "url": "https://luminapark.ticketsmart.hu/",
+    "score": 95
+  },
+  {
+    "id": "garden-lights-2026",
+    "title": "Garden of Lights – A Szépség és a Szörnyeteg",
+    "kind": "élmény",
+    "where": "ELTE Füvészkert · VIII. kerület, Illés utca 25.",
+    "date": "2027-01-03",
+    "dateLabel": "2026. október 23. – 2027. január 3.",
+    "desc": "Mesés esti fénykert mozgó fényinstallációkkal, fényalagúttal és zenével. Felnőtt belépő kb. 5 000 Ft-tól, online kezelési díj eltérhet.",
+    "url": "https://gardenoflights.hu/",
+    "score": 97
+  },
+  {
     "id": "walter",
     "title": "Breuer, Goldfinger és más magyarok",
     "kind": "építészet",
