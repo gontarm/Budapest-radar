@@ -20,6 +20,7 @@ QUERIES = [
     ("tudomány", 'Budapest (idegtudomány OR neurobiológia OR csillagászat OR tudományos előadás)'),
     ("design", 'Budapest (design kiállítás OR kortárs múzeum OR fotókiállítás)'),
     ("élmény", '(Budapest OR Gödöllő OR Szentendre) (fénypark OR fényshow OR fényinstalláció OR fénykiállítás OR immerzív kiállítás OR interaktív élmény OR különleges esti séta)'),
+    ("élmény", '(Budafok OR Budapest OR környéke) (pincejárat OR pinceséta OR pincebejárás OR helytörténeti séta OR óvóhely látogatás OR tematikus városnézés OR titkos helyek)'),
 ]
 POSITIVE = {
     "építészet": 9, "építészeti": 9, "épületbejár": 10, "városi séta": 9,
@@ -29,7 +30,9 @@ POSITIVE = {
     "csillagász": 9, "űrkutat": 10, "tudomány": 5,
     "design": 7, "fotó": 4, "geometri": 6, "kutató": 4,
     "fénypark": 12, "fényshow": 12, "fényinstalláció": 12, "fénykiállítás": 12,
-    "immerzív": 10, "interaktív": 7, "esti séta": 9, "látvány": 5
+    "immerzív": 10, "interaktív": 7, "esti séta": 9, "látvány": 5,
+    "pincejárat": 12, "pinceséta": 12, "pincebejár": 12, "helytörtén": 9,
+    "óvóhely": 9, "tematikus város": 9, "titkos hely": 8
 }
 NEGATIVE = ("ingatlan", "lakáshirdetés", "eladó", "politikai", "választás", "baleset",
             "hotel", "szálloda", "beruházás", "felújítás", "újulhat", "ingatlanfejlesztés")
@@ -39,7 +42,8 @@ EVENT_TERMS = ("kiállítás", "tárlat", "tárlatvezet", "épületbejár", "vá
                "tematikus séta", "előadás", "workshop", "műhely", "nyílt nap",
                "fesztivál", "koncert", "közönségtalálkozó", "programok",
                "rendezvény", "bemutató", "látogatható", "fénypark", "fényshow",
-               "fényinstalláció", "fénykiállítás", "immerzív", "esti séta")
+               "fényinstalláció", "fénykiállítás", "immerzív", "esti séta",
+               "pincejárat", "pinceséta", "pincebejárás", "helytörténeti séta", "óvóhely")
 def relevant(title):
     lower = title.casefold()
     if any(x in lower for x in NEGATIVE):
