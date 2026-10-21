@@ -1,0 +1,112 @@
+[
+  {
+    "id": "walter",
+    "title": "Breuer, Goldfinger és más magyarok",
+    "kind": "építészet",
+    "where": "Walter Rózsi-villa · VII. kerület",
+    "date": "2026-12-20",
+    "dateLabel": "2026. december 20-ig",
+    "desc": "Brutalista építészet, magyar vonatkozások, Breuer Marcell és Goldfinger Ernő munkái. Modernizmus és építészettörténet.",
+    "url": "https://www.walterrozsivilla.hu/",
+    "score": 99
+  },
+  {
+    "id": "saros",
+    "title": "Részletekből maga az egész",
+    "kind": "építészet",
+    "where": "Műcsarnok · Hősök tere",
+    "date": "2026-11-15",
+    "dateLabel": "2026. november 15-ig",
+    "desc": "Sáros László György épületei és fotói: geometria, természet, épített környezet.",
+    "url": "https://www.mucsarnok.hu/exhibitions/index.php",
+    "score": 98
+  },
+  {
+    "id": "hatartalan",
+    "title": "Határtalan Design 2026",
+    "kind": "design",
+    "where": "Kiscelli Múzeum · III. kerület",
+    "date": "2026-11-01",
+    "dateLabel": "2026. november 1-ig",
+    "desc": "Design, tér, tárgyak és interdiszciplináris alkotások különleges történeti térben.",
+    "url": "https://kiscelli.jegy.hu/program/321-a-hatartalanban-bartok-reflexiok-hatartalan-design-2026-197077",
+    "score": 92
+  },
+  {
+    "id": "bartok",
+    "title": "Bartók Reflexiók és kurátori vezetés",
+    "kind": "élmény",
+    "where": "Kiscelli Múzeum · III. kerület",
+    "date": "2026-10-29",
+    "dateLabel": "2026. október 29. · 16:00-tól",
+    "desc": "Kurátori tárlatvezetés a Határtalan Designban, majd koncert. Október 30-án és november 1-jén is van alkalom.",
+    "url": "https://kiscelli.jegy.hu/program/321-a-hatartalanban-bartok-reflexiok-hatartalan-design-2026-197077",
+    "score": 90
+  },
+  {
+    "id": "walk",
+    "title": "Walk This Way – A gyaloglás művészete",
+    "kind": "művészet",
+    "where": "Ludwig Múzeum · IX. kerület",
+    "date": "2027-01-31",
+    "dateLabel": "2027. január 31-ig",
+    "desc": "A séta mint figyelem, felfedezés, önálló tapasztalat és művészi gondolkodás.",
+    "url": "https://www.ludwigmuseum.hu/kiallitasok",
+    "score": 89
+  },
+  {
+    "id": "walktour",
+    "title": "Tárlatvezetés: Walk This Way",
+    "kind": "élmény",
+    "where": "Ludwig Múzeum · IX. kerület",
+    "date": "2026-11-01",
+    "dateLabel": "2026. november 1. · 16:00",
+    "desc": "Vezetett felfedezés a gyaloglás témájú kortárs tárlaton.",
+    "url": "https://www.ludwigmuseum.hu/kiallitasok",
+    "score": 88
+  },
+  {
+    "id": "bigbang",
+    "title": "Big Bang – tárlatvezetés",
+    "kind": "művészet",
+    "where": "Ludwig Múzeum · IX. kerület",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 16:00",
+    "desc": "Vezetett látogatás a Táguló gyűjteményi horizontok című kiállításon.",
+    "url": "https://www.ludwigmuseum.hu/kiallitasok",
+    "score": 83
+  },
+  {
+    "id": "kulisz",
+    "title": "Kulisszák mögött a Ludwig Múzeumban",
+    "kind": "élmény",
+    "where": "Ludwig Múzeum · IX. kerület",
+    "date": "2026-10-31",
+    "dateLabel": "2026. október 31. · 10:00",
+    "desc": "Szokatlan múzeumi betekintés, különleges program a kiállítótereken túl.",
+    "url": "https://www.ludwigmuseum.hu/kiallitasok",
+    "score": 81
+  },
+  {
+    "id": "mta",
+    "title": "MTA tudományos eseménynaptár",
+    "kind": "tudomány",
+    "where": "Magyar Tudományos Akadémia · V. kerület",
+    "date": "",
+    "dateLabel": "Folyamatosan változó programok",
+    "desc": "Tudományos előadások és konferenciák: biológia, idegtudomány és más kutatási területek. Ez figyelendő forrás, nem egy konkrét esemény.",
+    "url": "https://mta.hu/esemenynaptar",
+    "score": 80
+  },
+  {
+    "id": "bme",
+    "title": "BME nyilvános eseménykereső",
+    "kind": "tudomány",
+    "where": "Budapesti Műszaki és Gazdaságtudományi Egyetem",
+    "date": "",
+    "dateLabel": "Folyamatosan változó programok",
+    "desc": "Műszaki és tudományos előadások, konferenciák. Ez figyelendő forrás, nem egy konkrét esemény.",
+    "url": "https://www.bme.hu/esemenykereso",
+    "score": 76
+  }
+]
