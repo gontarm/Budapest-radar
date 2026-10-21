@@ -28,7 +28,22 @@ POSITIVE = {
     "csillagász": 9, "űrkutat": 10, "tudomány": 5,
     "design": 7, "fotó": 4, "geometri": 6, "kutató": 4
 }
-NEGATIVE = ("ingatlan", "lakáshirdetés", "eladó", "politikai", "választás", "baleset")
+NEGATIVE = ("ingatlan", "lakáshirdetés", "eladó", "politikai", "választás", "baleset",
+            "hotel", "szálloda", "beruházás", "felújítás", "újulhat", "ingatlanfejlesztés")
+# A friss cikk csak akkor kerülhet a listába, ha valódi, látogatható
+# programra utal. A program időpontját az RSS-cím alapján nem találjuk ki.
+EVENT_TERMS = ("kiállítás", "tárlat", "tárlatvezet", "épületbejár", "városi séta",
+               "tematikus séta", "előadás", "workshop", "műhely", "nyílt nap",
+               "fesztivál", "koncert", "közönségtalálkozó", "programok",
+               "rendezvény", "bemutató", "látogatható")
+def relevant(title):
+    lower = title.casefold()
+    if any(x in lower for x in NEGATIVE):
+        return False
+    if not any(x in lower for x in EVENT_TERMS):
+        return False
+    return sum(v for k, v in POSITIVE.items() if k in lower) >= 6
+
 TZ = ZoneInfo("Europe/Budapest")
 now = dt.datetime.now(dt.timezone.utc)
 today = now.astimezone(TZ).date()
@@ -53,9 +68,8 @@ def news(kind, query):
         if age < -3600 or age > 7 * 86400 or not link.startswith("https://"):
             continue
         lower = title.casefold()
-        if any(x in lower for x in NEGATIVE): continue
+        if not relevant(title): continue
         matches = sum(v for k, v in POSITIVE.items() if k in lower)
-        if matches < 6: continue
         # A dátum a HÍR közzététele, nem a program időpontja.
         pid = "rss-" + hashlib.sha256(title.casefold().encode()).hexdigest()[:15]
         items.append({
@@ -64,7 +78,7 @@ def news(kind, query):
             "date": "", "dateLabel": f"Friss hír: {published.astimezone(TZ):%Y.%m.%d.} · időpont a forrásban",
             "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
             "url": link, "score": min(94, 65 + matches),
-            "discovered": today.isoformat(), "source": "Google News RSS · automatikus találat"
+            "discovered": today.isoformat(), "source": "Google News RSS · nem ellenőrzött programjelölt"
         })
     return items
 
@@ -82,7 +96,8 @@ def main():
         raise RuntimeError("Egyetlen feed sem elérhető; a régi adatlista megmarad. " + "; ".join(failures))
     # Részleges kiesésnél a meglévő friss hírek megmaradnak még max. 7 napig.
     cached = [x for x in entries if str(x.get("id", "")).startswith("rss-")
-              and x.get("discovered", "") >= (today - dt.timedelta(days=7)).isoformat()]
+              and x.get("discovered", "") >= (today - dt.timedelta(days=7)).isoformat()
+              and relevant(x.get("title", ""))]
     unique = {}
     for x in cached + new:
         unique[x["id"]] = x
