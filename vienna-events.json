@@ -13,7 +13,7 @@
     "score": 89,
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
-    "directEventLink": true,
+    "directEventLink": false,
     "linkCheckedOn": "2026-10-22",
     "eventVerified": false
   },
@@ -31,7 +31,7 @@
     "score": 88,
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
-    "directEventLink": true,
+    "directEventLink": false,
     "linkCheckedOn": "2026-10-22",
     "eventVerified": false
   },
@@ -86,6 +86,24 @@
     "linkStatus": "blocked",
     "directEventLink": false,
     "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
+  },
+  {
+    "id": "vienna-news-59249ebc9d39719f",
+    "title": "Sonderführung im Mozarthaus Vienna: Shock Me, Amadeus!",
+    "kind": "élmény",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczlNUzA4Y3ctR3pMUm1DUFRXcUJOajZKRU9obDRyWVRDOGxlUUVpY0pFWFkxYjZwRnc2UW8wSU4tS1V0ZmhqcUZEcTQ4cFJKaXhFUThaTjlZSGFZQkxFT1FoZFJNaEdzOWthcUZ1ZTNzdTkzZHhNUVJEbEJNSDI4MEhHS2VKWGlpaUFDYw?oc=5",
+    "score": 60,
+    "discovered": "2026-10-22",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
     "eventVerified": false
   }
 ]
