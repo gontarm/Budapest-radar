@@ -8,7 +8,12 @@
     "dateLabel": "2026. november 8. · 10:30",
     "desc": "90 perces vezetett séta, Rózsakert, Millennium Háza, Magyar Zene Háza és Néprajzi Múzeum. Előzetes online jegy ajánlott.",
     "url": "https://ligetbudapest.hu/varosligeti-programok/oszi-seta-a-ligetben",
-    "score": 88
+    "score": 88,
+    "subtitle": "A kertépítészet és a kortárs középületek találkozása.",
+    "background": "A Városliget régi városi parkként és új kulturális épületek helyszíneként egyszerre értelmezhető. A vezetett séta a kert és az épített környezet kapcsolatát emeli ki.",
+    "why": "A tájépítészet és az új múzeumépületek közötti párbeszéd miatt érdekes.",
+    "duration": "Kb. 90 perc",
+    "practical": "A séta szabadtéri; kényelmes cipővel és időjárásnak megfelelő ruhával érdemes készülni."
   },
   {
     "id": "secret-gardens-budapest",
@@ -41,7 +46,12 @@
     "dateLabel": "2026. november 2. · 17:00 (magyar vezetés)",
     "desc": "Ipari és sörfőzési kulisszák mögötti túra. A helyek, árak és foglalás a szervező regisztrációs oldalán ellenőrizhetők.",
     "url": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
-    "score": 94
+    "score": 94,
+    "subtitle": "Kulisszatitkok egy történelmi budapesti ipari helyszínen.",
+    "background": "Kőbánya sörgyártási múltja összefonódik az ipari infrastruktúrával és a városrész fejlődésével. A vezetett látogatás a sörkészítés technológiai folyamatait mutatja be.",
+    "why": "A technológiai berendezések és ipari terek világa mellett a helyszín várostörténeti háttere is izgalmas.",
+    "practical": "A foglalható időpontokat és a részvételi feltételeket a Dreher regisztrációs felületén ellenőrizd.",
+    "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/"
   },
   {
     "id": "pincejarat-torley-nov-2026",
@@ -52,7 +62,13 @@
     "dateLabel": "2026. november 7., szombat · 15:00",
     "desc": "90 perces betekintés a Törley pezsgőgyártás történetébe és az érlelőpincékbe, kóstolóval. Jegy 6900 Ft/fő; előzetes regisztráció muzeum@torley.hu.",
     "url": "https://torleymuzeum.hu/garantalt-latogatas",
-    "score": 94
+    "score": 94,
+    "subtitle": "Pezsgőtörténet és pincerendszer egyetlen séta során.",
+    "background": "A Törley története a budafoki pezsgőiparhoz és a pincehálózathoz kapcsolódik. A látogatás során a gyártás és érlelés történetébe lehet betekinteni.",
+    "why": "Történelmi pincejáratok és technológiai folyamatok — a borászati élményen túl.",
+    "price": "A meghirdetett vezetés: 6 900 Ft/fő.",
+    "duration": "Kb. 90 perc",
+    "practical": "A részvétel előzetes regisztrációhoz kötött; a szervező oldalán ellenőrizd a szabad helyeket."
   },
   {
     "id": "pincejarat-magdd-nov-2026",
@@ -74,7 +90,11 @@
     "dateLabel": "2026. november 7., szombat · 13:00-tól különböző programok",
     "desc": "Havi első szombati pincejárás: vezetett pezsgő- és pinceséták, helytörténeti kiállítás és óvóhely-bejárás. Egyes programok ingyenesek, mások fizetősek vagy regisztrációhoz kötöttek. Ingyenes transzferbusz a Városház térről.",
     "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
-    "score": 96
+    "score": 96,
+    "subtitle": "A budafoki pinceváros föld alatti világa.",
+    "background": "Budafok mészkőbe vájt pincerendszere hosszú ideje kapcsolódik a borászathoz és a pezsgőkészítéshez. A havi Pincejárat az ipari, helytörténeti és gasztronómiai múltat vezetett programokon keresztül mutatja be.",
+    "why": "Rejtett terek, föld alatti járatok, ipartörténet és helytörténet találkoznak.",
+    "practical": "Több külön helyszín és szervező: az egyes sétákra eltérő regisztráció vonatkozhat. A programlapon érdemes előre útvonalat tervezni."
   },
   {
     "id": "lightart-ego-2026",
@@ -118,7 +138,13 @@
     "dateLabel": "2026. október 20. – 2027. március 7.",
     "desc": "1,5 km-es esti fényösvény, 200-nál több installáció, hang- és interaktív elemek. Felnőtt jegy 5 000–5 300 Ft.",
     "url": "https://luminapark.ticketsmart.hu/",
-    "score": 95
+    "score": 95,
+    "subtitle": "Éjszakai fényösvény a Margitszigeten.",
+    "background": "A Palatinus területén felépített szezonális fényparkban a kivilágított figurák és jelenetek egy tematikus sétát alkotnak. A világítás, a térbeli dramaturgia és a látogatói útvonal együtt hozzák létre az élményt.",
+    "why": "A fény mint térformáló eszköz, az esti séta és a látványos installációk miatt is érdekes.",
+    "practical": "Szabadtéri esti program, ezért érdemes az időjáráshoz öltözni. A Margitsziget 26-os busszal megközelíthető.",
+    "price": "Felnőtt: hétköznap 5 000 Ft, hétvégén 5 300 Ft.",
+    "ticketUrl": "https://luminapark.ticketsmart.hu/"
   },
   {
     "id": "garden-lights-2026",
@@ -129,7 +155,13 @@
     "dateLabel": "2026. október 23. – 2027. január 3.",
     "desc": "Mesés esti fénykert mozgó fényinstallációkkal, fényalagúttal és zenével. Felnőtt belépő kb. 5 000 Ft-tól, online kezelési díj eltérhet.",
     "url": "https://gardenoflights.hu/",
-    "score": 97
+    "score": 97,
+    "subtitle": "Fényekkel elmesélt történet a több mint 250 éves Füvészkertben.",
+    "background": "A Füvészkert történelmi botanikuskertje estére fényinstallációk helyszínévé alakul. A 2026/27-es évad a Szépség és a Szörnyeteg világát kelti életre mozgó lampionokkal, fényalagútakkal, zenével és multimédiás elemekkel.",
+    "why": "A kert és a fényinstallációk különleges együttese: egyszerre szabadtéri séta, látványtervezés és mesevilág.",
+    "practical": "Az online napijegy adott napra és idősávra szól. Október végén 17 órától látogatható, a késő őszi nyitvatartás változik. December 23–24-én zárva. Kutyát nem lehet bevinni.",
+    "price": "Normál jegy 5 000 Ft; online kezelési díj lehet.",
+    "ticketUrl": "https://gardenoflightsbudapest.jegy.hu/dates/tickets"
   },
   {
     "id": "walter",
@@ -140,7 +172,11 @@
     "dateLabel": "2026. december 20-ig",
     "desc": "Brutalista építészet, magyar vonatkozások, Breuer Marcell és Goldfinger Ernő munkái. Modernizmus és építészettörténet.",
     "url": "https://www.walterrozsivilla.hu/",
-    "score": 99
+    "score": 99,
+    "subtitle": "Magyar származású alkotók és a modern építészet nemzetközi története.",
+    "background": "Breuer Marcell és Goldfinger Ernő munkái a 20. századi építészet történetéhez kapcsolódnak. A Walter Rózsi-villa maga is a két világháború közötti modern lakóépítészet különleges budapesti példája.",
+    "why": "Modernizmus, Bauhaus, építészeti részletek és az alkotók életútja egyetlen látogatás során.",
+    "practical": "Érdemes magát a villát is alaposan bejárni, nem csak az időszaki kiállítást."
   },
   {
     "id": "saros",
@@ -151,7 +187,12 @@
     "dateLabel": "2026. november 15-ig",
     "desc": "Sáros László György épületei és fotói: geometria, természet, épített környezet.",
     "url": "https://www.mucsarnok.hu/exhibitions/index.php",
-    "score": 98
+    "score": 98,
+    "subtitle": "Építészet és fotográfia: miként válik a részletekből egész?",
+    "background": "Sáros László György épületei és fényképei a természetes formák, a városi terek és az építészeti geometria közötti kapcsolatokat vizsgálják. A kiállítás a tervezői gondolkodást és a fotográfiai látásmódot egymás mellé helyezi.",
+    "why": "A térbeli rendszerek, geometria és az épített környezet megfigyelése miatt különösen közel állhat hozzád.",
+    "practical": "A Műcsarnok jegyoldalán ellenőrizhető az aktuális belépő és az esetleges tárlatvezetés.",
+    "ticketUrl": "https://www.mucsarnok.hu/jegyek/index.php"
   },
   {
     "id": "hatartalan",
