@@ -1,5 +1,24 @@
 [
   {
+    "id": "vienna-tokio-hotel-20261115",
+    "title": "Tokio Hotel – Arena Tour 2026",
+    "kind": "koncert",
+    "genre": "rock",
+    "where": "Wiener Stadthalle · Halle D, Roland-Rainer-Platz 1, 1150 Wien",
+    "date": "2026-11-15",
+    "dateLabel": "2026. november 15. · 19:30 (kapunyitás 18:30)",
+    "desc": "Tokio Hotel Arena Tour 2026 Bécsben, Nia Ashleigh előzenekarral. A szervező szerint a koncert teltházas; a jegyhelyzet később változhat.",
+    "url": "https://www.barracudamusic.at/event/tokio-hotel-wiener-stadthalle-halle-d-2026-11-15/",
+    "ticketUrl": "https://www.oeticket.com/en/event/tokio-hotel-arena-tour-2026-wiener-stadthalle-halle-d-20000546/",
+    "source": "Barracuda Music és Wiener Stadthalle – hivatalos eseményoldal",
+    "ticketStatus": "sold_out",
+    "ticketStatusLabel": "Teltház – 2026. október 22-i ellenőrzés",
+    "linkVerified": true,
+    "score": 98,
+    "dataQuality": "scheduled",
+    "directEventLink": true
+  },
+  {
     "id": "vienna-musikverein-yuja-wang-20261023",
     "title": "Wiener Symphoniker · Yuja Wang · Petr Popelka",
     "kind": "koncert",
