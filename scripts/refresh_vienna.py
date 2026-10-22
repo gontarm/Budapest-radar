@@ -74,10 +74,10 @@ def stadthalle():
         if not hall or not re.search(r"Hall [DEF]|Halle [DEF]|Studio F",hall,re.I):continue
         pid="vienna-stadthalle-"+hashlib.sha256((title.casefold()+iso).encode()).hexdigest()[:15]
         rows.append(dict(id=pid,title=title,kind="koncert",genre=genre(title),
-            where="Wiener Stadthalle · "+hall+" · Roland-Rainer-Platz 1, 1150 Wien",
+            where=hall+" · Roland-Rainer-Platz 1, 1150 Wien",
             date=iso,dateLabel=f"{m.group(1)}.{m.group(2)}.{m.group(3)} · pontos kezdés a forrásban",
             desc="A Wiener Stadthalle hivatalos naptárában meghirdetett esemény. A jegyárat és az elérhetőséget a szervezőnél ellenőrizd.",
-            url=link if link.startswith("https://www.stadthalle.com/") else url,
+            url=link if link.startswith("https://www.stadthalle.com/") and link!=url else url,
             source="Wiener Stadthalle – hivatalos rendezvénynaptár",score=82,discovered=TODAY.isoformat()))
     return rows
 
@@ -115,6 +115,9 @@ def news(kind,query):
 def save(path,rows):
     previous=json.loads(path.read_text("utf-8")) if path.exists() else []
     old={r["id"]:r for r in previous if (r.get("date","") and r.get("date","")>=TODAY.isoformat()) or (not r.get("date") and r.get("discovered","")>=(TODAY-dt.timedelta(days=7)).isoformat())}
+    for key,row in list(old.items()):
+        if row.get("id","").startswith("vienna-stadthalle-") and not is_music(row.get("title","")):
+            del old[key]
     for r in rows:old[r["id"]]=r
     # Prefer manually verified event pages over new calendar imports for
     # the same performer on the same date.
