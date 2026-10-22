@@ -151,11 +151,13 @@
     "date": "2026-11-27",
     "dateLabel": "2026. november 27. · 20:00",
     "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://a38.hu/hu/programok",
+    "url": "https://www.a38.hu/en/program/here-we-are-hu",
     "score": 80,
     "source": "A38 Hajó – hivatalos koncertnaptár",
     "ticketStatus": "unknown",
-    "discovered": "2026-10-22"
+    "discovered": "2026-10-22",
+    "ticketUrl": "https://www.a38.hu/en/program/here-we-are-hu",
+    "linkVerified": true
   },
   {
     "id": "a38-kanine-20261127",
@@ -341,11 +343,13 @@
     "date": "2027-03-23",
     "dateLabel": "2027. március 23. · 19:00",
     "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://funcode.hu/hu/search?tagIds=2",
+    "url": "https://www.livenation.hu/tickets/son-lux-budapest-events-edp1673183",
     "score": 80,
     "source": "Funcode – koncertnaptár",
     "ticketStatus": "unknown",
-    "discovered": "2026-10-22"
+    "discovered": "2026-10-22",
+    "ticketUrl": "https://www.livenation.hu/tickets/son-lux-budapest-events-edp1673183",
+    "linkVerified": true
   },
   {
     "id": "fun-kaleo-20270325",
