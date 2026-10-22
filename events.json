@@ -130,7 +130,7 @@
     "score": 93,
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grassalkovich-kast%C3%A9ly%20(7051.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k)%206.jpg?width=1100",
     "imageAlt": "A gödöllői királyi kastély homlokzata nappal",
-    "imageCredit": "Helyszínfotó: Wikimedia Commons – a kastély, nem a fényshow képe",
+    "imageCredit": "Helyszínfotó: Wikimedia Commons – nem a fényshow felvétele",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Grassalkovich-kast%C3%A9ly_(7051._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k)_6.jpg"
   },
   {
@@ -186,7 +186,7 @@
     "practical": "Érdemes magát a villát is alaposan bejárni, nem csak az időszaki kiállítást.",
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter_rozsi_villa_kertbol.jpg?width=1100",
     "imageAlt": "A Walter Rózsi-villa kerti homlokzata",
-    "imageCredit": "Helyszínfotó: KovacsDaniel / Wikimedia Commons (CC-licenc)",
+    "imageCredit": "Helyszínfotó: KovacsDaniel / Wikimedia Commons – nem a kiállítás felvétele",
     "imageSource": "https://commons.wikimedia.org/wiki/File:Walter_rozsi_villa_kertbol.jpg"
   },
   {
@@ -203,7 +203,11 @@
     "background": "Sáros László György épületei és fényképei a természetes formák, a városi terek és az építészeti geometria közötti kapcsolatokat vizsgálják. A kiállítás a tervezői gondolkodást és a fotográfiai látásmódot egymás mellé helyezi.",
     "why": "A térbeli rendszerek, geometria és az épített környezet megfigyelése miatt különösen közel állhat hozzád.",
     "practical": "A Műcsarnok jegyoldalán ellenőrizhető az aktuális belépő és az esetleges tárlatvezetés.",
-    "ticketUrl": "https://www.mucsarnok.hu/jegyek/index.php"
+    "ticketUrl": "https://www.mucsarnok.hu/jegyek/index.php",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Art_on_H%C5%91s%C3%B6k_tere_Budapest_2026.JPG?width=1100",
+    "imageAlt": "Műcsarnok a Hősök terén, 2026-ban",
+    "imageCredit": "Helyszínfotó: Wikimedia Commons, 2026 – nem a kiállítás felvétele",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Palace_of_Art_on_H%C5%91s%C3%B6k_tere_Budapest_2026.JPG"
   },
   {
     "id": "hatartalan",
