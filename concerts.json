@@ -356,12 +356,14 @@
     "where": "Budapest Aréna · Budapest",
     "date": "2027-06-29",
     "dateLabel": "2027. június 29. · 18:00",
-    "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://funcode.hu/hu/search?tagIds=2",
+    "desc": "Nickelback – Everything Under The Sun Tour, különleges vendég: Don Broco. A hivatalos Funcode eseményoldalon találod az aktuális jegyeket és árakat.",
+    "url": "https://funcode.hu/hu/event/5594-nickelback",
     "score": 80,
     "source": "Funcode – koncertnaptár",
     "ticketStatus": "unknown",
-    "discovered": "2026-10-22"
+    "discovered": "2026-10-22",
+    "ticketUrl": "https://funcode.hu/hu/event/5594-nickelback",
+    "price": "20 600 Ft-tól (a meghirdetett indulóár, változhat)"
   },
   {
     "id": "concert-cd5e7d42dbb59b8d",
