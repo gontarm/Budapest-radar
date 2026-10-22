@@ -353,6 +353,7 @@ const radarViennaPlaces={
  'Architekturzentrum Wien':'Museumsplatz 1, 1070 Wien, Austria',
  'Wiener Konzerthaus':'Lothringerstraße 20, 1030 Wien, Austria',
  'Musikverein Wien':'Musikvereinsplatz 1, 1010 Wien, Austria',
+ 'Wiener Stadthalle':'Roland-Rainer-Platz 1, 1150 Wien, Austria',
  'Rathausplatz':'Rathausplatz, 1010 Wien, Austria'
 };
 function applyRadarCity(){
@@ -747,7 +748,7 @@ function openConcertDetail(e){
  const html='<div class="detail-top"><span class="detail-kicker">BUDAPEST RADAR / KONCERTNAPLÓ</span><button id="closeDetail" aria-label="Vissza">×</button></div>'+
  hero+'<div class="detail-kicker">♫ '+(e.date?'KÖZELGŐ KONCERT':'KONCERT-HÍR')+'</div>'+
  '<h2 class="detail-title">'+esc(e.title)+'</h2>'+
- '<div class="detail-highlight">'+(e.date?'Egy este, amit érdemes felírni.':'Friss zenés hírtalálat – a program részletei ellenőrzendők.')+'</div>'+
+ '<div class="detail-highlight">'+(e.ticketStatus==='sold_out'?'A szervező jelenleg teltházat jelez.':e.date?'Egy este, amit érdemes felírni.':'Friss zenés hírtalálat – a program részletei ellenőrzendők.')+'</div>'+
  '<div class="detail-rule"></div>'+
  '<div class="detail-meta"><strong>MIKOR</strong><span>'+esc(e.dateLabel||'A forrásban ellenőrizendő')+'</span><strong>HOL</strong><span>'+esc(e.where||'A szervezőnél ellenőrizendő')+'</span><strong>JEGYEK</strong><span>Aktuális ár és készlet nem ellenőrzött</span></div>'+
  '<p class="radar-source-note">'+esc(radarSourceNote(e))+'</p><p class="detail-copy">'+esc(e.desc||'A meghirdetett koncert részleteit a szervező oldalán ellenőrizheted.')+'</p>'+
