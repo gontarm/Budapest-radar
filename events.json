@@ -1,5 +1,67 @@
 [
   {
+    "id": "psz-iranytu-hazasparbajok-2026",
+    "title": "HázasPÁRbajok – Iránytű előadások",
+    "kind": "pszichológia",
+    "where": "Semmelweis Egyetem · Nagyvárad tér 4., Zöld előadó",
+    "date": "2026-11-09",
+    "dateLabel": "2026. november 9. · 18:00",
+    "desc": "Verebes Linda és Pindroch Csaba közös estje a párkapcsolatról és az együttélés tapasztalatairól. Az Iránytű önismereti és párkapcsolati sorozatának része.",
+    "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "score": 91,
+    "why": "A kapcsolati dinamikákat nemcsak elméleti, hanem személyes történeteken keresztül is megközelíti."
+  },
+  {
+    "id": "psz-iranytu-identitas-2026",
+    "title": "Ki vagyok én? – Identitáskeresés fiatalon",
+    "kind": "pszichológia",
+    "where": "Semmelweis Egyetem · Nagyvárad tér 4., Zöld előadó",
+    "date": "2026-12-02",
+    "dateLabel": "2026. december 2. · 18:00",
+    "desc": "Kádár Annamária pszichológus előadása az identitásról és az önismeretről az Iránytű sorozatban.",
+    "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "score": 95,
+    "why": "A személyiség és önazonosság alakulásának kérdése miatt ajánlom."
+  },
+  {
+    "id": "psz-iranytu-stressz-2026",
+    "title": "10 egyszerű, de hatékony mód a párkapcsolati stresszkezelésre",
+    "kind": "pszichológia",
+    "where": "Semmelweis Egyetem · Nagyvárad tér 4., Zöld előadó",
+    "date": "2026-12-02",
+    "dateLabel": "2026. december 2. · 19:20",
+    "desc": "Szalai Tamás Dömötör klinikai és tanácsadó szakpszichológus, családterapeuta előadása gyakorlati párkapcsolati stresszkezelési módszerekről.",
+    "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
+    "score": 92
+  },
+  {
+    "id": "psz-analizis-tudatos-jelenlet-2026",
+    "title": "Analízis #26 – Tudatos jelenlét",
+    "kind": "pszichológia",
+    "where": "Hegyvidéki Kulturális Szalon · 1124 Budapest, Törpe utca 2.",
+    "date": "2026-11-23",
+    "dateLabel": "2026. november 23. · 19:00",
+    "desc": "Irodalmi-pszichológiai est Juhász Annával és Rácmolnár Lili pszichológussal. Téma: hogyan lehet valóban jelen lenni egy beszélgetésben vagy a hétköznapokban?",
+    "url": "https://neticket.jegy.hu/program/analizis-26-tudatos-jelenlet-173622",
+    "ticketUrl": "https://neticket.jegy.hu/program/analizis-26-tudatos-jelenlet-173622",
+    "score": 97,
+    "why": "A figyelem, a gondolkodás és az önmagaddal töltött idő témája miatt különösen érdekes lehet."
+  },
+  {
+    "id": "psz-kotodes-budaors-2026",
+    "title": "Biztonságos kötődés kialakítása – önismerettől a tartós intimitásig",
+    "kind": "pszichológia",
+    "where": "Budaörsi Jókai Mór Művelődési Ház · Szabadság út 26.",
+    "date": "2026-11-17",
+    "dateLabel": "2026. november 17. · 18:00–20:00",
+    "desc": "Turcsik Konstantina pszichológus előadása a kötődési stílusokról, a konfliktuskezelésről, a bizalomról és az intimitásról. A jegyértékesítés állapotát a forrásban ellenőrizd.",
+    "url": "https://neticket.jegy.hu/event/category/egyeb-10/subcategory/egyeb-102/11?lang=hu",
+    "score": 96
+  },
+  {
     "id": "film-klara-nap-2026",
     "title": "Klara és a Nap – magyar mozibemutató",
     "kind": "mozi",
