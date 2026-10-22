@@ -2811,5 +2811,20 @@
     "directEventLink": true,
     "linkCheckedOn": "2026-10-22",
     "eventVerified": false
+  },
+  {
+    "id": "vienna-stadthalle-seed-2026-11-14-beatrice-egli",
+    "title": "Beatrice Egli",
+    "kind": "koncert",
+    "genre": "pop",
+    "where": "Wiener Stadthalle · Hall D · Roland-Rainer-Platz 1, 1150 Wien",
+    "date": "2026-11-14",
+    "dateLabel": "14.11.2026 · kezdés a forrásoldalon",
+    "desc": "A Wiener Stadthalle hivatalos nyilvános eseménynaptárában szereplő koncert. A pontos kezdést és a jegyeket a helyszín oldalán ellenőrizd.",
+    "url": "https://www.stadthalle.com/en/events/all-events/print",
+    "source": "Wiener Stadthalle – hivatalos koncertnaptár",
+    "score": 78,
+    "directEventLink": false,
+    "eventVerified": false
   }
 ]
