@@ -127,7 +127,11 @@
     "dateLabel": "2026. október 24. – 2027. január 31.",
     "desc": "Kivilágított kastélykerti séta Sisi és a kastély történetével. Elővételes jegyek kb. 3 100 Ft-tól; időpontokat ellenőrizd.",
     "url": "https://storyoflights.hu/park/godollo",
-    "score": 93
+    "score": 93,
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grassalkovich-kast%C3%A9ly%20(7051.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k)%206.jpg?width=1100",
+    "imageAlt": "A gödöllői királyi kastély homlokzata nappal",
+    "imageCredit": "Helyszínfotó: Wikimedia Commons – a kastély, nem a fényshow képe",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Grassalkovich-kast%C3%A9ly_(7051._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k)_6.jpg"
   },
   {
     "id": "lumina-2026",
@@ -179,7 +183,11 @@
     "subtitle": "Magyar származású alkotók és a modern építészet nemzetközi története.",
     "background": "Breuer Marcell és Goldfinger Ernő munkái a 20. századi építészet történetéhez kapcsolódnak. A Walter Rózsi-villa maga is a két világháború közötti modern lakóépítészet különleges budapesti példája.",
     "why": "Modernizmus, Bauhaus, építészeti részletek és az alkotók életútja egyetlen látogatás során.",
-    "practical": "Érdemes magát a villát is alaposan bejárni, nem csak az időszaki kiállítást."
+    "practical": "Érdemes magát a villát is alaposan bejárni, nem csak az időszaki kiállítást.",
+    "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter_rozsi_villa_kertbol.jpg?width=1100",
+    "imageAlt": "A Walter Rózsi-villa kerti homlokzata",
+    "imageCredit": "Helyszínfotó: KovacsDaniel / Wikimedia Commons (CC-licenc)",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Walter_rozsi_villa_kertbol.jpg"
   },
   {
     "id": "saros",
