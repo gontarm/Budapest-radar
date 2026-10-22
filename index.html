@@ -192,7 +192,7 @@ function updateNewEventsBanner(){
  const visible=(currentPage==='home'&&count>0)||newOnly;
  banner.hidden=!visible;
  if(!visible)return;
- banner.innerHTML=newOnly?'<strong>✦ Új programok</strong><span>Az utolsó frissítések óta érkezett találatok.</span><div class="new-events-actions"><button id="allEventsAgain">Összes program</button><button id="markFreshSeen">✓ Megnéztem</button></div>':'<strong>✦ '+count+' új program érkezett!</strong><span>Új események a legutóbbi látogatásod óta.</span><button id="showFreshOnly">Újak megtekintése →</button>';
+ banner.innerHTML=newOnly?'<strong>✦ Új programok</strong><span>Az utolsó frissítések óta érkezett találatok.</span><div class="new-events-actions"><button id="allEventsAgain">Összes program</button><button id="markFreshSeen">✓ Megnéztem</button></div>':'<strong>✦ '+count+' új program érkezett!</strong><span>Még nem átnézett, újonnan talált események.</span><button id="showFreshOnly">Újak megtekintése →</button>';
  const show=document.getElementById('showFreshOnly');
  if(show)show.onclick=()=>{setPage('programs');newOnly=true;render();window.scrollTo({top:0,behavior:'instant'})};
  const all=document.getElementById('allEventsAgain');
