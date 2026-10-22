@@ -68,10 +68,7 @@ def stadthalle():
         if iso<TODAY.isoformat():continue
         hall=next((c for c in cells if re.search(r"Hall [DEF]|Halle [DEF]|Studio F",c,re.I)),"Wiener Stadthalle")
         if any(bad in title.casefold() for bad in EXCLUDE):continue
-        if not re.search(r"concert|konzert|music|live|band|orchester|symphon",combined,re.I):
-            # Print calendar also lists talks, sport and theatre. Without clear
-            # music evidence leave ambiguous rows out rather than mislabel them.
-            continue
+        if not hall or not re.search(r"Hall [DEF]|Halle [DEF]|Studio F",hall,re.I):continue
         pid="vienna-stadthalle-"+hashlib.sha256((title.casefold()+iso).encode()).hexdigest()[:15]
         rows.append(dict(id=pid,title=title,kind="koncert",genre=genre(title),
             where="Wiener Stadthalle · "+hall+" · Roland-Rainer-Platz 1, 1150 Wien",
@@ -114,7 +111,7 @@ def news(kind,query):
 
 def save(path,rows):
     previous=json.loads(path.read_text("utf-8")) if path.exists() else []
-    old={r["id"]:r for r in previous if r.get("date","")>=TODAY.isoformat() or (not r.get("date") and r.get("discovered","")>=(TODAY-dt.timedelta(days=7)).isoformat())}
+    old={r["id"]:r for r in previous if (r.get("date","") and r.get("date","")>=TODAY.isoformat()) or (not r.get("date") and r.get("discovered","")>=(TODAY-dt.timedelta(days=7)).isoformat())}
     for r in rows:old[r["id"]]=r
     result=sorted(old.values(),key=lambda r:(not bool(r.get("date")),r.get("date") or r.get("discovered",""),-r.get("score",0)))[:250]
     data=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
