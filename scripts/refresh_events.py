@@ -19,12 +19,26 @@ QUERIES = [
     ("építészet", 'Budapest (építészeti kiállítás OR épületbejárás OR városi séta OR Bauhaus)'),
     ("tudomány", 'Budapest (idegtudomány OR neurobiológia OR csillagászat OR tudományos előadás)'),
     ("design", 'Budapest (design kiállítás OR kortárs múzeum OR fotókiállítás)'),
+    ("pszichológia", 'Budapest (pszichológiai előadás OR pszichológus előadása OR kötődés előadás OR párkapcsolati előadás OR önismereti est)'),
+    ("pszichológia", 'Budapest (kognitív pszichológia OR agykutatás OR tudatkutatás OR viselkedéstudomány) (előadás OR beszélgetés OR rendezvény)'),
+    ("tudomány", 'Budapest (Magyar Tudomány Ünnepe OR MTA OR ELTE) (előadás OR kutatók éjszakája OR ismeretterjesztő OR nyílt nap)'),
+    ("tudomány", 'Budapest (evolúció OR genetika OR fizika OR űrkutatás OR bolygók OR biológia) (előadás OR konferencia OR bemutató)'),
+    ("mozi", 'magyarországi mozibemutató premier (sci-fi OR dráma OR thriller OR dokumentumfilm OR művészfilm)'),
+    ("mozi", 'Budapest (premier előtti vetítés OR filmklub OR filmfesztivál OR közönségtalálkozó OR filmvetítés)'),
+    ("élmény", 'Budapest (irodalmi est OR filozófiai beszélgetés OR történelem előadás OR régészeti előadás OR nyitott műhely)'),
+    ("élmény", 'Budapest (különleges vezetett séta OR műemlékbejárás OR kulisszajárás OR laborlátogatás OR gyárlátogatás)'),
     ("élmény", '(Budapest OR Gödöllő OR Szentendre) (fénypark OR fényshow OR fényinstalláció OR fénykiállítás OR immerzív kiállítás OR interaktív élmény OR különleges esti séta)'),
     ("élmény", '(Budapest OR Buda) (titkos kert OR belső udvar OR rejtett kert OR kertbejárás OR nyitott udvar OR palotakert OR városi kert)'),
     ("élmény", '(Budapest OR Kőbánya) (sörfőzde látogatás OR sörgyár túra OR főzdetúra OR főzdelátogatás OR sörfőző bemutató)'),
     ("élmény", '(Budafok OR Budapest OR környéke) (pincejárat OR pinceséta OR pincebejárás OR helytörténeti séta OR óvóhely látogatás OR tematikus városnézés OR titkos helyek)'),
 ]
 POSITIVE = {
+    "pszichológ": 12, "önismer": 8, "kötődés": 12, "párkapcsolat": 8, "kognitív": 12,
+    "viselkedéstud": 11, "tudatkutat": 11, "agykutat": 11, "mentális": 5,
+    "filmklub": 11, "mozibemutat": 12, "premier": 8, "filmfesztivál": 10, "filmvetítés": 9,
+    "dokumentumfilm": 10, "művészfilm": 9, "sci-fi": 7, "filmtörtén": 10,
+    "genetik": 9, "evolúció": 9, "fizika": 7, "filozóf": 8, "irodalmi est": 7,
+    "régész": 9, "laborlátogat": 12, "kutatók": 7, "mta": 7,
     "építészet": 9, "építészeti": 9, "épületbejár": 10, "városi séta": 9,
     "bauhaus": 10, "moderniz": 8, "várostörtén": 8, "múzeum": 3,
     "kiállítás": 6, "tárlatvezet": 8, "előadás": 6, "ingyenes": 3,
@@ -44,6 +58,9 @@ NEGATIVE = ("ingatlan", "lakáshirdetés", "eladó", "politikai", "választás",
 # programra utal. A program időpontját az RSS-cím alapján nem találjuk ki.
 EVENT_TERMS = ("kiállítás", "tárlat", "tárlatvezet", "épületbejár", "városi séta",
                "tematikus séta", "előadás", "workshop", "műhely", "nyílt nap",
+               "pszichológiai előadás", "önismereti", "filmklub", "mozibemutató",
+               "filmpremier", "premier", "filmvetítés", "filmfesztivál",
+               "kerekasztal", "beszélgetés", "könyvbemutató", "ismeretterjesztő",
                "fesztivál", "koncert", "közönségtalálkozó", "programok",
                "rendezvény", "bemutató", "látogatható", "fénypark", "fényshow",
                "fényinstalláció", "fénykiállítás", "immerzív", "esti séta",
@@ -114,7 +131,7 @@ def main():
     unique = {}
     for x in cached + new:
         unique[x["id"]] = x
-    latest = sorted(unique.values(), key=lambda x: (x.get("discovered", ""), x["score"]), reverse=True)[:18]
+    latest = sorted(unique.values(), key=lambda x: (x.get("discovered", ""), x["score"]), reverse=True)[:55]
     result = manual + latest
     if result != entries:
         FILE.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
