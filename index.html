@@ -275,7 +275,7 @@ document.addEventListener('touchcancel',()=>{refreshStartY=null;pulled=0;if(!ref
 updateEvents();
 if('serviceWorker' in navigator && location.protocol.startsWith('http'))navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
 
-const SPOTIFY_CLIENT_ID='13f86586a0e44f7282c6024f094078d6';
+const SPOTIFY_CLIENT_ID='13f86586a0e4417282c6024f094078d6';
 const SPOTIFY_REDIRECT='https://gontarm.github.io/Budapest-radar/';
 const SPOTIFY_SCOPE='user-top-read';
 let spotifyAccessToken=sessionStorage.getItem('radarSpotifyToken')||'';
