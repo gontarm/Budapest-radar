@@ -161,7 +161,10 @@
     "why": "A kert és a fényinstallációk különleges együttese: egyszerre szabadtéri séta, látványtervezés és mesevilág.",
     "practical": "Az online napijegy adott napra és idősávra szól. Október végén 17 órától látogatható, a késő őszi nyitvatartás változik. December 23–24-én zárva. Kutyát nem lehet bevinni.",
     "price": "Normál jegy 5 000 Ft; online kezelési díj lehet.",
-    "ticketUrl": "https://gardenoflightsbudapest.jegy.hu/dates/tickets"
+    "ticketUrl": "https://gardenoflightsbudapest.jegy.hu/dates/tickets",
+    "image": "https://www.passa.waw.pl/images/articles/4f3WOHFIKEtBaDGO.webp",
+    "imageAlt": "A Szépség és a Szörnyeteg tematikájú Garden of Lights fénykapu (varsói bemutató)",
+    "imageCredit": "Hangulatkép: Garden of Lights – varsói változat, nem a budapesti helyszín"
   },
   {
     "id": "walter",
