@@ -38,6 +38,8 @@ def event_specific(url):
         if parsed.scheme != "https" or parsed.hostname in AGGREGATORS:
             return False
         path = parsed.path.casefold()
+        if path.endswith("/print") or "all-events" in path or "programm-und-karten" in path:
+            return False
         return any(word in path for word in EVENT_PATH_WORDS) and len(path.strip("/")) > 10
     except (ValueError, TypeError):
         return False
