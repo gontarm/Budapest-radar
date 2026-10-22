@@ -17,7 +17,7 @@ def fetch(q):
  req=urllib.request.Request(url,headers={"User-Agent":"BudapestRadar/1.0"})
  with urllib.request.urlopen(req,timeout=25) as response: root=ET.fromstring(response.read(1200000))
  for item in root.findall("./channel/item"):
-  title=re.sub(r"\\s+-\\s+[^-]{2,75}$","",item.findtext("title","").strip())
+  title=re.sub(r"\s+-\s+[^-]{2,75}$","",item.findtext("title","").strip())
   lower=title.casefold()
   if not any(t in lower for t in terms) or any(t in lower for t in ignore):continue
   try:
@@ -38,7 +38,7 @@ def main():
   except Exception as e:print("Forrás nem elérhető:",str(e)[:120])
  if not successes:raise RuntimeError("Nincs elérhető hírcsatorna; a korábbi lista változatlan")
  rows=sorted(results.values(),key=lambda x:x["discovered"],reverse=True)[:50]
- text=json.dumps(rows,ensure_ascii=False,indent=2)+"\\n"
+ text=json.dumps(rows,ensure_ascii=False,indent=2)+"\n"
  if not OUT.exists() or OUT.read_text("utf-8")!=text:OUT.write_text(text,encoding="utf-8")
  print("Koncert-hírtalálatok:",len(rows))
 if __name__=="__main__":main()
