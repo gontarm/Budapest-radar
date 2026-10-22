@@ -13,7 +13,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/fink-live-band-uk-30658",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "a38-skopje-20261024",
@@ -29,7 +35,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/skopje-via-mk",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "fun-da-ti-20261026",
@@ -61,7 +73,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/ivo-dimchev-bg-32228",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "fun-stvw-20261112",
@@ -157,7 +175,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/en/program/here-we-are-hu",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "a38-kanine-20261127",
@@ -173,7 +197,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/bladerunnaz-kanine-uk-reflections-ukeu-tour",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "a38-zanzibar-20261128",
@@ -189,7 +219,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/zanzibar-hu-30575",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "a38-mala-20261128",
@@ -205,7 +241,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/bladerunnaz-mala-uk-cadik-grandover",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "fun-krubi-20261128",
@@ -253,7 +295,13 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.a38.hu/hu/program/spike-and-the-gimme-gimmes-us",
-    "linkVerified": true
+    "linkVerified": true,
+    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
+    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
+    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
+    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
+    "imageLicense": "CC BY-SA 4.0",
+    "imageType": "venue"
   },
   {
     "id": "fun-baby-lasagna-20261205",
