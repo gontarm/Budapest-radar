@@ -34,7 +34,7 @@ main{padding-top:16px}
 .feedback-group{display:flex;gap:7px}
 .feedback-group button{padding:7px 11px;font-size:12px}
 #detailOverlay{position:fixed;inset:0;z-index:200;background:#f6f1e8;color:#242323;overflow:auto;overscroll-behavior:contain;display:none}
-#detailOverlay.open{display:block}
+#detailOverlay.open{display:block;box-shadow:-12px 0 30px #0004;will-change:transform}
 body.detail-open{overflow:hidden}
 .detail-inner{max-width:740px;margin:auto;padding:calc(env(safe-area-inset-top) + 18px) 26px 70px}
 .detail-top{display:flex;justify-content:space-between;align-items:center;padding-bottom:34px}
@@ -218,24 +218,55 @@ function openDetail(e){
 }
 function closeDetail(){document.getElementById('detailOverlay').classList.remove('open');document.body.classList.remove('detail-open')}
 
-// Visszalépés jobbra húzással a részletes programnézetből.
-// Csak határozott, vízszintes mozdulatot fogadunk el; a függőleges görgetés szabad marad.
+// Interaktív iOS-szerű visszalépés: a részletes oldal az ujjal együtt mozog.
 (function(){
  const overlay=document.getElementById('detailOverlay');
- let start=null;
+ let start=null, dragging=false, finishing=false, distance=0;
+ const clear=()=>{start=null;dragging=false;distance=0};
+ const reset=()=>{
+  overlay.style.transition='transform .23s cubic-bezier(.2,.75,.25,1)';
+  overlay.style.transform='translate3d(0,0,0)';
+  overlay.style.borderRadius='';
+  setTimeout(()=>{if(!dragging&&!finishing)overlay.style.transition=''},250);
+ };
  overlay.addEventListener('touchstart',event=>{
-  if(!overlay.classList.contains('open')||event.touches.length!==1){start=null;return}
+  if(finishing||!overlay.classList.contains('open')||event.touches.length!==1){clear();return}
   const t=event.touches[0];
-  start={x:t.clientX,y:t.clientY,at:Date.now()};
+  start={x:t.clientX,y:t.clientY,time:Date.now(),axis:null};
+  dragging=false;distance=0;
+  overlay.style.transition='none';
  },{passive:true});
+ overlay.addEventListener('touchmove',event=>{
+  if(!start||event.touches.length!==1)return;
+  const t=event.touches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
+  if(!start.axis&&Math.max(Math.abs(dx),Math.abs(dy))>10)
+   start.axis=Math.abs(dx)>Math.abs(dy)*1.25&&dx>0?'right':'other';
+  if(start.axis!=='right')return;
+  // Csak vízszintes mozdulatnál blokkoljuk a böngésző saját görgetését.
+  if(event.cancelable)event.preventDefault();
+  dragging=true;
+  distance=Math.min(window.innerWidth,Math.max(0,dx));
+  overlay.style.transform='translate3d('+distance+'px,0,0)';
+  overlay.style.borderRadius='14px 0 0 14px';
+ },{passive:false});
  overlay.addEventListener('touchend',event=>{
-  if(!start||!overlay.classList.contains('open')||event.changedTouches.length!==1){start=null;return}
-  const t=event.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
-  const horizontal=dx>95&&Math.abs(dx)>Math.abs(dy)*1.7&&Math.abs(dy)<90;
-  start=null;
-  if(horizontal)closeDetail();
+  if(!start)return;
+  const elapsed=Date.now()-start.time;
+  const complete=dragging&&(distance>window.innerWidth*.3||(distance>65&&elapsed<350));
+  clear();
+  if(!complete){reset();return}
+  finishing=true;
+  overlay.style.transition='transform .28s cubic-bezier(.22,.8,.25,1)';
+  overlay.style.transform='translate3d(100vw,0,0)';
+  setTimeout(()=>{
+   closeDetail();
+   overlay.style.transition='';
+   overlay.style.transform='';
+   overlay.style.borderRadius='';
+   finishing=false;
+  },290);
  },{passive:true});
- overlay.addEventListener('touchcancel',()=>{start=null},{passive:true});
+ overlay.addEventListener('touchcancel',()=>{clear();if(!finishing)reset()},{passive:true});
 })();
 
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closeDetail()});
