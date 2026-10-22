@@ -374,6 +374,7 @@ async function switchRadarCity(city){
  events=[];concertItems=[];freshEventIds.clear();knownEventIds=null;newOnly=false;showAllHome=false;
  if(radarMap){radarMap.remove();radarMap=null}
  applyRadarCity();setPage('home');
+ while(refreshing)await new Promise(resolve=>setTimeout(resolve,90));
  await updateEvents();
 }
 function mapPlace(e){
