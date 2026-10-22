@@ -1,5 +1,75 @@
 [
   {
+    "id": "film-klara-nap-2026",
+    "title": "Klara és a Nap – magyar mozibemutató",
+    "kind": "mozi",
+    "where": "Magyarországi mozik · műsor mozinként ellenőrizendő",
+    "date": "",
+    "dateLabel": "Premier: 2026. október 22. · vetítési időpont a mozik műsorában",
+    "desc": "Sci-fi történet mesterséges intelligenciáról, emberi kapcsolatokról és arról, mit jelent megérteni a másikat. Ez premierinformáció, nem konkrét lefoglalt vetítés.",
+    "url": "https://mozipremierek.hu/",
+    "score": 94,
+    "why": "A tudat, az emberi működés és a technológia filozófiai határai miatt különösen érdekes lehet.",
+    "subtitle": "Egy sci-fi, amelyben a technológia inkább az emberről szól."
+  },
+  {
+    "id": "film-orokseg-2026",
+    "title": "Az örökség – magyar thriller, mozibemutató",
+    "kind": "mozi",
+    "where": "Magyarországi mozik · vetítések ellenőrizendők",
+    "date": "",
+    "dateLabel": "Premier: 2026. október 22.",
+    "desc": "Magyar bűnügyi thriller: a pszichológiai feszültség és a történetmesélés miatt jó felfedezés lehet. Pontos vetítések a helyi moziműsorban.",
+    "url": "https://mozipremierek.hu/",
+    "score": 82
+  },
+  {
+    "id": "film-az-erdo-zeneje-2026",
+    "title": "Az erdő zenéje – dokumentumfilm-premier",
+    "kind": "mozi",
+    "where": "Magyarországi mozik · vetítések ellenőrizendők",
+    "date": "2026-11-12",
+    "dateLabel": "Tervezett magyar premier: 2026. november 12.",
+    "desc": "Dokumentumfilmes felfedezés; a bemutató dátumát a forgalmazói műsor még módosíthatja.",
+    "url": "https://mozitoplista.hu/hu/megjelenesek",
+    "score": 79
+  },
+  {
+    "id": "mta-mohacs-2026",
+    "title": "Mohács: tömegsírok és áldozatok – tudományos előadás",
+    "kind": "tudomány",
+    "where": "Magyar Tudományos Akadémia · Budapest, Széchenyi István tér 9.",
+    "date": "2026-11-06",
+    "dateLabel": "2026. november 6. · 18:30",
+    "desc": "Ismeretterjesztő előadás régészetről, történelemről és a múlt tudományos vizsgálatáról. Részvételi feltételeket a szervezőnél ellenőrizd.",
+    "url": "https://mta.hu/mtu_esemenynaptar",
+    "score": 91,
+    "why": "Az emberi történeteket és a kutatási módszereket egyszerre hozza közel."
+  },
+  {
+    "id": "mta-muveszet-tudomany-2026",
+    "title": "A tudomány művészete, a művészet tudománya",
+    "kind": "tudomány",
+    "where": "MTA · Budapest, Széchenyi István tér 9.",
+    "date": "2026-11-09",
+    "dateLabel": "2026. november 9. · 10:30",
+    "desc": "A Széchenyi Irodalmi és Művészeti Akadémia tudományünnepi programja. A tudomány és a művészet kapcsolódásai egy előadás-sorozatban.",
+    "url": "https://mta.hu/tudomanyunnep/",
+    "score": 90
+  },
+  {
+    "id": "mta-goethe-2026",
+    "title": "A Mindentudás kísértése – művészet és tudomány Goethe életművében és ma",
+    "kind": "tudomány",
+    "where": "MTA · Budapest, Széchenyi István tér 9.",
+    "date": "2026-11-09",
+    "dateLabel": "2026. november 9. · 14:00",
+    "desc": "Kerekasztal-beszélgetés a tudományos gondolkodás és művészet kapcsolatáról.",
+    "url": "https://mta.hu/mtu_esemenynaptar",
+    "score": 92,
+    "why": "Az összefüggések keresése és a különböző tudományterületek találkozása miatt ajánlom."
+  },
+  {
     "id": "liget-oszi-nov8-2026",
     "title": "Őszi séta a Ligetben – kertek és építészet",
     "kind": "élmény",
