@@ -278,7 +278,7 @@ if('serviceWorker' in navigator && location.protocol.startsWith('http'))navigato
 
 
 function concertSearchUrl(title, domain=''){
- const cleaned=title.replace(/\s[-–|]\s[^–|]{2,90}$/,'').replace(/\\s+/g,' ').trim();
+ const cleaned=title.replace(/\s[-–|]\s[^–|]{2,90}$/,'').replace(/\s+/g,' ').trim();
  const terms='"'+cleaned.slice(0,100)+'" Budapest koncert jegy';
  return 'https://www.google.com/search?q='+encodeURIComponent(terms+(domain?' site:'+domain:''));
 }
