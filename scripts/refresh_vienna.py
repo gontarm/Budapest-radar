@@ -40,9 +40,12 @@ class Table(HTMLParser):
             if self.row:self.rows.append((self.row,self.link))
             self.row=None;self.link=""
 
-EXCLUDE=("ballet","musical","kabarett","comedy","sport","tennis","ice ","holiday on ice",
-         "okt agon","festival ballet","show of","riverdance","masters of dirt","spiritualität",
-         "ice nine kills NOTHING", "freedom ballet", "wrestling","junglebook")
+NON_MUSIC=("ballet","musical","kabarett","comedy","tennis","holiday on ice","red bull bassline","erste bank open","riverdance","spiritualität","wrestling","junglebook","oktagon","swan lake","nutcracker","phantom of the opera","shen yun","lets dance","romeo & julia","mamma mia","dr. michael tsokos","chris tall","gernot & stipsits","torsten sträter","ralf schmitz","paul panzer","kaya yanar","herzog & polster","irish celtic","sukhishvili")
+MUSIC_ARTISTS=("peter cornelius","andré rieu","nico santos","placebo","bob dylan","jungle","beatrice egli","tokio hotel","the dark tenor","pitbull","korn","gregorian","rin","sergio cortés","santiano","the prodigy","bonez mc","raf camora","blok3","aretha franklin","smokie","konstantinos argiros","rea garvey","jodokcello","bap","parov stelar","seiler","nimo","wanda","falco meets amadeus","die fantastischen vier","bullet for my valentine","five finger death punch","unheilig","nickelback","edmund","max raabe","roy bianco","montez","sido","louis philippson","il volo","nena")
+MUSIC_HINTS=("concert","konzert","music of","musik","orchestra","orchester","symphon","tribute","gospel","filmmusik")
+def is_music(title):
+ t=title.casefold()
+ return not any(x in t for x in NON_MUSIC) and (any(x in t for x in MUSIC_ARTISTS) or any(x in t for x in MUSIC_HINTS))
 def genre(title):
     t=title.casefold()
     if any(x in t for x in ("orchestra","symphon","filmmusik","classical","sound of","orchester","cello")):return "klasszikus"
@@ -66,8 +69,8 @@ def stadthalle():
         if not m:continue
         iso=f"{m.group(3)}-{m.group(2)}-{m.group(1)}"
         if iso<TODAY.isoformat():continue
-        hall=next((c for c in cells if re.search(r"Hall [DEF]|Halle [DEF]|Studio F",c,re.I)),"Wiener Stadthalle")
-        if any(bad in title.casefold() for bad in EXCLUDE):continue
+        hall=next((c for c in cells if re.search(r"Hall [DEF]|Halle [DEF]|Studio F",c,re.I)),"")
+        if not is_music(title):continue
         if not hall or not re.search(r"Hall [DEF]|Halle [DEF]|Studio F",hall,re.I):continue
         pid="vienna-stadthalle-"+hashlib.sha256((title.casefold()+iso).encode()).hexdigest()[:15]
         rows.append(dict(id=pid,title=title,kind="koncert",genre=genre(title),
