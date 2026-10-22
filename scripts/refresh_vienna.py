@@ -113,7 +113,16 @@ def save(path,rows):
     previous=json.loads(path.read_text("utf-8")) if path.exists() else []
     old={r["id"]:r for r in previous if (r.get("date","") and r.get("date","")>=TODAY.isoformat()) or (not r.get("date") and r.get("discovered","")>=(TODAY-dt.timedelta(days=7)).isoformat())}
     for r in rows:old[r["id"]]=r
-    result=sorted(old.values(),key=lambda r:(not bool(r.get("date")),r.get("date") or r.get("discovered",""),-r.get("score",0)))[:250]
+    # Prefer manually verified event pages over new calendar imports for
+    # the same performer on the same date.
+    unique={}
+    for r in sorted(old.values(),key=lambda r:(r.get("score",0),bool(r.get("ticketUrl"))),reverse=True):
+        name=re.sub(r"[^a-z0-9]+","",r.get("title","").casefold())
+        date=r.get("date") or r.get("id")
+        duplicate=next((key for key in unique if key[0]==date and (key[1] in name or name in key[1]) and len(name)>5),None)
+        if duplicate:continue
+        unique[(date,name)]=r
+    result=sorted(unique.values(),key=lambda r:(not bool(r.get("date")),r.get("date") or r.get("discovered",""),-r.get("score",0)))[:250]
     data=json.dumps(result,ensure_ascii=False,indent=2)+"\n"
     if not path.exists() or data!=path.read_text("utf-8"):path.write_text(data,"utf-8")
     print(path.name,len(result))
