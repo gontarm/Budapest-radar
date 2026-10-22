@@ -1,18 +1,5 @@
 [
   {
-    "id": "vienna-archikids-20261024",
-    "title": "Archikids – Pilze und Lehm als Baumaterial",
-    "kind": "építészet",
-    "where": "Architekturzentrum Wien · Museumsplatz 1, 1070 Wien",
-    "date": "2026-10-24",
-    "dateLabel": "2026. október 24. · 15:00–17:00",
-    "desc": "Építészeti workshop gyerekeknek: gombamicélium, vályog és fenntartható építőanyagok.",
-    "url": "https://www.wien.gv.at/veranstaltungen/architektur-kids-workshop-pilze-lehm-baumaterial",
-    "price": "8 €",
-    "source": "Stadt Wien – eseményoldal",
-    "score": 92
-  },
-  {
     "id": "vienna-konzerthaus-tour-de-20261023",
     "title": "Wiener Konzerthaus – kulisszák mögött (német vezetés)",
     "kind": "építészet",
@@ -23,7 +10,12 @@
     "url": "https://konzerthaus.at/de/programm-und-karten",
     "price": "8,50 €",
     "source": "Wiener Konzerthaus – hivatalos program",
-    "score": 89
+    "score": 89,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "vienna-konzerthaus-tour-en-20261023",
@@ -36,19 +28,30 @@
     "url": "https://konzerthaus.at/de/programm-und-karten",
     "price": "8,50 €",
     "source": "Wiener Konzerthaus – hivatalos program",
-    "score": 88
+    "score": 88,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
-    "id": "vienna-viennale-2026",
-    "title": "Viennale 2026 – nemzetközi filmfesztivál",
-    "kind": "mozi",
-    "where": "Bécsi mozik · különböző helyszínek, Wien",
-    "date": "2026-11-03",
-    "dateLabel": "2026. október 22. – november 3.",
-    "desc": "Bécs nemzetközi filmfesztiválja: válogatott játékfilmek, dokumentumfilmek és különleges vetítések. A pontos vetítési helyszínt a fesztivál műsorában keresd.",
-    "url": "https://www.viennale.at/",
-    "score": 86,
-    "source": "Stadt Wien – fesztiválnaptár"
+    "id": "vienna-archikids-20261024",
+    "title": "Archikids – Pilze und Lehm als Baumaterial",
+    "kind": "építészet",
+    "where": "Architekturzentrum Wien · Museumsplatz 1, 1070 Wien",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 15:00–17:00",
+    "desc": "Építészeti workshop gyerekeknek: gombamicélium, vályog és fenntartható építőanyagok.",
+    "url": "https://www.wien.gv.at/veranstaltungen/architektur-kids-workshop-pilze-lehm-baumaterial",
+    "price": "8 €",
+    "source": "Stadt Wien – eseményoldal",
+    "score": 92,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "vienna-sicherheitsfest-20261025",
@@ -61,6 +64,28 @@
     "url": "https://www.wien.gv.at/veranstaltungen/",
     "price": "Ingyenes",
     "score": 74,
-    "source": "Stadt Wien – városi eseménynaptár"
+    "source": "Stadt Wien – városi eseménynaptár",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
+  },
+  {
+    "id": "vienna-viennale-2026",
+    "title": "Viennale 2026 – nemzetközi filmfesztivál",
+    "kind": "mozi",
+    "where": "Bécsi mozik · különböző helyszínek, Wien",
+    "date": "2026-11-03",
+    "dateLabel": "2026. október 22. – november 3.",
+    "desc": "Bécs nemzetközi filmfesztiválja: válogatott játékfilmek, dokumentumfilmek és különleges vetítések. A pontos vetítési helyszínt a fesztivál műsorában keresd.",
+    "url": "https://www.viennale.at/",
+    "score": 86,
+    "source": "Stadt Wien – fesztiválnaptár",
+    "dataQuality": "scheduled",
+    "linkStatus": "blocked",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   }
 ]
