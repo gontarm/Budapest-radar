@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "id": "concert-ee3b6bab5fb1beed",
+    "title": "NOX - Csendes Turné 2026 - Miskolc - 2026. Oct. 21.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95eEZ2SXEwcFd1REpoMXZuaGpwdGhQaWtfaFktOE4tcDJPRmh5eDdfMXBGQXRZdWMyRUhLTHd5eXU0NUJhR2NWMW5jakJvLW5CWGg0anpTdWRFUmJLVDZYWFdsWkJGMG1wa0RQS3ZPd1A?oc=5",
+    "score": 75,
+    "discovered": "2026-10-22",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+  }
+]
