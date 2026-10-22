@@ -94,3 +94,5 @@ def audit_file(name):
 if __name__ == "__main__":
     audit_file("events.json")
     audit_file("concerts.json")
+    audit_file("vienna-events.json")
+    audit_file("vienna-concerts.json")
