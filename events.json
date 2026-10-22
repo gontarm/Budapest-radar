@@ -10,7 +10,12 @@
     "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
     "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
     "score": 91,
-    "why": "A kapcsolati dinamikákat nemcsak elméleti, hanem személyes történeteken keresztül is megközelíti."
+    "why": "A kapcsolati dinamikákat nemcsak elméleti, hanem személyes történeteken keresztül is megközelíti.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "psz-iranytu-identitas-2026",
@@ -23,7 +28,12 @@
     "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
     "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
     "score": 95,
-    "why": "A személyiség és önazonosság alakulásának kérdése miatt ajánlom."
+    "why": "A személyiség és önazonosság alakulásának kérdése miatt ajánlom.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "psz-iranytu-stressz-2026",
@@ -35,7 +45,12 @@
     "desc": "Szalai Tamás Dömötör klinikai és tanácsadó szakpszichológus, családterapeuta előadása gyakorlati párkapcsolati stresszkezelési módszerekről.",
     "url": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
     "ticketUrl": "https://jegyvasarlas.hu/esemenyek/iranytu-eloadasok-2026-osz/6a8c185bdc4a1176660bdab2",
-    "score": 92
+    "score": 92,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "psz-analizis-tudatos-jelenlet-2026",
@@ -48,7 +63,12 @@
     "url": "https://neticket.jegy.hu/program/analizis-26-tudatos-jelenlet-173622",
     "ticketUrl": "https://neticket.jegy.hu/program/analizis-26-tudatos-jelenlet-173622",
     "score": 97,
-    "why": "A figyelem, a gondolkodás és az önmagaddal töltött idő témája miatt különösen érdekes lehet."
+    "why": "A figyelem, a gondolkodás és az önmagaddal töltött idő témája miatt különösen érdekes lehet.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "psz-kotodes-budaors-2026",
@@ -59,7 +79,12 @@
     "dateLabel": "2026. november 17. · 18:00–20:00",
     "desc": "Turcsik Konstantina pszichológus előadása a kötődési stílusokról, a konfliktuskezelésről, a bizalomról és az intimitásról. A jegyértékesítés állapotát a forrásban ellenőrizd.",
     "url": "https://neticket.jegy.hu/event/category/egyeb-10/subcategory/egyeb-102/11?lang=hu",
-    "score": 96
+    "score": 96,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "film-klara-nap-2026",
@@ -72,7 +97,12 @@
     "url": "https://mozipremierek.hu/",
     "score": 94,
     "why": "A tudat, az emberi működés és a technológia filozófiai határai miatt különösen érdekes lehet.",
-    "subtitle": "Egy sci-fi, amelyben a technológia inkább az emberről szól."
+    "subtitle": "Egy sci-fi, amelyben a technológia inkább az emberről szól.",
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "film-orokseg-2026",
@@ -83,7 +113,12 @@
     "dateLabel": "Premier: 2026. október 22.",
     "desc": "Magyar bűnügyi thriller: a pszichológiai feszültség és a történetmesélés miatt jó felfedezés lehet. Pontos vetítések a helyi moziműsorban.",
     "url": "https://mozipremierek.hu/",
-    "score": 82
+    "score": 82,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "film-az-erdo-zeneje-2026",
@@ -94,7 +129,12 @@
     "dateLabel": "Tervezett magyar premier: 2026. november 12.",
     "desc": "Dokumentumfilmes felfedezés; a bemutató dátumát a forgalmazói műsor még módosíthatja.",
     "url": "https://mozitoplista.hu/hu/megjelenesek",
-    "score": 79
+    "score": 79,
+    "dataQuality": "incomplete",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "mta-mohacs-2026",
@@ -106,7 +146,12 @@
     "desc": "Ismeretterjesztő előadás régészetről, történelemről és a múlt tudományos vizsgálatáról. Részvételi feltételeket a szervezőnél ellenőrizd.",
     "url": "https://mta.hu/mtu_esemenynaptar",
     "score": 91,
-    "why": "Az emberi történeteket és a kutatási módszereket egyszerre hozza közel."
+    "why": "Az emberi történeteket és a kutatási módszereket egyszerre hozza közel.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "mta-muveszet-tudomany-2026",
@@ -117,7 +162,12 @@
     "dateLabel": "2026. november 9. · 10:30",
     "desc": "A Széchenyi Irodalmi és Művészeti Akadémia tudományünnepi programja. A tudomány és a művészet kapcsolódásai egy előadás-sorozatban.",
     "url": "https://mta.hu/tudomanyunnep/",
-    "score": 90
+    "score": 90,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "mta-goethe-2026",
@@ -129,7 +179,12 @@
     "desc": "Kerekasztal-beszélgetés a tudományos gondolkodás és művészet kapcsolatáról.",
     "url": "https://mta.hu/mtu_esemenynaptar",
     "score": 92,
-    "why": "Az összefüggések keresése és a különböző tudományterületek találkozása miatt ajánlom."
+    "why": "Az összefüggések keresése és a különböző tudományterületek találkozása miatt ajánlom.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "liget-oszi-nov8-2026",
@@ -145,7 +200,12 @@
     "background": "A Városliget régi városi parkként és új kulturális épületek helyszíneként egyszerre értelmezhető. A vezetett séta a kert és az épített környezet kapcsolatát emeli ki.",
     "why": "A tájépítészet és az új múzeumépületek közötti párbeszéd miatt érdekes.",
     "duration": "Kb. 90 perc",
-    "practical": "A séta szabadtéri; kényelmes cipővel és időjárásnak megfelelő ruhával érdemes készülni."
+    "practical": "A séta szabadtéri; kényelmes cipővel és időjárásnak megfelelő ruhával érdemes készülni.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "secret-gardens-budapest",
@@ -156,7 +216,12 @@
     "dateLabel": "Vezetett városi séta · új időpont figyelendő",
     "desc": "Belső kertek, udvarok, kapualjak és régi házak felfedezése. A konkrét következő időpont még nincs igazolva.",
     "url": "https://www.bankcenter.hu/hu/hirek/169/budapesti-varosi-setak",
-    "score": 96
+    "score": 96,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "first-brewery-tours-2026",
@@ -167,7 +232,12 @@
     "dateLabel": "Csütörtök–szombat, foglalható alkalmak",
     "desc": "Kb. egyórás főzdelátogatás sörkészítési bemutatóval és kóstolóval. A közzétett tájékoztató szerint kb. 7500 Ft/fő; az aktuális jegyet ellenőrizd.",
     "url": "https://www.programturizmus.hu/ajanlat-sorfozde-tura-budapest.html",
-    "score": 91
+    "score": 91,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "dreher-tour-nov2-2026",
@@ -183,7 +253,12 @@
     "background": "Kőbánya sörgyártási múltja összefonódik az ipari infrastruktúrával és a városrész fejlődésével. A vezetett látogatás a sörkészítés technológiai folyamatait mutatja be.",
     "why": "A technológiai berendezések és ipari terek világa mellett a helyszín várostörténeti háttere is izgalmas.",
     "practical": "A foglalható időpontokat és a részvételi feltételeket a Dreher regisztrációs felületén ellenőrizd.",
-    "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/"
+    "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
+    "dataQuality": "scheduled",
+    "linkStatus": "uncertain",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "pincejarat-torley-nov-2026",
@@ -200,7 +275,12 @@
     "why": "Történelmi pincejáratok és technológiai folyamatok — a borászati élményen túl.",
     "price": "A meghirdetett vezetés: 6 900 Ft/fő.",
     "duration": "Kb. 90 perc",
-    "practical": "A részvétel előzetes regisztrációhoz kötött; a szervező oldalán ellenőrizd a szabad helyeket."
+    "practical": "A részvétel előzetes regisztrációhoz kötött; a szervező oldalán ellenőrizd a szabad helyeket.",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "pincejarat-magdd-nov-2026",
@@ -211,7 +291,12 @@
     "dateLabel": "2026. november 7. · tárlatvezetések 15:30 és 17:00",
     "desc": "Budafok várostörténeti tárlatvezetései, valamint 16:00-kor tematikus helytörténeti séta. A séta 3800 Ft, előzetes regisztráció szükséges.",
     "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
-    "score": 95
+    "score": 95,
+    "dataQuality": "scheduled",
+    "linkStatus": "uncertain",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "pincejarat-nov-2026",
@@ -226,7 +311,12 @@
     "subtitle": "A budafoki pinceváros föld alatti világa.",
     "background": "Budafok mészkőbe vájt pincerendszere hosszú ideje kapcsolódik a borászathoz és a pezsgőkészítéshez. A havi Pincejárat az ipari, helytörténeti és gasztronómiai múltat vezetett programokon keresztül mutatja be.",
     "why": "Rejtett terek, föld alatti járatok, ipartörténet és helytörténet találkoznak.",
-    "practical": "Több külön helyszín és szervező: az egyes sétákra eltérő regisztráció vonatkozhat. A programlapon érdemes előre útvonalat tervezni."
+    "practical": "Több külön helyszín és szervező: az egyes sétákra eltérő regisztráció vonatkozhat. A programlapon érdemes előre útvonalat tervezni.",
+    "dataQuality": "incomplete",
+    "linkStatus": "uncertain",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "lightart-ego-2026",
@@ -237,7 +327,12 @@
     "dateLabel": "2026. október – 2027. február vége",
     "desc": "Fény- és médiaművészeti kiállítás az érzékelés, a tudomány és a művészet határán. A pontos jegyár a múzeum oldalán.",
     "url": "https://lightartmuseum.hu/",
-    "score": 94
+    "score": 94,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "cinema-mystica-2026",
@@ -248,7 +343,12 @@
     "dateLabel": "Folyamatos kiállítás; csütörtöki tárlatvezetések",
     "desc": "Interaktív és immerzív installációk, vetítések, digitális fény- és hangművészet. A következő vezetés időpontját ellenőrizd.",
     "url": "https://cinemamystica.net/",
-    "score": 92
+    "score": 92,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "sisi-lights-2026",
@@ -263,7 +363,12 @@
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Grassalkovich-kast%C3%A9ly%20(7051.%20sz%C3%A1m%C3%BA%20m%C5%B1eml%C3%A9k)%206.jpg?width=1100",
     "imageAlt": "A gödöllői királyi kastély homlokzata nappal",
     "imageCredit": "Helyszínfotó: Wikimedia Commons – nem a fényshow felvétele",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:Grassalkovich-kast%C3%A9ly_(7051._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k)_6.jpg"
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Grassalkovich-kast%C3%A9ly_(7051._sz%C3%A1m%C3%BA_m%C5%B1eml%C3%A9k)_6.jpg",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "lumina-2026",
@@ -280,7 +385,12 @@
     "why": "A fény mint térformáló eszköz, az esti séta és a látványos installációk miatt is érdekes.",
     "practical": "Szabadtéri esti program, ezért érdemes az időjáráshoz öltözni. A Margitsziget 26-os busszal megközelíthető.",
     "price": "Felnőtt: hétköznap 5 000 Ft, hétvégén 5 300 Ft.",
-    "ticketUrl": "https://luminapark.ticketsmart.hu/"
+    "ticketUrl": "https://luminapark.ticketsmart.hu/",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "garden-lights-2026",
@@ -300,7 +410,12 @@
     "ticketUrl": "https://gardenoflightsbudapest.jegy.hu/dates/tickets",
     "image": "https://www.passa.waw.pl/images/articles/4f3WOHFIKEtBaDGO.webp",
     "imageAlt": "A Szépség és a Szörnyeteg tematikájú Garden of Lights fénykapu (varsói bemutató)",
-    "imageCredit": "Hangulatkép: Garden of Lights – varsói változat, nem a budapesti helyszín"
+    "imageCredit": "Hangulatkép: Garden of Lights – varsói változat, nem a budapesti helyszín",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "walter",
@@ -319,7 +434,12 @@
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Walter_rozsi_villa_kertbol.jpg?width=1100",
     "imageAlt": "A Walter Rózsi-villa kerti homlokzata",
     "imageCredit": "Helyszínfotó: KovacsDaniel / Wikimedia Commons – nem a kiállítás felvétele",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:Walter_rozsi_villa_kertbol.jpg"
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Walter_rozsi_villa_kertbol.jpg",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "saros",
@@ -339,7 +459,12 @@
     "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Palace_of_Art_on_H%C5%91s%C3%B6k_tere_Budapest_2026.JPG?width=1100",
     "imageAlt": "Műcsarnok a Hősök terén, 2026-ban",
     "imageCredit": "Helyszínfotó: Wikimedia Commons, 2026 – nem a kiállítás felvétele",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:Palace_of_Art_on_H%C5%91s%C3%B6k_tere_Budapest_2026.JPG"
+    "imageSource": "https://commons.wikimedia.org/wiki/File:Palace_of_Art_on_H%C5%91s%C3%B6k_tere_Budapest_2026.JPG",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "hatartalan",
@@ -350,7 +475,12 @@
     "dateLabel": "2026. november 1-ig",
     "desc": "Design, tér, tárgyak és interdiszciplináris alkotások különleges történeti térben.",
     "url": "https://kiscelli.jegy.hu/program/321-a-hatartalanban-bartok-reflexiok-hatartalan-design-2026-197077",
-    "score": 92
+    "score": 92,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "bartok",
@@ -361,7 +491,12 @@
     "dateLabel": "2026. október 29. · 16:00-tól",
     "desc": "Kurátori tárlatvezetés a Határtalan Designban, majd koncert. Október 30-án és november 1-jén is van alkalom.",
     "url": "https://kiscelli.jegy.hu/program/321-a-hatartalanban-bartok-reflexiok-hatartalan-design-2026-197077",
-    "score": 90
+    "score": 90,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "walk",
@@ -372,7 +507,12 @@
     "dateLabel": "2027. január 31-ig",
     "desc": "A séta mint figyelem, felfedezés, önálló tapasztalat és művészi gondolkodás.",
     "url": "https://www.ludwigmuseum.hu/kiallitasok",
-    "score": 89
+    "score": 89,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "walktour",
@@ -383,7 +523,12 @@
     "dateLabel": "2026. november 1. · 16:00",
     "desc": "Vezetett felfedezés a gyaloglás témájú kortárs tárlaton.",
     "url": "https://www.ludwigmuseum.hu/kiallitasok",
-    "score": 88
+    "score": 88,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "bigbang",
@@ -394,7 +539,12 @@
     "dateLabel": "2026. október 25. · 16:00",
     "desc": "Vezetett látogatás a Táguló gyűjteményi horizontok című kiállításon.",
     "url": "https://www.ludwigmuseum.hu/kiallitasok",
-    "score": 83
+    "score": 83,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "kulisz",
@@ -405,7 +555,12 @@
     "dateLabel": "2026. október 31. · 10:00",
     "desc": "Szokatlan múzeumi betekintés, különleges program a kiállítótereken túl.",
     "url": "https://www.ludwigmuseum.hu/kiallitasok",
-    "score": 81
+    "score": 81,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "mta",
@@ -416,7 +571,12 @@
     "dateLabel": "Folyamatosan változó programok",
     "desc": "Tudományos előadások és konferenciák: biológia, idegtudomány és más kutatási területek. Ez figyelendő forrás, nem egy konkrét esemény.",
     "url": "https://mta.hu/esemenynaptar",
-    "score": 80
+    "score": 80,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": true,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "bme",
@@ -427,7 +587,12 @@
     "dateLabel": "Folyamatosan változó programok",
     "desc": "Műszaki és tudományos előadások, konferenciák. Ez figyelendő forrás, nem egy konkrét esemény.",
     "url": "https://www.bme.hu/esemenykereso",
-    "score": 76
+    "score": 76,
+    "dataQuality": "news",
+    "linkStatus": "not_checked",
+    "directEventLink": true,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-ac171237a88e958",
@@ -440,7 +605,12 @@
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzhaMmFZdjloVkZHSFFDcjVLZVVQOGtOTUViMHJJSVkyUXFQRExIWl83aDRNVkhtWTB3QUhqWXJhUzRXQmRKcUx0SW9EQmZNQ24ya2tpSFVDT3lQb0VJV3ZGaE9ZWnctTnlkdUp1YS0zcXdfd3pEZXYxX3U1R2tPa2d6bHkzRE9EWjRRaHJYaEVwU05HMDRfRmxvQTVYUTNsWGtWZU13djJtRDhBd2toR2RRaEV0UV9hUDcxRXZXTlZtWHM?oc=5",
     "score": 94,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-ac7309032d8598f",
@@ -453,7 +623,12 @@
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObWtYTUdNbFlkS1BsTGdnQVBJQXdaWjluV3pVa2xGVFllclJLTFVlb3FjbmZ6X2RIcVg1czhKdmZIdUhjVWVFb2t6TG9xYTRDeEhtYW5fcTRRZTBzVklyeVZUUDNrUmk0QXJqQnlRQlFERGhBZ3JVR3o3eTgwTEs5dU5GaDlKNjVYSGx4N3hZdUZ5ZWZUZGg3ZERGbUhRbTQtWXdLQXl5RHRQWGRDdGdsTUh3QXpZUQ?oc=5",
     "score": 86,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-74bc9b1a6830ef1",
@@ -466,7 +641,12 @@
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEFLcDI1UngwOEE0V2l6dG5HZmdsMUJrOFBLRXNqWUJ0M2dWSFpRMkY3ZnBCWUtGdWZoYW9pZlZwZW85Y3BJaVJrYkREaWh0ZDlCVExMRnlMb3BWUHY3LXFLNGR1QVg4bXZzNkxfOVl5cENlUEhaZjl6aFA5OEgzODdQcXBQNUd2SVhDb1RhQkhDWmxVNUdCdldjY0cxQ01ybDY3alN6QlhrcFlXNEZBVmxjVEkycGxFbzNVUWM5bw?oc=5",
     "score": 86,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-26a5c27c9c2a65b",
@@ -479,7 +659,12 @@
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1hIVUl4bUtYSTMxSTdGQlVZbjZtSDBRVXpGNWM2SUJWVWZ0bmRuRkdfYkJuaHlhWHdTV3NFaDRNVWx4czdkMjBRZklkS3lmSmNaRHZMZmVOVTZzbFhaa3hNMkJ1TVJ6NG54NktTaHplQXR2U2ZWUTloZk1uYUMwVG4yNFRYdGZJbGktSmFfdWxNaUNKbGt3SGxMWlBJcWwtajBwNU1WWWUtTnA5Z2tjMUhUaUpjSDlJSW9UYmVmQkdMeUdxMlZfeg?oc=5",
     "score": 78,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-63f82b24895a2ea",
@@ -492,7 +677,12 @@
     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnc4dkVBcEt3SFp0SW5CakcwYkpwR0xqV0pyZXpoNjdRQUszZXdCWHFFZE5tVVNHV3VDUE9xY3dLNm5mUHNrMVVVSmNtYzlHeko3REQyY05ITHF2R1RDRnZ4MHIwSjV5T0hlMmxXNUNGTnFTRUZRZUFwVjZXcnF6YklVMFFCYno3ZlRWelc0b3pEN1E?oc=5",
     "score": 76,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-b08beae8cb0475d",
@@ -505,7 +695,12 @@
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0I1QVBUN1pNU3NRWjRQQlZtcnllUFJJMGFpQklOUDlMQXNsWDJMbW91aF8tN3BHSDdwYS1IdWhPXzh0N1BqS2hGMkx2RVVmY1BKWktlQ0dfMjhnQnNRUm01ZTE0RTdQUUt0a1NJdVhjWHpnQnhjbnFULU1oazdrQmdHNUwzdE9EMGpGbzRxdEhPeUZ0QlJEc09CYldfbkx4YTU4OVlpTXlBQTRqNmY0dXJYampaRDMyQUk0MFhDUElYXzZJc1Z3WQ?oc=5",
     "score": 76,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-7800af87f25e874",
@@ -518,7 +713,12 @@
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWm1CeTNieTU4dVd1SmpvLXZVb2dfUk1ud3lNWkx4S2VoMkhMN2JpdVZEOVFnWThlc2ZJRVZDVjFXazhvcVNWdlZLUEVSb3ZhWndiM3BTa1hDY3pDUnoxS1dReG1mZkotUC0zV2dBMzVrMGVXVlFZZzBZQzFpb3R5bGpCcEFaeHp6a1JKVU1xM0NEVVJndm1Rc2FHUHZZazlZQmhYVlRzNk1GdG5mZWQ4THdreU1WQTJsNmlHcXVpZk83a3QtQ2hhYVZuMGIxYzllNHBFQWlMM0hWanpwZHc?oc=5",
     "score": 74,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-c49e5d4c841b103",
@@ -531,7 +731,12 @@
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDdLQWZMNnVFWWM2S1o3TU5la2RCbDBJbTl3ZHpITlRPRVMybjhsM3lGcHo0djdScFQtNGd4Wk5HbnI0VEFZbTkxYzdqVmtTQkk4OEROUDMzbHc2OUZrbEN0LW1uX1dNVHc1blZtclp5RkxxN05MSFhTdXFCME9pMQ?oc=5",
     "score": 71,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-37c947ebf3eeda7",
@@ -544,7 +749,12 @@
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNkFteEVzSkoxME02WGlGdDQ4ZFBFVjhLUE1XZ1VBa3FvVTNYYzRSa25QUlRTQ0U2RG9tM0RaSUhhWkZKOHVoT1dSeGl2WER2UUtvcjc1VW9Qdk5ma2JiS1I5cUQ4RERYNmNjQng1d2ozVzZtdlZLWFljVzdscDRWVE9WWE5YWjhTbEdNa0VHR3J3Tk5jZkJmdlBMSE9GNlBGVXNYbWhCTQ?oc=5",
     "score": 71,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-39927b0bb5bd6a1",
@@ -557,7 +767,12 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GckpGVmtReXdrUGtuaW1MS2Fqak4yQ21iU2VwWTdTR2xHRDNYYW9heEVENkZrQUpsRlVDUlBjQ0dzNndHbnJib0xKM21pbUZLbF8xMUZsbmhWRjFaUnZJ?oc=5",
     "score": 71,
     "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "rss-e5aebd839b386f1",
@@ -570,6 +785,11 @@
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0dqV24tbnhWRVZlOVI5YW9mYlBKbjFITjdtNHJueXB5SHRkS3FLZWE0Y0RmMS14N2VUcWl3SkFCSVJDeUdBRmlPXzg1ZGxaeEhYSmdQVXd6M3h6WWdhaEloS1Q0RzlaNU1OMW4wMklQR2ZSWjk5bWpJclJaZTVIZ0UwNEtCRThGTVpwR054djFneERldENNY2FkZ2dtQ29FRWh1eVBlR005eTJYTWpKZzh6U2l4NVBpLWZHN3JhWWRVRjA?oc=5",
     "score": 71,
     "discovered": "2026-10-21",
-    "source": "Google News RSS · nem ellenőrzött programjelölt"
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]

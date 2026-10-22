@@ -19,7 +19,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-skopje-20261024",
@@ -41,7 +46,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-da-ti-20261026",
@@ -57,7 +67,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/4977-da-ti",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-ivo-20261027",
@@ -79,7 +94,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-stvw-20261112",
@@ -95,7 +115,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/3888-stvw",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-evanora-20261113",
@@ -111,7 +136,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5430-evanora-unlimited",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-placebo-20261113",
@@ -127,7 +157,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/3901-placebo",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-thomas-20261114",
@@ -143,7 +178,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/2031-thomas-anders",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-eagle-eye-20261123",
@@ -159,7 +199,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/en/event/4691-eagle-eye-cherry",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-hereweare-20261127",
@@ -181,7 +226,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-kanine-20261127",
@@ -203,7 +253,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-zanzibar-20261128",
@@ -225,7 +280,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-mala-20261128",
@@ -247,7 +307,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-krubi-20261128",
@@ -263,7 +328,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5269-krubi-mvm-dome",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-chinchilla-20261128",
@@ -279,7 +349,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/3252-chinchilla",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "a38-spike-20261129",
@@ -301,7 +376,12 @@
     "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
     "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
     "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue"
+    "imageType": "venue",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-baby-lasagna-20261205",
@@ -317,7 +397,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/3765-baby-lasagna",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-bryan-20261216",
@@ -333,7 +418,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/3679-bryan-adams",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-lookmum-20270219",
@@ -349,7 +439,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/en/event/4801-look-mum-no-computer",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-giant-rooks-20270221",
@@ -365,7 +460,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5230-giant-rooks",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-haiden-20270314",
@@ -381,7 +481,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5354-haiden-henderson",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-son-lux-20270323",
@@ -397,7 +502,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://www.livenation.hu/tickets/son-lux-budapest-events-edp1673183",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-kaleo-20270325",
@@ -413,7 +523,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/4649-kaleo",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-roger-waters-20270601",
@@ -429,7 +544,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5515-roger-waters-legacy",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-rod-stewart-20270618",
@@ -445,7 +565,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5436-rod-stewart",
-    "linkVerified": true
+    "linkVerified": true,
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "fun-nickelback-20270629",
@@ -461,7 +586,12 @@
     "ticketStatus": "unknown",
     "discovered": "2026-10-22",
     "ticketUrl": "https://funcode.hu/hu/event/5594-nickelback",
-    "price": "20 600 Ft-tól (a meghirdetett indulóár, változhat)"
+    "price": "20 600 Ft-tól (a meghirdetett indulóár, változhat)",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-22",
+    "eventVerified": false
   },
   {
     "id": "concert-cd5e7d42dbb59b8d",
@@ -475,7 +605,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-19d07a363c1798d9",
@@ -489,7 +624,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-897e14e3dd8b7c0f",
@@ -503,7 +643,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-ee3b6bab5fb1beed",
@@ -517,7 +662,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-a802f5a8e805951b",
@@ -531,7 +681,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-2ba79b8f5841836c",
@@ -545,7 +700,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-2ffb6b063d3c2120",
@@ -559,7 +719,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-4dcb2d3dff9406a8",
@@ -573,7 +738,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-5e1bce6f3b7f4c70",
@@ -587,7 +757,12 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   },
   {
     "id": "concert-b9987fea2acf4db2",
@@ -601,6 +776,11 @@
     "score": 75,
     "discovered": "2026-10-22",
     "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat"
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
