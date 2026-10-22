@@ -217,6 +217,27 @@ function openDetail(e){
  document.getElementById('closeDetail').focus();
 }
 function closeDetail(){document.getElementById('detailOverlay').classList.remove('open');document.body.classList.remove('detail-open')}
+
+// Visszalépés jobbra húzással a részletes programnézetből.
+// Csak határozott, vízszintes mozdulatot fogadunk el; a függőleges görgetés szabad marad.
+(function(){
+ const overlay=document.getElementById('detailOverlay');
+ let start=null;
+ overlay.addEventListener('touchstart',event=>{
+  if(!overlay.classList.contains('open')||event.touches.length!==1){start=null;return}
+  const t=event.touches[0];
+  start={x:t.clientX,y:t.clientY,at:Date.now()};
+ },{passive:true});
+ overlay.addEventListener('touchend',event=>{
+  if(!start||!overlay.classList.contains('open')||event.changedTouches.length!==1){start=null;return}
+  const t=event.changedTouches[0],dx=t.clientX-start.x,dy=t.clientY-start.y;
+  const horizontal=dx>95&&Math.abs(dx)>Math.abs(dy)*1.7&&Math.abs(dy)<90;
+  start=null;
+  if(horizontal)closeDetail();
+ },{passive:true});
+ overlay.addEventListener('touchcancel',()=>{start=null},{passive:true});
+})();
+
 document.addEventListener('keydown',ev=>{if(ev.key==='Escape')closeDetail()});
 document.querySelectorAll('[data-mode]').forEach(button=>button.onclick=()=>{
  mode=button.dataset.mode;
