@@ -7,7 +7,9 @@ OUT=Path(__file__).resolve().parent.parent/"concerts.json"
 today=dt.datetime.now(ZoneInfo("Europe/Budapest")).date()
 queries=[
 'Budapest koncert jegyek új bejelentés when:7d',
-'Budapest 2026 koncert jegyértékesítés indul when:7d',
+'Budapest koncert jegyértékesítés indul when:7d',
+'Budapest koncerthelyszínek A38 Akvárium Dürer Barba Negra when:7d',
+'Budapest élőzene koncertek fellépők 2026 2027 when:7d',
 'Budapest klubkoncert jazz alternatív elektronikus koncert when:7d',
 'Szentendre Gödöllő koncert fesztivál jegyek when:7d']
 terms=("koncert","fellép","fesztivál","turné","turne","jegyértékesítés","jegyek")
@@ -29,7 +31,9 @@ def fetch(q):
   yield {"id":"concert-"+hashlib.sha256(title.casefold().encode()).hexdigest()[:16],"title":title[:160],"kind":"koncert","where":"Budapest és környéke · ellenőrizendő","date":"","dateLabel":"Koncerthír · időpont a forrásban","desc":"Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.","url":link,"score":75,"discovered":today.isoformat(),"ticketStatus":"unknown","source":"Google News RSS · ellenőrizetlen hírtalálat"}
 def main():
  previous=json.loads(OUT.read_text("utf-8")) if OUT.exists() else []
- results={x["id"]:x for x in previous if x.get("discovered","")>=(today-dt.timedelta(days=7)).isoformat()}
+ # A hitelesített, jövőbeli koncertnaptár-bejegyzéseket megtartjuk.
+ # A friss híreket legfeljebb 30 napig őrizzük.
+ results={x["id"]:x for x in previous if (x.get("date") and x["date"]>=today.isoformat()) or (not x.get("date") and x.get("discovered","")>=(today-dt.timedelta(days=30)).isoformat())}
  successes=0
  for q in queries:
   try:
@@ -37,7 +41,7 @@ def main():
    successes+=1
   except Exception as e:print("Forrás nem elérhető:",str(e)[:120])
  if not successes:raise RuntimeError("Nincs elérhető hírcsatorna; a korábbi lista változatlan")
- rows=sorted(results.values(),key=lambda x:x["discovered"],reverse=True)[:50]
+ rows=sorted(results.values(),key=lambda x:(0 if x.get('date') else 1,x.get('date') or x.get('discovered','')))[:140]
  text=json.dumps(rows,ensure_ascii=False,indent=2)+"\n"
  if not OUT.exists() or OUT.read_text("utf-8")!=text:OUT.write_text(text,encoding="utf-8")
  print("Koncert-hírtalálatok:",len(rows))
