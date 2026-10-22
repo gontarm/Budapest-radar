@@ -424,7 +424,8 @@ function openConcertDetail(e){
  const img=image?'<img src="'+esc(image)+'" alt="'+esc(e.title)+' – előadói kép a Spotifyról" loading="lazy" onerror="this.remove();this.parentElement.querySelector(\'.detail-hero-placeholder\').style.display=\'grid\'">':'';
  const hero='<figure class="detail-hero">'+img+'<div class="detail-hero-placeholder concert-hero-art" style="'+(image?'display:none':'')+'"><span>♫</span><small>ÉLŐ ZENE / BUDAPEST RADAR</small></div>'+(image?'<figcaption>Előadói kép: Spotify</figcaption>':'')+'</figure>';
  const isWatched=watchedConcerts.has(e.id);
- const official=e.source&&e.source.includes('RSS')?'Hír forrása':'Koncertnaptár / jegyinformáció';
+ const isDirectEvent=/\/event\/|\/events\/|\/program\/|\/tickets\//i.test(e.url||'');
+ const official=e.source&&e.source.includes('RSS')?'Hír forrása':isDirectEvent?'Koncert és jegyek – eseményoldal':'Koncertnaptár (nem közvetlen jegylink)';
  const html='<div class="detail-top"><span class="detail-kicker">BUDAPEST RADAR / KONCERTNAPLÓ</span><button id="closeDetail" aria-label="Vissza">×</button></div>'+
  hero+'<div class="detail-kicker">♫ '+(e.date?'KÖZELGŐ KONCERT':'KONCERT-HÍR')+'</div>'+
  '<h2 class="detail-title">'+esc(e.title)+'</h2>'+
