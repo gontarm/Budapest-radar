@@ -377,6 +377,7 @@ async function switchRadarCity(city){
  applyRadarCity();setPage('home');
  while(refreshing)await new Promise(resolve=>setTimeout(resolve,90));
  await updateEvents();
+ if(typeof refreshConcerts==='function')await refreshConcerts();
 }
 function mapPlace(e){
  const where=e.where||'';
