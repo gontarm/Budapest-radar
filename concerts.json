@@ -782,5 +782,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-6c0ffa15d8e4799e",
+    "title": "AHOL A LEGENDA SZÜLETETT- Kovács Kati jubileumi koncert az Erkel Színházban - Budapest - 2027. Jan. 05.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdUVsSWlMRk9WdW1sS05oc0xtQkd6UHpmdlVnc2ZNV3VWWmFRMkQ4Z0R1Z0xCMGQxSjNOdFlucHJPd3pYV3lEcFpiU2dUdHM5SUN6M3dpYVdWaWlNYXo0SzJWa1JNT1F6UFNCNHMyaFpDRnV0VUJwSlRKVS1kdXpHajc2aklENkFqdlY3d2ZiRW1QQWl3WVVCUWdjdWJ1c0hxYWJZNnI4eHFyck90QzBCUDZyTXU3anpidGZPTTlySQ?oc=5",
+    "score": 75,
+    "discovered": "2026-10-23",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
