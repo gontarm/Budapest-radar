@@ -1,5 +1,39 @@
 [
   {
+    "id": "official-svabhegy-nebula-20261030",
+    "title": "Égi ködöktől a Szaturnusz gyűrűjéig",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-30",
+    "dateLabel": "2026. október 30. · 18:00–20:00",
+    "desc": "Csillagászati megfigyelőest a Szaturnusszal, az Androméda-galaxissal és a planetáris ködökkel.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos eseményoldal",
+    "score": 93,
+    "dataQuality": "scheduled",
+    "eventVerified": false
+  },
+  {
+    "id": "official-svabhegy-saturn-20261025",
+    "title": "A Szaturnusz gyűrűrendszere és a Hold hatalmas krátere",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 19:00–21:00",
+    "desc": "Távcsöves csillagászati program: a Szaturnusz gyűrűi, a Titán hold és a Hold nagy krátereinek megfigyelése.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyururendszere-es-a-hold-hatalmas-kratere-holdfotozassal-1025",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos eseményoldal",
+    "score": 93,
+    "dataQuality": "scheduled",
+    "eventVerified": false
+  },
+  {
     "id": "psz-iranytu-hazasparbajok-2026",
     "title": "HázasPÁRbajok – Iránytű előadások",
     "kind": "pszichológia",
