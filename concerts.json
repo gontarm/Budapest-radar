@@ -801,5 +801,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-d6f30fe4fed2ba43",
+    "title": "Oktoberfest Budapest 2026 – sörfesztivál több budapesti helyszínen -Ráadás hétvége okt. 16-18",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjhzbzNzUUp0N0s5SGxlc0FacGpQbkwxZzltWnpnUDlHeXpmak8zSjl6Sy1ZMEdtSDhzYjlOLUp6TEhFdzFtMHBOUklJb3ZwNlh0dVZaZGpFZTV5ZWNhbEFpMFAyR19UcDdnOUNVM1dJUHBncWtVNllGS295dGFRVDlxV0Z5eHVLazR0VTdQNDNyRG5rVERLSXhPeHZZU2FuQ1U2dko2blc?oc=5",
+    "score": 75,
+    "discovered": "2026-10-23",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]

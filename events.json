@@ -771,7 +771,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-10-23",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-23"
   },
@@ -4328,5 +4328,26 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "official-363f9b23b8a6e96fd1",
+    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 10.30.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-30",
+    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1030",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-10-23",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-23"
   }
 ]
