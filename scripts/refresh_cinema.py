@@ -72,7 +72,7 @@ def film_metadata(soup):
  if not description and meta:description=meta.get("content","")
  duration=""
  for item in soup.stripped_strings:
-  match=re.search(r"\\b(\\d{2,3})\\s*perc\\b",item)
+  match=re.search(r"\b(\d{2,3})\s*perc\b",item)
   if match:duration=match.group(1)+" perc";break
  genre=""
  if h:
