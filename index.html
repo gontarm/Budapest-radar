@@ -494,7 +494,8 @@ function radarSunUtc(date,lat,lon,rising){
 }
 function radarIsNight(now=new Date()){
  const p=radarSolarCities[typeof radarCity==='string'?radarCity:'budapest']||radarSolarCities.budapest;
- const base=new Date(now.toLocaleDateString('en-CA',{timeZone:'Europe/Budapest'})+'T12:00:00Z');
+ const parts=Object.fromEntries(new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Budapest',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(now).map(x=>[x.type,x.value]));
+ const base=new Date(Date.UTC(Number(parts.year),Number(parts.month)-1,Number(parts.day),12));
  if(!Number.isFinite(base.getTime()))return false;
  const sunrise=radarSunUtc(base,p.lat,p.lon,true),sunset=radarSunUtc(base,p.lat,p.lon,false);
  if(sunrise===null||sunset===null)return false;
