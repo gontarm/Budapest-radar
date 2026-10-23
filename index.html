@@ -719,7 +719,7 @@ function radarCinemaDates(e){
 function radarAllShowtimes(e){return e.kind==='mozi'?radarCinemaDates(e):radarTheatreDates(e)}
 function radarCinemaDirectory(){
  if(!radarBaseSelected.has('mozi')||radarBaseSelected.size!==1||radarInterestSelected.size)return '';
- return '<section class="radar-cinema-directory"><h3>Budapesti mozik ('+radarBudapestCinemas.length+')</h3><p>Multiplexek és artmozik, mind a 23 budapesti helyszín. A részletes, friss vetítésekhez használd a teljes heti műsort.</p><details><summary>A 23 mozi listája</summary><div class="radar-cinema-list">'+radarBudapestCinemas.map(n=>'<span>'+esc(n)+'</span>').join('')+'</div></details><a href="https://mozibp.hu/" target="_blank" rel="noopener noreferrer">Teljes, naponta frissülő budapesti moziműsor ↗</a></section>';
+ return '<section class="radar-cinema-directory"><h3>Budapesti mozik ('+radarBudapestCinemas.length+')</h3><p>A 23 budapesti mozi nyilvános műsorából automatikusan gyűjtött filmek. Kattints egy filmre a mozik és vetítési időpontok megtekintéséhez. Az időpontokat jegyvásárlás előtt ellenőrizd.</p><details><summary>A 23 mozi listája</summary><div class="radar-cinema-list">'+radarBudapestCinemas.map(n=>'<span>'+esc(n)+'</span>').join('')+'</div></details><a href="https://mozibp.hu/" target="_blank" rel="noopener noreferrer">Teljes, naponta frissülő budapesti moziműsor ↗</a></section>';
 }
 function radarGroupTheatreRows(rows){
  const seen=new Set();
