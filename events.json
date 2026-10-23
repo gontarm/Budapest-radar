@@ -255,7 +255,7 @@
     "practical": "A foglalható időpontokat és a részvételi feltételeket a Dreher regisztrációs felületén ellenőrizd.",
     "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
     "dataQuality": "scheduled",
-    "linkStatus": "uncertain",
+    "linkStatus": "reachable",
     "directEventLink": false,
     "linkCheckedOn": "2026-10-23",
     "eventVerified": false
