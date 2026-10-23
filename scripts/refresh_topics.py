@@ -103,9 +103,10 @@ def update(city):
     existing=json.loads(file.read_text("utf-8"))
     today=dt.datetime.now(ZoneInfo("Europe/Budapest" if city=="budapest" else "Europe/Vienna")).date()
     cutoff=(today-dt.timedelta(days=14)).isoformat()
-    previous=[x for x in existing if not x.get("id","").startswith("radar-topic-") or x.get("discovered","")>=cutoff]
+    previous=[x for x in existing if not (x.get("id","").startswith("radar-topic-") and x.get("interestTopics")==["szinhaz"]) and (not x.get("id","").startswith("radar-topic-") or x.get("discovered","")>=cutoff)]
     collected=[]
     for topic,pair in TOPICS.items():
+        if topic=="szinhaz":continue  # Theatre: only official organiser calendars.
         query=pair[0 if city=="budapest" else 1]
         try:
             entries=fetch(city,topic,query)
