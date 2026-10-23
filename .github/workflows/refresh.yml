@@ -30,17 +30,36 @@ jobs:
           python-version: '3.12'
       - name: Python adatgyűjtők ellenőrzése
         run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py
-      - name: Friss programhírek keresése
+      - name: Programforrások frissítése – egymástól függetlenül
+        shell: bash
         run: |
-          python scripts/refresh_events.py
-          python scripts/refresh_concerts.py
-          python scripts/refresh_vienna.py
-          python scripts/refresh_topics.py
-          python scripts/refresh_official.py
-      - name: Eseménylinkek és adatminőség ellenőrzése
+          set +e
+          failed=0
+          for script in refresh_events refresh_concerts refresh_vienna refresh_topics refresh_official; do
+            echo "::group::Gyűjtő: ${script}"
+            python -u "scripts/${script}.py"
+            code=$?
+            echo "::endgroup::"
+            if [ "$code" -ne 0 ]; then
+              echo "::warning title=Gyűjtőhiba::${script}.py hibával leállt (exit ${code}); a többi gyűjtő folytatódik."
+              failed=$((failed+1))
+            fi
+          done
+          echo "Sikertelen gyűjtők: ${failed}/5" >> "$GITHUB_STEP_SUMMARY"
+          echo "A hibás forrás korábban eltárolt eseményeit nem töröljük."
+      - name: Adatok épségének vizsgálata és hivatkozások ellenőrzése
+        shell: bash
         run: |
-          python scripts/audit_links.py
-          python -m py_compile scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ("events.json","concerts.json","vienna-events.json","vienna-concerts.json"):
+              rows=json.loads(Path(name).read_text(encoding="utf-8"))
+              if not isinstance(rows,list):
+                  raise ValueError(f"{name}: nem eseménylista")
+              print(f"{name}: {len(rows)} bejegyzés")
+          PY
+          python scripts/audit_links.py || echo "::warning title=Linkellenőrzés::A linkaudit nem teljesült, az eseménylistákat megtartjuk."
       - name: Változások mentése
         run: |
           if ! git diff --quiet -- events.json concerts.json vienna-events.json vienna-concerts.json; then
