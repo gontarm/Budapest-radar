@@ -70,6 +70,24 @@ body.dark .maplibregl-popup-content{background:#191b1f;color:#fff}
 body.dark .maplibregl-popup-tip{border-top-color:#191b1f!important}
 .note{color:var(--ink)}
 @media(max-width:760px){.shell{padding:8px;gap:8px}.side{padding:12px;gap:12px}.side .category{padding:7px!important}.category-grid{display:flex}.side .note{display:none}#map{height:57vh;min-height:360px}.card{flex-basis:204px;min-height:118px}.map-overlay{font-size:11px;top:10px;left:10px}.resultbox{padding:12px}}
+</style><style id="radarStriking">
+/* Sharper editoral layout and designed map framing */
+body{--bg:#edf2f6}
+body.dark{--bg:#050608}
+.shell{max-width:1750px;grid-template-columns:260px minmax(0,1fr)}
+header{background:var(--surface);border-bottom:2px solid #087af3}
+.canvas{border:2px solid #bed5e7}
+body.dark .canvas{border-color:#8d5e2d;box-shadow:0 0 0 1px #f8a84420,0 15px 50px #0008}
+#map{min-height:590px}
+.map-overlay{background:#0b315a!important;color:#fff!important;border:1px solid #699ad2!important;border-radius:8px!important;letter-spacing:.04em}
+body.dark .map-overlay{background:#150f0bf0!important;border-color:#9e6238!important}
+.side{border-top:4px solid #087af3}
+body.dark .side{border-top-color:#d69143}
+.pin{width:32px;height:32px;border-radius:50%;transform:none;border:2px solid white;box-shadow:0 0 0 3px color-mix(in srgb,var(--pin) 30%,transparent),0 4px 12px #0005}
+.pin svg{transform:none;width:17px;height:17px}
+.card{border-top:3px solid #087af3}
+body.dark .card{border-top-color:#dd9c55}
+@media(max-width:760px){.shell{grid-template-columns:1fr}.canvas{border-width:1px}#map{min-height:370px}}
 </style></head><body>
 <header><div class="logo">BUDAPEST<br><span>RADAR</span></div><span class="tag">Design teszt</span><nav><a href="./index.html">← Vissza a Radarba</a></nav></header>
 <main class="shell">
@@ -137,30 +155,44 @@ function isDark(){if(mode!=='auto')return mode==='night';const now=new Date(),p=
 // Use actual layer IDs and types supplied by OpenFreeMap; skip unknown layers safely.
 function radarPalette(dark){
  const st=map&&map.getStyle();if(!st||!Array.isArray(st.layers))return;
- const col=dark?{land:'#0a0e12',water:'#103958',park:'#10261d',building:'#1c222a',road:'#624b34',major:'#d18b4c',minor:'#382d2b',text:'#e7eef6'}:
- {land:'#f7f5ef',water:'#96d5f3',park:'#d8e9d3',building:'#e7e3db',road:'#e8e0d4',major:'#d8cbb9',minor:'#e8e0d4',text:'#36475b'};
+ const colors=dark?{land:'#080b10',water:'#06416b',park:'#102d22',building:'#18202a',minor:'#744b2e',major:'#efa64f',text:'#f0e7d7'}:{land:'#faf7ef',water:'#82cdf4',park:'#c7e7c9',building:'#e6ddd0',minor:'#e3d8c6',major:'#d3bd99',text:'#36455d'};
+ const roads=[];
  for(const layer of st.layers){
-  const id=layer.id,lower=id.toLowerCase();
+  const id=layer.id,name=(id+' '+(layer['source-layer']||'')).toLowerCase();
   try{
-   if(layer.type==='background'){map.setPaintProperty(id,'background-color',col.land);continue}
+   if(layer.type==='background'){map.setPaintProperty(id,'background-color',colors.land);continue}
    if(layer.type==='fill'){
-    if(/water|river|lake|ocean/.test(lower))map.setPaintProperty(id,'fill-color',col.water);
-    else if(/park|wood|forest|grass|garden|green|landcover|landuse/.test(lower))map.setPaintProperty(id,'fill-color',col.park);
-    else if(/building/.test(lower))map.setPaintProperty(id,'fill-color',col.building);
-    else if(/land|background/.test(lower))map.setPaintProperty(id,'fill-color',col.land);
+    if(/water|ocean|lake|river/.test(name))map.setPaintProperty(id,'fill-color',colors.water);
+    else if(/park|forest|wood|grass|garden|green/.test(name))map.setPaintProperty(id,'fill-color',colors.park);
+    else if(/building/.test(name))map.setPaintProperty(id,'fill-color',colors.building);
+    else if(/landcover|landuse|land|background/.test(name))map.setPaintProperty(id,'fill-color',colors.land);
    }
    if(layer.type==='line'){
-    if(/water|river|stream/.test(lower))map.setPaintProperty(id,'line-color',col.water);
-    else if(/motorway|trunk|primary|major|highway/.test(lower))map.setPaintProperty(id,'line-color',col.major);
-    else if(/road|street|street_minor|residential|transportation|secondary|tertiary/.test(lower))map.setPaintProperty(id,'line-color',col.minor);
+    if(/river|water|stream/.test(name))map.setPaintProperty(id,'line-color',colors.water);
+    else if(/transportation|road|street|highway|motorway|primary|secondary|tertiary/.test(name)){
+     const main=/motorway|trunk|primary|major/.test(name);
+     map.setPaintProperty(id,'line-color',main?colors.major:colors.minor);
+     map.setPaintProperty(id,'line-opacity',dark?.95:.86);
+     if(dark&&main&&layer.source&&layer['source-layer'])roads.push(layer);
+    }
    }
-   if(layer.type==='symbol'&&/label|place|road|street|city|town|poi/.test(lower)){
-    map.setPaintProperty(id,'text-color',col.text);
-    map.setPaintProperty(id,'text-halo-color',col.land);
-    map.setPaintProperty(id,'text-halo-width',dark?1:1.25);
-    if(/poi|minor/.test(lower))map.setLayoutProperty(id,'visibility','none');
+   if(layer.type==='symbol'){
+    if(/poi|housenumber|minor/.test(name)){map.setLayoutProperty(id,'visibility','none');continue}
+    if(/label|place|road|street|city|town|settlement|name/.test(name)){
+     map.setPaintProperty(id,'text-color',colors.text);
+     map.setPaintProperty(id,'text-halo-color',colors.land);
+     map.setPaintProperty(id,'text-halo-width',1.6);
+    }
    }
-  }catch(err){/* individual provider layer may not support a particular paint property */}
+  }catch(err){}
+ }
+ if(dark){
+  // Build subtle amber road-light halos from actual vector roads, not raster filters.
+  for(const l of roads.slice(0,5)){
+   const id='radar-glow-'+l.id;
+   if(map.getLayer(id))continue;
+   try{map.addLayer({id,type:'line',source:l.source,'source-layer':l['source-layer'],filter:l.filter||['all'],minzoom:11,layout:{'line-join':'round','line-cap':'round'},paint:{'line-color':'#f7a64b','line-opacity':.20,'line-width':['interpolate',['linear'],['zoom'],11,1.5,15,5,18,10],'line-blur':4}},l.id)}catch(err){}
+  }
  }
 }
 
