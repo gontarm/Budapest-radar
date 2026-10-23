@@ -67,7 +67,7 @@ def fetch(city,topic,query):
     now=dt.datetime.now(dt.timezone.utc)
     rows=[]
     for item in root.findall("./channel/item"):
-        title=re.sub(r"\\s+-\\s+[^-]{2,75}$","",item.findtext("title","").strip())
+        title=re.sub(r"\s+-\s+[^-]{2,75}$","",item.findtext("title","").strip())
         link=item.findtext("link","").strip()
         if not link.startswith("https://") or len(title)<13:continue
         if not any(word in title.casefold() for word in SIGNAL[topic]):continue
@@ -114,7 +114,7 @@ def update(city):
     topic_rows=sorted((x for x in output if x.get("id","").startswith("radar-topic-")),
                       key=lambda x:x.get("discovered",""),reverse=True)[:100]
     output=[x for x in output if not x.get("id","").startswith("radar-topic-")]+topic_rows
-    new=json.dumps(output,ensure_ascii=False,indent=2)+"\\n"
+    new=json.dumps(output,ensure_ascii=False,indent=2)+"\n"
     if file.read_text("utf-8")!=new:file.write_text(new,"utf-8")
     print(filename,"total",len(output),"topic leads",len(topic_rows))
 
