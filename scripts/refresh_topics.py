@@ -56,6 +56,15 @@ SIGNAL={
  "kertek":("séta","vezet","bemutat","garten","pflanzen","führung","workshop")}
 UA={"User-Agent":"BudapestRadar/1.0 (public programme discovery)"}
 
+# A hírcím nem bizonyítja, hogy a cikk látogatható eseményről szól.
+# A hírtalálatokat csak belső jelöltként kezeljük, nem közöljük programként.
+REJECT=("interjú","interview","interjú:","podcast","vélemény","kommentár",
+        "rückblick","bericht","kritik","rezension","porträt","portrait",
+        "könyvajánló","tudósítás","visszatekintés","beszámoló")
+def plausible_lead(title):
+    t=title.casefold()
+    return not any(term in t for term in REJECT)
+
 def fetch(city,topic,query):
     language="hu" if city=="budapest" else "de"
     country="HU" if city=="budapest" else "AT"
@@ -70,7 +79,7 @@ def fetch(city,topic,query):
         title=re.sub(r"\s+-\s+[^-]{2,75}$","",item.findtext("title","").strip())
         link=item.findtext("link","").strip()
         if not link.startswith("https://") or len(title)<13:continue
-        if not any(word in title.casefold() for word in SIGNAL[topic]):continue
+        if not plausible_lead(title) or not any(word in title.casefold() for word in SIGNAL[topic]):continue
         try:
             published=email.utils.parsedate_to_datetime(item.findtext("pubDate",""))
             if published.tzinfo is None:published=published.replace(tzinfo=dt.timezone.utc)
