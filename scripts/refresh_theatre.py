@@ -31,7 +31,7 @@ def read(url):
 def lines(html):
  soup=BeautifulSoup(html,"html.parser")
  for tag in soup(["script","style","nav","footer"]):tag.decompose()
- return [re.sub(r"\\s+"," ",x).strip() for x in soup.get_text("\\n").splitlines() if x.strip()]
+ return [re.sub(r"\s+"," ",x).strip() for x in soup.get_text("\n").splitlines() if x.strip()]
 
 def date_for(month,day,now):
  for year in (now.year,now.year+1):
@@ -41,7 +41,7 @@ def date_for(month,day,now):
  return None
 
 def create(city,source,title,venue,date,time,url):
- if not title or len(title)<3 or not venue or not re.fullmatch(r"\\d\\d:\\d\\d",time):return None
+ if not title or len(title)<3 or not venue or not re.fullmatch(r"\d\d:\d\d",time):return None
  today=dt.datetime.now(ZoneInfo("Europe/Budapest" if city=="budapest" else "Europe/Vienna")).date()
  if date<today or date>today+dt.timedelta(days=400):return None
  key="theatre|"+city+"|"+source+"|"+title.casefold()+"|"+str(date)+"|"+time
@@ -57,7 +57,7 @@ def katona(html):
  rows=[]
  now=dt.datetime.now(ZoneInfo("Europe/Budapest")).date()
  data=lines(html)
- pattern=re.compile(r"^(január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)\\s+(\\d{1,2})\\s*/\\s*[^\\d\\n]*?(\\d\\d:\\d\\d)",re.I)
+ pattern=re.compile(r"^(január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)\s+(\d{1,2})\s*/\s*[^\d\n]*?(\d\d:\d\d)",re.I)
  venues={
   "Katona József Színház - Kamra":"Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
   "Katona József Színház - Cafe Katona":"Cafe Katona · Petőfi Sándor utca 6., Budapest",
@@ -85,8 +85,8 @@ def burg(html):
   "Kasino":"Kasino am Schwarzenbergplatz · Schwarzenbergplatz 1, 1010 Wien",
   "Vestibül":"Vestibül · Universitätsring 2, 1010 Wien"}
  # Printed calendar order: weekday, dd.mm., HH:MM Uhr, venue, title.
- datepat=re.compile(r"^(\\d{1,2})\\.(\\d{1,2})\\.$")
- timepat=re.compile(r"^(\\d{1,2}:\\d{2})\\s*Uhr")
+ datepat=re.compile(r"^(\d{1,2})\.(\d{1,2})\.$")
+ timepat=re.compile(r"^(\d{1,2}:\d{2})\s*Uhr")
  for i,item in enumerate(data):
   m=datepat.fullmatch(item)
   if not m:continue
@@ -113,16 +113,16 @@ def integrate(city,new):
  old=json.loads(path.read_text(encoding="utf-8"))
  today=dt.datetime.now(ZoneInfo("Europe/Budapest" if city=="budapest" else "Europe/Vienna")).date().isoformat()
  # Keep old saved-event IDs available; skip equivalent manually curated performances.
- seen={(x.get("date"),re.sub(r"[^\\w]+","",x.get("title","").casefold()))
+ seen={(x.get("date"),re.sub(r"[^\w]+","",x.get("title","").casefold()))
        for x in old if x.get("date") and not x.get("id","").startswith("theatre-")}
  merged=[x for x in old if not x.get("id","").startswith("theatre-") or x.get("date","")>=today]
  ids={x["id"] for x in merged}
  count=0
  for x in new:
-  dedup=(x["date"],re.sub(r"[^\\w]+","",x["title"].casefold()))
+  dedup=(x["date"],re.sub(r"[^\w]+","",x["title"].casefold()))
   if x["id"] in ids or dedup in seen:continue
   merged.append(x);ids.add(x["id"]);seen.add(dedup);count+=1
- content=json.dumps(merged,ensure_ascii=False,indent=2)+"\\n"
+ content=json.dumps(merged,ensure_ascii=False,indent=2)+"\n"
  if path.read_text(encoding="utf-8")!=content:path.write_text(content,encoding="utf-8")
  print(city,"new theatre entries",count,"total",sum("szinhaz" in x.get("interestTopics",[]) and bool(x.get("date")) for x in merged))
 
