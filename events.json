@@ -1,5 +1,107 @@
 [
   {
+    "id": "radar-theater-katona-halal-20261025",
+    "title": "A Halál kilovagolt Perzsiából",
+    "where": "Katona József Színház – Kamra · Ferenciek tere 1., Budapest",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 19:00",
+    "url": "https://katonajozsefszinhaz.hu/musor/",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-katona-megall-20261024",
+    "title": "Megáll az óra",
+    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 19:15",
+    "url": "https://katonajozsefszinhaz.hu/eloadasok/megall-az-ora/",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-katona-chicago-20261024",
+    "title": "Chicago",
+    "where": "Katona József Színház – Kamra · Ferenciek tere 1., Budapest",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 15:00",
+    "url": "https://katonajozsefszinhaz.hu/musor/",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-katona-mester-20261024",
+    "title": "Mester és Margarita",
+    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 19:00",
+    "url": "https://katonajozsefszinhaz.hu/musor/",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-orkeny-ostromdressz-20261025",
+    "title": "Ostromdressz",
+    "where": "Örkény Stúdió · Asbóth utca 22., Budapest",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 19:30",
+    "url": "https://orkenyszinhaz.hu/jegyvasarlas/eloadas/4664/ostromdressz",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-orkeny-ostromdressz-20261024",
+    "title": "Ostromdressz",
+    "where": "Örkény Stúdió · Asbóth utca 22., Budapest",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 19:30",
+    "url": "https://orkenyszinhaz.hu/jegyvasarlas/eloadas/4664/ostromdressz",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
     "id": "official-svabhegy-nebula-20261030",
     "title": "Égi ködöktől a Szaturnusz gyűrűjéig",
     "kind": "tudomány",
