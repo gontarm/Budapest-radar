@@ -504,6 +504,25 @@ function radarFoodTags(p){
  if(/bár|sör|pub|taproom|brewery|koktél|borozó/.test(t))tags.push('bar');
  return [...new Set(tags)];
 }
+function radarOpenFoodDetail(p){
+ if(!p)return;
+ const overlay=document.getElementById('detailOverlay');
+ const tags=radarFoodTags(p).map(t=>radarFoodFilterOptions.find(x=>x[0]===t)?.[1]).filter(Boolean);
+ const safe=u=>{try{const x=new URL(u);return ['http:','https:'].includes(x.protocol)?esc(x.href):''}catch{return ''}};
+ const why=p.desc||'A hely hangulata és elhelyezkedése miatt érdemes felfedezni.';
+ const html='<div class="detail-top"><span class="detail-kicker">GASZTRONÓMIA / '+esc(radarCity==='vienna'?'BÉCS':'BUDAPEST')+'</span><button id="closeDetail" aria-label="Vissza">×</button></div>'+
+ '<div class="detail-kicker">'+esc(p.type)+'</div><h2 class="detail-title">'+esc(p.title)+'</h2>'+
+ '<div class="radar-food-tags">'+tags.map(t=>'<span class="radar-food-tag">'+esc(t)+'</span>').join('')+'</div>'+
+ '<div class="detail-rule"></div><div class="detail-meta"><strong>HOL</strong><span>'+esc(p.address)+'</span></div>'+
+ '<section class="detail-section"><h3>Miért különleges?</h3><p>'+esc(why)+'</p></section>'+
+ '<section class="detail-section"><h3>Mire számíts?</h3><p>'+esc(p.type)+' · '+esc(tags.filter(t=>t!==p.type).join(' · ')||'Felfedezésre érdemes hely')+'</p></section>'+
+ '<p class="detail-note">A helyek nem időponthoz kötött események. A nyitvatartást, az étlapot, az aktuális értékeléseket és a foglalási lehetőségeket a szolgáltatónál ellenőrizd.</p>'+
+ '<div class="detail-actions"><a href="'+safe(p.url)+'" target="_blank" rel="noopener noreferrer">Hely / további információ ↗</a></div>';
+ document.getElementById('detailContent').innerHTML=html;
+ overlay.classList.add('open');document.body.classList.add('detail-open');overlay.scrollTop=0;
+ document.getElementById('closeDetail').onclick=closeDetail;
+ document.getElementById('closeDetail').focus();
+}
 function radarRenderFood(){
  const q=document.querySelector('#search').value.trim().toLocaleLowerCase('hu');
  const all=radarFoodRows();
@@ -511,8 +530,13 @@ function radarRenderFood(){
  const chips='<div class="radar-food-filters" aria-label="Gasztronómiai szűrők">'+radarFoodFilterOptions.map(([id,label])=>'<button type="button" data-food-filter="'+id+'" aria-pressed="'+(radarFoodFilter===id)+'">'+label+' <small>'+(id==='mind'?all.length:all.filter(p=>radarFoodTags(p).includes(id)).length)+'</small></button>').join('')+'</div>';
  const holder=document.getElementById('cards');
  holder.innerHTML='<div class="radar-data-note">Éttermek, bárok és különleges helyek. A „Magasra értékelt” címke válogatási jelzés, nem ellenőrzött aktuális pontszám. A nyitvatartást és foglalhatóságot indulás előtt ellenőrizd.</div>'+chips+
- rows.map(p=>'<article class="card radar-food-card"><div class="radar-food-tags"><span class="tag">'+esc(p.type)+'</span>'+radarFoodTags(p).filter(t=>t!=='etterem'&&t!=='bar').map(t=>'<span class="radar-food-tag">'+esc(radarFoodFilterOptions.find(x=>x[0]===t)?.[1]||t)+'</span>').join('')+'</div><h2>'+esc(p.title)+'</h2><div class="place">⌖ '+esc(p.address)+'</div><p>'+esc(p.desc)+'</p><div class="actions"><a href="'+esc(p.url)+'" target="_blank" rel="noopener noreferrer">Hely megtekintése ↗</a></div></article>').join('');
+ rows.map((p,i)=>'<article class="card radar-food-card" data-food-open="'+i+'" role="button" tabindex="0" aria-label="'+esc(p.title)+' – részletek"><div class="radar-food-tags"><span class="tag">'+esc(p.type)+'</span>'+radarFoodTags(p).filter(t=>t!=='etterem'&&t!=='bar').map(t=>'<span class="radar-food-tag">'+esc(radarFoodFilterOptions.find(x=>x[0]===t)?.[1]||t)+'</span>').join('')+'</div><h2>'+esc(p.title)+'</h2><div class="place">⌖ '+esc(p.address)+'</div><p>'+esc(p.desc)+'</p><div class="actions"><a href="'+esc(p.url)+'" target="_blank" rel="noopener noreferrer">Hely megtekintése ↗</a></div></article>').join('');
  holder.querySelectorAll('[data-food-filter]').forEach(b=>b.onclick=()=>{radarFoodFilter=b.dataset.foodFilter;radarRenderFood()});
+ holder.querySelectorAll('[data-food-open]').forEach(card=>{
+  const open=()=>radarOpenFoodDetail(rows[Number(card.dataset.foodOpen)]);
+  card.addEventListener('click',ev=>{if(!ev.target.closest('a,button'))open()});
+  card.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();open()}});
+ });
  document.getElementById('sectionHeading').innerHTML='<h2>Gasztronómia</h2>';
  document.getElementById('count').textContent=rows.length+' / '+all.length+' hely';
  document.getElementById('modeHint').textContent='Éttermi élmények · kilátás · különleges helyszínek · bárok';
