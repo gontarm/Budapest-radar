@@ -382,81 +382,167 @@ async function switchRadarCity(city){
  await updateEvents();
  if(typeof refreshConcerts==='function')await refreshConcerts();
 }
-function mapPlace(e){
- const where=e.where||'';
- const places=radarCity==='vienna'?radarViennaPlaces:radarMapKnown;
- const key=Object.keys(places).find(k=>where.includes(k));
- return key?{key,query:places[key]}:null;
+let radarMapUserLocation=null;
+let radarMapFilter='selection';
+let radarMapLoadSequence=0;
+function radarMapEntries(){
+ const today=new Date().toLocaleDateString('sv-SE',{timeZone:radarCity==='vienna'?'Europe/Vienna':'Europe/Budapest'});
+ const programmes=events.filter(e=>radarConcrete(e)&&e.date>=today).map(e=>({...e,_radarType:'event'}));
+ const concerts=concertItems.filter(e=>e.date&&e.date>=today&&e.where&&e.url).map(e=>({...e,_radarType:'concert'}));
+ const food=radarFoodRows().map(p=>({...p,id:'food:'+p.title,_radarType:'food',kind:'gasztronomia',where:p.address}));
+ return [...programmes,...concerts,...food];
 }
-function mapLibrary(){
- const today=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Budapest'});
- return [...events,...concertItems].filter(e=>(!e.date||e.date>=today)&&mapPlace(e));
+function radarMapMatches(e,filter){
+ if(filter==='all')return true;
+ if(filter==='saved')return e._radarType==='concert'?watchedConcerts.has(e.id):saved.has(e.id);
+ if(filter==='concert')return e._radarType==='concert';
+ if(filter==='gasztronomia')return e._radarType==='food';
+ if(filter==='selection'){
+  if(!radarBaseSelected.size&&!radarInterestSelected.size)return true;
+  return (e._radarType==='food'&&radarBaseSelected.has('gasztronomia'))||
+    (e._radarType==='concert'&&radarBaseSelected.has('koncert'))||
+    (e._radarType==='event'&&radarInterestMatches(e));
+ }
+ if(filter.startsWith('topic:'))return e._radarType==='event'&&radarClassifyTopics(e).includes(filter.slice(6));
+ if(filter.startsWith('base:'))return e.kind===filter.slice(5);
+ return false;
 }
+function radarMapPlace(e){
+ if(e._radarType==='food')return {key:'food:'+e.title,query:e.address+' '+(radarCity==='vienna'?'Wien Austria':'Budapest Hungary')};
+ const place=e.where||'';
+ const dictionary=radarCity==='vienna'?radarViennaPlaces:radarMapKnown;
+ const matched=Object.keys(dictionary).find(k=>place.includes(k));
+ if(matched)return {key:'venue:'+matched,query:dictionary[matched]};
+ if(/ellenőrizendő|változó helyszín|több helyszín/i.test(place))return null;
+ return {key:'address:'+place,query:place+', '+(radarCity==='vienna'?'Wien, Austria':'Budapest, Hungary')};
+}
+let radarLeafletPromise=null;
 function addMapLibraries(){
- if(document.getElementById('radarLeafletCSS'))return Promise.resolve();
- return new Promise((resolve,reject)=>{
-  const css=document.createElement('link');css.id='radarLeafletCSS';css.rel='stylesheet';css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);
-  const script=document.createElement('script');script.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';script.onload=resolve;script.onerror=()=>reject(Error('Térképkönyvtár nem érhető el'));document.head.appendChild(script);
- });
+ if(window.L)return Promise.resolve();
+ if(radarLeafletPromise)return radarLeafletPromise;
+ radarLeafletPromise=new Promise((resolve,reject)=>{
+  if(!document.getElementById('radarLeafletCSS')){
+   const css=document.createElement('link');css.id='radarLeafletCSS';css.rel='stylesheet';
+   css.href='https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';document.head.appendChild(css);
+  }
+  const script=document.createElement('script');script.src='https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+  script.onload=resolve;script.onerror=()=>reject(new Error('A térképkönyvtár nem tölthető be'));
+  document.head.appendChild(script);
+ }).catch(e=>{radarLeafletPromise=null;throw e});
+ return radarLeafletPromise;
 }
-async function mapCoords(place){
- const cacheKey='radarVenueGeo:'+place.key;
- try{const cached=JSON.parse(localStorage.getItem(cacheKey)||'null');if(cached&&Number.isFinite(cached[0]))return cached}catch{}
- const r=await fetch('https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes='+(radarCity==='vienna'?'at':'hu')+'&q='+encodeURIComponent(place.query),{headers:{Accept:'application/json'}});
- if(!r.ok)return null;
- const data=await r.json();if(!data[0])return null;
- const coords=[Number(data[0].lat),Number(data[0].lon)];
- if(coords.every(Number.isFinite)){localStorage.setItem(cacheKey,JSON.stringify(coords));return coords}
- return null;
+async function radarMapCoords(place){
+ const cacheKey='radarVenueGeo:v2:'+radarCity+':'+place.key;
+ try{
+  const cache=JSON.parse(localStorage.getItem(cacheKey)||'null');
+  if(cache&&Number.isFinite(cache[0])&&Number.isFinite(cache[1]))return cache;
+ }catch{}
+ const url='https://nominatim.openstreetmap.org/search?format=json&limit=1&countrycodes='+(radarCity==='vienna'?'at':'hu')+'&q='+encodeURIComponent(place.query);
+ const response=await fetch(url,{headers:{Accept:'application/json'}});
+ if(!response.ok)return null;
+ const data=await response.json();if(!data[0])return null;
+ const coordinates=[Number(data[0].lat),Number(data[0].lon)];
+ if(!coordinates.every(Number.isFinite))return null;
+ try{localStorage.setItem(cacheKey,JSON.stringify(coordinates))}catch{}
+ return coordinates;
+}
+function radarMapDistance(a,b){
+ const rad=Math.PI/180,dx=(b[1]-a[1])*rad,dy=(b[0]-a[0])*rad;
+ const q=Math.sin(dy/2)**2+Math.cos(a[0]*rad)*Math.cos(b[0]*rad)*Math.sin(dx/2)**2;
+ return Math.round(12742*Math.asin(Math.sqrt(q))*10)/10;
 }
 async function renderMapPage(){
+ const sequence=++radarMapLoadSequence;
  document.getElementById('sectionHeading').innerHTML='<h2>Térkép</h2>';
- document.getElementById('count').textContent='Budapest és környéke';
- document.getElementById('modeHint').textContent='Fedezd fel, milyen programok vannak a környéken. Csak azonosítható helyszínű eseményeket jelölünk.';
+ document.getElementById('count').textContent=radarCity==='vienna'?'Bécs':'Budapest';
+ document.getElementById('modeHint').textContent='Keresés kategória és tartózkodási hely alapján · az engedélyezett helyadat csak a böngészőben marad.';
  document.getElementById('empty').style.display='none';
  const holder=document.getElementById('cards');
- holder.innerHTML='<div class="map-page"><div class="map-toolbar"><label for="mapType">Megjelenítés</label><select id="mapType"><option value="all">Minden program</option><option value="saved">Mentett programok</option><option value="concert">Koncertek</option></select></div><div id="radarMap" role="region" aria-label="Programhelyszínek térképe"></div><p id="mapStatus" aria-live="polite">Helyszínek betöltése…</p><div id="mapPlaceList"></div><p class="map-credit">Térképadatok: © OpenStreetMap közreműködők. A pontok tájékoztató jellegűek, indulás előtt ellenőrizd a helyszínt.</p></div>';
+ const filters=[['selection','Kiválasztott kategóriák'],['all','Minden hely'],['gasztronomia','Gasztronómia'],['concert','Koncertek'],['saved','Mentettek'],
+  ...radarBaseCategories.filter(x=>x[0]!=='gasztronomia').map(x=>['base:'+x[0],x[1]]),
+  ...radarInterestTopics.map(x=>['topic:'+x[0],x[1]])];
+ holder.innerHTML='<div class="map-page"><div class="map-toolbar"><label for="mapType">Mit mutasson?</label><select id="mapType">'+filters.map(x=>'<option value="'+esc(x[0])+'"'+(x[0]===radarMapFilter?' selected':'')+'>'+esc(x[1])+'</option>').join('')+'</select><button id="radarLocateMe" type="button">⌖ Helyzetem megmutatása</button></div>'+
+ '<div id="radarMap" role="region" aria-label="Programhelyszínek térképe"></div><p id="mapStatus" aria-live="polite">Helyszínek betöltése…</p><div id="mapPlaceList"></div>'+
+ '<p class="map-credit">A pozíciódat csak engedélykérés után használjuk, nem tároljuk el. A távolságok légvonalban értendők. A geokódolás OpenStreetMap Nominatim segítségével történik; pontatlanság előfordulhat.</p></div>';
  try{
   await addMapLibraries();
-  if(currentPage!=='map')return;
+  if(currentPage!=='map'||sequence!==radarMapLoadSequence)return;
   if(radarMap){radarMap.remove();radarMap=null}
-  radarMap=L.map('radarMap',{scrollWheelZoom:false}).setView(radarCity==='vienna'?[48.2082,16.3738]:[47.4979,19.0402],11);
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap közreműködők'}).addTo(radarMap);
-  const data=mapLibrary(),venues=new Map();
-  for(const e of data){const place=mapPlace(e);if(!venues.has(place.key))venues.set(place.key,{place,items:[]});venues.get(place.key).items.push(e)}
-  let visible=0;const entries=[];
-  const update=()=>{
-   const type=document.getElementById('mapType')?.value||'all';
-   const isSaved=e=>e.kind==='koncert'?watchedConcerts.has(e.id):saved.has(e.id);
-   for(const {marker,items} of entries){
-    const filtered=items.filter(e=>type==='all'||(type==='concert'?e.kind==='koncert':isSaved(e)));
-    if(filtered.length){marker.addTo(radarMap);marker.bindPopup('<div class="map-popup"><strong>'+esc(items[0].where||'Helyszín')+'</strong><p>'+filtered.length+' program</p>'+filtered.slice(0,8).map(e=>'<button type="button" data-map-open="'+esc(e.id)+'" data-map-concert="'+(e.kind==='koncert')+'">'+esc(e.title)+' →</button>').join('')+'</div>')}else radarMap.removeLayer(marker);
-   }
-   const filteredItems=data.filter(e=>type==='all'||(type==='concert'?e.kind==='koncert':isSaved(e))).filter(e=>entries.some(x=>x.items.includes(e)));
-   document.getElementById('mapPlaceList').innerHTML='<h3>Helyszínek és programok ('+filteredItems.length+')</h3>'+filteredItems.map(e=>'<button class="map-list-item" data-map-open="'+esc(e.id)+'" data-map-concert="'+(e.kind==='koncert')+'"><b>'+esc(e.title)+'</b><small>'+esc(e.where||'')+'</small></button>').join('');
-   document.getElementById('mapStatus').textContent=entries.length+' azonosított helyszín · '+filteredItems.length+' program. A helyszínekre koppintva megnyithatod a programokat.';
+  const center=radarCity==='vienna'?[48.2082,16.3738]:[47.4979,19.0402];
+  radarMap=L.map('radarMap',{scrollWheelZoom:false}).setView(radarMapUserLocation||center,radarMapUserLocation?12:11);
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap'}).addTo(radarMap);
+  let myMarker=null;
+  const showMyLocation=()=>{
+   if(!radarMapUserLocation||!radarMap)return;
+   if(myMarker)radarMap.removeLayer(myMarker);
+   myMarker=L.circleMarker(radarMapUserLocation,{radius:9,color:'#2459a8',fillColor:'#3489ef',fillOpacity:.65}).addTo(radarMap).bindPopup('Az aktuális helyzeted (közelítő)');
+   radarMap.setView(radarMapUserLocation,13);
   };
-  for(const {place,items} of venues.values()){
-   if(currentPage!=='map')return;
-   try{
-    const coords=await mapCoords(place);
-    if(coords){const marker=L.marker(coords).addTo(radarMap);entries.push({marker,items});visible++;update()}
-   }catch{}
-   if(venues.size>1)await new Promise(resolve=>setTimeout(resolve,1050));
+  if(radarMapUserLocation)showMyLocation();
+  document.getElementById('radarLocateMe').onclick=()=>{
+   if(!navigator.geolocation){document.getElementById('mapStatus').textContent='Ez a böngésző nem támogatja a helymeghatározást.';return}
+   const button=document.getElementById('radarLocateMe');button.disabled=true;button.textContent='Helyzet lekérése…';
+   navigator.geolocation.getCurrentPosition(position=>{
+    button.disabled=false;button.textContent='⌖ Ugrás a helyzetemre';
+    radarMapUserLocation=[position.coords.latitude,position.coords.longitude];
+    showMyLocation();update();
+   },()=>{
+    button.disabled=false;button.textContent='⌖ Helyzetem megmutatása';
+    document.getElementById('mapStatus').textContent='A helyzet nem érhető el. Engedélyezd a böngészőben, vagy böngéssz városközpontból.';
+   },{enableHighAccuracy:false,timeout:12000,maximumAge:180000});
+  };
+  const dataset=radarMapEntries();const grouped=new Map();
+  for(const e of dataset){
+   const place=radarMapPlace(e);if(!place)continue;
+   if(!grouped.has(place.key))grouped.set(place.key,{place,items:[]});
+   grouped.get(place.key).items.push(e);
   }
-  if(currentPage==='map'){update();if(entries.length)radarMap.fitBounds(L.featureGroup(entries.map(x=>x.marker)).getBounds().pad(.14),{maxZoom:13});radarMap.invalidateSize()}
-  document.getElementById('mapType').onchange=update;
-  holder.addEventListener('click',e=>{
-   const b=e.target.closest('[data-map-open]');if(!b)return;
-   const id=b.dataset.mapOpen,concert=b.dataset.mapConcert==='true';
-   const item=(concert?concertItems:events).find(x=>x.id===id);
-   if(item){if(concert)openConcertDetail(item);else openDetail(item)}
-  });
-  radarMap.on('popupopen',()=>document.querySelectorAll('.map-popup [data-map-open]').forEach(b=>b.onclick=()=>{
-   const item=(b.dataset.mapConcert==='true'?concertItems:events).find(x=>x.id===b.dataset.mapOpen);if(item){if(item.kind==='koncert')openConcertDetail(item);else openDetail(item)}
-  }));
+  const entries=[];
+  const update=()=>{
+   if(currentPage!=='map'||sequence!==radarMapLoadSequence)return;
+   const filter=document.getElementById('mapType')?.value||'selection';
+   const listed=[];
+   for(const entry of entries){
+    const shown=entry.items.filter(e=>radarMapMatches(e,filter));
+    if(!shown.length){radarMap.removeLayer(entry.marker);continue}
+    entry.marker.addTo(radarMap);
+    const body='<b>'+esc(shown[0].where)+'</b><p>'+shown.length+' találat</p>'+shown.slice(0,12).map(e=>'<button type="button" data-map-open="'+esc(e.id)+'" data-map-kind="'+e._radarType+'">'+esc(e.title)+' →</button>').join('');
+    entry.marker.bindPopup('<div class="map-popup">'+body+'</div>');
+    for(const e of shown)listed.push({e,coords:entry.coords});
+   }
+   if(radarMapUserLocation)listed.sort((a,b)=>radarMapDistance(radarMapUserLocation,a.coords)-radarMapDistance(radarMapUserLocation,b.coords));
+   const label=item=>item.e._radarType==='food'&&item.e.hours?' · '+item.e.hours:'';
+   document.getElementById('mapPlaceList').innerHTML='<h3>Találatok ('+listed.length+')</h3>'+listed.map(item=>
+    '<button class="map-list-item" data-map-open="'+esc(item.e.id)+'" data-map-kind="'+item.e._radarType+'"><b>'+esc(item.e.title)+'</b><small>'+esc(item.e.where)+(radarMapUserLocation?' · '+radarMapDistance(radarMapUserLocation,item.coords)+' km':'')+esc(label(item))+'</small></button>').join('');
+   document.getElementById('mapStatus').textContent=listed.length+' találat · '+entries.length+' beazonosított helyszín'+(radarMapUserLocation?' · távolság szerint rendezve':'')+'.';
+  };
+  document.getElementById('mapType').onchange=e=>{radarMapFilter=e.target.value;update()};
+  const openItem=b=>{
+   const id=b.dataset.mapOpen,kind=b.dataset.mapKind;
+   if(kind==='food'){const p=radarFoodRows().find(p=>'food:'+p.title===id);if(p)radarOpenFoodDetail(p)}
+   else if(kind==='concert'){const e=concertItems.find(e=>e.id===id);if(e)openConcertDetail(e)}
+   else{const e=events.find(e=>e.id===id);if(e)openDetail(e)}
+  };
+  holder.addEventListener('click',e=>{const target=e.target.closest('[data-map-open]');if(target)openItem(target)});
+  radarMap.on('popupopen',()=>document.querySelectorAll('.map-popup [data-map-open]').forEach(b=>b.onclick=()=>openItem(b)));
+  for(const group of grouped.values()){
+   if(currentPage!=='map'||sequence!==radarMapLoadSequence)return;
+   try{
+    const coords=await radarMapCoords(group.place);
+    if(coords)entries.push({coords,items:group.items,marker:L.marker(coords).addTo(radarMap)});
+   }catch{}
+   update();
+   // Public geocoding service: do not send parallel requests.
+   if(grouped.size>1)await new Promise(resolve=>setTimeout(resolve,1050));
+  }
+  if(currentPage==='map'&&entries.length&&!radarMapUserLocation){
+   const visible=entries.filter(entry=>entry.items.some(e=>radarMapMatches(e,radarMapFilter)));
+   if(visible.length)radarMap.fitBounds(L.featureGroup(visible.map(x=>x.marker)).getBounds().pad(.14),{maxZoom:13});
+  }
+  radarMap.invalidateSize();
  }catch(error){
-  document.getElementById('mapStatus').textContent='A térkép most nem érhető el: '+error.message+'. Internetkapcsolat szükséges.';
+  const element=document.getElementById('mapStatus');
+  if(element)element.textContent='A térkép most nem érhető el: '+error.message;
  }
 }
 
