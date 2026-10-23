@@ -732,8 +732,8 @@ function radarGroupTheatreRows(rows){
  });
 }
 function radarTheatreDateText(e){
- const dates=radarTheatreDates(e);
- return dates.length>1?dates.length+' előadási időpont · első: '+(dates[0].dateLabel||dates[0].date):e.dateLabel;
+ const dates=radarAllShowtimes(e);
+ return dates.length>1?dates.length+(e.kind==='mozi'?' vetítés':' előadási időpont')+' · első: '+(dates[0].dateLabel||dates[0].date):e.dateLabel;
 }
 function radarJumpToResults(){
  const panel=document.getElementById('radarInterestDetails');
