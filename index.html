@@ -577,7 +577,15 @@ function radarRememberViewed(e){
  radarViewed.add(key);
  try{localStorage.setItem('radarViewedEvents',JSON.stringify([...radarViewed].slice(-1800)))}catch{}
 }
-function radarSurprise(){
+async function radarSurprise(){
+ const surpriseButton=document.getElementById('radarSurprise');
+ surpriseButton.disabled=true;surpriseButton.textContent='✧ Újdonságokat keresek…';
+ try{
+  // Fetch the latest published official-event collection before picking.
+  // This does not claim to search live theatre sites: those are refreshed by Actions.
+  if(!refreshing)await updateEvents();
+ }catch(err){console.warn('Radar surprise refresh:',err)}
+ finally{surpriseButton.disabled=false;surpriseButton.textContent='✧ Lepj meg!'}
  const today=new Date().toLocaleDateString('sv-SE',{timeZone:radarCity==='vienna'?'Europe/Vienna':'Europe/Budapest'});
  const candidates=events.filter(e=>radarConcrete(e)&&e.date>=today&&!['not_found','invalid'].includes(e.linkStatus));
  const unique=radarGroupTheatreRows(candidates);
