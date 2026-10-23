@@ -463,8 +463,24 @@ function newsToggleUI(){const b=document.getElementById('radarNewsToggle');if(!b
 const radarInterestTopics=[["titkok","Rejtett helyek",["titkos","rejtett","föld alatti","fold alatti","alagút","alagut","óvóhely","ovohely","pince","kulissza","underground","geheim","verborgen","keller","bunker","hidden","épületbejár","bejaras"]],["termeszettudomany","Természettudomány",["evolúc","evoluc","genetik","paleont","geológ","geolog","biológ","biolog","ásvány","asvany","fosszília","fosszil","nature history","naturhistor","naturwissenschaft","mikroszkóp","labor","kutató"]],["tortenelem","Történelem",["történ","torten","régész","regesz","ókori","okori","középkor","kozepkor","civiliz","levéltár","leveltar","antik","archäolog","histor","geschichte","medieval","manuscript","kézirat"]],["filozofia","Filozófia",["filozóf","filozof","philosoph","tudat","consciousness","erkölcs","erkolcs","etika","ethik","szabad akarat","free will","élet értelme","let ertelme","létezés","letezes"]],["vilagegyetem","Világegyetem",["űr","csillag","bolygó","bolygo","kozm","távcső","tavcso","planetári","planetari","astronom","kosmos","weltraum","space","sternwarte","universum","naprendszer"]],["technika","Technika és mérnökség",["mérnök","mernok","technika","technológ","technolog","erőmű","eromu","gyár","gyar","gép","gep","híd","hid","infrastrukt","ipari","industrial","ingenieur","technik","maschinen","kraftwerk","factory","werft"]],["szinhaz","Színház és előadóművészet",["színház","szinhaz","színpad","szinpad","dráma","drama","színész","szinesz","tánc","tanc","opera","színházi","theater","theatre","bühne","buhne","performance","tanz","ballett","előadóművész"]],["kertek","Természet és kertek",["botanik","arborét","arboret","kert","park","üvegház","uveghaz","növény","noveny","madár","madar","erdő","erdo","natur","garten","gewächshaus","botanical","garden","birdwatch"]]];
 let radarInterestSelected=new Set();
 function radarClassifyTopics(e){
- const text=[e.title,e.desc,e.where,e.background,e.why,e.kind].filter(Boolean).join(' ').toLocaleLowerCase('hu');
- return radarInterestTopics.filter(t=>t[2].some(w=>text.includes(w))).map(t=>t[0]);
+ if(Array.isArray(e.interestTopics))return e.interestTopics;
+ const title=String(e.title||'').toLocaleLowerCase('hu');
+ const desc=String(e.desc||'').toLocaleLowerCase('hu');
+ const kind=String(e.kind||'');
+ const subject=title+' '+desc;
+ const has=terms=>terms.some(t=>subject.includes(t));
+ const tags=[];
+ const add=(id,terms)=>{if(has(terms))tags.push(id)};
+ if(!['pszichológia','mozi'].includes(kind))add('tortenelem',['történelem','történelmi','várostörtén','helytörtén','építészettörtén','régész','ókori','középkor','antikvitás','levéltár','archäolog','stadtgeschichte','zeitgeschichte','historische führung','history of','historical exhibition','civilizációk','kézirat','műemléki séta']);
+ add('titkok',['titkos','rejtett','föld alatti','alagút','óvóhely','pincejárat','pincebejár','kulisszajárás','bunker','geheime orte','unterirdisch','épületbejárás']);
+ if(kind==='tudomány'||has(['természettudomány','naturwissenschaft','natural history','őslény','fosszília']))add('termeszettudomany',['evolúc','genetik','paleont','geológ','biológ','ásvány','fosszília','naturhistor','naturwissenschaft','mikroszkóp','laboratóri','őslény']);
+ add('filozofia',['filozóf','philosoph','etika','ethik','szabad akarat','free will','létezésfilozófia','tudatfilozófia','erkölcsfilozófia']);
+ add('vilagegyetem',['űrkutat','csillagász','bolygó','kozmológ','távcsöves','planetári','astronom','weltraum','sternwarte','universum','naprendszer']);
+ if(!['pszichológia','mozi'].includes(kind))add('technika',['mérnöki','mérnökség','technológia','erőmű','gyárlátogatás','géptörtén','ipari örökség','ingenieur','maschinen','kraftwerk','factory tour','technikmuseum']);
+ if(kind==='élmény'||kind==='művészet')add('szinhaz',['színházi előadás','színház','színpadi','táncelőadás','opera','theater','theatre','bühne','ballett','performance']);
+ if(kind==='élmény'||kind==='tudomány')add('kertek',['botanikus','arborét','természetismereti','üvegház','madármegfigyel','botanical garden','botanischer garten','gewächshaus','naturführung']);
+ if(has(['garden of lights','fénypark','fényinstalláció']))return tags.filter(t=>t!=='kertek'&&t!=='tortenelem');
+ return [...new Set(tags)];
 }
 function radarInterestMatches(e){return radarInterestSelected.size===0||radarClassifyTopics(e).some(k=>radarInterestSelected.has(k))}
 function radarRenderInterestChips(){
