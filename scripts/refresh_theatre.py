@@ -34,10 +34,12 @@ def lines(html):
  return [re.sub(r"\s+"," ",x).strip() for x in soup.get_text("\n").splitlines() if x.strip()]
 
 def date_for(month,day,now):
- for year in (now.year,now.year+1):
-  try:date=dt.date(year,month,day)
-  except ValueError:continue
-  if (date-now).days>=-1 and (date-now).days<=440:return date
+ # A nyomtatott naptár nem mindenhol ismétli az évszámot.
+ # Következő évet csak egy valódi évfordulós átlépésnél feltételezünk.
+ year=now.year+1 if now.month>=11 and month<=3 else now.year
+ try:date=dt.date(year,month,day)
+ except ValueError:return None
+ if 0<=(date-now).days<=400:return date
  return None
 
 def create(city,source,title,venue,date,time,url):
