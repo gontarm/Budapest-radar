@@ -33,10 +33,11 @@ jobs:
           python scripts/refresh_events.py
           python scripts/refresh_concerts.py
           python scripts/refresh_vienna.py
+          python scripts/refresh_topics.py
       - name: Eseménylinkek és adatminőség ellenőrzése
         run: |
           python scripts/audit_links.py
-          python -m py_compile scripts/refresh_vienna.py
+          python -m py_compile scripts/refresh_vienna.py scripts/refresh_topics.py
       - name: Változások mentése
         run: |
           if ! git diff --quiet -- events.json concerts.json vienna-events.json vienna-concerts.json; then
