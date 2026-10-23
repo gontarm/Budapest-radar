@@ -817,18 +817,20 @@ function openDetail(e){
  const hero='<figure class="detail-hero">'+photo+'<div class="detail-hero-placeholder" style="'+(image?'display:none':'')+'">Budapest Radar ✦<small style="font:12px system-ui;letter-spacing:.1em;margin-top:10px">PROGRAMNAPLÓ</small></div>'+(image?'<figcaption>'+esc(e.imageCredit||(e.image?'Kép: programszervező / illusztráció':'Budapest Radar · tematikus illusztráció'))+'</figcaption>':'')+'</figure>';
  const section=(title,body)=>body?'<section class="detail-section"><h3>'+title+'</h3><p>'+esc(body)+'</p></section>':'';
  const theatreDates=radarAllShowtimes(e);
+ const filmInfo=e.kind==='mozi'?[e.genre,e.duration].filter(Boolean).join(' · '):'';
  const datesHtml=(e.kind==='mozi'?theatreDates.length>0:theatreDates.length>1)?'<section class="detail-section"><h3>'+(e.kind==='mozi'?'Budapesti vetítések':'Előadási időpontok')+' ('+theatreDates.length+')</h3><div class="radar-theatre-dates">'+theatreDates.map((x,i)=>'<div class="radar-theatre-date"><div><strong>'+esc(x.dateLabel||x.date)+'</strong><small>'+esc(x.where||'')+'</small></div><div><a href="'+safeURL(x.ticketUrl||x.url)+'" target="_blank" rel="noopener noreferrer">Jegyek / műsor ↗</a> <button type="button" data-theatre-cal="'+i+'">Naptár +</button></div></div>').join('')+'</div></section>':'';
  const html='<div class="detail-top"><span class="detail-kicker">BUDAPEST RADAR / PROGRAMNAPLÓ</span><button id="closeDetail" aria-label="Vissza">×</button></div>'+
  hero+'<div class="detail-kicker">'+esc(e.kind||'Program')+'</div>'+
  '<h2 class="detail-title">'+esc(e.title)+'</h2>'+
  (e.subtitle?'<div class="detail-highlight">'+esc(e.subtitle)+'</div>':'')+
+ (filmInfo?'<div class="detail-highlight">'+esc(filmInfo)+'</div>':'')+
  '<div class="detail-rule"></div>'+
  '<div class="detail-meta"><strong>MIKOR</strong><span>'+esc(theatreDates.length>1?theatreDates.length+' időpont – alább kiválasztható':(e.dateLabel||'Időpont a forrásban'))+'</span><strong>HOL</strong><span>'+esc(e.where||'Helyszín a forrásban')+'</span>'+(price?'<strong>JEGYÁR</strong><span>'+esc(price)+'</span>':'')+(e.duration?'<strong>IDŐTARTAM</strong><span>'+esc(e.duration)+'</span>':'')+'</div>'+
  datesHtml+'<p class="radar-source-note">'+esc(radarSourceNote(e))+'</p><p class="detail-copy">'+esc(e.desc||'A részleteket a szervező oldalán találod.')+'</p>'+
  section('A történet mögötte',e.background)+section('Miért lehet érdekes?',e.why)+section('Látogatási tippek',e.practical)+
  (ticket?'<div class="detail-ticket"><strong>Jegyek és regisztráció</strong><p>A szabad helyek és árak a jegyoldalon változhatnak.</p><a href="'+ticket+'" target="_blank" rel="noopener noreferrer">Közvetlen jegyvásárlás ↗</a></div>':'')+
  (e.kind==='mozi'?'<div class="detail-ticket"><strong>További budapesti vetítések</strong><p>Az összes mozi további vetítéseit a naponta frissülő műsorban nézheted meg.</p><a href="https://mozibp.hu/" target="_blank" rel="noopener noreferrer">Mind a 23 mozi műsora ↗</a></div>':'')+'<p class="detail-note">Az időpontokat és a regisztrációt a szervező honlapján ellenőrizd. Ha nem látsz külön jegygombot, nem áll rendelkezésre igazolt közvetlen jegyvásárlási link.</p>'+
- '<div class="detail-actions"><a href="'+safeURL(e.url)+'" target="_blank" rel="noopener noreferrer">Hivatalos oldal ↗</a><button id="detailHeart" class="light">'+(saved.has(e.id)?'♥ Mentve':'♡ Mentés')+'</button>'+(e.date?'<button id="detailCal" class="light">Naptár +</button>':'')+'</div>';
+ '<div class="detail-actions"><a href="'+safeURL(e.url)+'" target="_blank" rel="noopener noreferrer">'+(e.kind==='mozi'?'Film ismertetője a MoziBP-n ↗':'Hivatalos oldal ↗')+'</a><button id="detailHeart" class="light">'+(saved.has(e.id)?'♥ Mentve':'♡ Mentés')+'</button>'+(e.date?'<button id="detailCal" class="light">Naptár +</button>':'')+'</div>';
  document.getElementById('detailContent').innerHTML=html;
  radarInstallDetailMapButton('event',e);
  overlay.classList.add('open');document.body.classList.add('detail-open');overlay.scrollTop=0;
