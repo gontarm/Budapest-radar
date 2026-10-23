@@ -295,12 +295,15 @@ let newOnly=false;
 let showAllHome=false;
 let knownEventIds=null;
 let freshEventIds=new Set();
-try{
- const old=JSON.parse(localStorage.getItem('radarKnownEventIds')||'null');
- if(Array.isArray(old))knownEventIds=new Set(old);
- const fresh=JSON.parse(localStorage.getItem('radarFreshEventIds')||'[]');
- if(Array.isArray(fresh))freshEventIds=new Set(fresh);
-}catch{}
+function radarLoadNewState(){
+ try{
+  const old=JSON.parse(localStorage.getItem('radarKnownEventIds:'+radarCity)||'null');
+  knownEventIds=Array.isArray(old)?new Set(old):null;
+  const fresh=JSON.parse(localStorage.getItem('radarFreshEventIds:'+radarCity)||'[]');
+  freshEventIds=new Set(Array.isArray(fresh)?fresh:[]);
+ }catch{knownEventIds=null;freshEventIds=new Set()}
+}
+radarLoadNewState();
 function updateNewEventsBanner(){
  const banner=document.getElementById('newEventsBanner');
  const today=new Date().toLocaleDateString('sv-SE',{timeZone:radarCity==='vienna'?'Europe/Vienna':'Europe/Budapest'});
@@ -310,11 +313,11 @@ function updateNewEventsBanner(){
  if(!visible)return;
  banner.innerHTML=newOnly?'<strong>✦ Új programok</strong><span>Az utolsó frissítések óta érkezett találatok.</span><div class="new-events-actions"><button id="allEventsAgain">Összes program</button><button id="markFreshSeen">✓ Megnéztem</button></div>':'<strong>✦ '+count+' új program érkezett!</strong><span>Még nem átnézett, újonnan talált események.</span><button id="showFreshOnly">Újak megtekintése →</button>';
  const show=document.getElementById('showFreshOnly');
- if(show)show.onclick=()=>{setPage('home');newOnly=true;showNewsCandidates=false;active='mind';mode='all';showAllHome=true;document.querySelector('#search').value='';document.querySelectorAll('#filters button').forEach(b=>b.classList.toggle('active',b.dataset.filter==='mind'));render();window.scrollTo({top:0,behavior:'instant'})};
+ if(show)show.onclick=()=>{setPage('home');newOnly=true;showNewsCandidates=false;active='mind';mode='all';showAllHome=true;document.querySelector('#search').value='';radarBaseSelected.clear();radarInterestSelected.clear();render();window.scrollTo({top:0,behavior:'instant'})};
  const all=document.getElementById('allEventsAgain');
  if(all)all.onclick=()=>{newOnly=false;render()};
  const seen=document.getElementById('markFreshSeen');
- if(seen)seen.onclick=()=>{freshEventIds.clear();try{localStorage.setItem('radarFreshEventIds','[]')}catch{}newOnly=false;render();notice('✓ Az új programokat átnézted')};
+ if(seen)seen.onclick=()=>{freshEventIds.clear();try{localStorage.setItem('radarFreshEventIds:'+radarCity,'[]')}catch{}newOnly=false;render();notice('✓ Az új programokat átnézted')};
 }
 let currentPage='home';let concertItems=[];let watchedConcerts=new Set(JSON.parse(localStorage.getItem('radarConcertWatch')||'[]'));
 
@@ -372,7 +375,7 @@ function applyRadarCity(){
 async function switchRadarCity(city){
  if(city===radarCity)return;
  radarCity=city;localStorage.setItem('radarCity',city);
- events=[];concertItems=[];freshEventIds.clear();knownEventIds=null;newOnly=false;showAllHome=false;
+ events=[];concertItems=[];radarLoadNewState();newOnly=false;showAllHome=false;
  if(radarMap){radarMap.remove();radarMap=null}
  applyRadarCity();setPage('home');
  while(refreshing)await new Promise(resolve=>setTimeout(resolve,90));
@@ -761,8 +764,8 @@ async function updateEvents(interactive=false){
   knownEventIds=incomingIds;
   for(const id of freshEventIds){if(!incomingIds.has(id))freshEventIds.delete(id)}
   try{
-   localStorage.setItem('radarKnownEventIds',JSON.stringify([...knownEventIds]));
-   localStorage.setItem('radarFreshEventIds',JSON.stringify([...freshEventIds]));
+   localStorage.setItem('radarKnownEventIds:'+radarCity,JSON.stringify([...knownEventIds]));
+   localStorage.setItem('radarFreshEventIds:'+radarCity,JSON.stringify([...freshEventIds]));
   }catch{}
   events=next;
   await refreshConcerts();
