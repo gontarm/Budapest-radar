@@ -393,6 +393,7 @@ function radarMapEntries(){
  return [...programmes,...concerts,...food];
 }
 function radarMapMatches(e,filter){
+ if(radarFocusedMapItem)return e.id===radarFocusedMapItem.id;
  if(filter==='all')return true;
  if(filter==='saved')return e._radarType==='concert'?watchedConcerts.has(e.id):saved.has(e.id);
  if(filter==='concert')return e._radarType==='concert';
@@ -461,7 +462,7 @@ async function renderMapPage(){
  const filters=[['selection','Kiválasztott kategóriák'],['all','Minden hely'],['gasztronomia','Gasztronómia'],['concert','Koncertek'],['saved','Mentettek'],
   ...radarBaseCategories.filter(x=>x[0]!=='gasztronomia').map(x=>['base:'+x[0],x[1]]),
   ...radarInterestTopics.map(x=>['topic:'+x[0],x[1]])];
- holder.innerHTML='<div class="map-page">'+(radarMapReturn?'<button id="radarMapBack" type="button" class="radar-map-back">← Vissza az adatlapra</button>':'')+'<div class="map-toolbar"><label for="mapType">Mit mutasson?</label><select id="mapType">'+filters.map(x=>'<option value="'+esc(x[0])+'"'+(x[0]===radarMapFilter?' selected':'')+'>'+esc(x[1])+'</option>').join('')+'</select><button id="radarLocateMe" type="button">⌖ Helyzetem megmutatása</button></div>'+
+ holder.innerHTML='<div class="map-page">'+(radarMapReturn?'<button id="radarMapBack" type="button" class="radar-map-back">← Vissza az adatlapra</button>':'')+'<div class="map-toolbar"'+(radarFocusedMapItem?' style="display:none"':'')+'><label for="mapType">Mit mutasson?</label><select id="mapType">'+filters.map(x=>'<option value="'+esc(x[0])+'"'+(x[0]===radarMapFilter?' selected':'')+'>'+esc(x[1])+'</option>').join('')+'</select><button id="radarLocateMe" type="button">⌖ Helyzetem megmutatása</button></div>'+
  '<div id="radarMap" role="region" aria-label="Programhelyszínek térképe"></div><p id="mapStatus" aria-live="polite">Helyszínek betöltése…</p><div id="mapPlaceList"></div>'+
  '<p class="map-credit">A pozíciódat csak engedélykérés után használjuk, nem tároljuk el. A távolságok légvonalban értendők. A geokódolás OpenStreetMap Nominatim segítségével történik; pontatlanság előfordulhat.</p></div>';
  try{
@@ -492,7 +493,7 @@ async function renderMapPage(){
     document.getElementById('mapStatus').textContent='A helyzet nem érhető el. Engedélyezd a böngészőben, vagy böngéssz városközpontból.';
    },{enableHighAccuracy:false,timeout:12000,maximumAge:180000});
   };
-  const dataset=radarMapEntries();const grouped=new Map();
+  const dataset=radarMapEntries().filter(e=>!radarFocusedMapItem||e.id===radarFocusedMapItem.id);const grouped=new Map();
   for(const e of dataset){
    const place=radarMapPlace(e);if(!place)continue;
    if(!grouped.has(place.key))grouped.set(place.key,{place,items:[]});
@@ -515,7 +516,7 @@ async function renderMapPage(){
    const label=item=>item.e._radarType==='food'&&item.e.hoursVerified&&item.e.hours?' · '+item.e.hours:'';
    document.getElementById('mapPlaceList').innerHTML='<h3>Találatok ('+listed.length+')</h3>'+listed.map(item=>
     '<button class="map-list-item" data-map-open="'+esc(item.e.id)+'" data-map-kind="'+item.e._radarType+'"><b>'+esc(item.e.title)+'</b><small>'+esc(item.e.where)+(radarMapUserLocation?' · '+radarMapDistance(radarMapUserLocation,item.coords)+' km':'')+esc(label(item))+'</small></button>').join('');
-   document.getElementById('mapStatus').textContent=listed.length+' találat · '+entries.length+' beazonosított helyszín'+(radarMapUserLocation?' · távolság szerint rendezve':'')+'.';
+   document.getElementById('mapStatus').textContent=(radarFocusedMapItem?'Kiválasztott hely · ':'')+listed.length+' találat · '+entries.length+' beazonosított helyszín'+(radarMapUserLocation?' · távolság szerint rendezve':'')+'.';
   };
   document.getElementById('mapType').onchange=e=>{radarMapFilter=e.target.value;update()};
   const openItem=b=>{
@@ -671,7 +672,7 @@ function radarRenderInterestChips(){
  const visible=events.filter(e=>radarConcrete(e)&&e.date>=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Budapest'}));
  const n=radarBaseSelected.size+radarInterestSelected.size;
  const summary=document.getElementById('radarCategorySummary');
- if(summary)summary.textContent=n? n+' kiválasztva':'Mind a 15 kategória';
+ if(summary)summary.textContent=n? n+' kiválasztva':'Mind a 16 kategória';
  const make=(items,kind)=>items.map(t=>{
  const selected=(kind==='base'?radarBaseSelected:radarInterestSelected).has(t[0]);
  const count=kind==='base'&&t[0]==='gasztronomia'?radarFoodRows().length:visible.filter(e=>kind==='base'?e.kind===t[0]:radarClassifyTopics(e).includes(t[0])).length;
