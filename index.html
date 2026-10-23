@@ -396,10 +396,10 @@ function radarMapMatches(e,filter){
  if(filter==='all')return true;
  if(filter==='saved')return e._radarType==='concert'?watchedConcerts.has(e.id):saved.has(e.id);
  if(filter==='concert')return e._radarType==='concert';
- if(filter==='gasztronomia')return e._radarType==='food';
+ if(filter==='gasztronomia')return e._radarType==='food'&&(radarFoodFilter==='mind'||radarFoodTags(e).includes(radarFoodFilter));
  if(filter==='selection'){
   if(!radarBaseSelected.size&&!radarInterestSelected.size)return true;
-  return (e._radarType==='food'&&radarBaseSelected.has('gasztronomia'))||
+  return (e._radarType==='food'&&radarBaseSelected.has('gasztronomia')&&(radarFoodFilter==='mind'||radarFoodTags(e).includes(radarFoodFilter)))||
     (e._radarType==='concert'&&radarBaseSelected.has('koncert'))||
     (e._radarType==='event'&&radarInterestMatches(e));
  }
