@@ -31,7 +31,7 @@ jobs:
       - name: HTML-feldolgozó telepítése
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Python adatgyűjtők ellenőrzése
-        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py
+        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py
       - name: Színházi feldolgozó tesztelése
         run: python scripts/test_theatre.py
       - name: Programforrások frissítése – egymástól függetlenül
@@ -39,7 +39,7 @@ jobs:
         run: |
           set +e
           failed=0
-          for script in refresh_events refresh_concerts refresh_vienna refresh_topics refresh_official refresh_theatre; do
+          for script in refresh_events refresh_concerts refresh_vienna refresh_topics refresh_official refresh_theatre refresh_theatre_network; do
             echo "::group::Gyűjtő: ${script}"
             python -u "scripts/${script}.py"
             code=$?
@@ -49,7 +49,7 @@ jobs:
               failed=$((failed+1))
             fi
           done
-          echo "Sikertelen gyűjtők: ${failed}/6" >> "$GITHUB_STEP_SUMMARY"
+          echo "Sikertelen gyűjtők: ${failed}/7" >> "$GITHUB_STEP_SUMMARY"
           echo "A hibás forrás korábban eltárolt eseményeit nem töröljük."
       - name: Adatok épségének vizsgálata és hivatkozások ellenőrzése
         shell: bash
