@@ -27,6 +27,21 @@ SOURCES=[
  dict(city="vienna",name="Technisches Museum Wien",url="https://www.technischesmuseum.at/veranstaltungen",
       base="https://www.technischesmuseum.at",where="Technisches Museum Wien · Mariahilfer Straße 212, 1140 Wien",
       topic="technika",kind="élmény")
+,
+ dict(city="budapest",name="Magyar Természettudományi Múzeum",url="https://www.nhmus.hu/program/",base="https://www.nhmus.hu",where="Magyar Természettudományi Múzeum · Ludovika tér 2–6., Budapest",topic="termeszettudomany",kind="tudomány"),
+ dict(city="budapest",name="Budapesti Történeti Múzeum",url="https://www.btm.hu/",base="https://www.btm.hu",where="Budapesti Történeti Múzeum · Szent György tér 2., Budapest",topic="tortenelem",kind="élmény"),
+ dict(city="budapest",name="Magyar Nemzeti Múzeum",url="https://mnm.hu/hu/programok",base="https://mnm.hu",where="Magyar Nemzeti Múzeum · Múzeum körút 14–16., Budapest",topic="tortenelem",kind="élmény"),
+ dict(city="budapest",name="ELTE Filozófia",url="https://www.btk.elte.hu/",base="https://www.btk.elte.hu",where="ELTE BTK · Múzeum körút 4., Budapest",topic="filozofia",kind="élmény"),
+ dict(city="budapest",name="Trafó",url="https://trafo.hu/programok",base="https://trafo.hu",where="Trafó Kortárs Művészetek Háza · Liliom utca 41., Budapest",topic="szinhaz",kind="élmény"),
+ dict(city="budapest",name="ELTE Füvészkert",url="https://www.fuveszkert.org/",base="https://www.fuveszkert.org",where="ELTE Füvészkert · Illés utca 25., Budapest",topic="kertek",kind="élmény"),
+ dict(city="budapest",name="Közlekedési Múzeum",url="https://kozlekedesimuzeum.hu/",base="https://kozlekedesimuzeum.hu",where="Közlekedési Múzeum · Budapest",topic="technika",kind="élmény"),
+ dict(city="budapest",name="Imagine Budapest",url="https://imagine.hu/",base="https://imagine.hu",where="Imagine Budapest · helyszín az eseményoldalon",topic="titkok",kind="élmény"),
+ dict(city="vienna",name="Naturhistorisches Museum Wien",url="https://www.nhm-wien.ac.at/",base="https://www.nhm-wien.ac.at",where="Naturhistorisches Museum Wien · Burgring 7, 1010 Wien",topic="termeszettudomany",kind="tudomány"),
+ dict(city="vienna",name="Universität Wien Philosophie",url="https://philosophie.univie.ac.at/",base="https://philosophie.univie.ac.at",where="Universität Wien · Universitätsring 1, Wien",topic="filozofia",kind="élmény"),
+ dict(city="vienna",name="Planetarium Wien",url="https://www.vhs.at/de/e/planetarium",base="https://www.vhs.at",where="Planetarium Wien · Oswald-Thomas-Platz 1, 1020 Wien",topic="vilagegyetem",kind="tudomány"),
+ dict(city="vienna",name="Burgtheater",url="https://www.burgtheater.at/spielplan",base="https://www.burgtheater.at",where="Burgtheater · Universitätsring 2, 1010 Wien",topic="szinhaz",kind="élmény"),
+ dict(city="vienna",name="Botanischer Garten Universität Wien",url="https://botanischergarten.univie.ac.at/veranstaltungen/fuehrungen/",base="https://botanischergarten.univie.ac.at",where="Botanischer Garten · Rennweg 14, 1030 Wien",topic="kertek",kind="élmény"),
+ dict(city="vienna",name="Wiener Unterwelten",url="https://www.wienerunterwelten.at/",base="https://www.wienerunterwelten.at",where="Wiener Unterwelten · Treffpunkt laut Veranstalter",topic="titkok",kind="élmény")
 ]
 class Links(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.current=None;self.structured=[];self.ld=False
@@ -74,7 +89,7 @@ def jsonld(src,page,page_url):
    location=e.get("location")
    # Do not assign a venue unless its structured location references the source venue.
    venue=json.dumps(location,ensure_ascii=False).casefold() if location else ""
-   if location and src["name"].casefold().split()[0] not in venue and src["city"] not in venue:continue
+   if location and src["name"].casefold().split()[0] not in venue and src["city"] not in venue and ("budapest" if src["city"]=="budapest" else "wien") not in venue:continue
    url=urllib.parse.urljoin(page_url,str(e.get("url") or page_url))
    desc=re.sub(r"<[^>]+>"," ",str(e.get("description") or ""))
    item=record(src,str(title),str(start),url,html.unescape(desc))
@@ -121,7 +136,7 @@ def main():
      if href in visited or not href.startswith(src["base"]+"/"):continue
      if not re.search(r"veranstaltung|event|fuehrung|fuehrungen|programm",href,re.I):continue
      visited.add(href)
-     if len(visited)>15:break
+     if len(visited)>12:break
      try:r,_=jsonld(src,request(href),href);rows.extend(r)
      except Exception:continue
    all_rows[src["city"]].extend(rows)
