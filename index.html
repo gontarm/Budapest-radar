@@ -325,6 +325,30 @@ html.radar-night .page-map .radar-map-sidebar,html.radar-night .page-map .radar-
 html.radar-night .page-map .radar-map-cat[aria-pressed=true]{background:#154477!important;color:#fff!important}
 html.radar-night .page-map .radar-map-period button[aria-pressed=true]{background:#0878f9!important}
 @media(max-width:740px){.page-map .radar-map-layout{display:block}.page-map .radar-map-sidebar{margin-bottom:9px;padding:12px}.page-map .radar-map-categories{display:flex;overflow-x:auto;gap:5px}.page-map .radar-map-cat{white-space:nowrap;width:auto;flex:0 0 auto}.page-map .radar-map-sidebar h3{margin:0}.page-map .radar-map-sidebar .radar-map-period{margin-top:0}.page-map #radarMap{height:56vh!important;min-height:360px}.page-map .radar-map-sidebar>div{margin:0}.page-map .radar-map-sidebar #radarLocateMe{width:100%}}
+</style><style id="radarThemeRepair">
+/* Unified black nighttime chrome and daylight return. */
+html.radar-night,html.radar-night body{background:#080808!important;color:#f3f3f3!important;color-scheme:dark}
+html.radar-night header,html.radar-night main,html.radar-night .map-page{background:#080808!important;color:#f3f3f3!important}
+html.radar-night .page-map .map-page{--radar-panel:#121212;--radar-ink:#f4f4f4;--radar-line:#373737}
+html.radar-night .page-map .radar-map-sidebar,html.radar-night .page-map .radar-map-main,html.radar-night .page-map .radar-map-results{background:#121212!important;border-color:#373737!important;box-shadow:none!important}
+html.radar-night .card,html.radar-night .detail-inner,html.radar-night #detailOverlay,html.radar-night #mapPlaceList>*,html.radar-night .radar-cinema-directory,html.radar-night .radar-interest-details{background:#151515!important;border-color:#383838!important;color:#f3f3f3!important}
+html.radar-night button:not(.active):not(.radar-apply-categories),html.radar-night input,html.radar-night select,html.radar-night .btn{background:#1b1b1b!important;color:#f2f2f2!important;border-color:#444!important}
+html.radar-night .page-map .radar-map-cat{background:transparent!important;color:#f3f3f3!important}
+html.radar-night .page-map .radar-map-cat[aria-pressed=true]{background:#243b54!important;color:#fff!important}
+html.radar-night .page-map .radar-map-sidebar #radarLocateMe,html.radar-night .page-map .radar-map-period button[aria-pressed=true]{background:#0878f9!important;color:white!important;border-color:#0878f9!important}
+html.radar-night .bottom-nav,html.radar-night #bottomNav{background:#101010!important;border-color:#383838!important;color:#f4f4f4!important}
+html.radar-night #bottomNav button,html.radar-night .bottom-nav button{background:#111!important;color:#eee!important}
+html.radar-night #bottomNav button.active,html.radar-night .bottom-nav button.active{background:#0d74e9!important;color:#fff!important}
+html.radar-night #radarMap{background:#101010!important;border-color:#444!important;box-shadow:none!important}
+#radarMap .radar-night-tiles{filter:grayscale(.35) invert(1) hue-rotate(175deg) brightness(.57) contrast(1.35) sepia(.25)}
+html.radar-night #radarMap .leaflet-tile-pane{filter:none!important}
+html.radar-night #radarMap .leaflet-control-attribution{background:#1a1a1ade!important;color:#bbb!important}
+html.radar-night #radarMap .leaflet-control-attribution a{color:#8dbdff!important}
+html.radar-day #radarMap .leaflet-control-zoom a{background:#fff!important;color:#182b48!important}
+.page-map #radarMap .leaflet-control-attribution{font-size:10px!important}
+.page-map .radar-map-sidebar #radarMapSearch{min-height:41px}
+.page-map .radar-map-period button{min-height:34px}
+@supports(padding:max(0px)){body{padding-top:env(safe-area-inset-top,0px)}}
 </style></head><body><section id="detailOverlay" role="dialog" aria-modal="true" aria-label="Program részletei"><div id="detailContent" class="detail-inner"></div></section><div id="pullIndicator" role="status" aria-live="polite">↓ Húzd tovább a frissítéshez</div><header><div class="radar-city-bar"><label for="radarCity">VÁROS / CITY</label><select id="radarCity" aria-label="Radar városa"><option value="budapest">Budapest</option><option value="vienna">Bécs / Wien</option></select></div><h1 id="radarCityTitle">Budapest Radar ✦</h1><p>Építészet, városok, tudomány, emberi elme, design és különleges élmények — egy helyen. Szűrd a neked érdekes programokat, mentsd el őket, vagy add a naptáradhoz.</p></header><main><div class="toolbar"><input id="search" type="search" placeholder="Keress témára, helyre, címre…"><button id="refreshNow" type="button">↻ Frissítés</button><button id="savedOnly" aria-pressed="false">♡ Mentett programok</button><button id="topOnly">✦ Nekem Top 10</button><button id="exploreOnly">◇ Felfedezés</button></div><div class="surprise-area"><button type="button" id="radarSurprise" class="surprise-button">✧ Lepj meg!</button><span>Valami váratlan, amit érdemes felfedezni.</span></div><div class="mode-tabs" aria-label="Programnézetek"><button type="button" data-mode="all" class="active">Összes</button><button type="button" data-mode="top">✦ Top 10</button><button type="button" data-mode="explore">Felfedezés</button></div><details id="radarInterestDetails" class="radar-interest-details"><summary>⌄ Kategóriák <span id="radarCategorySummary">Mind a 16 kategória</span></summary><div id="radarInterestChips" class="radar-interest-chips"></div><p>Választhatsz a hagyományos kategóriákból és a különleges témákból is. Több választásnál bármelyik témához tartozó esemény megjelenik.</p><div class="radar-filter-actions"><button type="button" id="radarApplyCategories" class="radar-apply-categories">Találatok megtekintése ↓</button><button type="button" id="radarCategoriesMap" class="radar-apply-categories radar-map-action">Térképen mutasd ⌖</button></div></details><div id="newEventsBanner" class="new-events-banner" hidden></div><div id="sectionHeading" class="section-heading"></div><p id="modeHint" style="color:#bbc5e0;font-size:13px;line-height:1.5">Minden programot látsz, a Top 10 külön ajánló.</p><div class="meta"><span id="count"></span><span><span id="updated">Induló lista · 2026. október</span></span></div><div id="cards" class="grid"></div><div id="empty">Nincs a szűrésnek megfelelő program. Próbálj másik kategóriát!</div><aside id="aboutApp"><strong>Mit tud ez a verzió?</strong> Személyre szabott kiinduló ajánlások, szűrés, keresés, mentés ezen az eszközön és naptáresemény letöltése. <strong>Fontos:</strong> a megnyitáskor ellenőrzi az online eseménylistát. A szerveren lévő eseménylista csak akkor változik, ha azt a tulajdonos vagy külön automatizmus frissíti. A valódi háttér-push még nincs bekötve. A további friss eseményekhez az alábbi hivatalos forrásokat nyisd meg. Dátumokat, jegyeket és regisztrációt mindig ellenőrizz a szervezőnél.</aside><h2>Érdemes követni</h2><div class="source-links"><a target="_blank" rel="noopener" href="https://www.mucsarnok.hu/exhibitions/index.php">Műcsarnok ↗</a><a target="_blank" rel="noopener" href="https://www.ludwigmuseum.hu/kiallitasok">Ludwig ↗</a><a target="_blank" rel="noopener" href="https://www.walterrozsivilla.hu/">Walter Rózsi-villa ↗</a><a target="_blank" rel="noopener" href="https://www.bme.hu/esemenykereso">BME ↗</a><a target="_blank" rel="noopener" href="https://mta.hu/esemenynaptar">MTA ↗</a><a target="_blank" rel="noopener" href="https://www.museum.hu/esemenynaptar">Museum.hu ↗</a><a target="_blank" rel="noopener" href="https://programradar.hu/programok/budapest">Programradar ↗</a></div><footer><p>A naptárfájlokat (.ics) Apple Calendar, Google Naptár és Outlook is képes megnyitni/importálni. Többnapos kiállításoknál a naptárba egy emlékeztető kerül az utolsó napra; ez nem belépőjegy és nem foglalás.</p></footer></main><nav id="bottomNav" class="bottom-nav" aria-label="Alkalmazás navigáció"><button type="button" data-page="home" class="active"><span class="nav-ico">⌂</span><span>Kezdőlap</span></button><button type="button" data-page="concerts"><span class="nav-ico">♫</span><span>Koncertek</span></button><button type="button" data-page="map"><span class="nav-ico">⌖</span><span>Térkép</span></button><button type="button" data-page="saved"><span class="nav-ico">♡</span><span>Mentettek</span></button><button type="button" data-page="profile"><span class="nav-ico">♙</span><span>Profil</span></button></nav><script>
 let radarCity=localStorage.getItem('radarCity')==='vienna'?'vienna':'budapest';
 let events=[
@@ -528,7 +552,7 @@ function radarSunUtc(date,lat,lon,rising){
  if(cosH>1)return rising?null:-Infinity;
  if(cosH< -1)return rising?-Infinity:null;
  const H=((rising?360-Math.acos(cosH)/rad:Math.acos(cosH)/rad)/15);
- const T=H+RA-0.06571*t-6.622,UT=T-lngHour;
+ const T=H+RA-0.06571*t-6.622,UT=((T-lngHour)%24+24)%24;
  return Date.UTC(day.getUTCFullYear(),day.getUTCMonth(),day.getUTCDate())+UT*3600000;
 }
 function radarIsNight(now=new Date()){
@@ -578,8 +602,8 @@ async function renderMapPage(){
   if(radarMap){radarMap.remove();radarMap=null}
   const center=radarCity==='vienna'?[48.2082,16.3738]:[47.4979,19.0402];
   radarMap=L.map('radarMap',{scrollWheelZoom:false}).setView(radarMapUserLocation||center,radarMapUserLocation?12:11);
-  radarDayTileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors · © CARTO'});
-  radarNightTileLayer=L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors · © CARTO'});
+  radarDayTileLayer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors',className:'radar-day-tiles'});
+  radarNightTileLayer=L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© OpenStreetMap contributors',className:'radar-night-tiles'});
   (radarIsNight()?radarNightTileLayer:radarDayTileLayer).addTo(radarMap);
   let myMarker=null;
   const showMyLocation=()=>{
