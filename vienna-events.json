@@ -1,5 +1,90 @@
 [
   {
+    "id": "radar-theater-burg-revisor-20261026",
+    "title": "Der Revisor",
+    "where": "Akademietheater · Lisztstraße 1, 1030 Wien",
+    "date": "2026-10-26",
+    "dateLabel": "2026. október 26. · 19:00",
+    "url": "https://www.burgtheater.at/spielplan",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-burg-ebenerde-20261025",
+    "title": "Zu ebener Erde und erster Stock",
+    "where": "Burgtheater · Universitätsring 2, 1010 Wien",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 19:00",
+    "url": "https://www.burgtheater.at/spielplan",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-burg-richard-20261025",
+    "title": "Richard III.",
+    "where": "Akademietheater · Lisztstraße 1, 1030 Wien",
+    "date": "2026-10-25",
+    "dateLabel": "2026. október 25. · 19:00",
+    "url": "https://www.burgtheater.at/spielplan",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-burg-hoffnung-20261024",
+    "title": "Die größere Hoffnung",
+    "where": "Akademietheater · Lisztstraße 1, 1030 Wien",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 19:00",
+    "url": "https://www.burgtheater.at/spielplan",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
+    "id": "radar-theater-burg-ferienhaus-20261024",
+    "title": "Das Ferienhaus",
+    "where": "Burgtheater · Universitätsring 2, 1010 Wien",
+    "date": "2026-10-24",
+    "dateLabel": "2026. október 24. · 18:30",
+    "url": "https://www.burgtheater.at/spielplan",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "desc": "A színház hivatalos műsorában meghirdetett előadás. A jegyek elérhetőségét a szervező oldalán ellenőrizd.",
+    "source": "Hivatalos színházi műsornaptár",
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "score": 86
+  },
+  {
     "id": "vienna-konzerthaus-tour-de-20261023",
     "title": "Wiener Konzerthaus – kulisszák mögött (német vezetés)",
     "kind": "építészet",
