@@ -1,0 +1,314 @@
+{
+  "description": "Radar theatre source watchlist, not a guarantee of full programme import. Structured event data is imported only when verifiable.",
+  "cities": {
+    "budapest": [
+      {
+        "name": "Örkény István Színház",
+        "url": "https://orkenyszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Vígszínház és Pesti Színház",
+        "url": "https://vigszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Radnóti Színház",
+        "url": "https://radnotiszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Madách Színház",
+        "url": "https://madachszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Thália Színház",
+        "url": "https://thalia.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Centrál Színház",
+        "url": "https://centralszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Játékszín",
+        "url": "https://jatekszin.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "József Attila Színház",
+        "url": "https://jozsefattilaszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Nemzeti Színház",
+        "url": "https://nemzetiszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Magyar Színház",
+        "url": "https://magyarszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Újszínház",
+        "url": "https://ujszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Budapest Bábszínház",
+        "url": "https://budapestbabszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Kolibri Színház",
+        "url": "https://kolibriszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Budapesti Operettszínház",
+        "url": "https://operett.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Magyar Állami Operaház",
+        "url": "https://opera.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Erkel Színház",
+        "url": "https://erkelszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Nemzeti Táncszínház",
+        "url": "https://nemzetitancszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Trafó",
+        "url": "https://trafo.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Szkéné Színház",
+        "url": "https://szkene.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Stúdió K",
+        "url": "https://studiokszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "RS9 Színház",
+        "url": "https://rs9.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Karinthy Színház",
+        "url": "https://karinthyszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Belvárosi Színház / Orlai",
+        "url": "https://orlaiprodukcio.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Jurányi Ház",
+        "url": "https://juranyi.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "6SZÍN",
+        "url": "https://6szin.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "MU Színház",
+        "url": "https://mu.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Pinceszínház",
+        "url": "https://pinceszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Rózsavölgyi Szalon",
+        "url": "https://szalon.rozsavolgyi.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Dumaszínház",
+        "url": "https://dumaszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Átrium",
+        "url": "https://atrium.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "B32 Galéria és Kultúrtér",
+        "url": "https://b32kultur.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Városmajori Szabadtéri Színpad",
+        "url": "https://varosmajoriszinpad.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Margitszigeti Színház",
+        "url": "https://margitszigetiszinhaz.hu/",
+        "status": "watch"
+      },
+      {
+        "name": "Momentán Társulat",
+        "url": "https://momentantarsulat.hu/",
+        "status": "watch"
+      }
+    ],
+    "vienna": [
+      {
+        "name": "Burgtheater / Akademietheater",
+        "url": "https://www.burgtheater.at/spielplan",
+        "status": "watch"
+      },
+      {
+        "name": "Volkstheater",
+        "url": "https://www.volkstheater.at/spielplan/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater in der Josefstadt / Kammerspiele",
+        "url": "https://www.josefstadt.org/spielplan.html",
+        "status": "watch"
+      },
+      {
+        "name": "Theater der Jugend",
+        "url": "https://www.tdj.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Schauspielhaus Wien",
+        "url": "https://www.schauspielhaus.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Rabenhof Theater",
+        "url": "https://www.rabenhof.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Drachengasse",
+        "url": "https://www.drachengasse.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater am Werk",
+        "url": "https://www.theater-am-werk.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Akzent",
+        "url": "https://www.akzent.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Nestroyhof Hamakom",
+        "url": "https://www.hamakom.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Center Forum",
+        "url": "https://www.theatercenterforum.com/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Spielraum",
+        "url": "https://www.theaterspielraum.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater Arche",
+        "url": "https://www.theaterarche.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Dschungel Wien",
+        "url": "https://www.dschungelwien.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Tanzquartier Wien",
+        "url": "https://www.tqw.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Wiener Staatsoper",
+        "url": "https://www.wiener-staatsoper.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Volksoper Wien",
+        "url": "https://www.volksoper.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater an der Wien",
+        "url": "https://www.theater-wien.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Raimund Theater / Ronacher",
+        "url": "https://www.musicalvienna.at/",
+        "status": "watch"
+      },
+      {
+        "name": "KosmosTheater",
+        "url": "https://www.kosmostheater.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater am Spittelberg",
+        "url": "https://www.theateramspittelberg.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Bronski & Grünberg",
+        "url": "https://www.bronski-gruenberg.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Schubert Theater",
+        "url": "https://www.schuberttheater.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Scala Wien",
+        "url": "https://www.theaterscala.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Lilarum Figurentheater",
+        "url": "https://www.lilarum.at/",
+        "status": "watch"
+      },
+      {
+        "name": "Theater am Werk Petersplatz",
+        "url": "https://www.theater-am-werk.at/",
+        "status": "watch"
+      },
+      {
+        "name": "WUK Bühnen",
+        "url": "https://www.wuk.at/",
+        "status": "watch"
+      }
+    ]
+  }
+}
