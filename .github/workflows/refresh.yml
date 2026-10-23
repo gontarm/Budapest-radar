@@ -71,7 +71,23 @@ jobs:
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add events.json concerts.json vienna-events.json vienna-concerts.json
             git commit -m "Refresh and audit Budapest Radar event links"
-            git push
+            # Manual edits during a long fetch can move main. Rebase the generated
+            # commit onto the newest main before pushing; retry on racing pushes.
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                echo "A programadatok mentése sikeres."
+                exit 0
+              fi
+              echo "::warning title=GitHub módosult::Új módosítás került a main ágra; újrapróbálkozás ($attempt/3)."
+              git fetch origin main
+              if ! git rebase -X theirs origin/main; then
+                git rebase --abort || true
+                echo "::error title=Ütköző adatváltozás::A frissítés nem írja felül az ütköző módosításokat."
+                exit 1
+              fi
+            done
+            echo "::error title=Mentés sikertelen::Három próbálkozás után sem sikerült a push."
+            exit 1
           else
             echo "Nincs változás."
           fi
