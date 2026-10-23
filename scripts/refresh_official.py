@@ -89,11 +89,11 @@ def jsonld(src,page,page_url):
    location=e.get("location")
    # Do not assign a venue unless its structured location references the source venue.
    venue=json.dumps(location,ensure_ascii=False).casefold() if location else ""
-   if location and src["name"].casefold().split()[0] not in venue and src["city"] not in venue and ("budapest" if src["city"]=="budapest" else "wien") not in venue:continue
+   if location and src["name"].casefold().split()[0] not in venue and ("budapest" if src["city"]=="budapest" else "wien") not in venue:continue
    url=urllib.parse.urljoin(page_url,str(e.get("url") or page_url))
    desc=re.sub(r"<[^>]+>"," ",str(e.get("description") or ""))
    item=record(src,str(title),str(start),url,html.unescape(desc))
-   if item:result.append(item)
+   if item and url.rstrip("/")!=src["url"].rstrip("/"):result.append(item)
  return result,parser.links
 
 # Svábhegyi's public calendar provides per-event detail pages containing an
