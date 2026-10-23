@@ -31,7 +31,7 @@ CINEMAS = {
  "Tabán":"Tabán mozi", "Toldi":"Toldi mozi",
  "Uránia":"Uránia Nemzeti Filmszínház", "Westend":"Cinema City Westend",
 }
-DATE = re.compile(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\s+(\d{1,2})\.(\d{1,2})\.\s+\d+\s+vetítés", re.I)
+DATE = re.compile(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\s+(\d{1,2})\.(\d{1,2})\.(?:\s+\d+\s+vetítés)?$", re.I)
 TIME = re.compile(r"^(\d{1,2}):(\d{2})(?:\s*(?:VIP|IMAX|4DX|3D|ScreenX|2D|HU|EN|F|OV|SUB|\(.*\)))*$",re.I)
 
 def fetch(url):
