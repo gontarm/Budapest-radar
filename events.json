@@ -329,7 +329,7 @@
     "url": "https://lightartmuseum.hu/",
     "score": 94,
     "dataQuality": "scheduled",
-    "linkStatus": "uncertain",
+    "linkStatus": "reachable",
     "directEventLink": false,
     "linkCheckedOn": "2026-10-23",
     "eventVerified": false
