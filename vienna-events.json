@@ -1,41 +1,5 @@
 [
   {
-    "id": "vienna-konzerthaus-tour-de-20261023",
-    "title": "Wiener Konzerthaus – kulisszák mögött (német vezetés)",
-    "kind": "építészet",
-    "where": "Wiener Konzerthaus · Lothringerstraße 20, 1030 Wien",
-    "date": "2026-10-23",
-    "dateLabel": "2026. október 23. · 13:00",
-    "desc": "Vezetett látogatás a bécsi Konzerthaus kulisszái mögött, német nyelven. A szabad helyeket ellenőrizd a programoldalon.",
-    "url": "https://konzerthaus.at/de/programm-und-karten",
-    "price": "8,50 €",
-    "source": "Wiener Konzerthaus – hivatalos program",
-    "score": 89,
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
-    "eventVerified": false
-  },
-  {
-    "id": "vienna-konzerthaus-tour-en-20261023",
-    "title": "Wiener Konzerthaus – backstage tour (angol vezetés)",
-    "kind": "építészet",
-    "where": "Wiener Konzerthaus · Lothringerstraße 20, 1030 Wien",
-    "date": "2026-10-23",
-    "dateLabel": "2026. október 23. · 14:00",
-    "desc": "A bécsi koncertpalota megismerése angol nyelvű vezetésen. A részvételt a hivatalos naptárban ellenőrizd.",
-    "url": "https://konzerthaus.at/de/programm-und-karten",
-    "price": "8,50 €",
-    "source": "Wiener Konzerthaus – hivatalos program",
-    "score": 88,
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
-    "eventVerified": false
-  },
-  {
     "id": "vienna-archikids-20261024",
     "title": "Archikids – Pilze und Lehm als Baumaterial",
     "kind": "építészet",
@@ -50,7 +14,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -71,7 +35,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-burg-ferienhaus-20261024",
@@ -91,7 +55,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-burg-ebenerde-20261025",
@@ -111,7 +75,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-burg-richard-20261025",
@@ -131,7 +95,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "vienna-sicherheitsfest-20261025",
@@ -148,7 +112,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -169,7 +133,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "vienna-viennale-2026",
@@ -185,7 +149,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "blocked",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -219,7 +183,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1IWnVya1VreE5yUmVaOWZnZklmb1VaazZJMXRVVjVkRV9Bb2dOVUNhcWlkZ1ZrMHpQRmxBUS16bWFXZVRVeVdfTmpNZWE1N3ZYQ2U0VWdGVm9EcWxGOEY4VVpkMlVSczBtcXdlbnRNai1tcEk?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -240,7 +204,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2NIdm1lakVEUTllQjdZYkJmel9wcE5rN3pnaTVDV1IxVk1UdlR0cW1MQ05Pblg2YmRIS3lsd0lZbFNDeUZNeEtZMFpOUUNKdmNickhZWERWWGRVVHBIWmNrbXI2Q0tKZ0xIVE1LWXNET2RzblVRYlhuanc5Z3JjVXZ3ZDJjY1ZCNGtlX3JsOG9WRXBsTUdXdEF2Y0hPRnBrU3E0MzVONjR2MFA1U2JCT19HRjZodjJHSHc?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -261,7 +225,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOczlNUzA4Y3ctR3pMUm1DUFRXcUJOajZKRU9obDRyWVRDOGxlUUVpY0pFWFkxYjZwRnc2UW8wSU4tS1V0ZmhqcUZEcTQ4cFJKaXhFUThaTjlZSGFZQkxFT1FoZFJNaEdzOWthcUZ1ZTNzdTkzZHhNUVJEbEJNSDI4MEhHS2VKWGlpaUFDYw?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -282,7 +246,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdVVxeFZ5U2FoeHpUbFpMaWdvRjh3b0RpbDExUzZpNEtfU1BRa1VxNVJncktBNE9qdEFmbTU0bmtRcF9wcUVLOFE0Q081S3FPS0RfTmo0ZGR3cXg4SVBHX0FIeWU5Sm12RmZLZlZYQlplc3VUNXhlQ0JEQ1ZEZEdybl81cDdzMi1rTW93aEZISkd5TS11R3JWMUtrQTc3b1hqM1BnMXRIcGFqNm9ub3pHUldOU180czBFS01hT1lSejY?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -303,28 +267,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOURnZGtUMV84OVo0bTJadUxTQThGdUlSS0pTRmNnbjBfYWpOZlJaWlA2ZGJYemhuVV8wNEt6Vk0tYU1HREJkUWdRQWNmOERIMTFjcVRjZ0hPVWJ0VEl5Z1ljRnNhSUpWZXdfem56QVVWUTItcGxCQVI0QWNyZlNDTEFxY1gwV2kyMU10ZXRJZEVKZ0pTaHVDMDJGSzRpM2tTZkVXLXBjNA?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-27e2a99676901362c3",
-    "title": "Sabine Köszegi: Führung ist erlernbar, nicht angeboren",
-    "kind": "élmény",
-    "interestTopics": [
-      "technika"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM2ZIM3FpYnFGOHM3bEUwcHFvNlhpYkE0d2VKVU10eWlPQXlfNktMc0hBS3VoczNOa2c2RTc2YTgzbWc5RU1vY04tRFFkV3lQZlo5ck1LcHB0NmZQOHdZQzdkSlM4WlpELWgtdFNqdDc3dUtuRGVHNFJIZFFNWTdrcS1mN1ZFbHlPWExPUUlmSm5JTVN6VlVHcW8ydk8tUQ?oc=5",
-    "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -344,6 +287,48 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTjlPSXJtLTZ0Sm5ZZG1HQlNTaVl0TUdMOVJ1akVpVkpSZmc5amhRTmZPOHkzNHJPRV8zanZFTHJXS2dBS3BGaC1XSTYydElvNDZIQjAyMkdaTFJTdTQ3dlNaWUJUYjVGc1BySjFnWHotUlN6M19VemJzWnZmZUpLUVlZLWtaMjBSNWR6WnNlZ3IyZU5iVHhpSmw3aDlUdllRcTVHN3BwcDJwZjhqRUE?oc=5",
+    "score": 63,
+    "discovered": "2026-10-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-0bdebe577b7672d019",
+    "title": "Gemeindebau-Führung: In Ottakring auf den Spuren von Vertreibung und Widerstand",
+    "kind": "élmény",
+    "interestTopics": [
+      "technika"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT0U3RVpDbFdnTU1heW5Fd1VIQWc0R3VjOE5zeUt6NVFFWUVSTzBlb09GdzJTcDgyV092MWtZbnZUZG1LcHZrMzZMSDNhT2RBcWxsQnBvZzFPeTlNS0ZmV1dQOVNqSHc0QVVEQzlGaDVJY0djdGZsMU5ueE1vTERzNEZvUG9QcmVtM3BmZnNlV3Q2UWc4SWV0ZDREdkp6UjRpd2NKQkRHNzA1V3habUVBbXh3?oc=5",
+    "score": 63,
+    "discovered": "2026-10-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-27e2a99676901362c3",
+    "title": "Sabine Köszegi: Führung ist erlernbar, nicht angeboren",
+    "kind": "élmény",
+    "interestTopics": [
+      "technika"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM2ZIM3FpYnFGOHM3bEUwcHFvNlhpYkE0d2VKVU10eWlPQXlfNktMc0hBS3VoczNOa2c2RTc2YTgzbWc5RU1vY04tRFFkV3lQZlo5ck1LcHB0NmZQOHdZQzdkSlM4WlpELWgtdFNqdDc3dUtuRGVHNFJIZFFNWTdrcS1mN1ZFbHlPWExPUUlmSm5JTVN6VlVHcW8ydk8tUQ?oc=5",
     "score": 63,
     "discovered": "2026-10-23",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",

@@ -1,32 +1,5 @@
 [
   {
-    "id": "a38-fink-20261023",
-    "title": "Fink (Live Band), Angela Autumn",
-    "kind": "koncert",
-    "where": "A38 Hajó · Koncertterem · Budapest",
-    "date": "2026-10-23",
-    "dateLabel": "2026. október 23. · 20:00",
-    "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://www.a38.hu/hu/program/fink-live-band-uk-30658",
-    "score": 80,
-    "source": "A38 Hajó – hivatalos koncertnaptár",
-    "ticketStatus": "unknown",
-    "discovered": "2026-10-22",
-    "ticketUrl": "https://www.a38.hu/hu/program/fink-live-band-uk-30658",
-    "linkVerified": true,
-    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
-    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
-    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
-    "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue",
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
-    "eventVerified": false
-  },
-  {
     "id": "a38-skopje-20261024",
     "title": "Skopje Via (MK)",
     "kind": "koncert",
@@ -50,7 +23,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -71,7 +44,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -98,7 +71,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -119,7 +92,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -140,7 +113,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -161,7 +134,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -182,7 +155,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -203,7 +176,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -230,7 +203,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -257,7 +230,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -284,7 +257,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -311,7 +284,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -332,7 +305,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -353,7 +326,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -380,7 +353,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -401,7 +374,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -422,7 +395,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -443,7 +416,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -464,7 +437,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -485,7 +458,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -506,7 +479,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -527,7 +500,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -548,7 +521,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -569,7 +542,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -590,7 +563,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -604,101 +577,6 @@
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdF9VU2JKb3huS2h0b0IxUzE5VmR6eE5ZNkR5dWt4SmhQWXdaTy1yajhwVm02ZmM2WXVfLW80SDVNaHRuT1pPUXZaLXE2aWdrWXpMYzFMWkFobGtsVFM2amJKVE40RklkbWVfR3hZLTQxVVNEamtlRENQUTBCYzRUZWdNbVhTTm9XSFpiUjlCRHlzUG9DWVBoTEtzR05xTWxrUTFTcE43aGxDSUo5bXg4?oc=5",
     "score": 75,
     "discovered": "2026-10-22",
-    "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "concert-cd5e7d42dbb59b8d",
-    "title": "A Madmans Esprit elhozza a visual kei sötét oldalát – Februárban első alkalommal adnak koncertet Budapesten",
-    "kind": "koncert",
-    "where": "Budapest és környéke · ellenőrizendő",
-    "date": "",
-    "dateLabel": "Koncerthír · időpont a forrásban",
-    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNempXRWJpLVIxVVR1dGhnSUp1a3o2M05YRHBiS0ZITm1qYmxnY09Sc1A2UFRmQmJLVnZlWms1cmU1SHd6LXByeFlQQlZOSXhFd19VeFZfT0ZzdEY1Y3ByYldvNWFMcGc1ZUtFYXVIV2ZINTRaTzRrcWJCZGxxR2wxSVFwUGFxQm5YY2VHRW1mVG5rbnJYNGxpNGZvNUlCMHk1WUFyeUR4cFVSMV91MGZwYkgxV2dLbEVxMklSRFFhRmE5UVU?oc=5",
-    "score": 75,
-    "discovered": "2026-10-23",
-    "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "concert-19d07a363c1798d9",
-    "title": "Magyar-északír: hamarosan indul a jegyértékesítés",
-    "kind": "koncert",
-    "where": "Budapest és környéke · ellenőrizendő",
-    "date": "",
-    "dateLabel": "Koncerthír · időpont a forrásban",
-    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
-    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUHZrNkN1RWR4V2Q1UWlYb09zRVA0eWhuOHhXcjVyNnRjeUVxQzZOUEYxZTNNWVVlUlFxNG9EeG9UcTBjS3o0TXhfOG1CYlBVMEo1RnJCc1VtQk9yc3lxdXNZRUpBRF9RV2czbWFINzF4RFF4RnVkSmdMR08?oc=5",
-    "score": 75,
-    "discovered": "2026-10-23",
-    "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "concert-897e14e3dd8b7c0f",
-    "title": "Texas bejelenti visszatérését a színpadra, és 2027 őszén Párizsban ad koncertet.",
-    "kind": "koncert",
-    "where": "Budapest és környéke · ellenőrizendő",
-    "date": "",
-    "dateLabel": "Koncerthír · időpont a forrásban",
-    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR2lNTEpES3JzVWp5NXByc21HWmxLRVBTYkw4N0J6XzNyc2JKaENib3NTd2hKZDNPMFZZVXlDSGRoNmFRZEtDSk54OFVUaE9fSUZIc0VQRUFjNHhiVjVzM3FWYjJGbGFJU2RoMXV3d3llMjlNcHNfRjFDNDQwdFVOQklwTnQ4QkluOUQ4TzNuUm1iR0s4RjNsWFo2UktZU0pIb2wzMUxqdkQyZHFjcXJZUUE3N3ZtUEJ4OVdIZXlzalZDMHIwTnowR3V6NG10ZFoybkRDZ2tCekxrUWNUZ2FoRTRJamFNQQ?oc=5",
-    "score": 75,
-    "discovered": "2026-10-23",
-    "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "concert-ee3b6bab5fb1beed",
-    "title": "NOX - Csendes Turné 2026 - Miskolc - 2026. Oct. 21.",
-    "kind": "koncert",
-    "where": "Budapest és környéke · ellenőrizendő",
-    "date": "",
-    "dateLabel": "Koncerthír · időpont a forrásban",
-    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95eEZ2SXEwcFd1REpoMXZuaGpwdGhQaWtfaFktOE4tcDJPRmh5eDdfMXBGQXRZdWMyRUhLTHd5eXU0NUJhR2NWMW5jakJvLW5CWGg0anpTdWRFUmJLVDZYWFdsWkJGMG1wa0RQS3ZPd1A?oc=5",
-    "score": 75,
-    "discovered": "2026-10-23",
-    "ticketStatus": "unknown",
-    "source": "Google News RSS · ellenőrizetlen hírtalálat",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "concert-a802f5a8e805951b",
-    "title": "Október 23-i programok Budapesten 2026-ban: koncertek, családi élmények és fényfestés a 70. évfordulón",
-    "kind": "koncert",
-    "where": "Budapest és környéke · ellenőrizendő",
-    "date": "",
-    "dateLabel": "Koncerthír · időpont a forrásban",
-    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
-    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX2g3NEhTdGJ1UG95TTJDMi1SWTFndDNNdHBHZE5YdGo2VTlJNXdKOVZCa3JDTjQ3TXVwNEl4aU05LTJHX1FFOXdTZlY4SW94QlBjZW55UDNoRWpDN3VnTlFQZVNGc254YVByTC1yeTJGQzhtanpSekFpVVZKaWdDSlZzU3RwazctblBybnhnaElGZDZBS24xMHk3ZWJUb0NFYnI4V0VMc1cwN3JTWlc2YVFmYTB4OWxRWFVocUlxUjNndUp6R01yelFXLUQwSzh6SFNabmZMTQ?oc=5",
-    "score": 75,
-    "discovered": "2026-10-23",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",
@@ -746,6 +624,101 @@
     "eventVerified": false
   },
   {
+    "id": "concert-cd5e7d42dbb59b8d",
+    "title": "A Madmans Esprit elhozza a visual kei sötét oldalát – Februárban első alkalommal adnak koncertet Budapesten",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNempXRWJpLVIxVVR1dGhnSUp1a3o2M05YRHBiS0ZITm1qYmxnY09Sc1A2UFRmQmJLVnZlWms1cmU1SHd6LXByeFlQQlZOSXhFd19VeFZfT0ZzdEY1Y3ByYldvNWFMcGc1ZUtFYXVIV2ZINTRaTzRrcWJCZGxxR2wxSVFwUGFxQm5YY2VHRW1mVG5rbnJYNGxpNGZvNUlCMHk1WUFyeUR4cFVSMV91MGZwYkgxV2dLbEVxMklSRFFhRmE5UVU?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-19d07a363c1798d9",
+    "title": "Magyar-északír: hamarosan indul a jegyértékesítés",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OUHZrNkN1RWR4V2Q1UWlYb09zRVA0eWhuOHhXcjVyNnRjeUVxQzZOUEYxZTNNWVVlUlFxNG9EeG9UcTBjS3o0TXhfOG1CYlBVMEo1RnJCc1VtQk9yc3lxdXNZRUpBRF9RV2czbWFINzF4RFF4RnVkSmdMR08?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-897e14e3dd8b7c0f",
+    "title": "Texas bejelenti visszatérését a színpadra, és 2027 őszén Párizsban ad koncertet.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPR2lNTEpES3JzVWp5NXByc21HWmxLRVBTYkw4N0J6XzNyc2JKaENib3NTd2hKZDNPMFZZVXlDSGRoNmFRZEtDSk54OFVUaE9fSUZIc0VQRUFjNHhiVjVzM3FWYjJGbGFJU2RoMXV3d3llMjlNcHNfRjFDNDQwdFVOQklwTnQ4QkluOUQ4TzNuUm1iR0s4RjNsWFo2UktZU0pIb2wzMUxqdkQyZHFjcXJZUUE3N3ZtUEJ4OVdIZXlzalZDMHIwTnowR3V6NG10ZFoybkRDZ2tCekxrUWNUZ2FoRTRJamFNQQ?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-ee3b6bab5fb1beed",
+    "title": "NOX - Csendes Turné 2026 - Miskolc - 2026. Oct. 21.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95eEZ2SXEwcFd1REpoMXZuaGpwdGhQaWtfaFktOE4tcDJPRmh5eDdfMXBGQXRZdWMyRUhLTHd5eXU0NUJhR2NWMW5jakJvLW5CWGg0anpTdWRFUmJLVDZYWFdsWkJGMG1wa0RQS3ZPd1A?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-a802f5a8e805951b",
+    "title": "Október 23-i programok Budapesten 2026-ban: koncertek, családi élmények és fényfestés a 70. évfordulón",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX2g3NEhTdGJ1UG95TTJDMi1SWTFndDNNdHBHZE5YdGo2VTlJNXdKOVZCa3JDTjQ3TXVwNEl4aU05LTJHX1FFOXdTZlY4SW94QlBjZW55UDNoRWpDN3VnTlFQZVNGc254YVByTC1yeTJGQzhtanpSekFpVVZKaWdDSlZzU3RwazctblBybnhnaElGZDZBS24xMHk3ZWJUb0NFYnI4V0VMc1cwN3JTWlc2YVFmYTB4OWxRWFVocUlxUjNndUp6R01yelFXLUQwSzh6SFNabmZMTQ?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "concert-5e1bce6f3b7f4c70",
     "title": "David Bowie 80: életműből egész éves világturné",
     "kind": "koncert",
@@ -755,7 +728,7 @@
     "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPTnlpbFoxcXRMU2YzU1hTN1ZXTmNCMmhCLUJzYUNGUmN2ZlZWVDdzYm5zV2d4b2FSYm5EbHhvcjBkWmpwcVh2cW5mYjhuLVZ2Ym00d21KY0lCemRQbWs0R2tKSGw2N1FDMmNndC1yN2xQRVFtX01zMGJuZ3NMSzRlWl9vZ19Ra3Qya1l0NllwZFJMNXFYaV9R?oc=5",
     "score": 75,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",
@@ -774,7 +747,7 @@
     "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWjBraFB4S2xNUGdkSmt4TFhCREdqZlFXQjdXWFlnd0lpZ1ZaOUE5M3hjTkcxX0pHTzlHZVo0NFFvTlBUVWg2UmFNN3RZendhcXVUSnh0bW43OGUxOE5uRk1JV0lkcXEzenAtM2ZpRlMxdjF4bmFBemVzbC1GOE85SFFoQmhqdFNSM21MbmJMTVFxVnA5Um5KcWQtaFZKQ3ljZGx3RWNQbGtmZnh3eGlQSFlUZjI5ckZ1Wm40X3dKcW0?oc=5",
     "score": 75,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",
@@ -793,7 +766,7 @@
     "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdUVsSWlMRk9WdW1sS05oc0xtQkd6UHpmdlVnc2ZNV3VWWmFRMkQ4Z0R1Z0xCMGQxSjNOdFlucHJPd3pYV3lEcFpiU2dUdHM5SUN6M3dpYVdWaWlNYXo0SzJWa1JNT1F6UFNCNHMyaFpDRnV0VUJwSlRKVS1kdXpHajc2aklENkFqdlY3d2ZiRW1QQWl3WVVCUWdjdWJ1c0hxYWJZNnI4eHFyck90QzBCUDZyTXU3anpidGZPTTlySQ?oc=5",
     "score": 75,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",
@@ -812,7 +785,45 @@
     "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjhzbzNzUUp0N0s5SGxlc0FacGpQbkwxZzltWnpnUDlHeXpmak8zSjl6Sy1ZMEdtSDhzYjlOLUp6TEhFdzFtMHBOUklJb3ZwNlh0dVZaZGpFZTV5ZWNhbEFpMFAyR19UcDdnOUNVM1dJUHBncWtVNllGS295dGFRVDlxV0Z5eHVLazR0VTdQNDNyRG5rVERLSXhPeHZZU2FuQ1U2dko2blc?oc=5",
     "score": 75,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-12297ebaf21f6f1a",
+    "title": "Nagy Budapesti Sörfesztivál az októberi hosszú hétvégén: programok október 21–25. között",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNem10TmN3ejE3STRWS3NOdFppbGpqR083ZE1DQ0FNUnA2TU1FOGhjd2NJUkNxSEdMcjNBemc5Z1BLVlQ3aW5WVjBpZ0I1Sl9lTXZYeFRMdUQ1d3gxX0NnWWFrRGJFTURTbm9TczkxQ0doTHhZWkpfSnFPaXItWGpHbXR4Z0h2ekF2NG5uRTROUFVCUU1jLWRLREZNVzNKakt6alpCTWNvanZ6VGxCTmpublpzMzd2SVVDaWdNdG5HdVB2QnZiSmc?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-791f505b4fac7f95",
+    "title": "André Rieu Budapesten: a keringőkirály dupla koncertje az MVM Dome-ban",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObENibmFWZG84SXR4VFdMWkxsTHpycXBBSkE4Si1LbklYRm1JdWIyR0pvWXpJcG8xMGNLT0JvaWNOZUlhdnl3VmxpZS1mQXpzSmx5ZFlabHVhbExoZ2JQUzBWbVZxeUNKeHl3OUx0eHhXeDg1MEIwVVczaWVVOU44OHZoRHdyY3RhV2NEQ2piVGJtZjhNRHlMS0poRWt2a3k5MjNSX3BjaENaNk9xTkhR?oc=5",
+    "score": 75,
+    "discovered": "2026-10-24",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",

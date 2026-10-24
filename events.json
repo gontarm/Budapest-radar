@@ -17,7 +17,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-katona-megall-20261024",
@@ -37,7 +37,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-katona-chicago-20261024",
@@ -57,7 +57,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-katona-mester-20261024",
@@ -77,7 +77,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-orkeny-ostromdressz-20261025",
@@ -97,7 +97,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "radar-theater-orkeny-ostromdressz-20261024",
@@ -117,7 +117,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-svabhegy-nebula-20261030",
@@ -137,7 +137,7 @@
     "eventVerified": false,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-svabhegy-saturn-20261025",
@@ -157,7 +157,7 @@
     "eventVerified": false,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "psz-iranytu-hazasparbajok-2026",
@@ -174,7 +174,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -192,7 +192,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -209,7 +209,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -227,7 +227,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -243,7 +243,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -293,7 +293,7 @@
     "dataQuality": "incomplete",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -310,7 +310,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -326,7 +326,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -343,7 +343,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -364,7 +364,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -417,7 +417,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -439,7 +439,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -455,7 +455,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "uncertain",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -475,7 +475,7 @@
     "dataQuality": "incomplete",
     "linkStatus": "uncertain",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -491,7 +491,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -527,7 +527,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -549,7 +549,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -574,7 +574,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -598,7 +598,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -623,7 +623,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -639,7 +639,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -655,7 +655,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -671,7 +671,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -687,7 +687,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -703,7 +703,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -719,7 +719,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -755,48 +755,6 @@
     "eventVerified": false
   },
   {
-    "id": "official-cef5ad31b7f666f389",
-    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 10.23.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-23",
-    "dateLabel": "2026-10-23 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1023",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "not_found",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
-  },
-  {
-    "id": "official-cff6fda92ff4a60676",
-    "title": "Óriáskráterek és a Szaturnusz estéje. Holdfotózással! - 10.23.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-23",
-    "dateLabel": "2026-10-23 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/oriaskraterek-es-a-szaturnusz-esteje-holdfotozassal-1023",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
-  },
-  {
     "id": "official-64949ebf3c69a01b63",
     "title": "Asztro-matiné l. - Bolygószimatolás - 10.24.",
     "kind": "tudomány",
@@ -812,10 +770,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-840bae42b60f1fb77a",
@@ -833,10 +791,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-a3226337ec9165d9f9",
@@ -854,10 +812,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-1c140032cd3a84469a",
@@ -875,10 +833,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-8cfd32067f48d9671f",
@@ -896,10 +854,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-8409380dd80795791c",
@@ -917,31 +875,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
-  },
-  {
-    "id": "theatre-ed20b2422ff794f78742",
-    "title": "2031",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-23",
-    "dateLabel": "2026.10.23. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-389b09cd600815998ef1",
@@ -962,7 +899,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-5cffe5b91e346033f8c3",
@@ -983,7 +920,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c5a61d2b904302d3d863",
@@ -1004,7 +941,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-bf3684619623ffd16c44",
@@ -1025,7 +962,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e2529b647012999d70af",
@@ -1046,7 +983,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-5fa6c5892dee0690758c",
@@ -1067,7 +1004,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8e1ecccc9e9761ab7340",
@@ -1088,7 +1025,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0e81a630c2fe2c9205a8",
@@ -1109,7 +1046,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e367514073081ead33f8",
@@ -1130,7 +1067,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-a8df22f9763d0214141a",
@@ -1151,7 +1088,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0a730e88ee67e347e739",
@@ -1172,7 +1109,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b86c70b23f13071f64b3",
@@ -1193,7 +1130,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8c4605c78cc4ba879469",
@@ -1214,7 +1151,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-85a88b9500851ed6cb83",
@@ -1235,7 +1172,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-99d0f39aa9756633f0f9",
@@ -1256,7 +1193,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e05f5c6fdeabcd94e312",
@@ -1277,7 +1214,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-42cf5ea2b4ff21c3e270",
@@ -1298,7 +1235,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-f8350d9c894692146703",
@@ -1319,7 +1256,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-7c82203d489e8c694879",
@@ -1340,7 +1277,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-7578130995e4bd1263b5",
@@ -1361,7 +1298,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-000b54d7f9b32fd5588c",
@@ -1382,7 +1319,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-9de38fe31f0016a33889",
@@ -1403,7 +1340,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-761ec5f523757c3ba663",
@@ -1424,7 +1361,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-a56f7516b5b6b4da008a",
@@ -1445,7 +1382,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-82b7448603898f5d9913",
@@ -1466,7 +1403,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0ea93285dc60a00808d8",
@@ -1487,7 +1424,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-be943e0832983daa7d05",
@@ -1508,7 +1445,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-5d449de1157cd2342aad",
@@ -1529,7 +1466,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0fa95aae4fae001c85f1",
@@ -1550,7 +1487,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-4b1e4d1e0f99ada1e843",
@@ -1571,7 +1508,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-5a3f9240f7316dfa77b6",
@@ -1592,7 +1529,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-a3fc5c7d78db49fa52c3",
@@ -1613,7 +1550,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-65c84d0239de4e5ac526",
@@ -1634,7 +1571,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b03120e10281ea84750f",
@@ -1655,7 +1592,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-92c735260264a2a58211",
@@ -1676,7 +1613,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-4c094a9ac78965a1bfa0",
@@ -1697,7 +1634,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-40633f9f2b712d812167",
@@ -1718,7 +1655,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-fd2abc9eb26fb200e1b1",
@@ -1739,7 +1676,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-aad712dd1097353ef632",
@@ -1760,7 +1697,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-f0868088837cdc4fc0e0",
@@ -1781,7 +1718,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6eb941e5a5e725d275c8",
@@ -1802,7 +1739,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-9e4f997c38131bad46c2",
@@ -1823,7 +1760,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-28517ce7fdfb8b6aad2a",
@@ -1844,7 +1781,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b931d631af77f7dcf859",
@@ -1865,7 +1802,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-94f7ba59530a26926e99",
@@ -1886,7 +1823,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-06f2004567985f6f89fa",
@@ -1907,7 +1844,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-1b1fe09603c65e735892",
@@ -1928,7 +1865,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0277e473b2008743db27",
@@ -1949,7 +1886,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8601f57588c2a90c8485",
@@ -1970,7 +1907,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b624b40d86bcd3b91e98",
@@ -1991,7 +1928,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0711882eb0a3072828a5",
@@ -2012,7 +1949,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-45842b9d8aabc2740ff0",
@@ -2033,7 +1970,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6b0ff2b5a17f684cd3ec",
@@ -2054,7 +1991,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-456e62e3de8f449e4a95",
@@ -2075,7 +2012,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b25c8fdab3b74f52091c",
@@ -2096,7 +2033,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-ae9b35d5fa729d8d147d",
@@ -2117,7 +2054,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-554419f640c46eeaab29",
@@ -2138,7 +2075,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e66cdf1356cadf5c4c58",
@@ -2159,7 +2096,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-450c15a7c6f383884711",
@@ -2180,7 +2117,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-5e498d83f4a2be8fd75b",
@@ -2201,7 +2138,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-545d5a1d9d9bce54d623",
@@ -2222,7 +2159,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6bebfece8a7dfc071ce7",
@@ -2243,7 +2180,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-76717ca47223afdf9f0d",
@@ -2264,7 +2201,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-9edfbc5435838dc46d4c",
@@ -2285,7 +2222,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e65dde5217ca9dbf5496",
@@ -2306,7 +2243,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-d24d3779367573c73114",
@@ -2327,7 +2264,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e8136eb819355fc3c17b",
@@ -2348,7 +2285,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-70fe7327ab6ed9eab81e",
@@ -2369,7 +2306,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-f56758d47f372206c0e8",
@@ -2390,7 +2327,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-edf4175ae85b471f7148",
@@ -2411,7 +2348,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-34be0a1e323b53f519f5",
@@ -2432,7 +2369,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8757422a1558147af728",
@@ -2453,7 +2390,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b00bb8b0cd07cf3096a0",
@@ -2474,7 +2411,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0879b002afda3ae4c7f4",
@@ -2495,7 +2432,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-a2e52bfacc6eb9338da6",
@@ -2516,7 +2453,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-02b79fbcb1b5e7c0b6ba",
@@ -2537,7 +2474,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8c6d2e7fafcfc5f9dde9",
@@ -2558,7 +2495,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-789132674e99f2b949d9",
@@ -2579,7 +2516,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-4e8a13bf4bde35e3f41d",
@@ -2600,7 +2537,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6499632a7a3951c438a6",
@@ -2621,7 +2558,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c691708d7d89a788d1d1",
@@ -2642,7 +2579,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-539871bc5d03b209f1be",
@@ -2663,7 +2600,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-adf9ccffcf0a7df5a6bf",
@@ -2684,7 +2621,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-61643240077f1ac0bf6c",
@@ -2705,7 +2642,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-d2b6a0cbf3be5892d039",
@@ -2726,7 +2663,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-3507b14129a709f6ce27",
@@ -2747,7 +2684,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-69f2a96d9d3554c256cc",
@@ -2768,7 +2705,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-53bac3c7eeb547b7b4af",
@@ -2789,7 +2726,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-39ef49754330f8050bd7",
@@ -2810,7 +2747,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-210ee3399066a08a76dc",
@@ -2831,7 +2768,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-450da2156f63cc36aaff",
@@ -2852,7 +2789,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-4d44de0e02ffd25dd933",
@@ -2873,7 +2810,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c7a9d785c0304b95d37b",
@@ -2894,7 +2831,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0c5ca5ee2acf8509852d",
@@ -2915,7 +2852,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-17b1d7326207cc51f210",
@@ -2936,7 +2873,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-f5878db06a3aa902b5da",
@@ -2957,7 +2894,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e0537b84f6bbd2269e93",
@@ -2978,7 +2915,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-10a4eea94843f442f9bd",
@@ -2999,7 +2936,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-43bc7c0e3638bf831597",
@@ -3020,7 +2957,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-69558f238ad4c6845733",
@@ -3041,7 +2978,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-232c29b7e9ca1a8a190c",
@@ -3062,7 +2999,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-74c964d5a3ec56f806b7",
@@ -3083,7 +3020,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b6c9dd4f671830b8cf6d",
@@ -3104,7 +3041,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-4f06caffc3af2e0c69fc",
@@ -3125,7 +3062,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e3c35fefcb74cd164d49",
@@ -3146,7 +3083,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-cfe2cb82fd0c87206cce",
@@ -3167,7 +3104,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-34d8674450f922fe2278",
@@ -3188,7 +3125,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-58fbf3712057dcb32050",
@@ -3209,7 +3146,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-2561bfbcd73aad037d9d",
@@ -3230,7 +3167,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-3dcd6ad92c164801fa8e",
@@ -3251,7 +3188,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-9c9ee4327a20f4fb577c",
@@ -3272,7 +3209,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-3f23c3befcd61eb3f86f",
@@ -3293,7 +3230,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-8f47ee0654c2946960f6",
@@ -3314,7 +3251,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-0b73af766f1a80443b64",
@@ -3335,7 +3272,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6e5e736187fb7f66bdd4",
@@ -3356,7 +3293,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-346ee9f99a66abc69121",
@@ -3377,7 +3314,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-e603255def14f70e467f",
@@ -3398,7 +3335,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b00f638659b3c4021c1c",
@@ -3419,7 +3356,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-3e4171df1ff3bed56c8e",
@@ -3440,7 +3377,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b234b7289d2490b9335c",
@@ -3461,7 +3398,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-b97eef95ae4047f59c63",
@@ -3482,7 +3419,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c07b8d6a4d36e9588c2f",
@@ -3503,7 +3440,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-14db504e749eb2cf5b06",
@@ -3524,7 +3461,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-abdaea47a957bcb08b16",
@@ -3545,7 +3482,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-eff7c22f647006f65ca5",
@@ -3566,7 +3503,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-de1ff593bc9b99f826f4",
@@ -3587,7 +3524,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c30b9aca856e648a5512",
@@ -3608,7 +3545,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-d077313d9ff19ef07db8",
@@ -3629,7 +3566,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-a9d16d2545829f0374a8",
@@ -3650,7 +3587,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-c9dc47152209ecba3538",
@@ -3671,7 +3608,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-6d20699b52e0e0235ce2",
@@ -3692,7 +3629,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "theatre-da9e56b93d0a13bf9e52",
@@ -3713,7 +3650,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "pannonia-2026-10-23-frida",
@@ -3729,7 +3666,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3746,7 +3683,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3763,7 +3700,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3780,7 +3717,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3797,7 +3734,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3814,7 +3751,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3831,7 +3768,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3848,7 +3785,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3865,7 +3802,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3882,7 +3819,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-23",
+    "linkCheckedOn": "2026-10-24",
     "eventVerified": false
   },
   {
@@ -3901,10 +3838,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-23"
+    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "rss-ac171237a88e958",
@@ -3916,7 +3853,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzhaMmFZdjloVkZHSFFDcjVLZVVQOGtOTUViMHJJSVkyUXFQRExIWl83aDRNVkhtWTB3QUhqWXJhUzRXQmRKcUx0SW9EQmZNQ24ya2tpSFVDT3lQb0VJV3ZGaE9ZWnctTnlkdUp1YS0zcXdfd3pEZXYxX3U1R2tPa2d6bHkzRE9EWjRRaHJYaEVwU05HMDRfRmxvQTVYUTNsWGtWZU13djJtRDhBd2toR2RRaEV0UV9hUDcxRXZXTlZtWHM?oc=5",
     "score": 94,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -3934,25 +3871,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEFLcDI1UngwOEE0V2l6dG5HZmdsMUJrOFBLRXNqWUJ0M2dWSFpRMkY3ZnBCWUtGdWZoYW9pZlZwZW85Y3BJaVJrYkREaWh0ZDlCVExMRnlMb3BWUHY3LXFLNGR1QVg4bXZzNkxfOVl5cENlUEhaZjl6aFA5OEgzODdQcXBQNUd2SVhDb1RhQkhDWmxVNUdCdldjY0cxQ01ybDY3alN6QlhrcFlXNEZBVmxjVEkycGxFbzNVUWM5bw?oc=5",
     "score": 86,
-    "discovered": "2026-10-23",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-a654bf53ba6e419",
-    "title": "Hétvégi programajánló: Budapest International Film Festival, október 23-i programok, fényparkok nyitó hétvégéje",
-    "kind": "élmény",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.22. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMXVJVjAzMWFMaXY4NWE2UkdLMUY2WEV5YUY0NmlBNjVhNmRDdWQwS0dTLVFkUzhLNjdQTDl0ZENOYXo5anVzZkFHdkdLazNKRFRFR29IREtjeEVZcDhudEFRSElFWldhaE9MY3A1OVV0cnNCWFZic3B0dkZpblJTOEpiZ1RKdkNzazRMbHlrbEhYd1c4eDJ2ME9nd29hU2MycE92cC1sSQ?oc=5",
-    "score": 77,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -3970,7 +3889,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0I1QVBUN1pNU3NRWjRQQlZtcnllUFJJMGFpQklOUDlMQXNsWDJMbW91aF8tN3BHSDdwYS1IdWhPXzh0N1BqS2hGMkx2RVVmY1BKWktlQ0dfMjhnQnNRUm01ZTE0RTdQUUt0a1NJdVhjWHpnQnhjbnFULU1oazdrQmdHNUwzdE9EMGpGbzRxdEhPeUZ0QlJEc09CYldfbkx4YTU4OVlpTXlBQTRqNmY0dXJYampaRDMyQUk0MFhDUElYXzZJc1Z3WQ?oc=5",
     "score": 76,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -3988,7 +3907,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWm1CeTNieTU4dVd1SmpvLXZVb2dfUk1ud3lNWkx4S2VoMkhMN2JpdVZEOVFnWThlc2ZJRVZDVjFXazhvcVNWdlZLUEVSb3ZhWndiM3BTa1hDY3pDUnoxS1dReG1mZkotUC0zV2dBMzVrMGVXVlFZZzBZQzFpb3R5bGpCcEFaeHp6a1JKVU1xM0NEVVJndm1Rc2FHUHZZazlZQmhYVlRzNk1GdG5mZWQ4THdreU1WQTJsNmlHcXVpZk83a3QtQ2hhYVZuMGIxYzllNHBFQWlMM0hWanpwZHc?oc=5",
     "score": 74,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4006,7 +3925,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDdLQWZMNnVFWWM2S1o3TU5la2RCbDBJbTl3ZHpITlRPRVMybjhsM3lGcHo0djdScFQtNGd4Wk5HbnI0VEFZbTkxYzdqVmtTQkk4OEROUDMzbHc2OUZrbEN0LW1uX1dNVHc1blZtclp5RkxxN05MSFhTdXFCME9pMQ?oc=5",
     "score": 71,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4024,7 +3943,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNkFteEVzSkoxME02WGlGdDQ4ZFBFVjhLUE1XZ1VBa3FvVTNYYzRSa25QUlRTQ0U2RG9tM0RaSUhhWkZKOHVoT1dSeGl2WER2UUtvcjc1VW9Qdk5ma2JiS1I5cUQ4RERYNmNjQng1d2ozVzZtdlZLWFljVzdscDRWVE9WWE5YWjhTbEdNa0VHR3J3Tk5jZkJmdlBMSE9GNlBGVXNYbWhCTQ?oc=5",
     "score": 71,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4042,7 +3961,7 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GckpGVmtReXdrUGtuaW1MS2Fqak4yQ21iU2VwWTdTR2xHRDNYYW9heEVENkZrQUpsRlVDUlBjQ0dzNndHbnJib0xKM21pbUZLbF8xMUZsbmhWRjFaUnZJ?oc=5",
     "score": 71,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4060,6 +3979,24 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWnBWY0JtdVdWcnhMVklCRHh0VDJmbzd4cjJEODlqSkZsY3dURXpYbkFvamtrZGh0QmdYUjFKM0RFc1JheHNmcmpBZC1ZY202VzBQdW1fQmtjYXhQQlh2YXRhSlVwQVlQT0NBbGtDWWh4UU5fQ0lOWWR5blRmUndNTmRVOFBDS2J1bmNHTi1NbXRUdm9f?oc=5",
     "score": 71,
+    "discovered": "2026-10-24",
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "rss-a654bf53ba6e419",
+    "title": "Hétvégi programajánló: Budapest International Film Festival, október 23-i programok, fényparkok nyitó hétvégéje",
+    "kind": "élmény",
+    "where": "Budapest / környéke · helyszín ellenőrzendő",
+    "date": "",
+    "dateLabel": "Friss hír: 2026.10.22. · időpont a forrásban",
+    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMXVJVjAzMWFMaXY4NWE2UkdLMUY2WEV5YUY0NmlBNjVhNmRDdWQwS0dTLVFkUzhLNjdQTDl0ZENOYXo5anVzZkFHdkdLazNKRFRFR29IREtjeEVZcDhudEFRSElFWldhaE9MY3A1OVV0cnNCWFZic3B0dkZpblJTOEpiZ1RKdkNzazRMbHlrbEhYd1c4eDJ2ME9nd29hU2MycE92cC1sSQ?oc=5",
+    "score": 77,
     "discovered": "2026-10-23",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
@@ -4153,7 +4090,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSWc5dVNUM1FvczdET1lRSjdLdDJUcFlNQ0YySW1VUEtaWUpaSHhuMVNQUkZ1VnZfT2ZQaHFpbDlleEVIRi1LZzlFalRBT2Rlb19sS3JGS0FLVlhqRVl5X0toSUdKc1BHOXgxRC1TSFVJX3RlU0x0dmRkT1Y0ajZ5UWZCVUZMMnZ2WUN4YkJuMWJ0NmotRURPT2lR?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4174,7 +4111,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNYmRPMUxHTGFVWVMxQXJlVUxNQXNoOGIwM0JhaFZab25uUlhHclV5eE5BSE1mem0tQ09VN05WZlNUSElkd19saVU2dUJIMjI3RkJ1dC1CNFNiRHdmbTBVTGRxX3l4cDNheHk0UnRWbzk0d09nTi12NDZwTU1FcEVaby1KZk96WXdtakpqLVM5MjNzd0o0MVpwMXV5M3RuRVhYbE0wWTV5WFJ5WjlWcTVBbFRKRGo0RXZwWWJXRGZjamw0QU43dEI4d0p0ampJOUZiLUJjd0lSbU9adw?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4195,7 +4132,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VMFpfcHh1VFlsWEc0NkpEYUhja19MNXB3X2p3Y00zOEprZ2Y5eDZQMjNXYlozdFpZZmhLZGc3M3hXNFNIUzdIMjlzeHhRZ1lvTDRSVEJXcDZvaXpMTjhZVWl0cExrY2l2UklpQ3V3TEx0akU?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4216,7 +4153,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUmZZN1VBcFhDX055dmFheFhkZEstNGVJVUREMDlURHNHMGxYODlfa2pTR2J6OXJBOV96LVphZWhvUUNSb3dyVzJTOGpWTm1uTHFXa2lWNElidG5YbVJTbUt1c1NmOWNkX3BCVlBQTXh5bTVxSWJRbTJaeUlnekFuOWtSNA?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4237,7 +4174,49 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUlZOUJmUmVVUnV6UDVhd01ZbGJ4aV9SZXNubk56YUlVcjctdUlxM3prd2dCTzFfbmtrSlZ1Y29CRVJoRmp6b3pKN0V0eURWQ3hoX1FpRWtid21MdS1DZGdLaWVUbklsb1pOZlBjbTFFQURnQnZkUW5YX2Vwc0RKRXJHZGFJanFfSjBtUk0zT0VFMEg1ckprNGtVcDlrQQ?oc=5",
     "score": 63,
-    "discovered": "2026-10-23",
+    "discovered": "2026-10-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-aef8595bb3750052ad",
+    "title": "Campus life: Halloweeni csillagles, ingyenes koncertek és filmfesztivál: 5 program az őszi szünetre",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wbGhJT0tLaDdxemZEVndlWTV1VmRYaFN3VEYwMFU3dm1OTkNfR244NFd5Wl92N3V0YWpxeFpGd2I3bEVyVThSV3dZV0tmZ1VOOGRmdnh6aXFIcnZWT1hqcFItS2hOUE4yZkgxY1BmOXREN21P?oc=5",
+    "score": 63,
+    "discovered": "2026-10-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-cadb40494b049b13e9",
+    "title": "Ne maradj le az őszi csillaghullásról: ezen a hajnalon megéri korán kelni",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaUZrX29vek5LTkF1amlOTUxnMV9xWVpXNnNEcy1LdzVHaDRyUG9Sc3hFelZCMVc3MjkteldZUHNDeWx1S19xQnAzWG9WcHRRek9PRVNkZlZKNE8wV1pvLUNGVXpiYzQ3R0RVU1NTZjhmc3NiSmh0TVl1Tl9pOFhPWklxalRQaXc?oc=5",
+    "score": 63,
+    "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4288,48 +4267,6 @@
     "eventVerified": false
   },
   {
-    "id": "radar-topic-budapest-aef8595bb3750052ad",
-    "title": "Campus life: Halloweeni csillagles, ingyenes koncertek és filmfesztivál: 5 program az őszi szünetre",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Budapest · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5wbGhJT0tLaDdxemZEVndlWTV1VmRYaFN3VEYwMFU3dm1OTkNfR244NFd5Wl92N3V0YWpxeFpGd2I3bEVyVThSV3dZV0tmZ1VOOGRmdnh6aXFIcnZWT1hqcFItS2hOUE4yZkgxY1BmOXREN21P?oc=5",
-    "score": 63,
-    "discovered": "2026-10-23",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-budapest-cadb40494b049b13e9",
-    "title": "Ne maradj le az őszi csillaghullásról: ezen a hajnalon megéri korán kelni",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Budapest · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQaUZrX29vek5LTkF1amlOTUxnMV9xWVpXNnNEcy1LdzVHaDRyUG9Sc3hFelZCMVc3MjkteldZUHNDeWx1S19xQnAzWG9WcHRRek9PRVNkZlZKNE8wV1pvLUNGVXpiYzQ3R0RVU1NTZjhmc3NiSmh0TVl1Tl9pOFhPWklxalRQaXc?oc=5",
-    "score": 63,
-    "discovered": "2026-10-23",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
     "id": "radar-topic-budapest-2639bbd15cb069f309",
     "title": "Ritkán lehet részünk abban, ami szerda éjszaka történik: hullócsillagok tucatja fogja díszíteni az égboltot",
     "kind": "tudomány",
@@ -4349,5 +4286,26 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "official-68409ee6525b1ff9dd",
+    "title": "Égi ködöktől a Szaturnusz gyűrűjéig - 10.30.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-30",
+    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-10-24",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-24"
   }
 ]
