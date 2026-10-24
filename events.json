@@ -453,7 +453,7 @@
     "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
     "score": 95,
     "dataQuality": "scheduled",
-    "linkStatus": "not_found",
+    "linkStatus": "reachable",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
@@ -473,7 +473,7 @@
     "why": "Rejtett terek, föld alatti járatok, ipartörténet és helytörténet találkoznak.",
     "practical": "Több külön helyszín és szervező: az egyes sétákra eltérő regisztráció vonatkozhat. A programlapon érdemes előre útvonalat tervezni.",
     "dataQuality": "incomplete",
-    "linkStatus": "not_found",
+    "linkStatus": "reachable",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
@@ -792,7 +792,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-10-24",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24"
   },
@@ -813,7 +813,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-10-24",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24"
   },
@@ -3865,6 +3865,27 @@
     "linkCheckedOn": "2026-10-24"
   },
   {
+    "id": "official-ae0fafc12cc3224565",
+    "title": "Csillagkapu: Halloween - 2026.10.31.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-31",
+    "dateLabel": "2026-10-31 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/csillagkapu-halloween-20261031",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-10-24",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-24"
+  },
+  {
     "id": "rss-ac171237a88e958",
     "title": "Fényparkok és fénykiállítások 2026-ban: sárkányok, fényalagutak és ragyogó kastélykertek várnak országszerte",
     "kind": "élmény",
@@ -4348,17 +4369,38 @@
     "eventVerified": false
   },
   {
-    "id": "official-ae0fafc12cc3224565",
-    "title": "Csillagkapu: Halloween - 2026.10.31.",
+    "id": "official-d9c1e4c8d874b7ab64",
+    "title": "A Szaturnusztól Kassziopeia csillaghalmazáig - 11.01.",
     "kind": "tudomány",
     "interestTopics": [
       "vilagegyetem"
     ],
     "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-31",
-    "dateLabel": "2026-10-31 · kezdés a szervező oldalán",
+    "date": "2026-11-01",
+    "dateLabel": "2026-11-01 · kezdés a szervező oldalán",
     "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/csillagkapu-halloween-20261031",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusztol-kassziopeia-csillaghalmazaig-1101",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-10-24",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-24"
+  },
+  {
+    "id": "official-ce0f89020523b44afb",
+    "title": "A Szaturnusz és az Androméda-galaxis estéje - 11.05.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-05",
+    "dateLabel": "2026-11-05 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-es-az-andromeda-galaxis-esteje-1105",
     "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
     "score": 85,
     "dataQuality": "scheduled",
