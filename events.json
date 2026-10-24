@@ -453,7 +453,7 @@
     "url": "https://www.budafokteteny.hu/program/novemberi-pincejarat-2026",
     "score": 95,
     "dataQuality": "scheduled",
-    "linkStatus": "uncertain",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
@@ -473,7 +473,7 @@
     "why": "Rejtett terek, föld alatti járatok, ipartörténet és helytörténet találkoznak.",
     "practical": "Több külön helyszín és szervező: az egyes sétákra eltérő regisztráció vonatkozhat. A programlapon érdemes előre útvonalat tervezni.",
     "dataQuality": "incomplete",
-    "linkStatus": "uncertain",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
@@ -771,7 +771,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-10-24",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-10-24"
   },
@@ -3844,6 +3844,27 @@
     "linkCheckedOn": "2026-10-24"
   },
   {
+    "id": "official-68409ee6525b1ff9dd",
+    "title": "Égi ködöktől a Szaturnusz gyűrűjéig - 10.30.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-10-30",
+    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-10-24",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-10-24"
+  },
+  {
     "id": "rss-ac171237a88e958",
     "title": "Fényparkok és fénykiállítások 2026-ban: sárkányok, fényalagutak és ragyogó kastélykertek várnak országszerte",
     "kind": "élmény",
@@ -3871,6 +3892,24 @@
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEFLcDI1UngwOEE0V2l6dG5HZmdsMUJrOFBLRXNqWUJ0M2dWSFpRMkY3ZnBCWUtGdWZoYW9pZlZwZW85Y3BJaVJrYkREaWh0ZDlCVExMRnlMb3BWUHY3LXFLNGR1QVg4bXZzNkxfOVl5cENlUEhaZjl6aFA5OEgzODdQcXBQNUd2SVhDb1RhQkhDWmxVNUdCdldjY0cxQ01ybDY3alN6QlhrcFlXNEZBVmxjVEkycGxFbzNVUWM5bw?oc=5",
     "score": 86,
+    "discovered": "2026-10-24",
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "rss-93e317675f5baea",
+    "title": "Immerzív fényjátékok és kiállítások Budapesten – különleges programok 2026 őszére",
+    "kind": "élmény",
+    "where": "Budapest / környéke · helyszín ellenőrzendő",
+    "date": "",
+    "dateLabel": "Friss hír: 2026.10.24. · időpont a forrásban",
+    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTE1GOWhlYS1JcVZDT0t1Y256S3NTT25rc3VaTmotbTJOMjRvd3RkeVR4M0dBWU5RaEM1bzA4cktKengwRm9XQmc5QlF0c2NIVWowM0NrMlpreEsxMm16eWlUMG54NlFqQ0N1VlB3NkN0OVliaEhLa3dFX3ZkdEVpYmVWbTlScElpWGctR25ySzE2UktQMG5Tc2huM2V3MDQ0ekFj?oc=5",
+    "score": 81,
     "discovered": "2026-10-24",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
@@ -4225,6 +4264,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-budapest-897f3d2d8de83eb917",
+    "title": "Messier 14 – a változócsillagok és a csillagásznők gömbhalmaza",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeWdZQnRDZWVDVzFHUHRuamk1Y0o5U1VCVlBiTFVXd1dQdHYxWVF1Ym9yLWVrTnZPMEZXNmp3amJ5RGprZUpQbFU5c1pPeEpOMjNTb2VJdkJycU9fekFYclljTEJWdnZlZTVKMDd1cVczVW5udHo0cnczMWwtTWJERFdpcUxucG5tMm9Fam9CNnNFME5TMkhCMXhVTWpLLUU4S3lqX2xvMi1xMG9wN05J?oc=5",
+    "score": 63,
+    "discovered": "2026-10-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-budapest-594be94e39e78589b1",
     "title": "A Szaturnusz gyűrűitől a kék és vörös csillagokig – különleges égi látvány vár a Svábhegyi Csillagvizsgálóban",
     "kind": "tudomány",
@@ -4288,17 +4348,17 @@
     "eventVerified": false
   },
   {
-    "id": "official-68409ee6525b1ff9dd",
-    "title": "Égi ködöktől a Szaturnusz gyűrűjéig - 10.30.",
+    "id": "official-ae0fafc12cc3224565",
+    "title": "Csillagkapu: Halloween - 2026.10.31.",
     "kind": "tudomány",
     "interestTopics": [
       "vilagegyetem"
     ],
     "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-30",
-    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
+    "date": "2026-10-31",
+    "dateLabel": "2026-10-31 · kezdés a szervező oldalán",
     "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/csillagkapu-halloween-20261031",
     "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
     "score": 85,
     "dataQuality": "scheduled",
