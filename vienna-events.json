@@ -12,7 +12,7 @@
     "source": "Stadt Wien – eseményoldal",
     "score": 92,
     "dataQuality": "scheduled",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": false,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
@@ -147,7 +147,7 @@
     "score": 86,
     "source": "Stadt Wien – fesztiválnaptár",
     "dataQuality": "scheduled",
-    "linkStatus": "blocked",
+    "linkStatus": "uncertain",
     "directEventLink": false,
     "linkCheckedOn": "2026-10-24",
     "eventVerified": false
