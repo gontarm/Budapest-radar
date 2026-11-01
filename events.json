@@ -375,7 +375,7 @@
     "practical": "A foglalható időpontokat és a részvételi feltételeket a Dreher regisztrációs felületén ellenőrizd.",
     "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
     "dataQuality": "scheduled",
-    "linkStatus": "uncertain",
+    "linkStatus": "reachable",
     "directEventLink": false,
     "linkCheckedOn": "2026-11-01",
     "eventVerified": false
@@ -3321,6 +3321,132 @@
     "linkCheckedOn": "2026-11-01"
   },
   {
+    "id": "official-ad2a193a904d858a0a",
+    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 11.06.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-06",
+    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1106",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-93061bb3b17e9fac1e",
+    "title": "A Szaturnusz gyönyörű gyűrűrendszere - 11.06.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-06",
+    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyonyoru-gyururendszere-1106",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-94836b2e04633ab49f",
+    "title": "Asztro-matiné l. - Naprendszer - 11.07.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-l-naprendszer-1107",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-a76d138fe3f33b1cb4",
+    "title": "Asztro-matiné I. - Naprendszer - 11.07.  - Délutáni matiné",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-i-naprendszer-1107-delutani-matine",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-607ea32db021519d9f",
+    "title": "A Szaturnusz és a Titán estéje - 11.07.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-es-a-titan-esteje-1107",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-4d69a07d88b21aaa83",
+    "title": "Pegazus hatalmas csillaghalmaza és a Szaturnusz - 11.08.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-08",
+    "dateLabel": "2026-11-08 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/pegazus-hatalmas-csillaghalmaza-es-a-szaturnusz-1108",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
     "id": "rss-7218ee9bacf1f75",
     "title": "Fénybe borult parkok és izgalmas terek: látványos fényparkok és varázslatos fénykiállítások 2026",
     "kind": "élmény",
@@ -3682,131 +3808,5 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
-  },
-  {
-    "id": "official-ad2a193a904d858a0a",
-    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 11.06.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-06",
-    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1106",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
-  },
-  {
-    "id": "official-93061bb3b17e9fac1e",
-    "title": "A Szaturnusz gyönyörű gyűrűrendszere - 11.06.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-06",
-    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyonyoru-gyururendszere-1106",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
-  },
-  {
-    "id": "official-94836b2e04633ab49f",
-    "title": "Asztro-matiné l. - Naprendszer - 11.07.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-07",
-    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-l-naprendszer-1107",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
-  },
-  {
-    "id": "official-a76d138fe3f33b1cb4",
-    "title": "Asztro-matiné I. - Naprendszer - 11.07.  - Délutáni matiné",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-07",
-    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-i-naprendszer-1107-delutani-matine",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
-  },
-  {
-    "id": "official-607ea32db021519d9f",
-    "title": "A Szaturnusz és a Titán estéje - 11.07.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-07",
-    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-es-a-titan-esteje-1107",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
-  },
-  {
-    "id": "official-4d69a07d88b21aaa83",
-    "title": "Pegazus hatalmas csillaghalmaza és a Szaturnusz - 11.08.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-11-08",
-    "dateLabel": "2026-11-08 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/pegazus-hatalmas-csillaghalmaza-es-a-szaturnusz-1108",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-11-01",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-11-01"
   }
 ]
