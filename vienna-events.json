@@ -201,5 +201,26 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-d231907b859fd0cc3f",
+    "title": "Fotos der Eröffnung - Großer Andrang im Foto Arsenal Wien: Zwei Ausstellungen, die unter die Haut gehen",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQ2d6N05DQUpBWUdDRGllRnFyS1o2VlZndF9tTmEyUTR4QlcwdTVIUWpUOVdkYjZPQ0Q5SHJsenZjaDM3RXNucnZzRm8xeFhQbXYtNDBvNkNKMXpic1JxVXBtRGxBUVRTc1V4aHdCZEtiWGFOZ1Z0ZVRDdE93Q1BtVElMN1dJaTVqd29Yd0tuclpPSF9sV1Y0a0xoM0NUNTk5bnd5RQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-01",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]

@@ -3537,6 +3537,24 @@
     "eventVerified": false
   },
   {
+    "id": "rss-c6b7648ceccbf65",
+    "title": "Japán kultúra Budapesten: különleges kiállítás és hangulatos japánkertek",
+    "kind": "élmény",
+    "where": "Budapest / környéke · helyszín ellenőrzendő",
+    "date": "",
+    "dateLabel": "Friss hír: 2026.11.01. · időpont a forrásban",
+    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbjNmREJYNVRjSmJFOTgzdlNzOGdnZWZnalFQS0RPNWE2SlFobVNEQXlyOEt3U0Q5YURWeGxkWkRJeHJjb0ZRTXFRbVByYWpCdjZOMmtNaWtabGw2UnFDRElHQUVfM1ZPTXRTRWJJLUxacl9qbGdYbW53UnNrVVVqZHRTNDYyRDhldU5XLXExRFZDVHMtVEdFNA?oc=5",
+    "score": 71,
+    "discovered": "2026-11-01",
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-budapest-6e32b0e1b593071245",
     "title": "Év Kiállítása 2026: díjat nyert a Magyar Nemzeti Múzeum Attila-kiállítása",
     "kind": "élmény",
@@ -3808,5 +3826,26 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "theatre-4d0a6d4722bfb0ba9819",
+    "title": "KatonaTéka",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "where": "Cafe Katona · Petőfi Sándor utca 6., Budapest",
+    "date": "2026-11-07",
+    "dateLabel": "2026.11.07. · 14:00",
+    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
+    "url": "https://katonajozsefszinhaz.hu/musor/",
+    "source": "Katona József Színház – hivatalos műsor",
+    "score": 86,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-11-01"
   }
 ]
