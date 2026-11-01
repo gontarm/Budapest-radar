@@ -17,7 +17,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-theater-katona-megall-20261024",
@@ -37,7 +37,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-theater-katona-chicago-20261024",
@@ -57,7 +57,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-theater-katona-mester-20261024",
@@ -77,7 +77,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-theater-orkeny-ostromdressz-20261025",
@@ -97,7 +97,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-theater-orkeny-ostromdressz-20261024",
@@ -117,47 +117,7 @@
     "score": 86,
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-svabhegy-nebula-20261030",
-    "title": "Égi ködöktől a Szaturnusz gyűrűjéig",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-30",
-    "dateLabel": "2026. október 30. · 18:00–20:00",
-    "desc": "Csillagászati megfigyelőest a Szaturnusszal, az Androméda-galaxissal és a planetáris ködökkel.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos eseményoldal",
-    "score": 93,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-svabhegy-saturn-20261025",
-    "title": "A Szaturnusz gyűrűrendszere és a Hold hatalmas krátere",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-25",
-    "dateLabel": "2026. október 25. · 19:00–21:00",
-    "desc": "Távcsöves csillagászati program: a Szaturnusz gyűrűi, a Titán hold és a Hold nagy krátereinek megfigyelése.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyururendszere-es-a-hold-hatalmas-kratere-holdfotozassal-1025",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos eseményoldal",
-    "score": 93,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "psz-iranytu-hazasparbajok-2026",
@@ -174,7 +134,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -192,7 +152,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -209,7 +169,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -227,7 +187,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -243,7 +203,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -293,7 +253,7 @@
     "dataQuality": "incomplete",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -310,7 +270,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -326,7 +286,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -343,7 +303,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -364,7 +324,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -415,9 +375,9 @@
     "practical": "A foglalható időpontokat és a részvételi feltételeket a Dreher regisztrációs felületén ellenőrizd.",
     "ticketUrl": "https://www.dreherzrt.hu/sorutazas/jelentkezes-sorturara/",
     "dataQuality": "scheduled",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -439,7 +399,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -455,7 +415,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -475,7 +435,7 @@
     "dataQuality": "incomplete",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -491,7 +451,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -527,7 +487,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -549,7 +509,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -574,7 +534,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -598,7 +558,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -623,7 +583,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -639,7 +599,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -655,7 +615,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -671,7 +631,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -687,7 +647,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -703,7 +663,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -719,7 +679,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -755,510 +715,6 @@
     "eventVerified": false
   },
   {
-    "id": "official-64949ebf3c69a01b63",
-    "title": "Asztro-matiné l. - Bolygószimatolás - 10.24.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-24",
-    "dateLabel": "2026-10-24 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-l-bolygoszimatolas-1024",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "not_found",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-840bae42b60f1fb77a",
-    "title": "A pengevékony Vénusz - 10.24.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-24",
-    "dateLabel": "2026-10-24 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-pengevekony-venusz-1024",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "not_found",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-a3226337ec9165d9f9",
-    "title": "Asztro-matiné l. - Bolygószimatolás - 10.24. - Délutáni matiné",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-24",
-    "dateLabel": "2026-10-24 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-l-bolygoszimatolas-1024-delutani-matine",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "not_found",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-1c140032cd3a84469a",
-    "title": "Hold-Szaturnusz együttállás. Holdfotózással! - 10.24.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-24",
-    "dateLabel": "2026-10-24 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/hold-szaturnusz-egyuttallas-holdfotozassal-1024",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-8cfd32067f48d9671f",
-    "title": "A Szaturnusz gyűrűrendszere és a Hold hatalmas krátere. Holdfotózással! - 10.25.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-25",
-    "dateLabel": "2026-10-25 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyururendszere-es-a-hold-hatalmas-kratere-holdfotozassal-1025",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-8409380dd80795791c",
-    "title": "A Hold ősi krátere és a Szaturnusz. Holdfotózással! - 10.29.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-29",
-    "dateLabel": "2026-10-29 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-hold-osi-kratere-es-a-szaturnusz-holdfotozassal-1029",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-389b09cd600815998ef1",
-    "title": "Nyílt tárgyalás",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-25",
-    "dateLabel": "2026.10.25. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-5cffe5b91e346033f8c3",
-    "title": "Magányos emberek",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-26",
-    "dateLabel": "2026.10.26. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-c5a61d2b904302d3d863",
-    "title": "Rókonok",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-26",
-    "dateLabel": "2026.10.26. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-bf3684619623ffd16c44",
-    "title": "Hamlet feladja tervét",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-26",
-    "dateLabel": "2026.10.26. · 19:15",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-e2529b647012999d70af",
-    "title": "Az üvegház",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-27",
-    "dateLabel": "2026.10.27. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-5fa6c5892dee0690758c",
-    "title": "Rekviem",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-27",
-    "dateLabel": "2026.10.27. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-8e1ecccc9e9761ab7340",
-    "title": "Changes",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-27",
-    "dateLabel": "2026.10.27. · 19:15",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-0e81a630c2fe2c9205a8",
-    "title": "Chicago",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-28",
-    "dateLabel": "2026.10.28. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-e367514073081ead33f8",
-    "title": "Mester és Margarita",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-28",
-    "dateLabel": "2026.10.28. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-a8df22f9763d0214141a",
-    "title": "némacsend",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-29",
-    "dateLabel": "2026.10.29. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-0a730e88ee67e347e739",
-    "title": "Octogon",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-29",
-    "dateLabel": "2026.10.29. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-b86c70b23f13071f64b3",
-    "title": "Egy komcsi nyanya vagyok",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-29",
-    "dateLabel": "2026.10.29. · 19:15",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-8c4605c78cc4ba879469",
-    "title": "Kasimir és Karoline",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-30",
-    "dateLabel": "2026.10.30. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-85a88b9500851ed6cb83",
-    "title": "Gépnarancs",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-30",
-    "dateLabel": "2026.10.30. · 19:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-99d0f39aa9756633f0f9",
-    "title": "Dante: Pokol",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-30",
-    "dateLabel": "2026.10.30. · 19:15",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-e05f5c6fdeabcd94e312",
-    "title": "dzsanni",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-31",
-    "dateLabel": "2026.10.31. · 16:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-42cf5ea2b4ff21c3e270",
-    "title": "Isten, haza, család",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Kamra · Ferenciek tere 4., Budapest",
-    "date": "2026-10-31",
-    "dateLabel": "2026.10.31. · 18:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "theatre-f8350d9c894692146703",
-    "title": "Sorstalanság",
-    "kind": "élmény",
-    "interestTopics": [
-      "szinhaz"
-    ],
-    "where": "Katona József Színház – Sufni · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-10-31",
-    "dateLabel": "2026.10.31. · 19:15",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-23",
-    "linkStatus": "reachable",
-    "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
     "id": "theatre-7c82203d489e8c694879",
     "title": "Pekingi ősz",
     "kind": "élmény",
@@ -1277,7 +733,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-7578130995e4bd1263b5",
@@ -1298,7 +754,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-000b54d7f9b32fd5588c",
@@ -1319,7 +775,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-9de38fe31f0016a33889",
@@ -1340,7 +796,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-761ec5f523757c3ba663",
@@ -1361,7 +817,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-a56f7516b5b6b4da008a",
@@ -1382,7 +838,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-82b7448603898f5d9913",
@@ -1403,7 +859,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0ea93285dc60a00808d8",
@@ -1424,7 +880,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-be943e0832983daa7d05",
@@ -1445,7 +901,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-5d449de1157cd2342aad",
@@ -1466,7 +922,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0fa95aae4fae001c85f1",
@@ -1487,7 +943,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-4b1e4d1e0f99ada1e843",
@@ -1508,7 +964,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-5a3f9240f7316dfa77b6",
@@ -1529,7 +985,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-a3fc5c7d78db49fa52c3",
@@ -1550,7 +1006,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-65c84d0239de4e5ac526",
@@ -1571,7 +1027,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b03120e10281ea84750f",
@@ -1592,7 +1048,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-92c735260264a2a58211",
@@ -1613,7 +1069,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-4c094a9ac78965a1bfa0",
@@ -1634,7 +1090,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-40633f9f2b712d812167",
@@ -1655,7 +1111,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-fd2abc9eb26fb200e1b1",
@@ -1676,7 +1132,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-aad712dd1097353ef632",
@@ -1697,7 +1153,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-f0868088837cdc4fc0e0",
@@ -1718,7 +1174,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6eb941e5a5e725d275c8",
@@ -1739,7 +1195,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-9e4f997c38131bad46c2",
@@ -1760,7 +1216,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-28517ce7fdfb8b6aad2a",
@@ -1781,7 +1237,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b931d631af77f7dcf859",
@@ -1802,7 +1258,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-94f7ba59530a26926e99",
@@ -1823,7 +1279,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-06f2004567985f6f89fa",
@@ -1844,7 +1300,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-1b1fe09603c65e735892",
@@ -1865,7 +1321,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0277e473b2008743db27",
@@ -1886,7 +1342,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-8601f57588c2a90c8485",
@@ -1907,7 +1363,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b624b40d86bcd3b91e98",
@@ -1928,7 +1384,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0711882eb0a3072828a5",
@@ -1949,7 +1405,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-45842b9d8aabc2740ff0",
@@ -1970,7 +1426,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6b0ff2b5a17f684cd3ec",
@@ -1991,7 +1447,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-456e62e3de8f449e4a95",
@@ -2012,7 +1468,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b25c8fdab3b74f52091c",
@@ -2033,7 +1489,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-ae9b35d5fa729d8d147d",
@@ -2054,7 +1510,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-554419f640c46eeaab29",
@@ -2075,7 +1531,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e66cdf1356cadf5c4c58",
@@ -2096,7 +1552,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-450c15a7c6f383884711",
@@ -2117,7 +1573,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-5e498d83f4a2be8fd75b",
@@ -2138,7 +1594,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-545d5a1d9d9bce54d623",
@@ -2159,7 +1615,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6bebfece8a7dfc071ce7",
@@ -2180,7 +1636,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-76717ca47223afdf9f0d",
@@ -2201,7 +1657,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-9edfbc5435838dc46d4c",
@@ -2222,7 +1678,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e65dde5217ca9dbf5496",
@@ -2243,7 +1699,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-d24d3779367573c73114",
@@ -2264,7 +1720,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e8136eb819355fc3c17b",
@@ -2285,7 +1741,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-70fe7327ab6ed9eab81e",
@@ -2306,7 +1762,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-f56758d47f372206c0e8",
@@ -2327,7 +1783,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-edf4175ae85b471f7148",
@@ -2348,7 +1804,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-34be0a1e323b53f519f5",
@@ -2369,7 +1825,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-8757422a1558147af728",
@@ -2390,7 +1846,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b00bb8b0cd07cf3096a0",
@@ -2411,7 +1867,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0879b002afda3ae4c7f4",
@@ -2432,7 +1888,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-a2e52bfacc6eb9338da6",
@@ -2453,7 +1909,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-02b79fbcb1b5e7c0b6ba",
@@ -2474,7 +1930,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-8c6d2e7fafcfc5f9dde9",
@@ -2495,7 +1951,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-789132674e99f2b949d9",
@@ -2516,7 +1972,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-4e8a13bf4bde35e3f41d",
@@ -2537,7 +1993,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6499632a7a3951c438a6",
@@ -2558,7 +2014,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-c691708d7d89a788d1d1",
@@ -2579,7 +2035,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-539871bc5d03b209f1be",
@@ -2600,7 +2056,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-adf9ccffcf0a7df5a6bf",
@@ -2621,7 +2077,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-61643240077f1ac0bf6c",
@@ -2642,7 +2098,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-d2b6a0cbf3be5892d039",
@@ -2663,7 +2119,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-3507b14129a709f6ce27",
@@ -2684,7 +2140,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-69f2a96d9d3554c256cc",
@@ -2705,7 +2161,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-53bac3c7eeb547b7b4af",
@@ -2726,7 +2182,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-39ef49754330f8050bd7",
@@ -2747,7 +2203,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-210ee3399066a08a76dc",
@@ -2768,7 +2224,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-450da2156f63cc36aaff",
@@ -2789,7 +2245,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-4d44de0e02ffd25dd933",
@@ -2810,7 +2266,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-c7a9d785c0304b95d37b",
@@ -2831,7 +2287,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0c5ca5ee2acf8509852d",
@@ -2852,7 +2308,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-17b1d7326207cc51f210",
@@ -2873,7 +2329,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-f5878db06a3aa902b5da",
@@ -2894,7 +2350,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e0537b84f6bbd2269e93",
@@ -2915,7 +2371,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-10a4eea94843f442f9bd",
@@ -2936,7 +2392,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-43bc7c0e3638bf831597",
@@ -2957,7 +2413,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-69558f238ad4c6845733",
@@ -2978,7 +2434,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-232c29b7e9ca1a8a190c",
@@ -2999,7 +2455,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-74c964d5a3ec56f806b7",
@@ -3020,7 +2476,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b6c9dd4f671830b8cf6d",
@@ -3041,7 +2497,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-4f06caffc3af2e0c69fc",
@@ -3062,7 +2518,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e3c35fefcb74cd164d49",
@@ -3083,7 +2539,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-cfe2cb82fd0c87206cce",
@@ -3104,7 +2560,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-34d8674450f922fe2278",
@@ -3125,7 +2581,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-58fbf3712057dcb32050",
@@ -3146,7 +2602,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-2561bfbcd73aad037d9d",
@@ -3167,7 +2623,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-3dcd6ad92c164801fa8e",
@@ -3188,7 +2644,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-9c9ee4327a20f4fb577c",
@@ -3209,7 +2665,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-3f23c3befcd61eb3f86f",
@@ -3230,7 +2686,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-8f47ee0654c2946960f6",
@@ -3251,7 +2707,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-0b73af766f1a80443b64",
@@ -3272,7 +2728,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6e5e736187fb7f66bdd4",
@@ -3293,7 +2749,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-346ee9f99a66abc69121",
@@ -3314,7 +2770,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-e603255def14f70e467f",
@@ -3335,7 +2791,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b00f638659b3c4021c1c",
@@ -3356,7 +2812,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-3e4171df1ff3bed56c8e",
@@ -3377,7 +2833,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b234b7289d2490b9335c",
@@ -3398,7 +2854,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-b97eef95ae4047f59c63",
@@ -3419,7 +2875,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-c07b8d6a4d36e9588c2f",
@@ -3440,7 +2896,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-14db504e749eb2cf5b06",
@@ -3461,7 +2917,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-abdaea47a957bcb08b16",
@@ -3482,7 +2938,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-eff7c22f647006f65ca5",
@@ -3503,7 +2959,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-de1ff593bc9b99f826f4",
@@ -3524,7 +2980,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-c30b9aca856e648a5512",
@@ -3545,7 +3001,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-d077313d9ff19ef07db8",
@@ -3566,7 +3022,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-a9d16d2545829f0374a8",
@@ -3587,7 +3043,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-c9dc47152209ecba3538",
@@ -3608,7 +3064,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-6d20699b52e0e0235ce2",
@@ -3629,7 +3085,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "theatre-da9e56b93d0a13bf9e52",
@@ -3650,7 +3106,7 @@
     "discovered": "2026-10-23",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "pannonia-2026-10-23-frida",
@@ -3666,7 +3122,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3683,7 +3139,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3700,7 +3156,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3717,7 +3173,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3734,7 +3190,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3751,7 +3207,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3768,7 +3224,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3785,7 +3241,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3802,7 +3258,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -3819,71 +3275,8 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
-  },
-  {
-    "id": "official-363f9b23b8a6e96fd1",
-    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 10.30.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-30",
-    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1030",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-68409ee6525b1ff9dd",
-    "title": "Égi ködöktől a Szaturnusz gyűrűjéig - 10.30.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-30",
-    "dateLabel": "2026-10-30 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/egi-kodoktol-a-szaturnusz-gyurujeig-1030",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
-  },
-  {
-    "id": "official-ae0fafc12cc3224565",
-    "title": "Csillagkapu: Halloween - 2026.10.31.",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
-    "date": "2026-10-31",
-    "dateLabel": "2026-10-31 · kezdés a szervező oldalán",
-    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
-    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/csillagkapu-halloween-20261031",
-    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
-    "score": 85,
-    "dataQuality": "scheduled",
-    "eventVerified": false,
-    "discovered": "2026-10-24",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
   },
   {
     "id": "official-d9c1e4c8d874b7ab64",
@@ -3901,10 +3294,10 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-24",
+    "discovered": "2026-11-01",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "official-ce0f89020523b44afb",
@@ -3922,22 +3315,22 @@
     "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
-    "discovered": "2026-10-24",
+    "discovered": "2026-11-01",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24"
+    "linkCheckedOn": "2026-11-01"
   },
   {
-    "id": "rss-ac171237a88e958",
-    "title": "Fényparkok és fénykiállítások 2026-ban: sárkányok, fényalagutak és ragyogó kastélykertek várnak országszerte",
+    "id": "rss-7218ee9bacf1f75",
+    "title": "Fénybe borult parkok és izgalmas terek: látványos fényparkok és varázslatos fénykiállítások 2026",
     "kind": "élmény",
     "where": "Budapest / környéke · helyszín ellenőrzendő",
     "date": "",
-    "dateLabel": "Friss hír: 2026.10.20. · időpont a forrásban",
+    "dateLabel": "Friss hír: 2026.10.29. · időpont a forrásban",
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYzhaMmFZdjloVkZHSFFDcjVLZVVQOGtOTUViMHJJSVkyUXFQRExIWl83aDRNVkhtWTB3QUhqWXJhUzRXQmRKcUx0SW9EQmZNQ24ya2tpSFVDT3lQb0VJV3ZGaE9ZWnctTnlkdUp1YS0zcXdfd3pEZXYxX3U1R2tPa2d6bHkzRE9EWjRRaHJYaEVwU05HMDRfRmxvQTVYUTNsWGtWZU13djJtRDhBd2toR2RRaEV0UV9hUDcxRXZXTlZtWHM?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdVYzVVN1UVdEWmJCQkd2ZkVHQlBmbTM5bFQwT205Wm1PbVF1R0ZES0lBVjdSZlBGTHBHbWN2enNqNGZPTl9HeFdoRllMVmNHYXkzdHNDQkdOVF80QWllekZJNVBqZmlvNWRNVEhXbGk0Z29tLVZ4dHNwVFg1dk02QXNmYWtSb0ZDRTNnR0xwQ3JjNWVnbEh0bEFxZnJwMnllOGc1SDdjZE02Nmg1alpLYUJDLXdPUjhFQlE?oc=5",
     "score": 94,
-    "discovered": "2026-10-24",
+    "discovered": "2026-11-01",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -3946,34 +3339,16 @@
     "eventVerified": false
   },
   {
-    "id": "rss-74bc9b1a6830ef1",
-    "title": "Szabó István modernizmusa – bútorok és fotográfiák párbeszéde a Határtalan design kiállításon",
-    "kind": "design",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.20. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUEFLcDI1UngwOEE0V2l6dG5HZmdsMUJrOFBLRXNqWUJ0M2dWSFpRMkY3ZnBCWUtGdWZoYW9pZlZwZW85Y3BJaVJrYkREaWh0ZDlCVExMRnlMb3BWUHY3LXFLNGR1QVg4bXZzNkxfOVl5cENlUEhaZjl6aFA5OEgzODdQcXBQNUd2SVhDb1RhQkhDWmxVNUdCdldjY0cxQ01ybDY3alN6QlhrcFlXNEZBVmxjVEkycGxFbzNVUWM5bw?oc=5",
-    "score": 86,
-    "discovered": "2026-10-24",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-93e317675f5baea",
-    "title": "Immerzív fényjátékok és kiállítások Budapesten – különleges programok 2026 őszére",
+    "id": "rss-84cce2220589848",
+    "title": "Főzdelátogatás a Balaton partján korlátlan kóstolással / 2026.10.31., Helka Sörfőzde, Balatonföldvár",
     "kind": "élmény",
     "where": "Budapest / környéke · helyszín ellenőrzendő",
     "date": "",
-    "dateLabel": "Friss hír: 2026.10.24. · időpont a forrásban",
+    "dateLabel": "Friss hír: 2026.10.31. · időpont a forrásban",
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTE1GOWhlYS1JcVZDT0t1Y256S3NTT25rc3VaTmotbTJOMjRvd3RkeVR4M0dBWU5RaEM1bzA4cktKengwRm9XQmc5QlF0c2NIVWowM0NrMlpreEsxMm16eWlUMG54NlFqQ0N1VlB3NkN0OVliaEhLa3dFX3ZkdEVpYmVWbTlScElpWGctR25ySzE2UktQMG5Tc2huM2V3MDQ0ekFj?oc=5",
-    "score": 81,
-    "discovered": "2026-10-24",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQZkdGdEhIMDRtOXpuelNJS3Rvdk1veC1jaHFoV21BUmgzdlZXcGdmcEFHLTd3QkZaYlY1c2FjWTlsMy02NE5BZERiMHFWVlRudnBIMno5OXNzVUJhcDEzYTBqMG81aVFuVkxDOXNKWHVNczI2XzBVMllpbENYMFFPUG54X0hsaUUwYmJuemVLOTN5R2E4ZFZrMEM0N2tyVzlTOTBranAyNGhwb3VIcmd6ZWV4SUtfa200NHhOZkd4LTZXWnpuR3FlVGNYdjhDb2pBUlFkVk1Icm5uVE5QZ1FBNmY2LTRWVmktTTlfLUpjVQ?oc=5",
+    "score": 88,
+    "discovered": "2026-11-01",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -3982,16 +3357,16 @@
     "eventVerified": false
   },
   {
-    "id": "rss-b08beae8cb0475d",
-    "title": "7 új premier a magyar mozikban: Brutális DC-horror, magyar thriller és világsztárok a vásznon ezen a héten",
+    "id": "rss-93d51f51ba55284",
+    "title": "Már holnap streamingen: Napokkal a mozis premier után máris jön az Ali G: Ki lenni én? Sacha Baron Cohennel",
     "kind": "mozi",
     "where": "Budapest / környéke · helyszín ellenőrzendő",
     "date": "",
-    "dateLabel": "Friss hír: 2026.10.20. · időpont a forrásban",
+    "dateLabel": "Friss hír: 2026.10.27. · időpont a forrásban",
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPU0I1QVBUN1pNU3NRWjRQQlZtcnllUFJJMGFpQklOUDlMQXNsWDJMbW91aF8tN3BHSDdwYS1IdWhPXzh0N1BqS2hGMkx2RVVmY1BKWktlQ0dfMjhnQnNRUm01ZTE0RTdQUUt0a1NJdVhjWHpnQnhjbnFULU1oazdrQmdHNUwzdE9EMGpGbzRxdEhPeUZ0QlJEc09CYldfbkx4YTU4OVlpTXlBQTRqNmY0dXJYampaRDMyQUk0MFhDUElYXzZJc1Z3WQ?oc=5",
-    "score": 76,
-    "discovered": "2026-10-24",
+    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWGxuZzlPdWpRU3R6SFhsNzNuTldLY1FyZkRmTEJNU1A5a1VJdjBzRjJPRlc5QWd4Mmhjc2hHQ2cxOTVjQ1dQbHpwcWNod1dEQ21WV0dCemlKVGxDR2ZCX3NPRkItRThjSGhsUzFMYUw1OFpmR3FGQUhyZFM5V3dmamdxNzZBV05HdkpMT3FsVl9sdTlubDY5eFFNb1JxenExdzZKak9XSjF5MG42X1dTLUxnLXYwSHozUm1BeUluMUViV3NWU04wRQ?oc=5",
+    "score": 73,
+    "discovered": "2026-11-01",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4000,34 +3375,16 @@
     "eventVerified": false
   },
   {
-    "id": "rss-7800af87f25e874",
-    "title": "Mesterek és tanítványok kapcsolatát mutatja be az Iparművészeti Múzeum új kiállítása a MOME közreműködésével",
+    "id": "rss-4120d1e29177676",
+    "title": "Tovább élő mintázatok – kiállítás a mester–tanítvány viszonyról és az átadás láthatatlan hálózatairól",
     "kind": "design",
     "where": "Budapest / környéke · helyszín ellenőrzendő",
     "date": "",
-    "dateLabel": "Friss hír: 2026.10.18. · időpont a forrásban",
+    "dateLabel": "Friss hír: 2026.10.27. · időpont a forrásban",
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWm1CeTNieTU4dVd1SmpvLXZVb2dfUk1ud3lNWkx4S2VoMkhMN2JpdVZEOVFnWThlc2ZJRVZDVjFXazhvcVNWdlZLUEVSb3ZhWndiM3BTa1hDY3pDUnoxS1dReG1mZkotUC0zV2dBMzVrMGVXVlFZZzBZQzFpb3R5bGpCcEFaeHp6a1JKVU1xM0NEVVJndm1Rc2FHUHZZazlZQmhYVlRzNk1GdG5mZWQ4THdreU1WQTJsNmlHcXVpZk83a3QtQ2hhYVZuMGIxYzllNHBFQWlMM0hWanpwZHc?oc=5",
-    "score": 74,
-    "discovered": "2026-10-24",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-c49e5d4c841b103",
-    "title": "Ezek a kiállítások lettek az év legjobbjai",
-    "kind": "design",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.19. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZDdLQWZMNnVFWWM2S1o3TU5la2RCbDBJbTl3ZHpITlRPRVMybjhsM3lGcHo0djdScFQtNGd4Wk5HbnI0VEFZbTkxYzdqVmtTQkk4OEROUDMzbHc2OUZrbEN0LW1uX1dNVHc1blZtclp5RkxxN05MSFhTdXFCME9pMQ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRDY4a0w2TnVOU1FwYm9EMDgzU0RuT0x6RjdUUXEyc2dST2RmX0pnQU8zdVoxandyRnlEWWVTZm1NUXhLMGZNT1lHTk1fOXhhdTNleTdTd29rYmJ3UnZGcjlncjJDQ19kNmdBeHMxTVNkMXhac0tfTEZXUk81QnBiVzViLUhhd1gwVlgzSlJvSUdzTTNTTVZqaUhiaF9MSTIxdDhhbDh2OFJtTDdSWUk2a0MtLXBZU0lUUGF4UGFqR1lCa09ZVFFRdDBB?oc=5",
     "score": 71,
-    "discovered": "2026-10-24",
+    "discovered": "2026-11-01",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4036,142 +3393,16 @@
     "eventVerified": false
   },
   {
-    "id": "rss-37c947ebf3eeda7",
-    "title": "Ingyenes múzeumok Budapesten október 23-án: kulturális programok a hosszú hétvégére",
-    "kind": "élmény",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.21. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNkFteEVzSkoxME02WGlGdDQ4ZFBFVjhLUE1XZ1VBa3FvVTNYYzRSa25QUlRTQ0U2RG9tM0RaSUhhWkZKOHVoT1dSeGl2WER2UUtvcjc1VW9Qdk5ma2JiS1I5cUQ4RERYNmNjQng1d2ozVzZtdlZLWFljVzdscDRWVE9WWE5YWjhTbEdNa0VHR3J3Tk5jZkJmdlBMSE9GNlBGVXNYbWhCTQ?oc=5",
-    "score": 71,
-    "discovered": "2026-10-24",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-39927b0bb5bd6a1",
-    "title": "12 kiállítás őszi napokra",
+    "id": "rss-9f8c8b08bdc4cd0",
+    "title": "Péntektől látogatható a Gauguin-kiállítás",
     "kind": "design",
     "where": "Budapest / környéke · helyszín ellenőrzendő",
     "date": "",
-    "dateLabel": "Friss hír: 2026.10.20. · időpont a forrásban",
+    "dateLabel": "Friss hír: 2026.10.29. · időpont a forrásban",
     "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9GckpGVmtReXdrUGtuaW1MS2Fqak4yQ21iU2VwWTdTR2xHRDNYYW9heEVENkZrQUpsRlVDUlBjQ0dzNndHbnJib0xKM21pbUZLbF8xMUZsbmhWRjFaUnZJ?oc=5",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYzUwUFZxeEZ3WHY5WU1VMWtkUXY2dWdvaUxNQXI0cXZtWVRGZllFcm1qZXdNYkUtRldJUXBkOWw3d2s4Ml9VYjBWMGJYanRLZGJTVkdwbGUwaEhzeTI4OTRZRnY1SzA4d1FHY1BLLUpMR291SEpIT3BYWjRZVjBfODVPTWlLRVN4TFVnX0ZmaEhHU2VEcFVZZWNyWjVlLTE4ZldhWkNSVTNxZHFCWGhOdy16VEQ1YVFBOWc?oc=5",
     "score": 71,
-    "discovered": "2026-10-24",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-ad9cb88c72a7891",
-    "title": "Október 23-án ingyenesen látogatható a Néprajzi Múzeum és a Puskás Múzeum",
-    "kind": "élmény",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.22. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWnBWY0JtdVdWcnhMVklCRHh0VDJmbzd4cjJEODlqSkZsY3dURXpYbkFvamtrZGh0QmdYUjFKM0RFc1JheHNmcmpBZC1ZY202VzBQdW1fQmtjYXhQQlh2YXRhSlVwQVlQT0NBbGtDWWh4UU5fQ0lOWWR5blRmUndNTmRVOFBDS2J1bmNHTi1NbXRUdm9f?oc=5",
-    "score": 71,
-    "discovered": "2026-10-24",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-a654bf53ba6e419",
-    "title": "Hétvégi programajánló: Budapest International Film Festival, október 23-i programok, fényparkok nyitó hétvégéje",
-    "kind": "élmény",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.22. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMXVJVjAzMWFMaXY4NWE2UkdLMUY2WEV5YUY0NmlBNjVhNmRDdWQwS0dTLVFkUzhLNjdQTDl0ZENOYXo5anVzZkFHdkdLazNKRFRFR29IREtjeEVZcDhudEFRSElFWldhaE9MY3A1OVV0cnNCWFZic3B0dkZpblJTOEpiZ1RKdkNzazRMbHlrbEhYd1c4eDJ2ME9nd29hU2MycE92cC1sSQ?oc=5",
-    "score": 77,
-    "discovered": "2026-10-23",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-ac7309032d8598f",
-    "title": "Összművészeti programok, tárlatvezetések és koncertek a Határtalan design kiállításon",
-    "kind": "design",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.16. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObWtYTUdNbFlkS1BsTGdnQVBJQXdaWjluV3pVa2xGVFllclJLTFVlb3FjbmZ6X2RIcVg1czhKdmZIdUhjVWVFb2t6TG9xYTRDeEhtYW5fcTRRZTBzVklyeVZUUDNrUmk0QXJqQnlRQlFERGhBZ3JVR3o3eTgwTEs5dU5GaDlKNjVYSGx4N3hZdUZ5ZWZUZGg3ZERGbUhRbTQtWXdLQXl5RHRQWGRDdGdsTUh3QXpZUQ?oc=5",
-    "score": 86,
-    "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-26a5c27c9c2a65b",
-    "title": "Komolyzenei minifesztivál színesíti a Határtalan design kiállítás idei programkínálatát",
-    "kind": "design",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.15. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOd1hIVUl4bUtYSTMxSTdGQlVZbjZtSDBRVXpGNWM2SUJWVWZ0bmRuRkdfYkJuaHlhWHdTV3NFaDRNVWx4czdkMjBRZklkS3lmSmNaRHZMZmVOVTZzbFhaa3hNMkJ1TVJ6NG54NktTaHplQXR2U2ZWUTloZk1uYUMwVG4yNFRYdGZJbGktSmFfdWxNaUNKbGt3SGxMWlBJcWwtajBwNU1WWWUtTnA5Z2tjMUhUaUpjSDlJSW9UYmVmQkdMeUdxMlZfeg?oc=5",
-    "score": 78,
-    "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-63f82b24895a2ea",
-    "title": "Tudományos előadás mutatja be a mohácsi tömegsírok kutatását - Múlt-kor",
-    "kind": "tudomány",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.15. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNbnc4dkVBcEt3SFp0SW5CakcwYkpwR0xqV0pyZXpoNjdRQUszZXdCWHFFZE5tVVNHV3VDUE9xY3dLNm5mUHNrMVVVSmNtYzlHeko3REQyY05ITHF2R1RDRnZ4MHIwSjV5T0hlMmxXNUNGTnFTRUZRZUFwVjZXcnF6YklVMFFCYno3ZlRWelc0b3pEN1E?oc=5",
-    "score": 76,
-    "discovered": "2026-10-22",
-    "source": "Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "rss-e5aebd839b386f1",
-    "title": "A budapesti Light Art Museum új kiállításán a fényművészet találkozik a tudománnyal az emberi lélekben",
-    "kind": "design",
-    "where": "Budapest / környéke · helyszín ellenőrzendő",
-    "date": "",
-    "dateLabel": "Friss hír: 2026.10.14. · időpont a forrásban",
-    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQc0dqV24tbnhWRVZlOVI5YW9mYlBKbjFITjdtNHJueXB5SHRkS3FLZWE0Y0RmMS14N2VUcWl3SkFCSVJDeUdBRmlPXzg1ZGxaeEhYSmdQVXd6M3h6WWdhaEloS1Q0RzlaNU1OMW4wMklQR2ZSWjk5bWpJclJaZTVIZ0UwNEtCRThGTVpwR054djFneERldENNY2FkZ2dtQ29FRWh1eVBlR005eTJYTWpKZzh6U2l4NVBpLWZHN3JhWWRVRjA?oc=5",
-    "score": 71,
-    "discovered": "2026-10-21",
+    "discovered": "2026-11-01",
     "source": "Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4192,7 +3423,91 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSWc5dVNUM1FvczdET1lRSjdLdDJUcFlNQ0YySW1VUEtaWUpaSHhuMVNQUkZ1VnZfT2ZQaHFpbDlleEVIRi1LZzlFalRBT2Rlb19sS3JGS0FLVlhqRVl5X0toSUdKc1BHOXgxRC1TSFVJX3RlU0x0dmRkT1Y0ajZ5UWZCVUZMMnZ2WUN4YkJuMWJ0NmotRURPT2lR?oc=5",
     "score": 63,
-    "discovered": "2026-10-24",
+    "discovered": "2026-11-01",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-a520c18c423f1d0f44",
+    "title": "Bemutatták a felújított Igazságügyi Palotát",
+    "kind": "élmény",
+    "interestTopics": [
+      "technika"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUmZZN1VBcFhDX055dmFheFhkZEstNGVJVUREMDlURHNHMGxYODlfa2pTR2J6OXJBOV96LVphZWhvUUNSb3dyVzJTOGpWTm1uTHFXa2lWNElidG5YbVJTbUt1c1NmOWNkX3BCVlBQTXh5bTVxSWJRbTJaeUlnekFuOWtSNA?oc=5",
+    "score": 63,
+    "discovered": "2026-11-01",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-897f3d2d8de83eb917",
+    "title": "Messier 14 – a változócsillagok és a csillagásznők gömbhalmaza",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeWdZQnRDZWVDVzFHUHRuamk1Y0o5U1VCVlBiTFVXd1dQdHYxWVF1Ym9yLWVrTnZPMEZXNmp3amJ5RGprZUpQbFU5c1pPeEpOMjNTb2VJdkJycU9fekFYclljTEJWdnZlZTVKMDd1cVczVW5udHo0cnczMWwtTWJERFdpcUxucG5tMm9Fam9CNnNFME5TMkhCMXhVTWpLLUU4S3lqX2xvMi1xMG9wN05J?oc=5",
+    "score": 63,
+    "discovered": "2026-11-01",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-81515cf6967c9d9b3d",
+    "title": "A Szaturnusztól Kassziopeia csillaghalmazáig",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNldpTFVPdENjem42WnNrQmRFODYxNUhNc0tGR04zaUVMV3NNc0RHRzBZcGVQRkR4ZHpMbkhmRHB0WUtsX1U2dFJLeDFzX0JReUxlWDdHM1BiQVdZZkhHdlB1ZzNSR0YzeUdvQllyRmRraXB6S1NIWjlEVjFJQnNpbm55TWFUNmJLYm9FMkZMQjFqUQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-01",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-budapest-bd586c20e94afa5259",
+    "title": "Svábhegyi Csillagvizsgáló",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSGFtOG9NOElDX0lJVG5rNkhVX0E0SjBkU2VoX2huZlpMal9oelRtY2VXRG0tVFhWdUlsNl9kNTFURV9FRGdVQWtWNUlJUkhWVlRaZmNBNFZvNWRsV014Qlhwd25ocjVnTnpiTmtEMjRHbkRBTFB4Y0pFbjdNakJMbW1hRERmRHV5OEdhNUVVOU1XR1RwazFiQnJDZEg1cE1HNXY2dGVrd0Q2c3M?oc=5",
+    "score": 63,
+    "discovered": "2026-11-01",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -4233,27 +3548,6 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9VMFpfcHh1VFlsWEc0NkpEYUhja19MNXB3X2p3Y00zOEprZ2Y5eDZQMjNXYlozdFpZZmhLZGc3M3hXNFNIUzdIMjlzeHhRZ1lvTDRSVEJXcDZvaXpMTjhZVWl0cExrY2l2UklpQ3V3TEx0akU?oc=5",
-    "score": 63,
-    "discovered": "2026-10-24",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-budapest-a520c18c423f1d0f44",
-    "title": "Bemutatták a felújított Igazságügyi Palotát",
-    "kind": "élmény",
-    "interestTopics": [
-      "technika"
-    ],
-    "where": "Budapest · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUmZZN1VBcFhDX055dmFheFhkZEstNGVJVUREMDlURHNHMGxYODlfa2pTR2J6OXJBOV96LVphZWhvUUNSb3dyVzJTOGpWTm1uTHFXa2lWNElidG5YbVJTbUt1c1NmOWNkX3BCVlBQTXh5bTVxSWJRbTJaeUlnekFuOWtSNA?oc=5",
     "score": 63,
     "discovered": "2026-10-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
@@ -4327,48 +3621,6 @@
     "eventVerified": false
   },
   {
-    "id": "radar-topic-budapest-897f3d2d8de83eb917",
-    "title": "Messier 14 – a változócsillagok és a csillagásznők gömbhalmaza",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Budapest · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeWdZQnRDZWVDVzFHUHRuamk1Y0o5U1VCVlBiTFVXd1dQdHYxWVF1Ym9yLWVrTnZPMEZXNmp3amJ5RGprZUpQbFU5c1pPeEpOMjNTb2VJdkJycU9fekFYclljTEJWdnZlZTVKMDd1cVczVW5udHo0cnczMWwtTWJERFdpcUxucG5tMm9Fam9CNnNFME5TMkhCMXhVTWpLLUU4S3lqX2xvMi1xMG9wN05J?oc=5",
-    "score": 63,
-    "discovered": "2026-10-24",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-budapest-81515cf6967c9d9b3d",
-    "title": "A Szaturnusztól Kassziopeia csillaghalmazáig",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Budapest · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNNldpTFVPdENjem42WnNrQmRFODYxNUhNc0tGR04zaUVMV3NNc0RHRzBZcGVQRkR4ZHpMbkhmRHB0WUtsX1U2dFJLeDFzX0JReUxlWDdHM1BiQVdZZkhHdlB1ZzNSR0YzeUdvQllyRmRraXB6S1NIWjlEVjFJQnNpbm55TWFUNmJLYm9FMkZMQjFqUQ?oc=5",
-    "score": 63,
-    "discovered": "2026-10-24",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
     "id": "radar-topic-budapest-594be94e39e78589b1",
     "title": "A Szaturnusz gyűrűitől a kék és vörös csillagokig – különleges égi látvány vár a Svábhegyi Csillagvizsgálóban",
     "kind": "tudomány",
@@ -4430,5 +3682,131 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "official-ad2a193a904d858a0a",
+    "title": "Exploring the Svábhegy Observatory (English speaking guide) - 11.06.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-06",
+    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/exploring-the-svabhegy-observatory-english-speaking-guide-1106",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-93061bb3b17e9fac1e",
+    "title": "A Szaturnusz gyönyörű gyűrűrendszere - 11.06.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-06",
+    "dateLabel": "2026-11-06 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyonyoru-gyururendszere-1106",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-94836b2e04633ab49f",
+    "title": "Asztro-matiné l. - Naprendszer - 11.07.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-l-naprendszer-1107",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-a76d138fe3f33b1cb4",
+    "title": "Asztro-matiné I. - Naprendszer - 11.07.  - Délutáni matiné",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/asztro-matine-i-naprendszer-1107-delutani-matine",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-607ea32db021519d9f",
+    "title": "A Szaturnusz és a Titán estéje - 11.07.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-07",
+    "dateLabel": "2026-11-07 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-es-a-titan-esteje-1107",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
+  },
+  {
+    "id": "official-4d69a07d88b21aaa83",
+    "title": "Pegazus hatalmas csillaghalmaza és a Szaturnusz - 11.08.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-08",
+    "dateLabel": "2026-11-08 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/pegazus-hatalmas-csillaghalmaza-es-a-szaturnusz-1108",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-01"
   }
 ]

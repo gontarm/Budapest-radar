@@ -1,80 +1,5 @@
 [
   {
-    "id": "a38-skopje-20261024",
-    "title": "Skopje Via (MK)",
-    "kind": "koncert",
-    "where": "A38 Hajó · Koncertterem · Budapest",
-    "date": "2026-10-24",
-    "dateLabel": "2026. október 24. · 20:00",
-    "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://www.a38.hu/hu/program/skopje-via-mk",
-    "score": 80,
-    "source": "A38 Hajó – hivatalos koncertnaptár",
-    "ticketStatus": "unknown",
-    "discovered": "2026-10-22",
-    "ticketUrl": "https://www.a38.hu/hu/program/skopje-via-mk",
-    "linkVerified": true,
-    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
-    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
-    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
-    "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue",
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
-    "eventVerified": false
-  },
-  {
-    "id": "fun-da-ti-20261026",
-    "title": "DA TI",
-    "kind": "koncert",
-    "where": "Dürer Kert · Budapest",
-    "date": "2026-10-26",
-    "dateLabel": "2026. október 26. · 19:00",
-    "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://funcode.hu/hu/event/4977-da-ti",
-    "score": 80,
-    "source": "Funcode – koncertnaptár",
-    "ticketStatus": "unknown",
-    "discovered": "2026-10-22",
-    "ticketUrl": "https://funcode.hu/hu/event/4977-da-ti",
-    "linkVerified": true,
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
-    "eventVerified": false
-  },
-  {
-    "id": "a38-ivo-20261027",
-    "title": "Ivo Dimchev (BG)",
-    "kind": "koncert",
-    "where": "A38 Hajó · Koncertterem · Budapest",
-    "date": "2026-10-27",
-    "dateLabel": "2026. október 27. · 20:00",
-    "desc": "A szervező/értékesítő programnaptárában meghirdetett koncert. A jegyárat és az aktuális jegyelérhetőséget a forrásoldalon ellenőrizd.",
-    "url": "https://www.a38.hu/hu/program/ivo-dimchev-bg-32228",
-    "score": 80,
-    "source": "A38 Hajó – hivatalos koncertnaptár",
-    "ticketStatus": "unknown",
-    "discovered": "2026-10-22",
-    "ticketUrl": "https://www.a38.hu/hu/program/ivo-dimchev-bg-32228",
-    "linkVerified": true,
-    "image": "https://commons.wikimedia.org/wiki/Special:Redirect/file/A38.jpg?width=1100",
-    "imageAlt": "Az A38 Hajó Budapesten – helyszínfotó, nem az előadó képe",
-    "imageCredit": "Elekes Andor / Wikimedia Commons · CC BY-SA 4.0 · helyszínfotó",
-    "imageSource": "https://commons.wikimedia.org/wiki/File:A38.jpg",
-    "imageLicense": "CC BY-SA 4.0",
-    "imageType": "venue",
-    "dataQuality": "scheduled",
-    "linkStatus": "reachable",
-    "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
-    "eventVerified": false
-  },
-  {
     "id": "fun-stvw-20261112",
     "title": "STVW",
     "kind": "koncert",
@@ -92,7 +17,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -113,7 +38,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -134,7 +59,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -155,7 +80,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -176,7 +101,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -203,7 +128,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -230,7 +155,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -257,7 +182,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -284,7 +209,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -305,7 +230,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -326,7 +251,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -353,7 +278,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -374,7 +299,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -395,7 +320,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -416,7 +341,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -437,7 +362,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -458,7 +383,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -479,7 +404,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -500,7 +425,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -521,7 +446,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -542,7 +467,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -563,7 +488,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": true,
-    "linkCheckedOn": "2026-10-24",
+    "linkCheckedOn": "2026-11-01",
     "eventVerified": false
   },
   {
@@ -824,6 +749,120 @@
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObENibmFWZG84SXR4VFdMWkxsTHpycXBBSkE4Si1LbklYRm1JdWIyR0pvWXpJcG8xMGNLT0JvaWNOZUlhdnl3VmxpZS1mQXpzSmx5ZFlabHVhbExoZ2JQUzBWbVZxeUNKeHl3OUx0eHhXeDg1MEIwVVczaWVVOU44OHZoRHdyY3RhV2NEQ2piVGJtZjhNRHlMS0poRWt2a3k5MjNSX3BjaENaNk9xTkhR?oc=5",
     "score": 75,
     "discovered": "2026-10-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-ce6d133e2bd42637",
+    "title": "Texas 2027-ben a párizsi Bercyben: jegyárak és a jegyértékesítés kezdete",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQM2RlQlpRd2hmbERQdDBnMC1iQmJGMVFTS2VBQ2hQcWljQmdwXzNZQnhBMjlZVlF2dHlndGl0aVRsMzRKN0RIM3poS216Ul9TRjI5QjhvVzhUbUx6azRTSi1jYm1mdUVWT3plTUkzWHNuTzdWU05JbnZiRGpzMzZqQ1JqemhkVkhJNTd4Vlc4akpsZDdMLUY0c093dDd5eU1oZE1YRW54alBwLXFYcGZNZWFsN0lFLTZFeWJfNUdwcGU5ZGhST21tNjYwVy1femJCQzhjdFhlQUVSaW5ZWW5jSVE4UWx4cmZNTWVOZUVNaXRsVGZxWm9nejdVc05zdw?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-d36a532ada02d3ec",
+    "title": "Joe Bonamassa: nyári koncert a Budapest Parkban",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdGF3NGUtY1FjVUtOWlEtdXFFa1Eyc3lIV0tvSUZTSkJfcF85M0dMQXlxT1BtMWlFN2dkWFZMbEpqckFZWnZaN0ZBNUd4emRIZUszSzlBQlkyN0pKWlNPWUNnMTc1RUlhcm52Tk9lMGRQaWs3M181ZkxrWlpfSGhYWTBLYzMyWGM?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-71cd308c176c7e67",
+    "title": "U2: íme a 2027-es világturné európai dátumai",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOdWkxWUdCVEo5WE5TSUU5azlOU0FiLVFZTktLeTBZdV9DREJud3VZdzlUVUJYVlYxX1EySzg4RFVQdldiSHFOc0NIRUZpWkI0c0VPYVlKTGxSYkRWcE9MR1M1NFpXZURTdU5LanRKUlhESWt5UXRzWFQ1cHdMNVlLNTQ5a0VhTE13SWFPb0FJeGprWUVfSy16V1FLU1kwcDJfVzlDWC1WeXRTWkw2Rlh0bVJ3c3JmeFVleTcxWnpSU0dIQ01sSjdoUmJBNHpRS0VXSTRHbEtn?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-986839756a6cb380",
+    "title": "Romanza immáron harmincéves – Andrea Bocelli jubileumi turnéja Budapestre is megérkezik",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVEZ4elJLblZ6cExKdjd6Y1JsMmI2NUx4ZlRUbTJEaV9JZ0FfX1VuQVNKOTdVN2NuMVIyRVY2VWZRcWVJSmdLZ1B2cE1LRkpKR0JsZWVFUm96c0lqcG81WFNnVWZ3YS1tUzZfcmpka1RDTVpVZzJzU3paeFRQUDMxYVhGczNlbHlxVGY1WGppa2pVbS11aXRnSkRWUHl4cDlnOE5hZ1lxOG5TNnkwMk8wcC13T3J3SmdhX0xvYkRCYkFGc2tMYUx5aUNZaw?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-6c2f4c69a12a5bad",
+    "title": "Zorán koncert 2026-ban a MÜPA-ban - Jegyek itt!",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBQVjJHV0F5d25zY3B2Z1h6cGF6bWZMX2pwb29mQ2c2QTctVUl6ZkZIc3VyclppV0FSLWJkOHliSk1QdlpsMFNORUZGUTBNRklOT3pQTEQ2bEY2M1BDbjVnMGctMEg5clhOSFhwWjhEWEdPTGc2d0FzcGZUdjkxZw?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-09076d5c5645181a",
+    "title": "Úgy adtak el kilencezer jegyet, hogy a közönség egyetlen fellépő nevét sem ismerte",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcGRiZ0R3Y3VKSHd1T3MyZVhFY0xJeVRoVXNXZEV4YkZLcUZ5bUtPZHpBNHFxdEVPM0xLM1pkbmdLdVBWU2V1XzhxanF4R0Q3ZFU0b2NualRWMThSTTBEZ0JRdE9vekZXV2NBaUxiU1hSSkNQY1VxaGZKSW5XRC1hV3dSd3E2OEhkSVczMzU3XzJZcWVaOFgwRXpCdHlfUEJidWZxUmFlMG5UTF9XdXo0YkNCZnh0MlI3VVNmNU1nTU9leC1a?oc=5",
+    "score": 75,
+    "discovered": "2026-11-01",
     "ticketStatus": "unknown",
     "source": "Google News RSS · ellenőrizetlen hírtalálat",
     "dataQuality": "news",
