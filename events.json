@@ -3295,7 +3295,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-01",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-01"
   },
@@ -3553,6 +3553,27 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "theatre-4d0a6d4722bfb0ba9819",
+    "title": "KatonaTéka",
+    "kind": "élmény",
+    "interestTopics": [
+      "szinhaz"
+    ],
+    "where": "Cafe Katona · Petőfi Sándor utca 6., Budapest",
+    "date": "2026-11-07",
+    "dateLabel": "2026.11.07. · 14:00",
+    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
+    "url": "https://katonajozsefszinhaz.hu/musor/",
+    "source": "Katona József Színház – hivatalos műsor",
+    "score": 86,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-01",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-11-01"
   },
   {
     "id": "radar-topic-budapest-6e32b0e1b593071245",
@@ -3828,24 +3849,24 @@
     "eventVerified": false
   },
   {
-    "id": "theatre-4d0a6d4722bfb0ba9819",
-    "title": "KatonaTéka",
-    "kind": "élmény",
+    "id": "official-7595997f39f0e178b9",
+    "title": "A Szaturnusz gyűrűje és az Északi Tauridák meteorraj - 11.12.",
+    "kind": "tudomány",
     "interestTopics": [
-      "szinhaz"
+      "vilagegyetem"
     ],
-    "where": "Cafe Katona · Petőfi Sándor utca 6., Budapest",
-    "date": "2026-11-07",
-    "dateLabel": "2026.11.07. · 14:00",
-    "desc": "A színház hivatalos műsorában szereplő előadás. A jegyek elérhetőségét és az esetleges műsorváltozást a színháznál ellenőrizd.",
-    "url": "https://katonajozsefszinhaz.hu/musor/",
-    "source": "Katona József Színház – hivatalos műsor",
-    "score": 86,
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-12",
+    "dateLabel": "2026-11-12 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/a-szaturnusz-gyuruje-es-az-eszaki-tauridak-meteorraj-1112",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-01",
     "linkStatus": "reachable",
-    "directEventLink": false,
+    "directEventLink": true,
     "linkCheckedOn": "2026-11-01"
   }
 ]
