@@ -870,5 +870,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-19c3b2474f91cf68",
+    "title": "Scorpions-koncert Párizsban 2027-ben: dátum és jegyvásárlás",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOdzNsZVVIdlJSZW1KYmxFbjIyNFlJTnVTRjNkWm5QUUpsRG1iOHAyZXJmd1NpSzlWVW80czdLQVdZOER1eDNmOHhUX3lpUk40MVlHTDFBcjFGc2ViNVVhbkJ6M1F4SnllRUhmZFFTeThhM3pRWHhKQWM2X2oxdjZ6VXRabWdETTR6Y2VrUWVPeEkwUnhFWWJiajFxd0VINW9DTHFJNUJyME5zNGtwNEFRbFI4c2lLaVFrMkVrWUZTblRwbFA0Yi1zZUx6OXJDQ1NkNVBhbmNVM1JlM0dqVlc0ZUpFVURUMWxTeWc?oc=5",
+    "score": 75,
+    "discovered": "2026-11-02",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]

@@ -3519,6 +3519,24 @@
     "eventVerified": false
   },
   {
+    "id": "rss-2bc3c3ff78fdbaf",
+    "title": "A MODEM tárlata nyerte el Az Év Kiállítása 2026 díjat",
+    "kind": "design",
+    "where": "Budapest / környéke · helyszín ellenőrzendő",
+    "date": "",
+    "dateLabel": "Friss hír: 2026.11.02. · időpont a forrásban",
+    "desc": "Új, témába vágó hírtalálat. A program helyét, pontos dátumát, jegyárát és elérhetőségét a forrásoldalon ellenőrizd.",
+    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMzZHWjRmandLSDYzeTJvQ3g4ZzI2Y0EwejRiUDZ4RGFPWGdEcFZZMjBneW5KaE1iMEs5ME10dVV2d0pubUw4NDJfNDRBSzZIQ25BSmZTZkItWWFDTE1NSkpMcUdoaXc2aEdwWWdiR2J0R2tEemdrbVNPdklKcGxveGR0UUs?oc=5",
+    "score": 71,
+    "discovered": "2026-11-02",
+    "source": "Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "rss-84cce2220589848",
     "title": "Főzdelátogatás a Balaton partján korlátlan kóstolással / 2026.10.31., Helka Sörfőzde, Balatonföldvár",
     "kind": "élmény",
