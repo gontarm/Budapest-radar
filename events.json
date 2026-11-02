@@ -3274,7 +3274,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-02",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-02"
   },
@@ -3295,7 +3295,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-02",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-02"
   },
@@ -3316,7 +3316,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-02",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-02"
   },
@@ -3337,7 +3337,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-02",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-02"
   },
