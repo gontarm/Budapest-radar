@@ -13,7 +13,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "blocked",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-02",
+    "linkCheckedOn": "2026-11-03",
     "eventVerified": false
   },
   {
@@ -35,27 +35,6 @@
     "eventVerified": false
   },
   {
-    "id": "radar-topic-vienna-92341b3afdfa8dc00b",
-    "title": "Sonderausstellung: \"Tatort Ephesos. Kleopatra und Rom\"",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYmxNYjMybnRWSUVoNWROYTBFckc1MFVVcFFHUGU2SDlDakNHbUlBVks1cHB1bnR2Tjh1R3BwTUREVzBNbXl5eXdLMGtIRmQ5enhIRS1NVUFLY0RUU2wzMFIyNktLeE44Z1UzLWlCNzA0enktVUNHX0R6dktjbmswb2pTQm42SDdyUDNHYnEwMA?oc=5",
-    "score": 63,
-    "discovered": "2026-11-02",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
     "id": "radar-topic-vienna-a76b82f41f6cb9d391",
     "title": "Wien Museum: Ausstellung stellt das Leben von Menschen mit Down-Syndrom in den Mittelpunkt",
     "kind": "élmény",
@@ -68,7 +47,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMUdUMFdPbVE0WHBtUGxheU5JMnFkMmNjNDIzZmxPM183OEM3WUVsUnhBZ1dZNE1Pd2llRzl4Q1JobTA5VEJvSEJZdzg0ZzI1dmNXSDAwaDVRY0dhVnhKUVh5M09mSGJJbXprX0xvU3htZF90YmhXVVgxckVtckN0Z2gxa0pFM0ZxNHBRTFlBcXRCTW1VYjkzZ2U3ZmF0RmVEYTBOMjN3LXdZZ2FmY0JEVzM0Q1lBUQ?oc=5",
     "score": 63,
-    "discovered": "2026-11-02",
+    "discovered": "2026-11-03",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -89,7 +68,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTTFYN2thQV9qeHlXQlZhMGRlekRLVy00Tk1udThtenUyNmdqSFN1d1ROeTUySVpsNnBQQXJ6cF9zZjZsYUN0VW1NVC0xTTlscENicE52THFRVHY4clphTnY2dWZ3VGZEZGM0OU9TYkt6MENLd24xVzVZeUdGbVdGMXAySVYwUUxONW11S1ZtZ1J1eTR5ckdvWXRlYW12UVRoWGxjZVg5ak16dEJSZGFneENVZ0U4d0NS?oc=5",
     "score": 63,
-    "discovered": "2026-11-02",
+    "discovered": "2026-11-03",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -110,7 +89,7 @@
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNd2NIdm1lakVEUTllQjdZYkJmel9wcE5rN3pnaTVDV1IxVk1UdlR0cW1MQ05Pblg2YmRIS3lsd0lZbFNDeUZNeEtZMFpOUUNKdmNickhZWERWWGRVVHBIWmNrbXI2Q0tKZ0xIVE1LWXNET2RzblVRYlhuanc5Z3JjVXZ3ZDJjY1ZCNGtlX3JsOG9WRXBsTUdXdEF2Y0hPRnBrU3E0MzVONjR2MFA1U2JCT19HRjZodjJHSHc?oc=5",
     "score": 63,
-    "discovered": "2026-11-02",
+    "discovered": "2026-11-03",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
@@ -130,6 +109,27 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOVktWGhSazJISGZKX0tnUkZKdlVfWVk2STgtR2tjRXp3U3V5UldUdzFQcS1MUVJNSy1qYWdRcjZ0NmNlSjJEcHdOVFlXV3V4QVh6QmNnTHdHTWtLRTBtUlJzLWdPTjF5QlhfOVZfMk9wS3NIeEpBMDJ0LUg5Nml2Z2hoNmJyX1RzVnJLN2djNXRPdw?oc=5",
+    "score": 63,
+    "discovered": "2026-11-03",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-92341b3afdfa8dc00b",
+    "title": "Sonderausstellung: \"Tatort Ephesos. Kleopatra und Rom\"",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYmxNYjMybnRWSUVoNWROYTBFckc1MFVVcFFHUGU2SDlDakNHbUlBVks1cHB1bnR2Tjh1R3BwTUREVzBNbXl5eXdLMGtIRmQ5enhIRS1NVUFLY0RUU2wzMFIyNktLeE44Z1UzLWlCNzA0enktVUNHX0R6dktjbmswb2pTQm42SDdyUDNHYnEwMA?oc=5",
     "score": 63,
     "discovered": "2026-11-02",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
