@@ -908,5 +908,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-cf046da1ab6f8005",
+    "title": "U2 a Stade de France-ban 2027-ben: íme a jegyértékesítés indulásának különböző időpontjai",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPTG5pY29FZnU4ZlVTdnRTbTNXSDVxSlp4VGNXNnRCRHprOGVCbmdaaXRFT2QxQXlIanBEaE4yZGhaVTJsTlBPb2Njb3VRWUY2R0hOY3hGaU02cE10Y21zSlBLUWRGLXNyb3ZXVDdwRmpWc0t2UFZONHZZaXViNHE0bjFwaENaanVLbFFVdXhkQlFNVmtFTzhPUmR3U0VJNURBVUlESVZDOTVXUVRVdUFQNGxRQ1RmWmJGOVVVU2xmcDFVMDlNbnBWajJjVEJhYno1cmJ1bTRzTUZRYmI1T1o4TnpZVUxJdzlXaFNsSmNzM2tUTGtBNmdSZnZYV3J3VFNWai1oQWV4LVo1RjhaNDVvU2FR?oc=5",
+    "score": 75,
+    "discovered": "2026-11-03",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
