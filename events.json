@@ -3675,6 +3675,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-budapest-d249e5834421008e95",
+    "title": "Novemberben különösen fényes hullócsillagokat láthatunk az égen, hamarosan tetőzik a Tauridák meteorraj",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Budapest · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ2ZQSG5WdVdTcGNTYVFZekNaaVVWTlRDNjRSNHJPcjdmMFNXSk00RE8tSlZPTGVFbjg0Ry1DZHVlZGFTb29PbzZSNXNBS0laRmg1cmZ0VkNDSnVlNVZnVEtoWThQOWsxSmNjeF8tU1U3WktlcjFCVlZvczRpYmNPM1oyTVZITHRVZUZYYmNQSQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-03",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-budapest-897f3d2d8de83eb917",
     "title": "Messier 14 – a változócsillagok és a csillagásznők gömbhalmaza",
     "kind": "tudomány",

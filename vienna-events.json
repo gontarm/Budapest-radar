@@ -35,6 +35,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-52834302a7d5858c4f",
+    "title": "Wie Ausstellungen in Museen unsere Neugier wecken | WZ",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZl9xNlVoUjVUaXZXZHhVb082V2xFcENnOG5UQ2Uxb1kzS3ZmeWRqNGR1WnhzQlY3NVVKLTFzOUhKaEJEM091STROQVpZekxRM1doekdyLXRCb2k4NWYxT2R3bU9vQUZXMEhpeXpmdTM2QkFKSlhhcy13SQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-03",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-a76b82f41f6cb9d391",
     "title": "Wien Museum: Ausstellung stellt das Leben von Menschen mit Down-Syndrom in den Mittelpunkt",
     "kind": "élmény",
@@ -153,27 +174,6 @@
     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYmxNYjMybnRWSUVoNWROYTBFckc1MFVVcFFHUGU2SDlDakNHbUlBVks1cHB1bnR2Tjh1R3BwTUREVzBNbXl5eXdLMGtIRmQ5enhIRS1NVUFLY0RUU2wzMFIyNktLeE44Z1UzLWlCNzA0enktVUNHX0R6dktjbmswb2pTQm42SDdyUDNHYnEwMA?oc=5",
     "score": 63,
     "discovered": "2026-11-02",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-52834302a7d5858c4f",
-    "title": "Wie Ausstellungen in Museen unsere Neugier wecken | WZ",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mZl9xNlVoUjVUaXZXZHhVb082V2xFcENnOG5UQ2Uxb1kzS3ZmeWRqNGR1WnhzQlY3NVVKLTFzOUhKaEJEM091STROQVpZekxRM1doekdyLXRCb2k4NWYxT2R3bU9vQUZXMEhpeXpmdTM2QkFKSlhhcy13SQ?oc=5",
-    "score": 63,
-    "discovered": "2026-11-01",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
