@@ -119,6 +119,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-cfa5f0aa3e2de435be",
+    "title": "Hommage: Zwei Ausstellungen erinnern an Franz West",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUU96dGxJYUhBS0ZPOC01Vkg1SlphTEdTUVlCWXY4dHRFOGtFcHBjaVE0Nk1rWXdzUm1zWm0xbXdCOEdiTERMcWZ0YWJZMTFBaUwzdzZYdEczNFVSaWNjMFRhYWtWeXJrRDh0Y1dUN1VWZC1DQzlWblM5ams5ZEh5QzR5WjZCdWxsaE84R1JYRQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-03",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-92341b3afdfa8dc00b",
     "title": "Sonderausstellung: \"Tatort Ephesos. Kleopatra und Rom\"",
     "kind": "élmény",
