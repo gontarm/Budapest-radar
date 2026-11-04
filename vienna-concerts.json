@@ -1086,6 +1086,25 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-stadthalle-fdcb2da29a2c0a2",
+    "title": "André Rieu 2027",
+    "kind": "koncert",
+    "genre": "pop",
+    "where": "Wiener Stadthalle, Hall D · Roland-Rainer-Platz 1, 1150 Wien",
+    "date": "2027-11-11",
+    "dateLabel": "11.11.2027 · pontos kezdés a forrásban",
+    "desc": "A Wiener Stadthalle hivatalos naptárában meghirdetett esemény. A jegyárat és az elérhetőséget a szervezőnél ellenőrizd.",
+    "url": "https://www.stadthalle.com/en/events/all-events/print",
+    "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
+    "score": 82,
+    "discovered": "2026-11-04",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-11-04",
+    "eventVerified": false
+  },
+  {
     "id": "vienna-stadthalle-2c91d70493fcb2b",
     "title": "The Music of Queen - Live 2027",
     "kind": "koncert",

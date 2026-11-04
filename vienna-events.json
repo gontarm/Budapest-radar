@@ -123,6 +123,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-405ccb343a1834ac05",
+    "title": "In Wien wird das Museum zu einem feministischen Raum: Eine Ausstellung entwirft ein Bild der Gesellschaft der Zukunft",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNdUVZVjVhb3pIdVBkdnMwSGFESFdxX1BPUENob1Z5U19QSS1McV8wN1o5TUExeW82X1R6azNKR0FJQ2U0aEZrTXZROGtOUi1jLWpla3lQSU9WbER4dGNkcmVBUUcxRzhtek9SSU9EZ2ZycWhOTWZPeXJPNVE2WUljM3NvTXBwUVZ3QXNuLWpGYkZWanNkSDNRdnBDeVlOd3NXS0JOWTJ0eUxkYkNWSVJ4NUluNXhtY1JNTXR2SE1ncXFfZzY2eExaS0FWZlBsa3IxenhLc05GOGZxUzNwR3BVdktCcC1sVDVxdFRBWDBGMDgzQ0pmalhhdTFsYw?oc=5",
+    "score": 63,
+    "discovered": "2026-11-04",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-2b663ad80e3069aeb8",
     "title": "45. Woche 2026 - Ausstellung \"Down-Syndrom. Über uns, mit uns\"",
     "kind": "élmény",
