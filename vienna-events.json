@@ -144,6 +144,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-c65a56f530992b0be7",
+    "title": "Urania-Sternwarte mit neuem Teleskop eröffnet",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
+    "score": 63,
+    "discovered": "2026-11-04",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-2b663ad80e3069aeb8",
     "title": "45. Woche 2026 - Ausstellung \"Down-Syndrom. Über uns, mit uns\"",
     "kind": "élmény",

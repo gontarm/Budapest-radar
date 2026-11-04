@@ -927,5 +927,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-af1f5416a1f0a497",
+    "title": "Scorpions 2027-ben a párizsi Bercyben: ma indul az elővételes jegyértékesítés!",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNTnpSSHFTRm5MSWNaVGhzX0Z5SGhNVG0ya0JWZE5UcWwybjd5eVBuczdJUThpbEV6M2VZZEpual9BT2ljT3psQThmbnlaNUpCaENlUkNiUUJFc3NMVmpJM2tpUnVodnpMNjB1Um9JT1J2MlpnZHl6U0xtRTFDcDI5MFJLSEpLMXlaUmpYM1g4dzNzaVU3WjBDcWtCSGFjOHVxLXhUa3kwVlZfRHhlZEJkQTd0X0hHUFo0ME1hZVdEcXg3ZXpWT3NwRV9PSm9hU20zcG80NHJHRm5VMjR1SU5rcG1ESTFYMFZaYnFERDJUYnhQb0lWVWxmeEJFaVhNcWhlZXc?oc=5",
+    "score": 75,
+    "discovered": "2026-11-04",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
