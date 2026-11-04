@@ -946,5 +946,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-73b79ed704279d37",
+    "title": "James Blunt koncert Budapest 2027 – Airplane Mode Tour az MVM Dome-ban",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQndNQ2RnTFJxVWtvRmpsVVJDMEVodkZmZHd6bldqZjEyV1ZPMmNUampxU3FmZU41eEM0cWNfTWh1QWk1ek9JTW9LWG1idkh2X3lfcTBCZ04yZkdsTVJHbWtiT1ZHYTZGSGpNcnRBSndXam5xVDJ2Tm5vN2k5SjB6X1psTWYyZFhBUmQwTHJFY0dBMHFaSjZTd0syWFV1aHZveExWcGJCZjYwcEhBRkE?oc=5",
+    "score": 75,
+    "discovered": "2026-11-04",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
