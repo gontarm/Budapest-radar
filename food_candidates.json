@@ -18,6 +18,24 @@
     "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
   },
   {
+    "id": "food-lead-1d021921bc03ddb72d",
+    "city": "budapest",
+    "headline": "Új étteremlánc lépett be a magyarországi piacra – szélsebesen terjeszkedik a több száz egységet működtető cég, Európában az elsők között próbálhatjuk ki - Világgazdaság",
+    "articleUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeGlwTWo1QTVJLU14WDkzVEFoU3Q1dEs0UEJTN0sxRHYteEhTcW5LdFZFWEtkelJsbGVYRVg1SktHaWliZjVRZ2RXQ0FsdFFUOUZ1MEtxd0FiZG80T1JJQWxmVGRsdW1uYjlqXzRsRDE3UzFBZk41NHh0VFVNbWxLZ3VnOVliNnVxLXk2cGZwNk9nQ19tb0NqX0hyVUdnYVZOOVUzWkQxZXBoM0VC?oc=5",
+    "published": "2026-11-03",
+    "status": "candidate",
+    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
+  },
+  {
+    "id": "food-lead-8a7ae89f0e194ee12e",
+    "city": "vienna",
+    "headline": "Ein Gansl, zwei Adressen – Wiener Traditionswirt eröffnet erstes Gansl-Pop-up - Heute",
+    "articleUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNcHFYUTlSdTg4S2N5bHVHcmtWQUFHU3piOW9VQlVidHRXUXk5YkhXZTFoUnJkVFBzV2F1dUhyR3pLNnM2Mjhxb1FWc0gzUDJPc1gwNDUwcGRzaE5INjlmUl9NY0ZRZHVPRzQ5NTljLVA1aVlJcHdkd3lvclppdTB3X0Q4TlRJWDVYRTZVZg?oc=5",
+    "published": "2026-11-03",
+    "status": "candidate",
+    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
+  },
+  {
     "id": "food-lead-6f2641c0b9806a1109",
     "city": "vienna",
     "headline": "Die besten 5 Wiener Restaurants für Spare Ribs - Gastro.News",
@@ -184,6 +202,15 @@
     "city": "vienna",
     "headline": "Neues Lokal in der Grazer Innenstadt: Jetzt steht der Eröffnungstermin fest - 5 Minuten",
     "articleUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdW1vcHlPbE1qR2dpMkRBcXRjMjM2WEVRRzd1LTZtcVk1MndrRXJacHozS1NGNGxhS3ZFbEc0NlRpd2FNWm5EelVBVVNjYk9KSVlmbFNNU1gxckxoT1JqS3pIVmdxTTMwUGM0OGx1UHEyRzFFSTllRGV6T0tQVE1kWV9FSldFaHZMOGVqaW5HMHdhZnNGaTdlcVlkZllsZTd0YXpXSV9JaE81Xy1HR0dtRzZQOTFJQQ?oc=5",
+    "published": "2026-10-27",
+    "status": "candidate",
+    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
+  },
+  {
+    "id": "food-lead-f13737e21b058c95c9",
+    "city": "vienna",
+    "headline": "Benrath: Aus Omas Perlen wird neuer Schmuck - Lokalbüro Düsseldorf",
+    "articleUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRUtsQzdlcEFlbzUzbm91UmZpQkN5RkpIYk91MVNJZkp6MEdHcjVWSlJLZUxvZzNVaXFya2xNMXJpRjJWendZT0Zma1M5NWd2MG55UEZUQmliS0g0TW8xa3kzTVgtZnY1MVJab3RhWmtXX0djQjB0QWtaYVl2alkxWnpZcw?oc=5",
     "published": "2026-10-27",
     "status": "candidate",
     "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
@@ -446,33 +473,6 @@
     "headline": "Rüscherl: Neue Bar beim Naschmarkt Wien - Falstaff",
     "articleUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE96S0hyeGhHZXZzeEpOTUQyVGV6Z0lSbjlmejVfLTROeWNOVEl3bjd6NnY0R21ZakNGRnBRTkQ2NEkybDRPLTdCLXc4UV90c1VST0t5SkswcUVpNFdnbktua2h4SFZRaFBFY2Y3OUc4LVNzenFfSUxHNlNQci0?oc=5",
     "published": "2026-10-14",
-    "status": "candidate",
-    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
-  },
-  {
-    "id": "food-lead-b4cd9b4f8c77944884",
-    "city": "vienna",
-    "headline": "Heiß & Frisch: Neue Restaurants in Wien im Oktober 2026 - Wienerin",
-    "articleUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUY2ZEd1djbklhU05RYldXek5SampWZWw4cHpJQWRNZy1saThHWm5rS2NCRzExZkEtZi1EU3ZEM0RoNXFEQXlMNTR5Wmtjd1NBZHBvQ2dMNElOaGJqdVRGRkNaTlJhQTEydElyckIxMms1WFYyTTJCQXByaw?oc=5",
-    "published": "2026-10-13",
-    "status": "candidate",
-    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
-  },
-  {
-    "id": "food-lead-31f04ccdbf149bbe4a",
-    "city": "vienna",
-    "headline": "Neueröffnung in Wien: Leo am Platz serviert Brunch in der Leopoldstadt - Falstaff",
-    "articleUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWF8ycmhxNkMzUzh5b1dvT3BqNVV4V1NOR193d3dOcXdlbHhoN3V0QkE2TjJRdjEzU3dBZ3UteHVuSkdHSHhXX2tPNWc3MG9pWE9vR0U0dXhnYUtRTkRuUHRFRVFpYkNUV0ZyWm50aHZNWmdjSlRWZ21ZcXl6b25aNHNOV1VrNGoyakZYdHpQNmhlUVhqV1JEUnZqbUczWm9TSmpObXlR?oc=5",
-    "published": "2026-10-13",
-    "status": "candidate",
-    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
-  },
-  {
-    "id": "food-lead-a40fe71aa85e9f056f",
-    "city": "vienna",
-    "headline": "Eröffnung im November: Die Brigittenau bekommt ein neues Yogastudio in die Rauscherstraße - MeinBezirk.at",
-    "articleUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTEg4X0h0VWNWNU5fWGtVR1pRZHZpUW45M2hRSThRcmdod2ZEOU8zVXZJR2Y5Mko2WV9IVG1uSkRneGZpbkNSYzN4bkNNTG9rOXYxa2ZTZ0tSZ2x3MGxjcHVmSS1GLUx3a3dNSWQzNHY0UXgzMms0Vm1xTFdWcFdocjlJSWo4VDFtV0l4dFUxUXRtSWYxOXlNUENiczhscVhfbzVvOHVKaDRHb0trRXBib01YeU42aXFXZjNTTXVFNjB5UHE1YVE?oc=5",
-    "published": "2026-10-13",
     "status": "candidate",
     "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
   }
