@@ -186,6 +186,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-024839483938d6cb38",
+    "title": "Gedenk-Ausstellungen für Franz West",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeVFFTTNnbWlEczQ3V0lkU19uWXlHTXB3Zk1maHBFYXBROXNDaWtWcmxvWjhDczM1UU5nMFQ5OW53LUxMY01KSWZrZHQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-05",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-c65a56f530992b0be7",
     "title": "Urania-Sternwarte mit neuem Teleskop eröffnet",
     "kind": "tudomány",
