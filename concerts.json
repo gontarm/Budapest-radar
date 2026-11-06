@@ -1003,5 +1003,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-4343dd9766e22f77",
+    "title": "Maluma koncert lesz Budapesten, de nem tudni mikor és hol",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUmVHV1BZdnlESFlPaTItblIzcERTcURtNFp4blduT09QSGlYbl9UZ1pid193dkd5OEV3QTN2QzhBaDNRR29wekp2cTdQY2d6R3dmNnBBekt6TTJFY3JjaXlENWRpVDRPWTY2NTFfVVB3TWR2QkN3VnZzaFZxS3NxaGtPUFVqd3kzMV9rY2s1Z0hDTGxK?oc=5",
+    "score": 75,
+    "discovered": "2026-11-06",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
