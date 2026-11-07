@@ -36,6 +36,24 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-210aa3503d4b6094",
+    "title": "Viktor Frankl Museum: Am Alsergrund findet man eine hoffnungsgebende Ausstellung",
+    "kind": "élmény",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUlo2akR3NGNZZmtXLWxQb0xOa2tCdDk2UWRrNHp2eUQ1RXdtb0VaSksxR3YtRnFwTUI2OTItT3FTeFVZaVUtT1pvM1JyZEJ3SkY5c3lrd1ZHVENnMnRuQjM3U3FETmxQc0RYMVZQZ0theWpidXk2UzNFQmxka19UMmdmY0VOWTRyNTc3dWFLRmNNTUpqWGtkNnhhUERHOUNISVJseU5zOVpRd0RvSmZEMDRNdE5qZw?oc=5",
+    "score": 60,
+    "discovered": "2026-11-07",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-405ccb343a1834ac05",
     "title": "In Wien wird das Museum zu einem feministischen Raum: Eine Ausstellung entwirft ein Bild der Gesellschaft der Zukunft",
     "kind": "élmény",
@@ -215,6 +233,27 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeVFFTTNnbWlEczQ3V0lkU19uWXlHTXB3Zk1maHBFYXBROXNDaWtWcmxvWjhDczM1UU5nMFQ5OW53LUxMY01KSWZrZHQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-07",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-e58f26a5c508257033",
+    "title": "Viktor Frankl Museum: Am Alsergrund findet man eine hoffnungsgebende Ausstellung",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUlo2akR3NGNZZmtXLWxQb0xOa2tCdDk2UWRrNHp2eUQ1RXdtb0VaSksxR3YtRnFwTUI2OTItT3FTeFVZaVUtT1pvM1JyZEJ3SkY5c3lrd1ZHVENnMnRuQjM3U3FETmxQc0RYMVZQZ0theWpidXk2UzNFQmxka19UMmdmY0VOWTRyNTc3dWFLRmNNTUpqWGtkNnhhUERHOUNISVJseU5zOVpRd0RvSmZEMDRNdE5qZw?oc=5",
     "score": 63,
     "discovered": "2026-11-07",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
