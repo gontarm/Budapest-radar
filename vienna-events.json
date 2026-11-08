@@ -54,6 +54,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-2b663ad80e3069aeb8",
+    "title": "45. Woche 2026 - Ausstellung \"Down-Syndrom. Über uns, mit uns\"",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOVktWGhSazJISGZKX0tnUkZKdlVfWVk2STgtR2tjRXp3U3V5UldUdzFQcS1MUVJNSy1qYWdRcjZ0NmNlSjJEcHdOVFlXV3V4QVh6QmNnTHdHTWtLRTBtUlJzLWdPTjF5QlhfOVZfMk9wS3NIeEpBMDJ0LUg5Nml2Z2hoNmJyX1RzVnJLN2djNXRPdw?oc=5",
+    "score": 63,
+    "discovered": "2026-11-08",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-405ccb343a1834ac05",
     "title": "In Wien wird das Museum zu einem feministischen Raum: Eine Ausstellung entwirft ein Bild der Gesellschaft der Zukunft",
     "kind": "élmény",
@@ -277,27 +298,6 @@
     "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1TeVFFTTNnbWlEczQ3V0lkU19uWXlHTXB3Zk1maHBFYXBROXNDaWtWcmxvWjhDczM1UU5nMFQ5OW53LUxMY01KSWZrZHQ?oc=5",
     "score": 63,
     "discovered": "2026-11-07",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-2b663ad80e3069aeb8",
-    "title": "45. Woche 2026 - Ausstellung \"Down-Syndrom. Über uns, mit uns\"",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOVktWGhSazJISGZKX0tnUkZKdlVfWVk2STgtR2tjRXp3U3V5UldUdzFQcS1MUVJNSy1qYWdRcjZ0NmNlSjJEcHdOVFlXV3V4QVh6QmNnTHdHTWtLRTBtUlJzLWdPTjF5QlhfOVZfMk9wS3NIeEpBMDJ0LUg5Nml2Z2hoNmJyX1RzVnJLN2djNXRPdw?oc=5",
-    "score": 63,
-    "discovered": "2026-11-06",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
