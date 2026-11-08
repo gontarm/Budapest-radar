@@ -243,6 +243,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-f1684c41bb75dcd675",
+    "title": "Fotos der Ausstellungseröffnung - Albertina Modern und Wien Museum widmeten Franz West gemeinsamen Auftakt",
+    "kind": "élmény",
+    "interestTopics": [
+      "technika"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQU0ZDcE1TVnpyZDNuQWd5MmtnZkxwZmZZY1ozaWlWanB6WEhrSkliRzNONEdFRVRxNE53SDJ3a1V4YjBBV3NDLXc3cTVnUmNsaWxqdlZmZFRnSmUtbTJpZy1xV3VHaFktSnpoY2wtUGRMcFJES1FhVmN3WENmR0RHbWtTTXBGOHlHUDJ2RGVLamwyYUt5aTltM2E2bw?oc=5",
+    "score": 63,
+    "discovered": "2026-11-08",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-2e69926e62afb31995",
     "title": "Gedenkausstellungen für Franz West",
     "kind": "élmény",
