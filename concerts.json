@@ -1098,5 +1098,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-d21c3b501e99e1ae",
+    "title": "Stray Kids-koncert Párizsban 2027-ben: minden információ a jegyértékesítés indulásáról",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNa0xRbTVUMFR5VnQ0eU1GbE96NFN3TGplcXNUenRJZGd3bF9uT1VPSTBjeW1Dd0w4S01QT1liLU1Pcy1mYWQzbllkdFhiSGxIUjFLWVYxY1c3UktocFZId0pLLXZDaG1VQjJTZWstYzYzQjZPUHJ6cjE2dHVWSHMtYkw5R0Y3cTBSRkpUU2dWUkVISGtCMk10SVRhTzhabWo3cnVBLU1hSG9aZlhtZEtYY2dCOTVxX09wQ3ZrRzFJVlZicGx1TEhiVThzd3VHdFpJSjdFNEF3RUE1QkJDWi0ydnRZOVl0NVNVaTdmcTNWeTBfRU9OUDVMTG14LTRuMmdVVmljSVZTWFpBamN3LWc?oc=5",
+    "score": 75,
+    "discovered": "2026-11-09",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
