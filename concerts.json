@@ -1174,5 +1174,43 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-983cf33477f086a9",
+    "title": "Turnéra indul a Fall Out Boy - Budapest is ott van a helyszínek között",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ldzRlZjRpYmVMOFYwM3E2NGJLSndERG1fazd1ZnJ3YkhDLTFrMDB3Y09NOEdjSG1vZl9pclkwTjdORVBMRW1nM3JQSlhuclR1dXRWazZXVzdWeFdBcXhyRw?oc=5",
+    "score": 75,
+    "discovered": "2026-11-10",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-50ca65a9968de196",
+    "title": "Punkok a plázában – miért ekkora hír a Fall Out Boy budapesti koncertje?",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ2dsUW9Dczhzb01OMEFQZ1BfM0FtRFpWWUE5dGJ5eWFpYmloLUJUVGFWekNmUXdJSV9GNjdONWc5RFgySElqRVc5QnlveV9CSWpEWnRVVm9sTkZxLXVqRVhiUUt2TzZQSFk5MTc0ODZOcl9QeDMtWWhITG1XbVdGWGpXejREd01GWllYNDVYU0tsZmFaOXBpYm5KVWJ4M0pabzl3UVZpNXprYTBLZ2dyWEJURTc3QTg?oc=5",
+    "score": 75,
+    "discovered": "2026-11-10",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
