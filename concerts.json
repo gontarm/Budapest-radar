@@ -1155,5 +1155,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-2d7b880ceeb9a76f",
+    "title": "Rod Stewarttól a Nickelbackig: világsztárok koncerteznek Budapesten 2027 nyarán",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdjhSeHBFTE45Y28xdDUyTGFycnJNTU5qVGRDbTBRQmkzSzVKVHFZdUtOZkd2RWk5OXVLaWtoNGlQOWROVHpYbXZWRl9fdU5nVnFlMS1VNS05X2VtdDMyS3FfWU5QYXRnbHUtZ1FSamJ4Q0YzaEEtVWJFeXd6RzhQMk8yMA?oc=5",
+    "score": 75,
+    "discovered": "2026-11-10",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
