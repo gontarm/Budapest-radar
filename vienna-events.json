@@ -36,6 +36,45 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-07693025b2a7b184",
+    "title": "Filmfestival startet mit preisgekrönter Österreichpremiere",
+    "kind": "mozi",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdjE3RVZEc3BzZlhsMXpQUGhxU0FrQWF4UThkNUlXb1FGRXZfZGl0ZEtQemtuYzV5Qm5femdDU2dIVHpfbUpBU3hneUhJc2lhZDJwdk5NVmNWZzl1LWUtc1pkWGZydU9pYW9VWmtIbllFM0M0TEpJV0hUaVZOY2ZvMERpUUc4d19zbFg4ZXlSWVVnWkd3NUE?oc=5",
+    "score": 60,
+    "discovered": "2026-11-11",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-cbe8e9090dcb2c2e5d",
+    "title": "Er gab dem Schas die Form: Zwei Ausstellungen in Wien feiern Franz West",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbC00WUVuMS1WcnZvTXlVdUI3RWgxdURhMXhyVk9UMWZxYWU1bURMUmpmb1pkUjg2eEVzMkYtUXdqQllaeXJSZWJKTEFZZnpxOWpjSmpxOHpxSlpxTVRxTTV6N2ZBUndWeGNiejlDcFNlVlR2MHdhVmJ5QThUQ1VhcG5ZTU9IMVlVTlBLdnZ4ZlR5N1paQ0hSaHF6QkV2R3FsaHcwNUxEOWptRkVkX0R6T3dBTQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-11",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-405ccb343a1834ac05",
     "title": "In Wien wird das Museum zu einem feministischen Raum: Eine Ausstellung entwirft ein Bild der Gesellschaft der Zukunft",
     "kind": "élmény",
@@ -175,27 +214,6 @@
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
     "score": 63,
     "discovered": "2026-11-10",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-cbe8e9090dcb2c2e5d",
-    "title": "Er gab dem Schas die Form: Zwei Ausstellungen in Wien feiern Franz West",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNbC00WUVuMS1WcnZvTXlVdUI3RWgxdURhMXhyVk9UMWZxYWU1bURMUmpmb1pkUjg2eEVzMkYtUXdqQllaeXJSZWJKTEFZZnpxOWpjSmpxOHpxSlpxTVRxTTV6N2ZBUndWeGNiejlDcFNlVlR2MHdhVmJ5QThUQ1VhcG5ZTU9IMVlVTlBLdnZ4ZlR5N1paQ0hSaHF6QkV2R3FsaHcwNUxEOWptRkVkX0R6T3dBTQ?oc=5",
-    "score": 63,
-    "discovered": "2026-11-09",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
