@@ -72,6 +72,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-fae4801dd433c836cb",
+    "title": "Urania-Sternwarte mit dem Blick in ferne Galaxien",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
+    "score": 63,
+    "discovered": "2026-11-11",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-cbe8e9090dcb2c2e5d",
     "title": "Er gab dem Schas die Form: Zwei Ausstellungen in Wien feiern Franz West",
     "kind": "élmény",
@@ -209,27 +230,6 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTTFYN2thQV9qeHlXQlZhMGRlekRLVy00Tk1udThtenUyNmdqSFN1d1ROeTUySVpsNnBQQXJ6cF9zZjZsYUN0VW1NVC0xTTlscENicE52THFRVHY4clphTnY2dWZ3VGZEZGM0OU9TYkt6MENLd24xVzVZeUdGbVdGMXAySVYwUUxONW11S1ZtZ1J1eTR5ckdvWXRlYW12UVRoWGxjZVg5ak16dEJSZGFneENVZ0U4d0NS?oc=5",
-    "score": 63,
-    "discovered": "2026-11-10",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-fae4801dd433c836cb",
-    "title": "Urania-Sternwarte mit dem Blick in ferne Galaxien",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
     "score": 63,
     "discovered": "2026-11-10",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
