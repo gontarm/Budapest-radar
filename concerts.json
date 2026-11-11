@@ -1231,5 +1231,43 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-0637bc44ad557dc1",
+    "title": "Ennyibe kerülnek a jegyek a Fall Out Boy első saját koncertjére Budapesten",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPd1U1dzdpQWljVUhybU85VU43M1RXSFB3d3lkcTJoSkkyS1FnekNmNUxtY1hIME1KWXp1VkpXRnBEV0pILWdEMkNWNlJ1d0NROG1fS1RqLVU5U2hvejhhc0dOUmlMRDI5Ylo4S1p0Y01mUkw3d0lKMGR1bkRfdFJDcnUtM0dXVzVhclZtR2RNMlhiVEZOTi0zYlFnV19Eek1razI2dVc5c1oxcC1n?oc=5",
+    "score": 75,
+    "discovered": "2026-11-11",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-c4f43763ee05988e",
+    "title": "Ennyibe kerülnek a jegyek a budapesti The Neighbourhood koncertre",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTNDT2FYNHV5S2s2ZHhOQWxvNUItYThDRkpHdUhhSVF1dWF4bzE1eE5Fc041RFlFUkxHMllVbGFacmlYcGVtR0xRSDhTb3VKV2tZREo4REpiZndRUGhiZHMzdnk2MWZ6dFZjVDBZc3JsY0NIaUlxamk1anliSGNzOE50RTk3QUlxeUE0dTFOYklhQ25sUmhLWFoxeWprRkJH?oc=5",
+    "score": 75,
+    "discovered": "2026-11-11",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
