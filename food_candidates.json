@@ -1,5 +1,14 @@
 [
   {
+    "id": "food-lead-01d21a1bfd8b52beec",
+    "city": "vienna",
+    "headline": "Wiener Ballsaison schwungvoll eröffnet: Wien begrüßt den Fasching und eröffnet die Wiener Ballsaison - MeinBezirk.at",
+    "articleUrl": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQVkQwRUpkclZIREpTSnEwUWpHeXNBRTJ4dFZvUFE3Y0RKSjhjSjBUOE9xcHh1MUxqZV9UeXZHN3JOZUdGNFFSczhqU1g3aG9hS2xXYS1uQVRyOTJ0ZmhiQnpNMTBnUlUzQnY0QTFrMHZLdXBkZmhiU2ROU3A5Sk96cFdDMU1NYktpaFNyR3FPR09Oal9fdWFGX21MRGRTSWRqWkpUS3p1ZG9IRmxpVDNwR1dKTW9sMWlSVTdvZTBuYVd2cWlKa0lrbWlvOU0yY2Rj?oc=5",
+    "published": "2026-11-11",
+    "status": "candidate",
+    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
+  },
+  {
     "id": "food-lead-64c3397d8d58c53304",
     "city": "budapest",
     "headline": "Megint egy trendi étterem zár be Budapesten: mi lesz a laza, de magas minőségű vendéglátással? - Telex",
@@ -12,7 +21,7 @@
     "id": "food-lead-d735217e4b6d6337ff",
     "city": "vienna",
     "headline": "Neuer Gastro-Hotspot an der Donau: Das \"Luma\" eröffnet in Wien - oe24",
-    "articleUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMXNudnprMDVMU1JiajFIcEkwTmQ3S2pzc1huYk1icDl1RHBwaUZsekgzdXVzV0JKVGE2ZVpaV21ZUjN0MERJbVRKV0V2blBxYXdOWnBQNGRDZEEtX21pUDNHWDlKSHVqTGpfcFFoeFhSbnF4RFNpaHROQ21WYmpIOUZnMFRDTUdmUGpoUVZSdFgwT1FCeFdr0gGcAUFVX3lxTE5aNWRpd0RmYzBaV3ZlR2xpa21RUjJGNlNzek05WFRTbVhSLUJsOS1tUDNZWlh4czVBYjlvS3VYYWYtU0VOWU8xTDF5WDByekVFSVh4M2wtYVVTQTJUM0tfOTdLMmlFSXdUT1ZOcVA3dmZuTzViR08yalhMZWEwV1N6QllEcVg4bzhqdjR4MW0tSTRGM01QZkxFdEI2Wg?oc=5",
+    "articleUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWjVkaXdEZmMwWld2ZUdsaWttUVIyRjZTc3pNOVhUU21YUi1CbDktbVAzWVpYeHM1QWI5b0t1WGFmLVNFTllPMUwxeVgwcnpFRUlYeDNsLWFVU0EyVDNLXzk3SzJpRUl3VE9WTnFQN3Zmbk81YkdPMmpYTGVhMFdTekJZRHFYOG84anY0eDFtLUk0RjNNUGZMRXRCNlrSAZwBQVVfeXFMTlo1ZGl3RGZjMFpXdmVHbGlrbVFSMkY2U3N6TTlYVFNtWFItQmw5LW1QM1laWHhzNUFiOW9LdVhhZi1TRU5ZTzFMMXlYMHJ6RUVJWHgzbC1hVVNBMlQzS185N0syaUVJd1RPVk5xUDd2Zm5PNWJHTzJqWExlYTBXU3pCWURxWDhvOGp2NHgxbS1JNEYzTVBmTEV0QjZa?oc=5",
     "published": "2026-11-10",
     "status": "candidate",
     "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
@@ -554,15 +563,6 @@
     "headline": "\"Leo am Platz\": Schon wieder eine Neueröffnung im alten Restaurant \"Leopold\" - MeinBezirk.at",
     "articleUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObWx3QmxoUkRISDNsZVdJVUFaSHJXM1Q3UXMtLU5FVXp2aTFjWEg2dEVmNGVka1V5bE5UaGNQNTRzNkVkU3NYYkdCR19mbXE1cmQ0ZW5GX3daaVlERXJNd1NhUFBVYUZ5ZGFlV0trWW42dmRYNWZrZXktd3RFdWFBZi13VzZKMUJWUUNxelJON09VbW1RRTdYZW05TEhjZHQzaWdwZTJoNHZSLUUwbUZQbTdlUkxjN1Z1?oc=5",
     "published": "2026-10-22",
-    "status": "candidate",
-    "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
-  },
-  {
-    "id": "food-lead-75f3860a92b2ea46d0",
-    "city": "vienna",
-    "headline": "Sekki ist zurück: Pop-up in Hausbar - Gastro.News",
-    "articleUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aem44YTNsVm9SellwVGdsQ3JJUHg4elh1d0pTMVp2MzY1X1p2WWN5WUFqVUdjZ2psVV80YWlQdjVTXzl6QkxfWGNvUERIel84RWpoamxzVnlMNmI4akxKaW05UUlMSHM?oc=5",
-    "published": "2026-10-21",
     "status": "candidate",
     "note": "Nem ellenőrzött hírtalálat. A hely neve, pontos címe és működése még igazolandó."
   }
