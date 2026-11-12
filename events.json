@@ -449,7 +449,7 @@
     "url": "https://lightartmuseum.hu/",
     "score": 94,
     "dataQuality": "scheduled",
-    "linkStatus": "reachable",
+    "linkStatus": "uncertain",
     "directEventLink": false,
     "linkCheckedOn": "2026-11-12",
     "eventVerified": false
@@ -2775,7 +2775,7 @@
     "dataQuality": "scheduled",
     "eventVerified": false,
     "discovered": "2026-11-12",
-    "linkStatus": "reachable",
+    "linkStatus": "not_found",
     "directEventLink": true,
     "linkCheckedOn": "2026-11-12"
   },
@@ -19108,5 +19108,26 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "official-9d3247bdded9e3729e",
+    "title": "Holdunk krátercsodája és a Szaturnusz gyűrűrendszere - 11.19.",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Svábhegyi Csillagvizsgáló · Budapest, Konkoly-Thege Miklós út 15–17.",
+    "date": "2026-11-19",
+    "dateLabel": "2026-11-19 · kezdés a szervező oldalán",
+    "desc": "Hivatalos szervezői programadat. A részleteket és jegyeket a forrásoldalon ellenőrizd.",
+    "url": "https://svabhegyicsillagvizsgalo.hu/programok-a-csillagvizsgaloban/holdunk-kratercsodaja-es-a-szaturnusz-gyururendszere-1119",
+    "source": "Svábhegyi Csillagvizsgáló – hivatalos program",
+    "score": 85,
+    "dataQuality": "scheduled",
+    "eventVerified": false,
+    "discovered": "2026-11-12",
+    "linkStatus": "reachable",
+    "directEventLink": true,
+    "linkCheckedOn": "2026-11-12"
   }
 ]
