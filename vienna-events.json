@@ -177,6 +177,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-4ed7dafbf7aa45ea09",
+    "title": "Wiener Aktionismus Museum stellt mit Jänner Ausstellungsbetrieb ein",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJrbXhrSGJ6bHg1cGY3XzFnTEVuZm96alByU0VCUFQtNUxKbmJUdzBJYmV2RXU1ajRJRHJVSkdUcGR0OE5GV1JZWjdBT2JtLVJ1bE1peld2ZTRVMFVnS0ZEY3N1bkJ5dHRhcGw4NmxROW5oQzUyVmQwVU1UWDk0U2VfUmpCR2MzSl9FOXlza3BGd254Ui1RcGl5ZlM2TlZfSUJkUEhoWFpJbks2UUVkTmlHR1dCUQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-12",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-fae4801dd433c836cb",
     "title": "Urania-Sternwarte mit dem Blick in ferne Galaxien",
     "kind": "tudomány",
