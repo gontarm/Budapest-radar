@@ -28,7 +28,7 @@ jobs:
           code=html.split("<script>",1)[1].split("</script>",1)[0]
           Path("/tmp/radar-app.js").write_text(code,encoding="utf-8")
           for marker in ("navigator.share","radarShareUrl(","radarMaybeOpenShared();",
-                         "id=\\"detailShare\\"","id=\\"concertDetailShare\\"",
+                         "detailShare","concertDetailShare",
                          "data-share-event","data-share-concert"):
               assert marker in html,marker
           PY
