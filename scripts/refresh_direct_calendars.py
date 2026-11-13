@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Verified dated discoveries outside theatres and cinemas.
 
-Sources are actual event calendars; news results are never converted into
+Sources are dated event calendars and curated event listings, not RSS news.\nNews results are never converted into
 scheduled events. Reject unknown dates, unknown Budapest venues and old dates.
 """
 import datetime as dt
