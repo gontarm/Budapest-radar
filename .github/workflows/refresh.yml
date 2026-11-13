@@ -9,7 +9,7 @@ on:
       - 'scripts/refresh_direct_calendars.py'
       - 'scripts/test_direct_calendars.py'
       - 'scripts/test_cinema.py'
-      - 'scripts/refresh_classical.py scripts/refresh_niche_sources.py'
+      - 'scripts/refresh_classical.py'
       - 'scripts/test_classical.py'
       - 'scripts/refresh_niche_sources.py'
       - 'scripts/test_niche_sources.py'
@@ -43,7 +43,7 @@ jobs:
       - name: HTML-feldolgozó telepítése
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Python adatgyűjtők ellenőrzése
-        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py scripts/refresh_classical.py
+        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py scripts/refresh_classical.py scripts/refresh_niche_sources.py
       - name: Színházi és mozis feldolgozók tesztelése
         run: |
           python scripts/test_theatre.py
