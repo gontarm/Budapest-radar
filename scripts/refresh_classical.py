@@ -4,6 +4,7 @@
 Never infer a performance date from a news headline. A failed source retains
 previously collected, still-upcoming classical concerts from that source.
 """
+import concurrent.futures as cf
 import datetime as dt
 import hashlib
 import json
@@ -145,9 +146,11 @@ def zeneakademia():
   calendar=ZENE+"?idopont="+f"{year}-{month:02d}-01+to+{year}-{month:02d}-{end:02d}"
   html=fetch(calendar)
   links=detail_links(html,ZENE,r"/(?:programok|esemenyek)/[^/?#]+")
-  for link in links[:55]:
-   try:results.extend(parse_schema(fetch(link),link,"Zeneakadémia – hivatalos koncertnaptár"))
-   except Exception:continue
+  def read_detail(link):
+   try:return parse_schema(fetch(link),link,"Zeneakadémia – hivatalos koncertnaptár")
+   except Exception:return []
+  with cf.ThreadPoolExecutor(max_workers=6) as pool:
+   for rows in pool.map(read_detail,links[:24]):results.extend(rows)
  print("Zeneakadémia schema concerts:",len(results))
  return results
 
@@ -157,9 +160,11 @@ def mupa():
  html=fetch(MUPA)
  links=detail_links(html,MUPA,r"/(?:program|event|events|programok)/[^/?#]+")
  results=[]
- for link in links[:45]:
-  try:results.extend(parse_schema(fetch(link),link,"Müpa – hivatalos koncertnaptár"))
-  except Exception:continue
+ def read_detail(link):
+  try:return parse_schema(fetch(link),link,"Müpa – hivatalos koncertnaptár")
+  except Exception:return []
+ with cf.ThreadPoolExecutor(max_workers=6) as pool:
+  for rows in pool.map(read_detail,links[:24]):results.extend(rows)
  print("Müpa classical schema concerts:",len(results))
  return results
 
