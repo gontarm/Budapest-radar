@@ -188,7 +188,7 @@ def main():
          or (e.get("date") or "")>=TODAY.isoformat()}
  for item in collected:
   previous=merged.get(item["id"],{})
-  for field in ("summary","fullDescription","image","imageSourceUrl","imageCredit","imageAlt"):
+  for field in ("summary","fullDescription","image","imageSourceUrl","imageCredit","imageAlt","detailCheckedOn"):
    if previous.get(field) and not item.get(field):item[field]=previous[field]
   merged[item["id"]]=item
  # Prevent same source/date/title duplicated from pages with different listings.
