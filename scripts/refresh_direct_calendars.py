@@ -146,7 +146,7 @@ def parse_obuda_detail(page,url):
 
 def obuda():
  urls=[]
- for offset in (0,1):
+ for offset in range(4):
   month=TODAY.month+offset
   year=TODAY.year+(month-1)//12
   month=(month-1)%12+1
