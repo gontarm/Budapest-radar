@@ -186,7 +186,11 @@ def main():
  old=json.loads(FILE.read_text("utf-8"))
  merged={e["id"]:e for e in old if not str(e.get("id","")).startswith("radar-dated-")
          or (e.get("date") or "")>=TODAY.isoformat()}
- for item in collected:merged[item["id"]]=item
+ for item in collected:
+  previous=merged.get(item["id"],{})
+  for field in ("summary","fullDescription","image","imageSourceUrl","imageCredit","imageAlt"):
+   if previous.get(field) and not item.get(field):item[field]=previous[field]
+  merged[item["id"]]=item
  # Prevent same source/date/title duplicated from pages with different listings.
  items=list(merged.values())
  text=json.dumps(items,ensure_ascii=False,indent=2)+"\n"
