@@ -107,9 +107,9 @@ def candidates(rows,kind):
        any(k in e.get("desc","").casefold() for k in GENERIC))]
  # Prioritise FUGA/BME/Liberta, then short and imageless details.
  return sorted(valid,key=lambda e:(
+  e.get("detailCheckedOn",""),  # process unchecked pages first, then oldest checked
   not any(e.get("id","").startswith(p) for p in ("source-","radar-dated-","official-","classical-")),
   bool(e.get("image") and e.get("fullDescription")),
-  -int(not bool(e.get("image"))),
   len(e.get("fullDescription",""))),reverse=False)[:LIMIT]
 def apply(e,summary,content,image):
  changed=False
@@ -136,9 +136,10 @@ def main():
   def job(item):url,items=item;return url,details(items[0])
   with concurrent.futures.ThreadPoolExecutor(max_workers=7) as pool:
    for url,result in pool.map(job,seen.items()):
-    if not result:continue
-    summary,content,image=result
     for e in seen[url]:
+     e["detailCheckedOn"]=TODAY
+     if not result:continue
+     summary,content,image=result
      if apply(e,summary,content,image):total["updated"]+=1
      if image:total["image_found"]+=1
      if content:total["description_found"]+=1
