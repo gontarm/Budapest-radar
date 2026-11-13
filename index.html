@@ -910,7 +910,13 @@ function radarCinemaDates(e){
 function radarAllShowtimes(e){return e.kind==='mozi'?radarCinemaDates(e):radarTheatreDates(e)}
 function radarCinemaDirectory(){
  if(!radarBaseSelected.has('mozi')||radarBaseSelected.size!==1||radarInterestSelected.size)return '';
- return '<section class="radar-cinema-directory"><h3>Budapesti mozik ('+radarBudapestCinemas.length+')</h3><p>A 23 budapesti mozi nyilvános műsorából automatikusan gyűjtött filmek. Kattints egy filmre a mozik és vetítési időpontok megtekintéséhez. Az időpontokat jegyvásárlás előtt ellenőrizd.</p><details><summary>A 23 mozi listája</summary><div class="radar-cinema-list">'+radarBudapestCinemas.map(n=>'<span>'+esc(n)+'</span>').join('')+'</div></details><a href="https://mozibp.hu/" target="_blank" rel="noopener noreferrer">Teljes, naponta frissülő budapesti moziműsor ↗</a></section>';
+ const today=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Budapest'});
+ const current=events.filter(e=>e.kind==='mozi'&&radarConcrete(e)&&e.date>=today);
+ const films=new Set(current.map(e=>radarCinemaKey(e)||e.title)).size;
+ const status=current.length
+   ?films+' különböző film · '+current.length+' jövőbeli vetítés a Radarban. Az időpontokat jegyvásárlás előtt ellenőrizd.'
+   :'A moziműsor adatgyűjtése jelenleg nem szolgáltat jövőbeli vetítéseket. Ez adatforrás-probléma, nem azt jelenti, hogy nincs vetítés Budapesten.';
+ return '<section class="radar-cinema-directory"><h3>Budapesti mozik ('+radarBudapestCinemas.length+')</h3><p>'+esc(status)+'</p><details><summary>A 23 figyelt mozi listája</summary><div class="radar-cinema-list">'+radarBudapestCinemas.map(n=>'<span>'+esc(n)+'</span>').join('')+'</div></details><a href="https://mozibp.hu/" target="_blank" rel="noopener noreferrer">A forrás teljes budapesti moziműsora ↗</a></section>';
 }
 function radarGroupTheatreRows(rows){
  const seen=new Set();
@@ -1159,7 +1165,7 @@ async function updateEvents(interactive=false){
   const time=new Date().toLocaleTimeString('hu-HU',{hour:'2-digit',minute:'2-digit'});
   document.querySelector('#updated').textContent='Frissítve: '+time;
   render();
-  if(interactive)notice(added?'✓ '+added+' új program!':'✓ Naprakész – nincs új program');
+  if(interactive)notice(added?'✓ '+added+' új, dátummal és helyszínnel rendelkező program':'↻ Adatok letöltve – nem érkezett új, igazolt program');
  }catch(error){
   document.querySelector('#updated').textContent='Nem sikerült az online frissítés';
   if(interactive)notice('Nem sikerült frissíteni · ellenőrizd az internetet',3300);
