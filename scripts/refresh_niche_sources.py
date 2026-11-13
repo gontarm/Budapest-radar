@@ -21,7 +21,7 @@ UA={"User-Agent":"Mozilla/5.0 (compatible; BudapestRadar/1.0; public event calen
 MONTHS={"január":1,"február":2,"március":3,"április":4,"május":5,"június":6,
         "július":7,"augusztus":8,"szeptember":9,"október":10,"november":11,"december":12}
 MONTH_PATTERN="|".join(MONTHS)
-HU_DATE=re.compile(r"(20\d{2})\.\s*("+MONTH_PATTERN+r")\s*(\d{1,2})\.",re.I)
+HU_DATE=re.compile(r"(20\d{2})\.\s*("+MONTH_PATTERN+r")\s*(\d{1,2})(?:\.|(?=\s*[–-]))",re.I)
 NUM_DATE=re.compile(r"(20\d{2})\.\s*(\d{1,2})\.\s*(\d{1,2})\.",re.I)
 ISO_DATE=re.compile(r"(20\d{2})-(\d{2})-(\d{2})")
 TIME=re.compile(r"(?<!\d)([01]?\d|2[0-3])[:.]([0-5]\d)(?!\d)")
