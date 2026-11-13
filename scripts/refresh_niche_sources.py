@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dated cultural programmes from FUGA, BME, Liberta Praxis and ELTE Füvészkert.
+"""Dated cultural programmes from FUGA, BME, Liberta Praxis and ELTE Füvészkert.\n\nAll imports require an explicitly published programme date and known Budapest venue.
 
 Never infer dates from article publication timestamps, evergreen descriptions,
 or external news. Only venue-specific official calendar/event pages qualify.
