@@ -1,0 +1,38 @@
+[
+  {
+    "id": "radar-curated-philosophy-2026-11-19",
+    "title": "Nyitott filozófiai beszélgetés – Hozd a saját kérdésed!",
+    "kind": "élmény",
+    "interestTopics": [
+      "filozofia"
+    ],
+    "where": "Művház Kávézó · Bartók Béla út 33., Budapest",
+    "date": "2026-11-19",
+    "dateLabel": "2026.11.19. · 18:00–20:00",
+    "desc": "Budapest Philosophy Group: kötetlen, közös filozófiai beszélgetés. A résztvevők kérdéseket és dilemmákat hoznak, és együtt választják ki a témákat. A szervező ingyenes eseményként hirdeti.",
+    "url": "https://www.meetup.com/budapest-philosophy/events/317353027/",
+    "source": "Budapest Philosophy Group – eseményoldal",
+    "score": 88,
+    "dataQuality": "scheduled",
+    "discovered": "2026-11-13"
+  },
+  {
+    "id": "radar-curated-fuveszkert-2026-12-13",
+    "title": "Luca napi varázsnövénytan – tematikus szakvezetés",
+    "kind": "élmény",
+    "interestTopics": [
+      "kertek",
+      "titkok",
+      "termeszettudomany"
+    ],
+    "where": "ELTE Füvészkert · Illés utca 25., Budapest",
+    "date": "2026-12-13",
+    "dateLabel": "2026.12.13. · 13:00",
+    "desc": "Tematikus növénytani szakvezetés a téli Füvészkertben a boszorkányok füveiről, szerencsehozó és gyógyító növényekről. A szervező szerint a belépő 4900 Ft; jegy és aktuális részletek a hivatalos oldalon.",
+    "url": "https://www.fuveszkert.org/hirek/luca-napi-varazsnovenytan-tematikus-szakvezetes-3/",
+    "source": "ELTE Füvészkert – hivatalos programoldal",
+    "score": 87,
+    "dataQuality": "scheduled",
+    "discovered": "2026-11-13"
+  }
+]
