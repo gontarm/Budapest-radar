@@ -1,0 +1,35 @@
+name: Radar – eseménymegosztás ellenőrzése
+on:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - .github/workflows/share-test.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: JavaScript syntax and sharing UI checks
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          html=Path("index.html").read_text(encoding="utf-8")
+          assert html.count("<script>")==1
+          code=html.split("<script>",1)[1].split("</script>",1)[0]
+          Path("/tmp/radar-app.js").write_text(code,encoding="utf-8")
+          for marker in ("navigator.share","radarShareUrl(","radarMaybeOpenShared();",
+                         "id=\\"detailShare\\"","id=\\"concertDetailShare\\"",
+                         "data-share-event","data-share-concert"):
+              assert marker in html,marker
+          PY
+          node --check /tmp/radar-app.js
