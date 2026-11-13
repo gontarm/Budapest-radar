@@ -67,10 +67,12 @@ def links(html,base,part):
 
 def head_and_lines(html):
  soup=BeautifulSoup(html,"html.parser")
- h=soup.find("h1")
+ for tag in soup(["script","style","nav","footer"]):tag.decompose()
+ # BME has an accessibility/menu H1 ("Főmenü") before the actual page H1.
+ h=next((x for x in soup.find_all("h1") if clean(x.get_text(" ",strip=True)).casefold()
+         not in ("főmenü","menu","menü","események")),None)
  if not h:return "",[]
  title=clean(h.get_text(" ",strip=True))
- for tag in soup(["script","style","nav","footer"]):tag.decompose()
  # h1 is the entry point; avoid publication dates from sidebars/site footers.
  lines=[clean(x) for x in soup.get_text("\n").splitlines() if clean(x)]
  try:at=lines.index(title)
@@ -113,11 +115,7 @@ def fuga_detail(html,url):
 
 def bme_detail(html,url):
  title,lines=head_and_lines(html)
- if not title or not lines:
-  print("BME no heading/lines:",url,"HTML head:",repr(BeautifulSoup(html,"html.parser").get_text(" ",strip=True)[:160]),"title:",repr(title))
-  return []
- if "bme.hu" in url:
-  print("BME parser diagnostic:",repr(title),repr(lines[:6]))
+ if not title or not lines:return []
  # BME detail: # title, room, "2026. 11. 20.", time, description
  where_part=lines[0]
  if not where_part or len(where_part)>100:return []
