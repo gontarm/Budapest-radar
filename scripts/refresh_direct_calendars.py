@@ -4,6 +4,7 @@
 Sources are dated event calendars and curated event listings, not RSS news.\nNews results are never converted into
 scheduled events. Reject unknown dates, unknown Budapest venues and old dates.
 """
+import concurrent.futures as cf
 import datetime as dt
 import hashlib
 import json
@@ -157,11 +158,16 @@ def obuda():
     if url.startswith("https://obuda.hu/esemeny/") and url not in urls:urls.append(url)
   except Exception as exc:print("Óbuda list error:",type(exc).__name__,str(exc)[:100])
  rows=[]
- # Detail pages require structured start date and explicit venue, otherwise rejected.
- for url in urls[:70]:
-  try:rows.extend(parse_obuda_detail(fetch(url),url))
-  except Exception as exc:print("Óbuda detail error:",url,type(exc).__name__)
- print("Óbuda detail pages checked:",min(len(urls),70))
+ # Limit traffic and fetch detail pages concurrently to keep scheduled jobs short.
+ # Detail pages require structured start date and explicit venue.
+ def inspect(url):
+  try:return parse_obuda_detail(fetch(url),url)
+  except Exception as exc:
+   print("Óbuda detail error:",url,type(exc).__name__)
+   return []
+ with cf.ThreadPoolExecutor(max_workers=6) as pool:
+  for result in pool.map(inspect,urls[:45]):rows.extend(result)
+ print("Óbuda detail pages checked:",min(len(urls),45))
  return rows
 
 def main():
