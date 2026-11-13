@@ -25,7 +25,7 @@ class DirectCalendarTests(unittest.TestCase):
   <p>1111 Bécs</p></main>'''
   rows=sources.parse_psychology(html)
   self.assertEqual(len(rows),1)
-  self.assertEqual(rows[0]["interestTopics"],["pszichologia"])
+  self.assertEqual(rows[0]["kind"],"pszichológia")
  def test_obuda_event_requires_explicit_location(self):
   event='''<script type="application/ld+json">{"@type":"Event","name":"Óbudai történelmi séta","startDate":"2026-11-19T18:00:00+01:00","location":{"@type":"Place","name":"Óbudai Múzeum","address":{"streetAddress":"Fő tér 1.","addressLocality":"Budapest"}}}</script>'''
   rows=sources.parse_obuda_detail(event,"https://obuda.hu/esemeny/teszt/")
