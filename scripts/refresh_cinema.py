@@ -31,8 +31,8 @@ CINEMAS = {
  "Tabán":"Tabán mozi", "Toldi":"Toldi mozi",
  "Uránia":"Uránia Nemzeti Filmszínház", "Westend":"Cinema City Westend",
 }
-DATE = re.compile(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\s+(\d{1,2})\.(\d{1,2})\.(?:\s+\d+\s+vetítés)?$", re.I)
-TIME = re.compile(r"^(\d{1,2}):(\d{2})(?:\s*(?:VIP|IMAX|4DX|3D|ScreenX|2D|HU|EN|F|OV|SUB|\(.*\)))*$",re.I)
+DATE = re.compile(r"(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\\s+(\\d{1,2})\\s*\\.\\s*(\\d{1,2})\\s*\\.(?:\\s*\\d+\\s*vetítés)?",re.I)
+TIME = re.compile(r"(?<!\\d)([01]?\\d|2[0-3]):([0-5]\\d)(?!\\d)")
 
 def fetch(url):
  req=urllib.request.Request(url,headers=HEADERS)
@@ -110,30 +110,48 @@ def cinema_official_links():
   return {CINEMAS[label]:link for label,link in pool.map(inspect,directory.items()) if link}
 
 def extract(url,title,html,today,official=None):
+ """Parse both block layouts and split text nodes from the public film pages.
+
+ The site's day header, cinema label and showtime can be separate HTML nodes.
+ Joining a short lookahead is essential: the original full-line regex returned
+ zero showtimes when the page split 'Péntek', '11.13.', '3 vetítés'.
+ """
  soup=BeautifulSoup(html,"html.parser")
  metadata=film_metadata(soup)
- # Links and labels also occur in menus; only parse after the first real day header.
  for tag in soup(["script","style","nav","footer"]):tag.decompose()
- lines=[re.sub(r"\s+"," ",part).strip() for part in soup.get_text("\n").splitlines()]
+ lines=[re.sub(r"\\s+"," ",x).strip() for x in soup.get_text("\\n").splitlines()]
  lines=[x for x in lines if x]
  date=None;cinema=None;found=[]
- for line in lines:
-  m=DATE.match(line)
-  if m:
-   date=date_from(int(m.group(2)),int(m.group(1)),today)
-   cinema=None
-   continue
+ for i,line in enumerate(lines):
+  # A date header may be split over 2–4 siblings. Only scan forward when
+  # its first token is a weekday, otherwise a stray date in a synopsis could
+  # accidentally be interpreted as a session date.
+  if re.match(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\\b",line,re.I):
+   candidate=" ".join(lines[i:i+4])
+   m=DATE.search(candidate)
+   if m:
+    date=date_from(int(m.group(2)),int(m.group(1)),today)
+    cinema=None
+    continue
   if not date:continue
-  if line in CINEMAS:
-   cinema=CINEMAS[line]
+  # Cinema headings may contain the official cinema name or a format label
+  # on their line. Match only at the start; never infer a venue from prose.
+  venue=next(((short,full) for short,full in CINEMAS.items()
+              if line==short or line.startswith(short+" ·") or line.startswith(short+" |")),
+             None)
+  if venue:
+   cinema=venue[1]
    continue
   if line.startswith(("Műsor","Kapcsolódó vetítések","Filmek","Info","Budapesti mozik")):
    cinema=None
+   continue
   if not cinema:continue
-  m=TIME.fullmatch(line)
+  # A screening link may contain '19:30 ENG·F', '19:30', or split suffixes.
+  # Do not parse date, pricing, or long descriptive prose as a screening.
+  if len(line)>42 or not re.match(r"^\\d{1,2}:\\d{2}(?:$|\\s|[·|])",line):continue
+  m=TIME.match(line)
   if not m:continue
   hh,mm=map(int,m.groups())
-  if hh>23 or mm>59:continue
   showtime=f"{hh:02d}:{mm:02d}"
   key=f"cinema|{url}|{date}|{showtime}|{cinema}"
   found.append({
@@ -147,7 +165,8 @@ def extract(url,title,html,today,official=None):
    "url":url,"source":"MoziBP – nyilvános budapesti moziműsor",
    "score":85,"dataQuality":"scheduled","eventVerified":False,
    "discovered":today.isoformat()})
- return found
+ # Avoid duplicates from repeated blocks in the site's responsive layout.
+ return list({item["id"]:item for item in found}.values())
 
 def collect():
  today=dt.datetime.now(ZoneInfo("Europe/Budapest")).date()
@@ -161,7 +180,7 @@ def collect():
    url,title=futures[future]
    try:entries.extend(extract(url,title,future.result(),today,official))
    except Exception as exc:print("Film failed:",title,str(exc)[:90])
- if not entries:raise RuntimeError("No dated showtimes extracted; refusing to overwrite")
+ if not entries:raise RuntimeError(f"No dated showtimes extracted from {len(urls)} film pages. HTML date/venue parsing requires inspection; existing entries preserved.")
  path=ROOT/"events.json"
  old=json.loads(path.read_text(encoding="utf-8"))
  # Replace only entries owned by this importer when new collection succeeded.
