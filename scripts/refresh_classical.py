@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import dated classical concerts from official Budapest organiser calendars.
+"""Import dated classical concerts from official Budapest organiser calendars.\n\nUse the organiser programme link, not guessed ticket or event URLs.
 
 Never infer a performance date from a news headline. A failed source retains
 previously collected, still-upcoming classical concerts from that source.
