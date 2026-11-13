@@ -774,8 +774,9 @@ function radarPlanningMonths(){
  const today=radarPlanningToday();
  const base=Number(today.slice(0,4))*12+Number(today.slice(5,7))-1;
  const options=[['all','Összes hónap']];
- for(let offset=0;offset<7;offset++){
+ for(let offset=0;offset<(radarPlanningDays==='all'?12:7);offset++){
   const d=new Date(Date.UTC(Math.floor((base+offset)/12),(base+offset)%12,1,12));
+  if(d.toISOString().slice(0,7)>radarPlanningEnd().slice(0,7))break;
   options.push([d.toISOString().slice(0,7),new Intl.DateTimeFormat('hu-HU',{month:'long',year:'numeric',timeZone:'UTC'}).format(d)]);
  }
  return options;
