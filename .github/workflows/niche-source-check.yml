@@ -1,0 +1,25 @@
+name: Radar – niche source live check
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh_niche_sources.py'
+      - 'scripts/test_niche_sources.py'
+      - '.github/workflows/niche-source-check.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install beautifulsoup4==4.12.3
+      - name: Check parser regression fixtures
+        run: python scripts/test_niche_sources.py
+      - name: Check live official niche calendars without publishing unverified entries
+        run: python -u scripts/refresh_niche_sources.py
