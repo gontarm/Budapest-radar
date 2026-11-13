@@ -102,10 +102,12 @@ def details(record):
 def candidates(rows,kind):
  valid=[e for e in rows if isinstance(e,dict) and e.get("date","")>=TODAY
   and e.get("kind")!="mozi" and e.get("url","").startswith("https://")
-  and any(e.get("id","").startswith(p) for p in ("source-","radar-dated-","official-","classical-","radar-curated-"))]
+  and same_page(e.get("url",""),e.get("title",""))
+  and (not e.get("image") or not e.get("fullDescription") or
+       any(k in e.get("desc","").casefold() for k in GENERIC))]
  # Prioritise FUGA/BME/Liberta, then short and imageless details.
  return sorted(valid,key=lambda e:(
-  not e.get("id","").startswith("source-"),
+  not any(e.get("id","").startswith(p) for p in ("source-","radar-dated-","official-","classical-")),
   bool(e.get("image") and e.get("fullDescription")),
   -int(not bool(e.get("image"))),
   len(e.get("fullDescription",""))),reverse=False)[:LIMIT]
