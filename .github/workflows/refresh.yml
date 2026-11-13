@@ -1,6 +1,12 @@
 name: Budapest Radar – napi programfigyelés
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/refresh_cinema.py'
+      - 'scripts/radar_health.py'
+      - 'scripts/test_cinema.py'
   schedule:
     - cron: '17 8 * * *'
       timezone: 'Europe/Budapest'
