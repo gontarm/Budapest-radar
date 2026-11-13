@@ -190,6 +190,9 @@ def main():
   previous_id=sigs.get(signature(e))
   if previous_id and previous_id!=e["id"] and previous_id.startswith("classical-verified-"):
    by_id.pop(previous_id,None)
+  previous=by_id.get(e["id"],{})
+  for field in ("summary","fullDescription","image","imageSourceUrl","imageCredit","imageAlt"):
+   if previous.get(field) and not e.get(field):e[field]=previous[field]
   by_id[e["id"]]=e
  rows=sorted(by_id.values(),key=lambda x:(0 if x.get("date") else 1,x.get("date") or x.get("discovered","")))
  serialized=json.dumps(rows,ensure_ascii=False,indent=2)+"\n"
