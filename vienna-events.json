@@ -72,6 +72,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-fae4801dd433c836cb",
+    "title": "Urania-Sternwarte mit dem Blick in ferne Galaxien",
+    "kind": "tudomány",
+    "interestTopics": [
+      "vilagegyetem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
+    "score": 63,
+    "discovered": "2026-11-13",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-cbe8e9090dcb2c2e5d",
     "title": "Er gab dem Schas die Form: Zwei Ausstellungen in Wien feiern Franz West",
     "kind": "élmény",
@@ -190,27 +211,6 @@
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJrbXhrSGJ6bHg1cGY3XzFnTEVuZm96alByU0VCUFQtNUxKbmJUdzBJYmV2RXU1ajRJRHJVSkdUcGR0OE5GV1JZWjdBT2JtLVJ1bE1peld2ZTRVMFVnS0ZEY3N1bkJ5dHRhcGw4NmxROW5oQzUyVmQwVU1UWDk0U2VfUmpCR2MzSl9FOXlza3BGd254Ui1RcGl5ZlM2TlZfSUJkUEhoWFpJbks2UUVkTmlHR1dCUQ?oc=5",
     "score": 63,
     "discovered": "2026-11-13",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-fae4801dd433c836cb",
-    "title": "Urania-Sternwarte mit dem Blick in ferne Galaxien",
-    "kind": "tudomány",
-    "interestTopics": [
-      "vilagegyetem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNWVBnUERldFhLSWRMQlp6RlhiYzFuaWR1UUk5TEVkZzFHRVZRVDhTcjRQeFZ3Yi0wWnVWVUJfbklfT2VSNXBhV2hRVnhGbVlkSWNnNGtuQWlSOWtDWFFfejJYQVJOUVpYcl82V1B0ejFKT3lxVDl5aXRPTXpVdGhoTEZkNA?oc=5",
-    "score": 63,
-    "discovered": "2026-11-11",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
     "dataQuality": "news",
     "linkStatus": "news_link",
