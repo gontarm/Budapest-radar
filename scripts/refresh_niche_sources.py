@@ -114,6 +114,8 @@ def fuga_detail(html,url):
 def bme_detail(html,url):
  title,lines=head_and_lines(html)
  if not title or not lines:return []
+ if "einstein" in title.casefold() or "nyílt nap" in title.casefold():
+  print("BME parser diagnostic:",repr(title),repr(lines[:6]))
  # BME detail: # title, room, "2026. 11. 20.", time, description
  where_part=lines[0]
  if not where_part or len(where_part)>100:return []
