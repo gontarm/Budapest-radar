@@ -172,6 +172,7 @@ def collect():
  today=dt.datetime.now(ZoneInfo("Europe/Budapest")).date()
  urls=film_links(fetch(BASE+"/musoron"))
  if not urls:raise RuntimeError("No films found on weekly programme")
+ print(f"MoziBP: {len(urls)} filmoldal azonosítva")
  entries=[]
  official=cinema_official_links()
  with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
