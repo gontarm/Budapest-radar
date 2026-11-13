@@ -66,8 +66,8 @@ def usable_image(soup,base,title):
   return u
  return ""
 def get_description(soup,title):
- # Text is short factual extract, attributed to the organiser, not a full copy
- # of a published programme article. Limit one source's text to 450 characters.
+ # Distinct opening summary plus the substantial body paragraphs, attributed to
+ # the organiser. No complete republishing of the original programme article.
  main=soup.find("article") or soup.find("main") or soup
  for x in main(["script","style","nav","footer","aside","form","button","header"]):x.decompose()
  lines=[]
@@ -78,8 +78,11 @@ def get_description(soup,title):
  og=meta(soup,"og:description") or meta(soup,"description")
  if meaningful(og) and not lines:lines=[og]
  summary=next((x[:260].rsplit(" ",1)[0]+"…" if len(x)>260 else x for x in lines if meaningful(x)),"")
- content=" ".join(lines[:3])
- if len(content)>700:content=content[:697].rsplit(" ",1)[0]+"…"
+ substantial=[x for x in lines if len(x)>=170 and x!=summary]
+ # Source pages often put short opening and administrative notices before
+ # their actual programme description. Prefer substantial editorial paragraphs.
+ content=" ".join((substantial[:3] if substantial else lines[:4]))
+ if len(content)>690:content=content[:687].rsplit(" ",1)[0]+"…"
  if content==summary:content=""
  return summary,content
 def details(record):
@@ -103,7 +106,7 @@ def candidates(rows,kind):
  valid=[e for e in rows if isinstance(e,dict) and e.get("date","")>=TODAY
   and e.get("kind")!="mozi" and e.get("url","").startswith("https://")
   and same_page(e.get("url",""),e.get("title",""))
-  and (not e.get("image") or not e.get("fullDescription") or
+  and (e.get("detailVersion",0)<2 or not e.get("image") or not e.get("fullDescription") or
        any(k in e.get("desc","").casefold() for k in GENERIC))]
  # Prioritise FUGA/BME/Liberta, then short and imageless details.
  return sorted(valid,key=lambda e:(
@@ -115,7 +118,8 @@ def apply(e,summary,content,image):
  changed=False
  if summary and (not e.get("summary") or len(e.get("summary",""))<70):
   e["summary"]=summary;changed=True
- if content and (not e.get("fullDescription") or len(e.get("fullDescription",""))<100):
+ if content and (not e.get("fullDescription") or len(e.get("fullDescription",""))<100 or
+                 (len(e.get("fullDescription",""))<540 and len(content)>len(e.get("fullDescription",""))+130)):
   e["fullDescription"]=content;changed=True
  if image and not e.get("image"):
   e["image"]=image;e["imageSourceUrl"]=e["url"]
@@ -138,6 +142,7 @@ def main():
    for url,result in pool.map(job,seen.items()):
     for e in seen[url]:
      e["detailCheckedOn"]=TODAY
+     e["detailVersion"]=2
      if not result:continue
      summary,content,image=result
      if apply(e,summary,content,image):total["updated"]+=1
