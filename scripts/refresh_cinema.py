@@ -24,15 +24,15 @@ CINEMAS = {
  "Bem":"Bem Mozi", "Campona":"Cinema City Campona", "Cinema MOM":"Cinema MOM",
  "Cirko-Gejzír":"Cirko-Gejzír", "Corvin":"Corvin mozi",
  "Duna Pláza":"Cinema City Duna Plaza", "Etele Cinema":"Etele Cinema",
- "GoBuda":"GoBuda Mozi", "Kino Cafe":"Kino Cafe",
+ "GoBuda":"GoBuda Mozi", "Kino Cafe":"Kino Cafe", "Kino":"Kino Cafe",
  "Kultik Csepel":"Kultik Csepel", "Lurdy":"Lurdy Mozi",
  "Mammut":"Cinema City Mammut", "Művész":"Művész mozi",
  "Pólus":"Pólus Mozi", "Puskin":"Puskin mozi", "Sugár":"Sugár Mozi",
  "Tabán":"Tabán mozi", "Toldi":"Toldi mozi",
  "Uránia":"Uránia Nemzeti Filmszínház", "Westend":"Cinema City Westend",
 }
-DATE = re.compile(r"(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\\s+(\\d{1,2})\\s*\\.\\s*(\\d{1,2})\\s*\\.(?:\\s*\\d+\\s*vetítés)?",re.I)
-TIME = re.compile(r"(?<!\\d)([01]?\\d|2[0-3]):([0-5]\\d)(?!\\d)")
+DATE = re.compile(r"(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\s+(\d{1,2})\s*\.\s*(\d{1,2})\s*\.(?:\s*\d+\s*vetítés)?",re.I)
+TIME = re.compile(r"(?<!\d)([01]?\d|2[0-3]):([0-5]\d)(?!\d)")
 
 def fetch(url):
  req=urllib.request.Request(url,headers=HEADERS)
@@ -119,14 +119,14 @@ def extract(url,title,html,today,official=None):
  soup=BeautifulSoup(html,"html.parser")
  metadata=film_metadata(soup)
  for tag in soup(["script","style","nav","footer"]):tag.decompose()
- lines=[re.sub(r"\\s+"," ",x).strip() for x in soup.get_text("\\n").splitlines()]
+ lines=[re.sub(r"\s+"," ",x).strip() for x in soup.get_text("\n").splitlines()]
  lines=[x for x in lines if x]
  date=None;cinema=None;found=[]
  for i,line in enumerate(lines):
   # A date header may be split over 2–4 siblings. Only scan forward when
   # its first token is a weekday, otherwise a stray date in a synopsis could
   # accidentally be interpreted as a session date.
-  if re.match(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\\b",line,re.I):
+  if re.match(r"^(?:Hétfő|Kedd|Szerda|Csütörtök|Péntek|Szombat|Vasárnap)\b",line,re.I):
    candidate=" ".join(lines[i:i+4])
    m=DATE.search(candidate)
    if m:
@@ -148,7 +148,7 @@ def extract(url,title,html,today,official=None):
   if not cinema:continue
   # A screening link may contain '19:30 ENG·F', '19:30', or split suffixes.
   # Do not parse date, pricing, or long descriptive prose as a screening.
-  if len(line)>42 or not re.match(r"^\\d{1,2}:\\d{2}(?:$|\\s|[·|])",line):continue
+  if len(line)>42 or not re.match(r"^\d{1,2}:\d{2}(?:$|\s|[·|])",line):continue
   m=TIME.match(line)
   if not m:continue
   hh,mm=map(int,m.groups())
