@@ -175,7 +175,17 @@ def main():
    print(name,"dated classical events:",len(entries))
   except Exception as exc:print(name,"unavailable:",type(exc).__name__,str(exc)[:170])
  if not success:raise RuntimeError("All classical concert source calendars unavailable; old entries retained")
- for e in results:by_id[e["id"]]=e
+ # Prefer current official calendar records when a previously verified seed
+ # represents the same concert. Keep shared links stable unless a replacement
+ # record is genuinely equivalent (same title, date and venue).
+ def signature(e):
+  return (e.get("date",""),clean(e.get("title","")).casefold(),clean(e.get("where","")).casefold())
+ sigs={signature(e):key for key,e in by_id.items() if str(key).startswith("classical-")}
+ for e in results:
+  previous_id=sigs.get(signature(e))
+  if previous_id and previous_id!=e["id"] and previous_id.startswith("classical-verified-"):
+   by_id.pop(previous_id,None)
+  by_id[e["id"]]=e
  rows=sorted(by_id.values(),key=lambda x:(0 if x.get("date") else 1,x.get("date") or x.get("discovered","")))
  serialized=json.dumps(rows,ensure_ascii=False,indent=2)+"\n"
  if OUT.read_text("utf-8")!=serialized:OUT.write_text(serialized,"utf-8")
