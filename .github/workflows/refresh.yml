@@ -9,6 +9,8 @@ on:
       - 'scripts/refresh_direct_calendars.py'
       - 'scripts/test_direct_calendars.py'
       - 'scripts/test_cinema.py'
+      - 'scripts/refresh_classical.py'
+      - 'scripts/test_classical.py'
   schedule:
     - cron: '17 8 * * *'
       timezone: 'Europe/Budapest'
@@ -39,18 +41,19 @@ jobs:
       - name: HTML-feldolgozó telepítése
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Python adatgyűjtők ellenőrzése
-        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py
+        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py scripts/refresh_classical.py
       - name: Színházi és mozis feldolgozók tesztelése
         run: |
           python scripts/test_theatre.py
           python scripts/test_cinema.py
           python scripts/test_direct_calendars.py
+          python scripts/test_classical.py
       - name: Programforrások frissítése – egymástól függetlenül
         shell: bash
         run: |
           set +e
           failed=0
-          for script in refresh_events refresh_concerts refresh_vienna refresh_topics refresh_official refresh_theatre refresh_theatre_network refresh_food refresh_cinema refresh_direct_calendars; do
+          for script in refresh_events refresh_concerts refresh_classical refresh_vienna refresh_topics refresh_official refresh_theatre refresh_theatre_network refresh_food refresh_cinema refresh_direct_calendars; do
             echo "::group::Gyűjtő: ${script}"
             python -u "scripts/${script}.py"
             code=$?
@@ -60,7 +63,7 @@ jobs:
               failed=$((failed+1))
             fi
           done
-          echo "Sikertelen gyűjtők: ${failed}/10" >> "$GITHUB_STEP_SUMMARY"
+          echo "Sikertelen gyűjtők: ${failed}/11" >> "$GITHUB_STEP_SUMMARY"
           echo "RADAR_COLLECTOR_FAILURES=${failed}" >> "$GITHUB_ENV"
           echo "A hibás forrás korábban eltárolt eseményeit nem töröljük."
       - name: Lejárt automatikus vetítések eltávolítása és frissességi jelentés
