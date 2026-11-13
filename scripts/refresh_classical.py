@@ -140,7 +140,7 @@ def detail_links(html,base,pattern):
 
 def zeneakademia():
  results=[]
- for offset in range(2):
+ for offset in range(4):
   month=TODAY.month+offset;year=TODAY.year+(month-1)//12;month=(month-1)%12+1
   end=(dt.date(year+1,1,1)-dt.timedelta(days=1)).day if month==12 else (dt.date(year,month+1,1)-dt.timedelta(days=1)).day
   calendar=ZENE+"?idopont="+f"{year}-{month:02d}-01+to+{year}-{month:02d}-{end:02d}"
