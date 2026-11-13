@@ -130,7 +130,7 @@ def extract(url,title,html,today,official=None):
    candidate=" ".join(lines[i:i+4])
    m=DATE.search(candidate)
    if m:
-    date=date_from(int(m.group(2)),int(m.group(1)),today)
+    date=date_from(int(m.group(1)),int(m.group(2)),today)
     cinema=None
     continue
   if not date:continue
