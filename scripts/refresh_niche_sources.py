@@ -113,7 +113,9 @@ def fuga_detail(html,url):
 
 def bme_detail(html,url):
  title,lines=head_and_lines(html)
- if not title or not lines:return []
+ if not title or not lines:
+  print("BME no heading/lines:",url,"HTML head:",repr(BeautifulSoup(html,"html.parser").get_text(" ",strip=True)[:160]),"title:",repr(title))
+  return []
  if "bme.hu" in url:
   print("BME parser diagnostic:",repr(title),repr(lines[:6]))
  # BME detail: # title, room, "2026. 11. 20.", time, description
