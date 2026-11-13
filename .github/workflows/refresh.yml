@@ -32,8 +32,10 @@ jobs:
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Python adatgyűjtők ellenőrzése
         run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py
-      - name: Színházi feldolgozó tesztelése
-        run: python scripts/test_theatre.py
+      - name: Színházi és mozis feldolgozók tesztelése
+        run: |
+          python scripts/test_theatre.py
+          python scripts/test_cinema.py
       - name: Programforrások frissítése – egymástól függetlenül
         shell: bash
         run: |
