@@ -36,7 +36,7 @@ def clean(value):
  return re.sub(r"\s+"," ",value).strip()
 def classify(title,description="",default="tudomány"):
  text=(title+" "+description).casefold()
- if any(term in text for term in PSY_TERMS):return "élmény",["pszichologia"]
+ if any(term in text for term in PSY_TERMS):return "pszichológia",[]
  if any(term in text for term in HISTORY_TERMS):return "élmény",["tortenelem"]
  if any(term in text for term in SPECIAL_TERMS):return "élmény",["titkok"]
  if any(term in text for term in SCIENCE_TERMS):return "tudomány",["termeszettudomany"]
@@ -101,7 +101,7 @@ def parse_psychology(page):
   if not where:continue
   row=record("Programturizmus – dátumos pszichológiai programajánló",title,date,where,PSY_SOURCE,
              "A pontos helyszín és jegyvásárlás az ajánlóban ellenőrizhető.",
-             kind="élmény",topics=["pszichologia"])
+             kind="pszichológia",topics=[])
   if row:found.append(row)
  return found
 
