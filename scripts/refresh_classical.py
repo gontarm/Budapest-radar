@@ -39,7 +39,7 @@ def asdate(text):
  if m:
   try:return dt.date(int(m.group(1)),MONTHS[m.group(2).casefold()],int(m.group(3)))
   except ValueError:return None
- m=re.search(r"\b(20\d\d)-(\d\d)-(\d\d)\b",text)
+ m=re.search(r"(20\d\d)-(\d\d)-(\d\d)(?!\d)",text)
  if m:
   try:return dt.date(*map(int,m.groups()))
   except ValueError:return None
@@ -78,7 +78,6 @@ def national_philharmonic(html):
   if city_idx is None or city_idx==0:continue
   venue=window[city_idx-1].rstrip(",")+" · Budapest"
   if venue.casefold().startswith(("évad","jegy")):continue
-  time=next((m.group(1) for x in window[:11] if (m:=re.search(r"\b([01]?\d|2[0-3]):([0-5]\d)-tól",x))),None)
   # Use the full HH:MM, never only the hour.
   time=next((m.group(0).split("-")[0] for x in window[:11] if (m:=re.search(r"\b(?:[01]?\d|2[0-3]):[0-5]\d-tól",x))),"")
   title=next((x for x in window[city_idx+1:] if x in links),None)
