@@ -13,6 +13,8 @@ on:
       - 'scripts/test_classical.py'
       - 'scripts/refresh_niche_sources.py'
       - 'scripts/test_niche_sources.py'
+      - 'scripts/enrich_event_details.py'
+      - 'scripts/test_enrich_event_details.py'
   schedule:
     - cron: '17 8 * * *'
       timezone: 'Europe/Budapest'
@@ -43,7 +45,7 @@ jobs:
       - name: HTML-feldolgozó telepítése
         run: python -m pip install beautifulsoup4==4.12.3
       - name: Python adatgyűjtők ellenőrzése
-        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py scripts/refresh_classical.py scripts/refresh_niche_sources.py
+        run: python -m py_compile scripts/refresh_events.py scripts/refresh_concerts.py scripts/refresh_vienna.py scripts/refresh_topics.py scripts/refresh_official.py scripts/refresh_theatre.py scripts/refresh_theatre_network.py scripts/refresh_food.py scripts/refresh_cinema.py scripts/refresh_direct_calendars.py scripts/refresh_classical.py scripts/refresh_niche_sources.py scripts/enrich_event_details.py
       - name: Színházi és mozis feldolgozók tesztelése
         run: |
           python scripts/test_theatre.py
@@ -51,6 +53,7 @@ jobs:
           python scripts/test_direct_calendars.py
           python scripts/test_classical.py
           python scripts/test_niche_sources.py
+          python scripts/test_enrich_event_details.py
       - name: Programforrások frissítése – egymástól függetlenül
         shell: bash
         run: |
@@ -69,6 +72,9 @@ jobs:
           echo "Sikertelen gyűjtők: ${failed}/12" >> "$GITHUB_STEP_SUMMARY"
           echo "RADAR_COLLECTOR_FAILURES=${failed}" >> "$GITHUB_ENV"
           echo "A hibás forrás korábban eltárolt eseményeit nem töröljük."
+      - name: Hivatalos leírások és eredeti eseményképek begyűjtése
+        run: python -u scripts/enrich_event_details.py
+
       - name: Lejárt automatikus vetítések eltávolítása és frissességi jelentés
         run: python scripts/radar_health.py --prune --summary
 
