@@ -50,7 +50,11 @@ jobs:
             fi
           done
           echo "Sikertelen gyűjtők: ${failed}/9" >> "$GITHUB_STEP_SUMMARY"
+          echo "RADAR_COLLECTOR_FAILURES=${failed}" >> "$GITHUB_ENV"
           echo "A hibás forrás korábban eltárolt eseményeit nem töröljük."
+      - name: Lejárt automatikus vetítések eltávolítása és frissességi jelentés
+        run: python scripts/radar_health.py --prune --summary
+
       - name: Adatok épségének vizsgálata és hivatkozások ellenőrzése
         shell: bash
         run: |
@@ -90,4 +94,12 @@ jobs:
             exit 1
           else
             echo "Nincs változás."
+          fi
+      - name: Részleges adatgyűjtési hibák jelzése
+        if: always()
+        shell: bash
+        run: |
+          if [ "${RADAR_COLLECTOR_FAILURES:-0}" -gt 0 ]; then
+            echo "::error title=Nem teljes frissítés::${RADAR_COLLECTOR_FAILURES} adatgyűjtő hibás volt. A korábbi érvényes adatok megmaradtak."
+            exit 1
           fi
