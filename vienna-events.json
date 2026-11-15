@@ -219,6 +219,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-417cedbc3aff8a3e1a",
+    "title": "Neue Führung in unbekannte ABC-Bunker",
+    "kind": "élmény",
+    "interestTopics": [
+      "titkok"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1fU0djS1psR04tU3pPaVdzeExuclcxdmhlcTFmdTlDSkpPczVoa19QZGM5cTF1N0ZIelRGUzFxU05Nb0MwaWpYV3g2azI?oc=5",
+    "score": 63,
+    "discovered": "2026-11-15",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-0b785a1fd45f812189",
     "title": "Mozarthaus Vienna: Die Domgasse 5 erzählt ihre Geschichte in einer neuen Sonderausstellung",
     "kind": "élmény",
