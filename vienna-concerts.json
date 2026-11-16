@@ -1,27 +1,5 @@
 [
   {
-    "id": "vienna-tokio-hotel-20261115",
-    "title": "Tokio Hotel – Arena Tour 2026",
-    "kind": "koncert",
-    "genre": "rock",
-    "where": "Wiener Stadthalle · Halle D, Roland-Rainer-Platz 1, 1150 Wien",
-    "date": "2026-11-15",
-    "dateLabel": "2026. november 15. · 19:30 (kapunyitás 18:30)",
-    "desc": "Tokio Hotel Arena Tour 2026 Bécsben, Nia Ashleigh előzenekarral. A szervező szerint a koncert teltházas; a jegyhelyzet később változhat.",
-    "url": "https://www.barracudamusic.at/event/tokio-hotel-wiener-stadthalle-halle-d-2026-11-15/",
-    "ticketUrl": "https://www.oeticket.com/en/event/tokio-hotel-arena-tour-2026-wiener-stadthalle-halle-d-20000546/",
-    "source": "Barracuda Music és Wiener Stadthalle – hivatalos eseményoldal",
-    "ticketStatus": "sold_out",
-    "ticketStatusLabel": "Teltház – 2026. október 22-i ellenőrzés",
-    "linkVerified": true,
-    "score": 98,
-    "dataQuality": "scheduled",
-    "directEventLink": true,
-    "linkStatus": "uncertain",
-    "linkCheckedOn": "2026-11-15",
-    "eventVerified": false
-  },
-  {
     "id": "vienna-stadthalle-6d660a6155daddb",
     "title": "The Dark Tenor",
     "kind": "koncert",
@@ -33,11 +11,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -52,11 +30,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -71,11 +49,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -90,11 +68,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -113,7 +91,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -128,11 +106,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -147,11 +125,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -166,11 +144,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -185,11 +163,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -204,11 +182,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -223,11 +201,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -242,11 +220,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -261,11 +239,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -280,11 +258,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -299,11 +277,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -318,11 +296,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -337,11 +315,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -356,11 +334,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -375,11 +353,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -394,11 +372,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -413,11 +391,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -432,11 +410,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -451,11 +429,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -470,11 +448,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -489,11 +467,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -508,11 +486,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -527,11 +505,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -546,11 +524,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -565,11 +543,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -584,11 +562,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -603,11 +581,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -622,11 +600,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -641,11 +619,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -660,11 +638,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -679,11 +657,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -698,11 +676,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -717,11 +695,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -736,11 +714,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -755,11 +733,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -774,11 +752,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -793,11 +771,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -812,11 +790,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -831,11 +809,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -850,11 +828,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -869,11 +847,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -888,11 +866,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -907,11 +885,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -930,7 +908,7 @@
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -945,11 +923,30 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
+    "eventVerified": false
+  },
+  {
+    "id": "vienna-stadthalle-ab7f7d51360c431",
+    "title": "Die Nacht der Filmmusik 2027",
+    "kind": "koncert",
+    "genre": "klasszikus",
+    "where": "Wiener Stadthalle, Hall F · Roland-Rainer-Platz 1, 1150 Wien",
+    "date": "2027-12-04",
+    "dateLabel": "04.12.2027 · pontos kezdés a forrásban",
+    "desc": "A Wiener Stadthalle hivatalos naptárában meghirdetett esemény. A jegyárat és az elérhetőséget a szervezőnél ellenőrizd.",
+    "url": "https://www.stadthalle.com/en/events/all-events/print",
+    "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
+    "score": 82,
+    "discovered": "2026-11-16",
+    "dataQuality": "scheduled",
+    "linkStatus": "reachable",
+    "directEventLink": false,
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -964,11 +961,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   },
   {
@@ -983,11 +980,11 @@
     "url": "https://www.stadthalle.com/en/events/all-events/print",
     "source": "Wiener Stadthalle – hivatalos rendezvénynaptár",
     "score": 82,
-    "discovered": "2026-11-15",
+    "discovered": "2026-11-16",
     "dataQuality": "scheduled",
     "linkStatus": "reachable",
     "directEventLink": false,
-    "linkCheckedOn": "2026-11-15",
+    "linkCheckedOn": "2026-11-16",
     "eventVerified": false
   }
 ]
