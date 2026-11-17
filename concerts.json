@@ -1710,5 +1710,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-271e4b0c514c0971",
+    "title": "Jég, zene és fesztiválhangulat – Generali Freeze Fesztivál a Városligetben",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMVB2SVVLSjM3ZEJ1LWR2XzBrNkZ3eHVxbVFFSExmTTNwLUZyaDhKYi1JRWVWT1FPbHd2azM1bHR0bDFFTDlhRFNxcTJ3Ni1OaEpqZ1JCYkd5RXVMenlfZTk3anRWTkRWUXp6X0FDWkNUcGFmOUJ6US11NXgtNnd0OEQ0TWRWMW5HbVhScDFZSTBDSU9CaThkNWdrOTc0TXRQVGFqam9YYVNCOFlvcDQ0ZzZnQ28?oc=5",
+    "score": 75,
+    "discovered": "2026-11-17",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]

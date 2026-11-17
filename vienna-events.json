@@ -177,6 +177,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-29127c52d1d64ea1d2",
+    "title": "Neue Ausstellung: StifterHaus zeigt Adalbert Stifter als Maler",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdDlieW95NDEwcFlHZzBqUVA5aEVVQVBBZTE2QlhTSmx0RTVWek5EeEg3TVZCbllqbkJIUWJBdkM5a3JKeTM5ZXE4UGdvQS1FbUpwcm9RMkhTVUdMVS1zV2R2eWJERjhaaEhyX2haLTBPQ2c4QW14Mnd6N3BBclNGV2dUZVR3OXdRY1VCV0I1ZVl1a0dCdU9LUjh3?oc=5",
+    "score": 63,
+    "discovered": "2026-11-17",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-cfa5f0aa3e2de435be",
     "title": "Hommage: Zwei Ausstellungen erinnern an Franz West",
     "kind": "élmény",
