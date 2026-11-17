@@ -1729,5 +1729,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-6e7dbe4d488c6141",
+    "title": "Lengyel Johanna 'Jaylenn' | lemezbemutató koncert - Budapest - 2026. Nov. 13.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWDl3dHhEMG9wVzQ2ZWxEeFdkeVlnTlcyWGVwQXN2QUVoQ2FQcVRpM3lUWG9LU0gxaVZxWlFZcDNxaXMwZUozZlBwOW1IZkNCSHNMOW83UUxXZnZmZ01ZeGJYa2lleTk2YkR1cW0tLVMxNG1sckpvX0NUQVRkVEkzRE5NdHcxaG9wa0RKb3h2M0VvLWE2emRKaE5yTQ?oc=5",
+    "score": 75,
+    "discovered": "2026-11-17",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
