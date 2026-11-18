@@ -72,6 +72,24 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-76b2fad3d6099d6c",
+    "title": "Tatort Ephesos | Sonderführung im Weltmuseum Wien",
+    "kind": "élmény",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb3hYdWhrN3Zock5LNTM5OUZmMjVkRnAxaTF5S0JvQU9xcUFDNDFfcXlfX0M4NVItWUVwYWt4TU1GNTJ2NG9YLWFERmFKbzRRWnhETjVTVGQ5aVJlREU0a19sX1hEZ0NhTjZsRW4zbUMwTDhZbGM0NWtlSmZ6M3EteTdRMXFFNGJmSmZwSnFQR2ZqejA?oc=5",
+    "score": 60,
+    "discovered": "2026-11-18",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-cbe8e9090dcb2c2e5d",
     "title": "Er gab dem Schas die Form: Zwei Ausstellungen in Wien feiern Franz West",
     "kind": "élmény",
@@ -167,6 +185,27 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORDlmcDFnUHlVM0J3cjFlN2tqaW1CSXNvazVVOV9FQjV6a1hsQ3VDOTI1M3BtMVYwR2ZralJOWmVrT1pUZUJOOVBMeDFBNG52bV9ucG1HeGhNcEtVd0ZlN0pqQlp0UlZWdk1oNUpuaGpLeWRWeFZNNGVEU2ZtQVU5X19qeFNaU2RLUnFkSw?oc=5",
+    "score": 63,
+    "discovered": "2026-11-18",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-790caa05b57f151357",
+    "title": "Tatort Ephesos | Sonderführung im Weltmuseum Wien",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOb3hYdWhrN3Zock5LNTM5OUZmMjVkRnAxaTF5S0JvQU9xcUFDNDFfcXlfX0M4NVItWUVwYWt4TU1GNTJ2NG9YLWFERmFKbzRRWnhETjVTVGQ5aVJlREU0a19sX1hEZ0NhTjZsRW4zbUMwTDhZbGM0NWtlSmZ6M3EteTdRMXFFNGJmSmZwSnFQR2ZqejA?oc=5",
     "score": 63,
     "discovered": "2026-11-18",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
