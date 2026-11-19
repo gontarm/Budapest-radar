@@ -90,6 +90,24 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-9301e832e96d4c05",
+    "title": "Fotos von der Ausstellung - Großer Andrang bei der Watches and Diamonds Vienna",
+    "kind": "design",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMFQ2b19JaWRjNHNBSHVYSEVjMlhsd0R1bzRFVXh2MHFNaXlsd1JGeWktQmhRMFlCSmJTQmU3ckRwdGdQZlRZTUkxd2Z0emtjZnA1aVRzZmJvNC1xay1IdHdic21teDhTcjB4N2dOblU5VTBqU1JaNU9wQktxSDd0OTV4UXRIUDFLVVh6dG9tNDFVWWpaY0p6eWx3?oc=5",
+    "score": 60,
+    "discovered": "2026-11-19",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-e58f26a5c508257033",
     "title": "Viktor Frankl Museum: Am Alsergrund findet man eine hoffnungsgebende Ausstellung",
     "kind": "élmény",
