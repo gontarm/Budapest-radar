@@ -108,6 +108,24 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-498e96f430ff81ef",
+    "title": "Sisi Museum neu gestaltet",
+    "kind": "élmény",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9aTlhteENVdElSR2hfVy1YOUp4TWx3cndBM0JfX3llSnNUWWxIakFSSVk0T19IcENrbGJOSlVoVmxoMVBqSW9BZDJkc00?oc=5",
+    "score": 60,
+    "discovered": "2026-11-20",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-e58f26a5c508257033",
     "title": "Viktor Frankl Museum: Am Alsergrund findet man eine hoffnungsgebende Ausstellung",
     "kind": "élmény",
