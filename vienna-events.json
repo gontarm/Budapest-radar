@@ -114,6 +114,27 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-716ef89d18a54cc387",
+    "title": "Kleopatra-Ausstellung im KHM Wien: Tatort Ephesos",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTWZwUHduUUhpWElsYVhWS2ZpZ1gzemhKckFRZ2pCMDhPaGtFSF84Sjlqc29QUmdOUUNIS1VFTW15WG5lU1g0NGxnVWQzaTlvcWh5b0xpdU5sVVZKTGpsSG5sNFUtaDBrLUFZYWFFVEtacmM0eGFDSEthT2pZazI1eklsejZYQQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-23",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-f1684c41bb75dcd675",
     "title": "Fotos der Ausstellungseröffnung - Albertina Modern und Wien Museum widmeten Franz West gemeinsamen Auftakt",
     "kind": "élmény",
