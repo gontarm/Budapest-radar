@@ -222,6 +222,48 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-9805cd582de2b78475",
+    "title": "Neue Ausstellung in Wien: Auf der Suche nach dem „Eigenen im Fremden“",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcFFJR0wydXh4eUY1TzJ4aVh1RWc4Wno3bFRXaDZ0bmNJVldoQlBuM2d6eXd2WVdpejc4eFpHRmlpTTI2a0hRVllYbEFKY3Rvam8xT0E0dW9yS3RDTUJjOXAwbnNJUG9rVHVRWFpHdVphODhGMXZ6eHNsYlU4VWpRaFNoNUI5b01rY19LNnNyX19TTWRvbk5sVGFZS21sUQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-b95d8e12a15bbf2e04",
+    "title": "Jüdisches Museum Wien: Neue Ausstellung „Die Morgenländer“",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcnNrcS1paGhiclUzenZUYUVweWU1NjZVZEJyZEdoUHQ0cmplSXFVYlgxdDJiSGtkMUl2T3pqRkNFV0VuaGdYM0QzM3oxMngtdGUtRV9iR09xNGFnNGMwRXhEYmw1RkJjWG05TEpvZ0M3OFZ4Q3M2cTBlTllXWjZURUh2N3F0XzdJdVdvUjlvWTBFNkNnTTl0aFpuNV9ROThLWFRr?oc=5",
+    "score": 63,
+    "discovered": "2026-11-24",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-f1684c41bb75dcd675",
     "title": "Fotos der Ausstellungseröffnung - Albertina Modern und Wien Museum widmeten Franz West gemeinsamen Auftakt",
     "kind": "élmény",
