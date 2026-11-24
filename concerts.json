@@ -1521,5 +1521,43 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-42464f1f8d89d398",
+    "title": "Rumini koncert - Szeged (2026. november 21. 15:30 - 17:30) - Adatlap",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE04cEduZWUzZzBORXVkTVRoTm0tNTJ0ZnMydGVyOWctX0NrY1hwcm1pYnlVR2VIZGlZN09kX21XNl81a1VxckNxWkhQSWIyYUoxT3BodEp3QUVmU3lVQVE?oc=5",
+    "score": 75,
+    "discovered": "2026-11-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "concert-f2312621d909ca19",
+    "title": "Ugye, eljössz még? – Utolsó arénakoncertjére készül a Karthago",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTE9XREZOMTRrdEI3dVJ4WUhiZ1ZRU2l4N244Sm1CeWhSUEhGa0NRVTBvLUZiZDJWQlpqQncyQWhmN0p6STBGVFh6RE1oUFp5SVBfTWxBbUMzaHljdlMzYklPT3IyTDdlX0VIM2VGSm5ZaThfMThHSUtvY3llbHQzTTJ3blktN1ZicFR3UEVudlR6OW9aOTJjWHpCZTIxU0IzaWFpRg?oc=5",
+    "score": 75,
+    "discovered": "2026-11-24",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
