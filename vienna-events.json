@@ -54,6 +54,48 @@
     "eventVerified": false
   },
   {
+    "id": "radar-topic-vienna-4ed7dafbf7aa45ea09",
+    "title": "Wiener Aktionismus Museum stellt mit Jänner Ausstellungsbetrieb ein",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJrbXhrSGJ6bHg1cGY3XzFnTEVuZm96alByU0VCUFQtNUxKbmJUdzBJYmV2RXU1ajRJRHJVSkdUcGR0OE5GV1JZWjdBT2JtLVJ1bE1peld2ZTRVMFVnS0ZEY3N1bkJ5dHRhcGw4NmxROW5oQzUyVmQwVU1UWDk0U2VfUmpCR2MzSl9FOXlza3BGd254Ui1RcGl5ZlM2TlZfSUJkUEhoWFpJbks2UUVkTmlHR1dCUQ?oc=5",
+    "score": 63,
+    "discovered": "2026-11-25",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
+    "id": "radar-topic-vienna-6d37db450aee5f357f",
+    "title": "»Gezählte Tage – gewürfeltes Glück« – Vortragsreihe im Jugendstiltheater Wien, 21. bis 27. November 2026",
+    "kind": "élmény",
+    "interestTopics": [
+      "tortenelem"
+    ],
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
+    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU0NzdWx2N0VySHduSS1uRGh1WVBWZ0dlVXdOWkxCVmctUUV5TW5WT0R1dW1xWW41WFk3cWxQaEl1MFgtTFdSWks0S1Z0aEcybmdhdDI4R1JJMVNVNkYwaTZ3X3NoU0VSa3QweHluV3RqUm5rU0ZoYk1pdy1xcW9zb3lvMnZScUNkWWxxakt2ak1fUVREMUFGSUUtSm5ZdzhLSW1tR2tzS0s3VzVWMnBOSl9qQlZzOTBFOThHR0w1b1dfX05XaEJXRThMYVJvRjhKczIxcm93OEM?oc=5",
+    "score": 63,
+    "discovered": "2026-11-25",
+    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-790caa05b57f151357",
     "title": "Tatort Ephesos | Sonderführung im Weltmuseum Wien",
     "kind": "élmény",
@@ -180,27 +222,6 @@
     "eventVerified": false
   },
   {
-    "id": "radar-topic-vienna-4ed7dafbf7aa45ea09",
-    "title": "Wiener Aktionismus Museum stellt mit Jänner Ausstellungsbetrieb ein",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSmJrbXhrSGJ6bHg1cGY3XzFnTEVuZm96alByU0VCUFQtNUxKbmJUdzBJYmV2RXU1ajRJRHJVSkdUcGR0OE5GV1JZWjdBT2JtLVJ1bE1peld2ZTRVMFVnS0ZEY3N1bkJ5dHRhcGw4NmxROW5oQzUyVmQwVU1UWDk0U2VfUmpCR2MzSl9FOXlza3BGd254Ui1RcGl5ZlM2TlZfSUJkUEhoWFpJbks2UUVkTmlHR1dCUQ?oc=5",
-    "score": 63,
-    "discovered": "2026-11-24",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
     "id": "radar-topic-vienna-25ad13fe32f73aef60",
     "title": "Fürstenhaus verkündigt Führungswechsel bei den Fürstlichen Sammlungen",
     "kind": "élmény",
@@ -233,27 +254,6 @@
     "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
     "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRllKdmVHYVAwSmlTczE1OU5QT1doR2FvcUgwQy0wMi14UGFFbkhoejZtUG5YcGJzVjZhYmdFS1VtVWRJYU1iYkRXTEl2bWlGNy1SOHhFLWhRUDl1ejJ4MVM5Tkw4TUp3V2VrMENwMC1Pemh5V0lEVWRJZ0hqMHktczB5VkdGa1FuNDB4QUl6R2g?oc=5",
-    "score": 63,
-    "discovered": "2026-11-24",
-    "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
-    "dataQuality": "news",
-    "linkStatus": "news_link",
-    "directEventLink": false,
-    "linkCheckedOn": null,
-    "eventVerified": false
-  },
-  {
-    "id": "radar-topic-vienna-6d37db450aee5f357f",
-    "title": "»Gezählte Tage – gewürfeltes Glück« – Vortragsreihe im Jugendstiltheater Wien, 21. bis 27. November 2026",
-    "kind": "élmény",
-    "interestTopics": [
-      "tortenelem"
-    ],
-    "where": "Wien · helyszín ellenőrizendő",
-    "date": "",
-    "dateLabel": "Témafigyelő hírtalálat · időpont a forrásban",
-    "desc": "Témához kapcsolódó hírtalálat, nem ellenőrzött esemény. Nyisd meg a forrást és ellenőrizd a helyszínt, az időpontot és a részvételt.",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPU0NzdWx2N0VySHduSS1uRGh1WVBWZ0dlVXdOWkxCVmctUUV5TW5WT0R1dW1xWW41WFk3cWxQaEl1MFgtTFdSWks0S1Z0aEcybmdhdDI4R1JJMVNVNkYwaTZ3X3NoU0VSa3QweHluV3RqUm5rU0ZoYk1pdy1xcW9zb3lvMnZScUNkWWxxakt2ak1fUVREMUFGSUUtSm5ZdzhLSW1tR2tzS0s3VzVWMnBOSl9qQlZzOTBFOThHR0w1b1dfX05XaEJXRThMYVJvRjhKczIxcm93OEM?oc=5",
     "score": 63,
     "discovered": "2026-11-24",
     "source": "Tematikus Google News RSS · nem ellenőrzött programjelölt",
