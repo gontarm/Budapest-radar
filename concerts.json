@@ -1673,5 +1673,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-f545d3a167a7dda9",
+    "title": "FREEZE Fesztivál Budapesten: amikor a Városliget jege koncertteremmé válik",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTk9CbUt5LUhjdElPLURGQXR5MEtDSlFLYWpoSWdsTU5QVXFfQWZCTXVCTFlJS3Y3cXdiY1FPbjhoUWRRbkdNbVloajJwd19FYmtCaHNEMDFiN3NHRFA4UE5FUFFZenA4WDdqMUZmRzczQnhDRExmOFFkZnp6bnA1cnBGXzhCSXQ2dmtMYmxJaGFCdUxyRDVLLWtsYw?oc=5",
+    "score": 75,
+    "discovered": "2026-11-26",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
