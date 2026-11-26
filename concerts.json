@@ -1654,5 +1654,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-b320015a21a67517",
+    "title": "Varga Miklós 70/50 éve a pályán – Életmű koncert - Budapest - 2026. Nov. 21.",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR2VrXzZQZmF1eXdZMHU0TnljTHRidlJPa244emROOTlYV0tfZTAyTW5Mbl9wa1ZCdXNhWThaVGhXU1prb190RW9vT256TlB1M3dTb2ZqZ1BfUHZScXJtSFl4Ymd2a0s5dDNNZlZLTUlsT0ROWU9QTTZISzlLWGhsQzc4QUNaY3lJOHA2V1R6UDdKWnJ5WXQxZ3Nn?oc=5",
+    "score": 75,
+    "discovered": "2026-11-26",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
