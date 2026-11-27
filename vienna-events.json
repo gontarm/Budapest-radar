@@ -54,6 +54,24 @@
     "eventVerified": false
   },
   {
+    "id": "vienna-news-9bfd6cebb396ff64",
+    "title": "Designmarkt Wien Advent 2026: Termine & beste Tipps",
+    "kind": "design",
+    "where": "Wien · helyszín ellenőrizendő",
+    "date": "",
+    "dateLabel": "Friss hírtalálat · időpont a forrásban",
+    "desc": "Bécsi programhír, nem ellenőrzött esemény. A dátum, a helyszín és a jegyadatok a forrásnál ellenőrizendők.",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CVjFzVEtuMWl2bWxJd3ZEbUZpSzA0SW5OSkJ3Y29VbENsOU9RU051TnM5V2x2UUxtZzJTUVdHUWdXMjFuUTU3LUl3cTBPSlhCZmtGN1BKNmRyQndueV9HNG1oM2tJX05FVGJiNU53?oc=5",
+    "score": 60,
+    "discovered": "2026-11-27",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
+  },
+  {
     "id": "radar-topic-vienna-6d37db450aee5f357f",
     "title": "»Gezählte Tage – gewürfeltes Glück« – Vortragsreihe im Jugendstiltheater Wien, 21. bis 27. November 2026",
     "kind": "élmény",
