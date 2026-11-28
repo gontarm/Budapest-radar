@@ -1625,5 +1625,24 @@
     "directEventLink": false,
     "linkCheckedOn": null,
     "eventVerified": false
+  },
+  {
+    "id": "concert-f6e8861172d07647",
+    "title": "GREEN MARKET karácsonyi vásár, december 20.: Kalap Jakab koncert a Klauzál téren",
+    "kind": "koncert",
+    "where": "Budapest és környéke · ellenőrizendő",
+    "date": "",
+    "dateLabel": "Koncerthír · időpont a forrásban",
+    "desc": "Új koncert- vagy jegyhír. A pontos dátumot, helyszínt és jegyértékesítést a szervezőnél ellenőrizd. Ez nem igazolt jegykészlet.",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMUowRUcyR0gtMnJUMVltX093c3BJZEdBZVRINWpLbEpfR21uSkdFbUl5LXlDOEdUclhYR2xZRWF5Q3FwTWJJVjBRNVRmYWtOVWUwbkFNZHdYQ2dramlZUTRmXy1iaVRtZFRxenFHWTFzODg2M2xQTjh4XzlVd0Y5eFJEUnBSR1JIRVUxSlAxVFpNLVQxa3JrOURGcGlSd0dMR25GQjRhQVpMMGdodnA2T0s3VlRmamdDVlE?oc=5",
+    "score": 75,
+    "discovered": "2026-11-28",
+    "ticketStatus": "unknown",
+    "source": "Google News RSS · ellenőrizetlen hírtalálat",
+    "dataQuality": "news",
+    "linkStatus": "news_link",
+    "directEventLink": false,
+    "linkCheckedOn": null,
+    "eventVerified": false
   }
 ]
